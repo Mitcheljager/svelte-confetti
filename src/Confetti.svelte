@@ -1,13 +1,13 @@
 <script>
   export let size = 10
-  export let xMultiplier = [-1, 1]
+  export let xMultiplier = [-0.75, 0.75]
   export let yMultiplier = [0.25, 1]
   export let duration = 2000
   export let infinite = false
   export let delay = [0, 50]
   export let colorRange = [0, 360]
   export let colorArray = []
-  export let amount = 100
+  export let amount = 50
   export let iterationCount = 1
   export let fallDistance = 200
 
@@ -47,7 +47,6 @@
 
 <style>
   .confetti-holder {
-    display: inline-block;
     position: relative;
   }
 
