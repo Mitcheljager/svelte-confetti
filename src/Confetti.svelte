@@ -9,7 +9,7 @@
   export let colorArray = []
   export let amount = 50
   export let iterationCount = 1
-  export let fallDistance = 200
+  export let fallDistance = "200px"
   export let rounded = false
   export let cone = false
 
@@ -32,7 +32,7 @@
       class:rounded
       class:cone
       style="
-      --fall-distance: {fallDistance}px;
+      --fall-distance: {fallDistance};
       --size: {size}px;
       --color: {getColor()};
       --skew: {randomBetween(-45, 45)}deg,{randomBetween(-45, 45)}deg;
