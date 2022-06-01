@@ -1,6 +1,4 @@
 <script>
-	import { onMount } from "svelte"
-
 	import { Confetti } from "svelte-confetti"
 </script>
 
@@ -8,7 +6,21 @@
 
 <div class="wrapper">
 	<div class="header">
-		<h1><mark>Svelte</mark> Confetti</h1>
+		<h1>
+			<Confetti
+				infinite
+				amount="10"
+				xMultiplier={[-1, -0.25]}
+				yMultiplier={[0.25, 0.5]}
+				colorArray={['var(--primary)']} />
+
+			<mark>Svelte</mark> Confetti<Confetti
+				infinite
+				amount="10"
+				xMultiplier={[0.25, 1]}
+				yMultiplier={[0.25, 0.5]}
+				colorArray={['white']} />
+		</h1>
 	</div>
 
 	<div class="block block--single">
@@ -50,6 +62,8 @@
 		margin: 0;
 		color: white;
 	}
+
+	h1
 
 	h2 {
 		margin: 3rem 0 1.5rem;

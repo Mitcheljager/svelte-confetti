@@ -18,7 +18,6 @@
     "svelte": "^3.0.0"
   },
   "dependencies": {
-    "sirv-cli": "^1.0.0",
-    "svelte-tiny-linked-charts": "^1.0.3"
+    "sirv-cli": "^1.0.0"
   }
 }
