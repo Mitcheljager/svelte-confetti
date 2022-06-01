@@ -116,4 +116,11 @@
     animation: rotate var(--transition-duration) var(--transition-delay)
       var(--transition-iteration-count) linear;
   }
+
+  @media (prefers-reduced-motion) {
+    .confetti,
+    .confetti::before {
+      animation: none;
+    }
+  }
 </style>
