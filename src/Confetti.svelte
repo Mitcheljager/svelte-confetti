@@ -1,7 +1,7 @@
 <script>
   export let size = 10
-  export let xMultiplier = [-0.75, 0.75]
-  export let yMultiplier = [0.25, 1]
+  export let x = [-0.75, 0.75]
+  export let y = [0.25, 1]
   export let duration = 2000
   export let infinite = false
   export let delay = [0, 50]
@@ -34,8 +34,8 @@
       --skew: {randomBetween(-45, 45)}deg,{randomBetween(-45, 45)}deg;
       --rotation-xyz: {randomBetween(-10, 10)}, {randomBetween(-10, 10)}, {randomBetween(-10, 10)};
       --rotation-deg: {randomBetween(0, 360)}deg;
-      --translate-y-multiplier: {randomBetween(yMultiplier[0], yMultiplier[1])};
-      --translate-x-multiplier: {randomBetween(xMultiplier[0], xMultiplier[1])};
+      --translate-y-multiplier: {randomBetween(y[0], y[1])};
+      --translate-x-multiplier: {randomBetween(x[0], x[1])};
       --scale: {0.1 * randomBetween(2, 10)};
       --transition-duration: {infinite ? `calc(${duration}ms * var(--scale))` : `${duration}ms`};
       --transition-delay: {randomBetween(delay[0], delay[1])}ms;
