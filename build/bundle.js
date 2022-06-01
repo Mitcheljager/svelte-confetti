@@ -454,7 +454,7 @@ var app = (function () {
     	const block = {
     		c: function create() {
     			div = element("div");
-    			attr_dev(div, "class", "confetti svelte-1k0rwk7");
+    			attr_dev(div, "class", "confetti svelte-nyk7y3");
     			set_style(div, "--fall-distance", /*fallDistance*/ ctx[8]);
     			set_style(div, "--size", /*size*/ ctx[0] + "px");
     			set_style(div, "--color", /*getColor*/ ctx[11]());
@@ -475,9 +475,7 @@ var app = (function () {
     			? 'infinite'
     			: /*iterationCount*/ ctx[7]);
 
-    			toggle_class(div, "rounded", /*rounded*/ ctx[9]);
-    			toggle_class(div, "cone", /*cone*/ ctx[10]);
-    			add_location(div, file$2, 29, 4, 805);
+    			add_location(div, file$2, 29, 4, 830);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -514,14 +512,6 @@ var app = (function () {
     				? 'infinite'
     				: /*iterationCount*/ ctx[7]);
     			}
-
-    			if (dirty & /*rounded*/ 512) {
-    				toggle_class(div, "rounded", /*rounded*/ ctx[9]);
-    			}
-
-    			if (dirty & /*cone*/ 1024) {
-    				toggle_class(div, "cone", /*cone*/ ctx[10]);
-    			}
     		},
     		d: function destroy(detaching) {
     			if (detaching) detach_dev(div);
@@ -557,7 +547,9 @@ var app = (function () {
     				each_blocks[i].c();
     			}
 
-    			attr_dev(div, "class", "confetti-holder svelte-1k0rwk7");
+    			attr_dev(div, "class", "confetti-holder svelte-nyk7y3");
+    			toggle_class(div, "rounded", /*rounded*/ ctx[9]);
+    			toggle_class(div, "cone", /*cone*/ ctx[10]);
     			add_location(div, file$2, 27, 0, 735);
     		},
     		l: function claim(nodes) {
@@ -571,7 +563,7 @@ var app = (function () {
     			}
     		},
     		p: function update(ctx, [dirty]) {
-    			if (dirty & /*fallDistance, size, getColor, randomBetween, y, x, infinite, duration, delay, iterationCount, rounded, cone, amount*/ 4095) {
+    			if (dirty & /*fallDistance, size, getColor, randomBetween, y, x, infinite, duration, delay, iterationCount, amount*/ 2559) {
     				each_value = { length: /*amount*/ ctx[6] };
     				validate_each_argument(each_value);
     				let i;
@@ -593,6 +585,14 @@ var app = (function () {
     				}
 
     				each_blocks.length = each_value.length;
+    			}
+
+    			if (dirty & /*rounded*/ 512) {
+    				toggle_class(div, "rounded", /*rounded*/ ctx[9]);
+    			}
+
+    			if (dirty & /*cone*/ 1024) {
+    				toggle_class(div, "cone", /*cone*/ ctx[10]);
     			}
     		},
     		i: noop,
@@ -2584,7 +2584,7 @@ var app = (function () {
     }
 
     function create_fragment(ctx) {
-    	let div5;
+    	let div20;
     	let div0;
     	let h1;
     	let confetti0;
@@ -2674,6 +2674,96 @@ var app = (function () {
     	let div4;
     	let t56;
     	let a1;
+    	let t58;
+    	let h22;
+    	let t60;
+    	let div19;
+    	let p5;
+    	let t62;
+    	let div18;
+    	let strong0;
+    	let t64;
+    	let strong1;
+    	let t66;
+    	let strong2;
+    	let t68;
+    	let code4;
+    	let t70;
+    	let code5;
+    	let t72;
+    	let div5;
+    	let t74;
+    	let code6;
+    	let t76;
+    	let code7;
+    	let t78;
+    	let div6;
+    	let t80;
+    	let code8;
+    	let t82;
+    	let code9;
+    	let t84;
+    	let div7;
+    	let t86;
+    	let code10;
+    	let t88;
+    	let code11;
+    	let t90;
+    	let div8;
+    	let t92;
+    	let code12;
+    	let t94;
+    	let code13;
+    	let t96;
+    	let div9;
+    	let t98;
+    	let code14;
+    	let t100;
+    	let code15;
+    	let t102;
+    	let div10;
+    	let t104;
+    	let code16;
+    	let t106;
+    	let code17;
+    	let t108;
+    	let div11;
+    	let t110;
+    	let code18;
+    	let t112;
+    	let code19;
+    	let t114;
+    	let div12;
+    	let t116;
+    	let code20;
+    	let t118;
+    	let code21;
+    	let t120;
+    	let div13;
+    	let t122;
+    	let code22;
+    	let t124;
+    	let code23;
+    	let t126;
+    	let div14;
+    	let t128;
+    	let code24;
+    	let t130;
+    	let code25;
+    	let t132;
+    	let div15;
+    	let t134;
+    	let code26;
+    	let t136;
+    	let code27;
+    	let t138;
+    	let div16;
+    	let t140;
+    	let code28;
+    	let t142;
+    	let code29;
+    	let t144;
+    	let div17;
     	let current;
 
     	confetti0 = new Confetti({
@@ -2903,7 +2993,7 @@ var app = (function () {
 
     	const block = {
     		c: function create() {
-    			div5 = element("div");
+    			div20 = element("div");
     			div0 = element("div");
     			h1 = element("h1");
     			create_component(confetti0.$$.fragment);
@@ -3008,6 +3098,140 @@ var app = (function () {
     			t56 = text("Made by ");
     			a1 = element("a");
     			a1.textContent = "Mitchel Jager";
+    			t58 = space();
+    			h22 = element("h2");
+    			h22.textContent = "Properties";
+    			t60 = space();
+    			div19 = element("div");
+    			p5 = element("p");
+    			p5.textContent = "This is a list of all configurable properties.";
+    			t62 = space();
+    			div18 = element("div");
+    			strong0 = element("strong");
+    			strong0.textContent = "Property";
+    			t64 = space();
+    			strong1 = element("strong");
+    			strong1.textContent = "Default";
+    			t66 = space();
+    			strong2 = element("strong");
+    			strong2.textContent = "Description";
+    			t68 = space();
+    			code4 = element("code");
+    			code4.textContent = "size";
+    			t70 = space();
+    			code5 = element("code");
+    			code5.textContent = "10";
+    			t72 = space();
+    			div5 = element("div");
+    			div5.textContent = "The max size in pixels of the individual confetti pieces.";
+    			t74 = space();
+    			code6 = element("code");
+    			code6.textContent = "x";
+    			t76 = space();
+    			code7 = element("code");
+    			code7.textContent = "[-0.75, 0.75]";
+    			t78 = space();
+    			div6 = element("div");
+    			div6.textContent = "The max horizontal range of the confetti pieces. Negative is left, positive is right. [-1, 1] would mean maximum of 200px left and 200px right.";
+    			t80 = space();
+    			code8 = element("code");
+    			code8.textContent = "y";
+    			t82 = space();
+    			code9 = element("code");
+    			code9.textContent = "[0.25, 1]";
+    			t84 = space();
+    			div7 = element("div");
+    			div7.textContent = "The max vertical range of the confetti pieces. Negative is down, positive is ip. [-1, 1] would mean maximum of 200px down and 200px up.";
+    			t86 = space();
+    			code10 = element("code");
+    			code10.textContent = "duration";
+    			t88 = space();
+    			code11 = element("code");
+    			code11.textContent = "2000";
+    			t90 = space();
+    			div8 = element("div");
+    			div8.textContent = "Duration of the animation for each individual piece.";
+    			t92 = space();
+    			code12 = element("code");
+    			code12.textContent = "infinite";
+    			t94 = space();
+    			code13 = element("code");
+    			code13.textContent = "false";
+    			t96 = space();
+    			div9 = element("div");
+    			div9.textContent = "If set to true the animation will play indefinitely.";
+    			t98 = space();
+    			code14 = element("code");
+    			code14.textContent = "delay";
+    			t100 = space();
+    			code15 = element("code");
+    			code15.textContent = "[0, 50]";
+    			t102 = space();
+    			div10 = element("div");
+    			div10.textContent = "Used to set a random delay for each piece. A large difference between each number will mean a longer spray time.";
+    			t104 = space();
+    			code16 = element("code");
+    			code16.textContent = "colorRange";
+    			t106 = space();
+    			code17 = element("code");
+    			code17.textContent = "[0, 360]";
+    			t108 = space();
+    			div11 = element("div");
+    			div11.textContent = "Color range on the HSL color wheel. 0 to 360 is full RGB. 75 To 150 would be only green colors.";
+    			t110 = space();
+    			code18 = element("code");
+    			code18.textContent = "colorArray";
+    			t112 = space();
+    			code19 = element("code");
+    			code19.textContent = "[]";
+    			t114 = space();
+    			div12 = element("div");
+    			div12.textContent = "Can be used to pick a random color from this array. Set just one array elements to have a single color. Accepts any viable css background property, including gradients and images.";
+    			t116 = space();
+    			code20 = element("code");
+    			code20.textContent = "amount";
+    			t118 = space();
+    			code21 = element("code");
+    			code21.textContent = "50";
+    			t120 = space();
+    			div13 = element("div");
+    			div13.textContent = "Amount of particles spawned. The larger your spray the more pieces you might want. Be careful with too many as it might impact performance.";
+    			t122 = space();
+    			code22 = element("code");
+    			code22.textContent = "iterationCount";
+    			t124 = space();
+    			code23 = element("code");
+    			code23.textContent = "1";
+    			t126 = space();
+    			div14 = element("div");
+    			div14.textContent = "How many times the animation will play before stopping. Is overwritten by the \"infinite\" property.";
+    			t128 = space();
+    			code24 = element("code");
+    			code24.textContent = "fallDistance";
+    			t130 = space();
+    			code25 = element("code");
+    			code25.textContent = "\"200px\"";
+    			t132 = space();
+    			div15 = element("div");
+    			div15.textContent = "How far each piece falls. Accepts any css property, px, rem, vh, etc.";
+    			t134 = space();
+    			code26 = element("code");
+    			code26.textContent = "rounded";
+    			t136 = space();
+    			code27 = element("code");
+    			code27.textContent = "false";
+    			t138 = space();
+    			div16 = element("div");
+    			div16.textContent = "Set to true to make each confetti piece rounded.";
+    			t140 = space();
+    			code28 = element("code");
+    			code28.textContent = "cone";
+    			t142 = space();
+    			code29 = element("code");
+    			code29.textContent = "false";
+    			t144 = space();
+    			div17 = element("div");
+    			div17.textContent = "Set to true to make the explosion appear in a cone like shape which might feel more realistic when dealing with a larger amount.";
     			attr_dev(mark0, "class", "svelte-g7qv49");
     			add_location(mark0, file, 18, 3, 340);
     			attr_dev(h1, "class", "svelte-g7qv49");
@@ -3061,23 +3285,102 @@ var app = (function () {
     			add_location(a1, file, 220, 10, 5165);
     			attr_dev(div4, "class", "block block--single svelte-g7qv49");
     			add_location(div4, file, 219, 1, 5120);
-    			attr_dev(div5, "class", "wrapper svelte-g7qv49");
-    			add_location(div5, file, 7, 0, 127);
+    			attr_dev(h22, "class", "svelte-g7qv49");
+    			add_location(h22, file, 223, 1, 5238);
+    			attr_dev(p5, "class", "svelte-g7qv49");
+    			add_location(p5, file, 226, 2, 5299);
+    			attr_dev(strong0, "class", "svelte-g7qv49");
+    			add_location(strong0, file, 229, 3, 5382);
+    			attr_dev(strong1, "class", "svelte-g7qv49");
+    			add_location(strong1, file, 229, 29, 5408);
+    			attr_dev(strong2, "class", "svelte-g7qv49");
+    			add_location(strong2, file, 229, 54, 5433);
+    			attr_dev(code4, "class", "svelte-g7qv49");
+    			add_location(code4, file, 231, 3, 5468);
+    			attr_dev(code5, "class", "svelte-g7qv49");
+    			add_location(code5, file, 231, 21, 5486);
+    			add_location(div5, file, 231, 37, 5502);
+    			attr_dev(code6, "class", "svelte-g7qv49");
+    			add_location(code6, file, 232, 3, 5575);
+    			attr_dev(code7, "class", "svelte-g7qv49");
+    			add_location(code7, file, 232, 18, 5590);
+    			add_location(div6, file, 232, 45, 5617);
+    			attr_dev(code8, "class", "svelte-g7qv49");
+    			add_location(code8, file, 233, 3, 5776);
+    			attr_dev(code9, "class", "svelte-g7qv49");
+    			add_location(code9, file, 233, 18, 5791);
+    			add_location(div7, file, 233, 41, 5814);
+    			attr_dev(code10, "class", "svelte-g7qv49");
+    			add_location(code10, file, 234, 3, 5965);
+    			attr_dev(code11, "class", "svelte-g7qv49");
+    			add_location(code11, file, 234, 25, 5987);
+    			add_location(div8, file, 234, 43, 6005);
+    			attr_dev(code12, "class", "svelte-g7qv49");
+    			add_location(code12, file, 235, 3, 6073);
+    			attr_dev(code13, "class", "svelte-g7qv49");
+    			add_location(code13, file, 235, 25, 6095);
+    			add_location(div9, file, 235, 44, 6114);
+    			attr_dev(code14, "class", "svelte-g7qv49");
+    			add_location(code14, file, 236, 3, 6182);
+    			attr_dev(code15, "class", "svelte-g7qv49");
+    			add_location(code15, file, 236, 22, 6201);
+    			add_location(div10, file, 236, 43, 6222);
+    			attr_dev(code16, "class", "svelte-g7qv49");
+    			add_location(code16, file, 237, 3, 6350);
+    			attr_dev(code17, "class", "svelte-g7qv49");
+    			add_location(code17, file, 237, 27, 6374);
+    			add_location(div11, file, 237, 49, 6396);
+    			attr_dev(code18, "class", "svelte-g7qv49");
+    			add_location(code18, file, 238, 3, 6507);
+    			attr_dev(code19, "class", "svelte-g7qv49");
+    			add_location(code19, file, 238, 27, 6531);
+    			add_location(div12, file, 238, 43, 6547);
+    			attr_dev(code20, "class", "svelte-g7qv49");
+    			add_location(code20, file, 239, 3, 6742);
+    			attr_dev(code21, "class", "svelte-g7qv49");
+    			add_location(code21, file, 239, 23, 6762);
+    			add_location(div13, file, 239, 39, 6778);
+    			attr_dev(code22, "class", "svelte-g7qv49");
+    			add_location(code22, file, 240, 3, 6933);
+    			attr_dev(code23, "class", "svelte-g7qv49");
+    			add_location(code23, file, 240, 31, 6961);
+    			add_location(div14, file, 240, 46, 6976);
+    			attr_dev(code24, "class", "svelte-g7qv49");
+    			add_location(code24, file, 241, 3, 7090);
+    			attr_dev(code25, "class", "svelte-g7qv49");
+    			add_location(code25, file, 241, 29, 7116);
+    			add_location(div15, file, 241, 50, 7137);
+    			attr_dev(code26, "class", "svelte-g7qv49");
+    			add_location(code26, file, 242, 3, 7222);
+    			attr_dev(code27, "class", "svelte-g7qv49");
+    			add_location(code27, file, 242, 24, 7243);
+    			add_location(div16, file, 242, 43, 7262);
+    			attr_dev(code28, "class", "svelte-g7qv49");
+    			add_location(code28, file, 243, 3, 7326);
+    			attr_dev(code29, "class", "svelte-g7qv49");
+    			add_location(code29, file, 243, 21, 7344);
+    			add_location(div17, file, 243, 40, 7363);
+    			attr_dev(div18, "class", "table svelte-g7qv49");
+    			add_location(div18, file, 228, 2, 5358);
+    			attr_dev(div19, "class", "block block--single svelte-g7qv49");
+    			add_location(div19, file, 225, 1, 5262);
+    			attr_dev(div20, "class", "wrapper svelte-g7qv49");
+    			add_location(div20, file, 7, 0, 127);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
     		},
     		m: function mount(target, anchor) {
-    			insert_dev(target, div5, anchor);
-    			append_dev(div5, div0);
+    			insert_dev(target, div20, anchor);
+    			append_dev(div20, div0);
     			append_dev(div0, h1);
     			mount_component(confetti0, h1, null);
     			append_dev(h1, t0);
     			append_dev(h1, mark0);
     			append_dev(h1, t2);
     			mount_component(confetti1, h1, null);
-    			append_dev(div5, t3);
-    			append_dev(div5, div3);
+    			append_dev(div20, t3);
+    			append_dev(div20, div3);
     			append_dev(div3, p0);
     			append_dev(p0, t4);
     			append_dev(p0, em);
@@ -3154,10 +3457,100 @@ var app = (function () {
     			append_dev(code3, t52);
     			append_dev(code3, mark5);
     			append_dev(code3, t54);
-    			append_dev(div5, t55);
-    			append_dev(div5, div4);
+    			append_dev(div20, t55);
+    			append_dev(div20, div4);
     			append_dev(div4, t56);
     			append_dev(div4, a1);
+    			append_dev(div20, t58);
+    			append_dev(div20, h22);
+    			append_dev(div20, t60);
+    			append_dev(div20, div19);
+    			append_dev(div19, p5);
+    			append_dev(div19, t62);
+    			append_dev(div19, div18);
+    			append_dev(div18, strong0);
+    			append_dev(div18, t64);
+    			append_dev(div18, strong1);
+    			append_dev(div18, t66);
+    			append_dev(div18, strong2);
+    			append_dev(div18, t68);
+    			append_dev(div18, code4);
+    			append_dev(div18, t70);
+    			append_dev(div18, code5);
+    			append_dev(div18, t72);
+    			append_dev(div18, div5);
+    			append_dev(div18, t74);
+    			append_dev(div18, code6);
+    			append_dev(div18, t76);
+    			append_dev(div18, code7);
+    			append_dev(div18, t78);
+    			append_dev(div18, div6);
+    			append_dev(div18, t80);
+    			append_dev(div18, code8);
+    			append_dev(div18, t82);
+    			append_dev(div18, code9);
+    			append_dev(div18, t84);
+    			append_dev(div18, div7);
+    			append_dev(div18, t86);
+    			append_dev(div18, code10);
+    			append_dev(div18, t88);
+    			append_dev(div18, code11);
+    			append_dev(div18, t90);
+    			append_dev(div18, div8);
+    			append_dev(div18, t92);
+    			append_dev(div18, code12);
+    			append_dev(div18, t94);
+    			append_dev(div18, code13);
+    			append_dev(div18, t96);
+    			append_dev(div18, div9);
+    			append_dev(div18, t98);
+    			append_dev(div18, code14);
+    			append_dev(div18, t100);
+    			append_dev(div18, code15);
+    			append_dev(div18, t102);
+    			append_dev(div18, div10);
+    			append_dev(div18, t104);
+    			append_dev(div18, code16);
+    			append_dev(div18, t106);
+    			append_dev(div18, code17);
+    			append_dev(div18, t108);
+    			append_dev(div18, div11);
+    			append_dev(div18, t110);
+    			append_dev(div18, code18);
+    			append_dev(div18, t112);
+    			append_dev(div18, code19);
+    			append_dev(div18, t114);
+    			append_dev(div18, div12);
+    			append_dev(div18, t116);
+    			append_dev(div18, code20);
+    			append_dev(div18, t118);
+    			append_dev(div18, code21);
+    			append_dev(div18, t120);
+    			append_dev(div18, div13);
+    			append_dev(div18, t122);
+    			append_dev(div18, code22);
+    			append_dev(div18, t124);
+    			append_dev(div18, code23);
+    			append_dev(div18, t126);
+    			append_dev(div18, div14);
+    			append_dev(div18, t128);
+    			append_dev(div18, code24);
+    			append_dev(div18, t130);
+    			append_dev(div18, code25);
+    			append_dev(div18, t132);
+    			append_dev(div18, div15);
+    			append_dev(div18, t134);
+    			append_dev(div18, code26);
+    			append_dev(div18, t136);
+    			append_dev(div18, code27);
+    			append_dev(div18, t138);
+    			append_dev(div18, div16);
+    			append_dev(div18, t140);
+    			append_dev(div18, code28);
+    			append_dev(div18, t142);
+    			append_dev(div18, code29);
+    			append_dev(div18, t144);
+    			append_dev(div18, div17);
     			current = true;
     		},
     		p: function update(ctx, [dirty]) {
@@ -3336,7 +3729,7 @@ var app = (function () {
     			current = false;
     		},
     		d: function destroy(detaching) {
-    			if (detaching) detach_dev(div5);
+    			if (detaching) detach_dev(div20);
     			destroy_component(confetti0);
     			destroy_component(confetti1);
     			destroy_component(toggleconfetti0);
