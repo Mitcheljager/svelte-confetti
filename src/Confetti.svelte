@@ -10,6 +10,7 @@
   export let amount = 50
   export let iterationCount = 1
   export let fallDistance = 200
+  export let rounded = false
 
   function randomBetween(min, max) {
     return Math.random() * (max - min) + min
@@ -27,6 +28,7 @@
   {#each { length: amount } as _}
     <div
       class="confetti"
+      class:rounded
       style="
       --fall-distance: {fallDistance}px;
       --size: {size}px;
@@ -115,6 +117,10 @@
     transform: skew(var(--skew)) rotate3d(var(--full-rotation));
     animation: rotate var(--transition-duration) var(--transition-delay)
       var(--transition-iteration-count) linear;
+  }
+
+  .rounded::before {
+    border-radius: 50%;
   }
 
   @media (prefers-reduced-motion) {
