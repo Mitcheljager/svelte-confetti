@@ -78,7 +78,7 @@
       opacity: 1;
     }
 
-    17% {
+    16% {
       transform: translateY(var(--translate-y))
         translateX(calc(var(--translate-x) * 0.87));
       opacity: 1;
@@ -111,6 +111,7 @@
     width: 100%;
     height: 100%;
     background: var(--color);
+    background-size: contain;
     transform: skew(var(--skew)) rotate3d(var(--full-rotation));
     animation: rotate var(--transition-duration) var(--transition-delay)
       var(--transition-iteration-count) linear;
