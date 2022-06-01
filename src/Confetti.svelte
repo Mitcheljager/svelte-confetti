@@ -11,6 +11,7 @@
   export let iterationCount = 1
   export let fallDistance = 200
   export let rounded = false
+  export let cone = false
 
   function randomBetween(min, max) {
     return Math.random() * (max - min) + min
@@ -29,6 +30,7 @@
     <div
       class="confetti"
       class:rounded
+      class:cone
       style="
       --fall-distance: {fallDistance}px;
       --size: {size}px;
@@ -95,14 +97,11 @@
 
   .confetti {
     --translate-y: calc(-200px * var(--translate-y-multiplier));
-    --translate-x: calc(
-      200px * var(--translate-y-multiplier) * var(--translate-x-multiplier)
-    );
+    --translate-x: calc(200px * var(--translate-x-multiplier));
     position: absolute;
     height: calc(var(--size) * var(--scale));
     width: calc(var(--size) * var(--scale));
-    animation: translate var(--transition-duration) var(--transition-delay)
-      var(--transition-iteration-count) linear;
+    animation: translate var(--transition-duration) var(--transition-delay) var(--transition-iteration-count) linear;
     opacity: 0;
   }
 
@@ -115,12 +114,15 @@
     background: var(--color);
     background-size: contain;
     transform: skew(var(--skew)) rotate3d(var(--full-rotation));
-    animation: rotate var(--transition-duration) var(--transition-delay)
-      var(--transition-iteration-count) linear;
+    animation: rotate var(--transition-duration) var(--transition-delay) var(--transition-iteration-count) linear;
   }
 
   .rounded::before {
     border-radius: 50%;
+  }
+
+  .cone {
+    --translate-x: calc(200px * var(--translate-y-multiplier) * var(--translate-x-multiplier));
   }
 
   @media (prefers-reduced-motion) {
