@@ -1,0 +1,51 @@
+{
+  "name": "svelte-confetti",
+  "version": "1.0",
+  "private": false,
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "start": "sirv public --no-clear",
+    "test": "jest",
+    "test:watch": "npm run test -- --watch"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.15.0",
+    "@rollup/plugin-commonjs": "^17.0.0",
+    "@rollup/plugin-node-resolve": "^11.0.0",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/svelte": "^3.0.3",
+    "babel-jest": "^27.0.6",
+    "jest": "^27.0.6",
+    "jsdom-global": "^3.0.2",
+    "rollup": "^2.3.4",
+    "rollup-plugin-css-only": "^3.1.0",
+    "rollup-plugin-livereload": "^2.0.0",
+    "rollup-plugin-svelte": "^7.0.0",
+    "rollup-plugin-terser": "^7.0.0",
+    "svelte": "^3.0.0",
+    "svelte-jest": "^0.3.1",
+    "svelte-jester": "^2.0.1"
+  },
+  "description": "Confetti in Svelte! Celebrate things with some extra flair. Animates using just HTML and CSS meaning it can work with SSR in SvelteKit!",
+  "keywords": [
+    "svelte",
+    "confetti"
+  ],
+  "files": [
+    "src/"
+  ],
+  "license": "MIT",
+  "main": "src/index.js",
+  "module": "src/index.mjs",
+  "svelte": "src/index.js",
+  "author": {
+    "email": "mitchel_jager@hotmail.com",
+    "name": "mitcheljager"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Mitcheljager/svelte-confetti"
+  },
+  "homepage": "https://mitcheljager.github.io/svelte-confetti/"
+}
