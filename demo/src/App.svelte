@@ -220,6 +220,30 @@
 	<div class="block block--single">
 		Made by <a href="https://github.com/Mitcheljager">Mitchel Jager</a>
 	</div>
+
+	<h2>Properties</h2>
+
+	<div class="block block--single">
+		<p>This is a list of all configurable properties.</p>
+
+		<div class="table">
+			<strong>Property</strong> <strong>Default</strong> <strong>Description</strong>
+
+			<code>size</code> <code>10</code> <div>The max size in pixels of the individual confetti pieces.</div>
+			<code>x</code> <code>[-0.75, 0.75]</code> <div>The max horizontal range of the confetti pieces. Negative is left, positive is right. [-1, 1] would mean maximum of 200px left and 200px right.</div>
+			<code>y</code> <code>[0.25, 1]</code> <div>The max vertical range of the confetti pieces. Negative is down, positive is ip. [-1, 1] would mean maximum of 200px down and 200px up.</div>
+			<code>duration</code> <code>2000</code> <div>Duration of the animation for each individual piece.</div>
+			<code>infinite</code> <code>false</code> <div>If set to true the animation will play indefinitely.</div>
+			<code>delay</code> <code>[0, 50]</code> <div>Used to set a random delay for each piece. A large difference between each number will mean a longer spray time.</div>
+			<code>colorRange</code> <code>[0, 360]</code> <div>Color range on the HSL color wheel. 0 to 360 is full RGB. 75 To 150 would be only green colors.</div>
+			<code>colorArray</code> <code>[]</code> <div>Can be used to pick a random color from this array. Set just one array elements to have a single color. Accepts any viable css background property, including gradients and images.</div>
+			<code>amount</code> <code>50</code> <div>Amount of particles spawned. The larger your spray the more pieces you might want. Be careful with too many as it might impact performance.</div>
+			<code>iterationCount</code> <code>1</code> <div>How many times the animation will play before stopping. Is overwritten by the "infinite" property.</div>
+			<code>fallDistance</code> <code>"200px"</code> <div>How far each piece falls. Accepts any css property, px, rem, vh, etc.</div>
+			<code>rounded</code> <code>false</code> <div>Set to true to make each confetti piece rounded.</div>
+			<code>cone</code> <code>false</code> <div>Set to true to make the explosion appear in a cone like shape which might feel more realistic when dealing with a larger amount.</div>
+		</div>
+	</div>
 </div>
 
 
