@@ -25,12 +25,10 @@
 
 
 
-<div class="confetti-holder">
+<div class="confetti-holder" class:rounded class:cone>
   {#each { length: amount } as _}
     <div
       class="confetti"
-      class:rounded
-      class:cone
       style="
       --fall-distance: {fallDistance};
       --size: {size}px;
@@ -117,11 +115,11 @@
     animation: rotate var(--transition-duration) var(--transition-delay) var(--transition-iteration-count) linear;
   }
 
-  .rounded::before {
+  .rounded .confetti::before {
     border-radius: 50%;
   }
 
-  .cone {
+  .cone .confetti {
     --translate-x: calc(200px * var(--translate-y-multiplier) * var(--translate-x-multiplier));
   }
 
