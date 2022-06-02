@@ -9,7 +9,7 @@
   export let colorArray = []
   export let amount = 50
   export let iterationCount = 1
-  export let fallDistance = "200px"
+  export let fallDistance = "100px"
   export let rounded = false
   export let cone = false
   export let noGravity = false
