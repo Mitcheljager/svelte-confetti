@@ -1,4 +1,7 @@
 <script>
+import { onMount } from "svelte";
+
+
   export let size = 10
   export let x = [-0.5, 0.5]
   export let y = [0.25, 1]
@@ -13,6 +16,15 @@
   export let rounded = false
   export let cone = false
   export let noGravity = false
+  export let destroyOnComplete = true
+
+  let complete = false
+
+  onMount(() => {
+    if (!destroyOnComplete || infinite || iterationCount == "infinite") return
+
+    setTimeout(() => complete = true, (duration + delay[1]) * iterationCount)
+  })
 
   function randomBetween(min, max) {
     return Math.random() * (max - min) + min
@@ -26,25 +38,27 @@
 
 
 
-<div class="confetti-holder" class:rounded class:cone class:no-gravity={noGravity}>
-  {#each { length: amount } as _}
-    <div
-      class="confetti"
-      style="
-      --fall-distance: {fallDistance};
-      --size: {size}px;
-      --color: {getColor()};
-      --skew: {randomBetween(-45, 45)}deg,{randomBetween(-45, 45)}deg;
-      --rotation-xyz: {randomBetween(-10, 10)}, {randomBetween(-10, 10)}, {randomBetween(-10, 10)};
-      --rotation-deg: {randomBetween(0, 360)}deg;
-      --translate-y-multiplier: {randomBetween(y[0], y[1])};
-      --translate-x-multiplier: {randomBetween(x[0], x[1])};
-      --scale: {0.1 * randomBetween(2, 10)};
-      --transition-duration: {infinite ? `calc(${duration}ms * var(--scale))` : `${duration}ms`};
-      --transition-delay: {randomBetween(delay[0], delay[1])}ms;
-      --transition-iteration-count: {infinite ? 'infinite' : iterationCount};" />
-  {/each}
-</div>
+{#if !complete}
+  <div class="confetti-holder" class:rounded class:cone class:no-gravity={noGravity}>
+    {#each { length: amount } as _}
+      <div
+        class="confetti"
+        style="
+        --fall-distance: {fallDistance};
+        --size: {size}px;
+        --color: {getColor()};
+        --skew: {randomBetween(-45, 45)}deg,{randomBetween(-45, 45)}deg;
+        --rotation-xyz: {randomBetween(-10, 10)}, {randomBetween(-10, 10)}, {randomBetween(-10, 10)};
+        --rotation-deg: {randomBetween(0, 360)}deg;
+        --translate-y-multiplier: {randomBetween(y[0], y[1])};
+        --translate-x-multiplier: {randomBetween(x[0], x[1])};
+        --scale: {0.1 * randomBetween(2, 10)};
+        --transition-duration: {infinite ? `calc(${duration}ms * var(--scale))` : `${duration}ms`};
+        --transition-delay: {randomBetween(delay[0], delay[1])}ms;
+        --transition-iteration-count: {infinite ? 'infinite' : iterationCount};" />
+    {/each}
+  </div>
+{/if}
 
 
 

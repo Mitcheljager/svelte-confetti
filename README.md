@@ -44,3 +44,4 @@ fallDistance | "100px" | How far each piece falls. Accepts any css property, px,
 rounded | false | Set to true to make each confetti piece rounded.
 cone | false | Set to true to make the explosion appear in a cone like shape which might feel more realistic when dealing with a larger amount.
 noGravity | false | Set to true to make the particles accelerate at a constant speed without "falling" down. Give it a more explosion like effect.
+destroyOnComplete | true | By default the elements are removed when the animation is complete. Set to false to prevent this behaviour.
