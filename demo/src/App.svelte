@@ -60,7 +60,7 @@
 
 			<ToggleConfetti>
 				<button slot="label">
-					Little
+					Few
 				</button>
 
 				<Confetti amount=10 />
@@ -119,9 +119,9 @@
 					Flag
 				</button>
 
-				<Confetti y={[0.15, 1.25]} x={[-1.15, -0.35]} colorArray={["#c8102e"]} />
-				<Confetti y={[0.15, 1.25]} x={[-0.45, 0.45]} colorArray={["white"]} />
-				<Confetti y={[0.15, 1.25]} x={[0.35, 1.15]} colorArray={["#003da5"]} />
+				<Confetti y={[1.25, 1.5]} x={[-1, 1]} colorArray={["#c8102e"]} />
+				<Confetti y={[1, 1.25]} x={[-1, 1]} colorArray={["white"]} />
+				<Confetti y={[0.75, 1]} x={[-1, 1]} colorArray={["#003da5"]} />
 			</ToggleConfetti>
 
 			<ToggleConfetti>
@@ -169,9 +169,9 @@
 					Feathered
 				</button>
 
-				<Confetti x={[-0.5, 0.5]} />
-				<Confetti amount=10 x={[-1, -0.4]} y={[0.25, 0.75]} />
-				<Confetti	amount=10 x={[0.4, 1]} y={[0.25, 0.75]} />
+				<Confetti cone x={[-0.5, 0.5]} />
+				<Confetti cone amount=10 x={[-1, -0.4]} y={[0.25, 0.75]} />
+				<Confetti cone amount=10 x={[0.4, 1]} y={[0.25, 0.75]} />
 			</ToggleConfetti>
 
 			<ToggleConfetti toggleOnce>
@@ -189,7 +189,7 @@
 				</button>
 
 				<div style="position: fixed; top: -50px; left: 0; height: 100vh; width: 100vw; display: flex; justify-content: center; overflow: hidden;">
-					<Confetti infinite duration=5000 amount=200 x={[-5, 5]} y={[0, 0.1]} delay={[500, 2000]} fallDistance="100vh" />
+					<Confetti x={[-5, 5]} y={[0, 0.1]} delay={[500, 2000]}  infinite duration=5000 amount=200 fallDistance="100vh" />
 				</div>
 			</ToggleConfetti>
 		</div>
@@ -221,6 +221,305 @@
 		Made by <a href="https://github.com/Mitcheljager">Mitchel Jager</a>
 	</div>
 
+	<h2>Usage</h2>
+
+	<mark>The Confetti comes without the buttons you will see in these examples. The buttons are simply used to trigger the event in these docs.</mark>
+
+	<div class="block">
+		<div class="description">
+			The component in it's most basic form.
+
+			<code>
+				&lt;Confetti /&gt;
+			</code>
+		</div>
+
+		<ToggleConfetti>
+			<button slot="label">
+				Show
+			</button>
+
+			<Confetti />
+		</ToggleConfetti>
+	</div>
+
+	<div class="block block--single">
+		<h3>Spread</h3>
+
+		<div class="description">
+			The spread of confetti can be adjusted. The props <mark>x</mark> and <mark>y</mark> are used to determine how far the confetti spreads. For both values multipliers are used and these are to be supplied in an array of two with the lowest number first. For each confetti piece a random number between these two is picked. The higher the number the futher the spread. Negative numbers affect the direction.
+
+			<div class="button-code-group">
+				<ToggleConfetti>
+					<button slot="label">
+						Default
+					</button>
+
+					<Confetti x={[-0.5, 0.5]} y={[0.25, 1]} />
+				</ToggleConfetti>
+
+				<code>
+					&lt;Confetti <mark>x</mark>=&#123;[-0.5, 0.5]} <mark>y</mark>=&#123;[0.25, 1]} /&gt;
+				</code>
+			</div>
+
+			<div class="button-code-group">
+				<ToggleConfetti>
+					<button slot="label">
+						Left
+					</button>
+
+					<Confetti x={[-1, -0.25]} y={[0, 0.5]} />
+				</ToggleConfetti>
+
+				<code>
+					&lt;Confetti <mark>x</mark>=&#123;[-1, -0.25]} <mark>y</mark>=&#123;[0, 0.5]} /&gt;
+				</code>
+			</div>
+
+			<div class="button-code-group">
+				<ToggleConfetti>
+					<button slot="label">
+						Right
+					</button>
+
+					<Confetti x={[0.25, 1]} y={[0, 0.5]} />
+				</ToggleConfetti>
+
+				<code>
+					&lt;Confetti <mark>x</mark>=&#123;[0.25, 1]} <mark>y</mark>=&#123;[0, 0.5]} /&gt;
+				</code>
+			</div>
+
+			<div class="button-code-group">
+				<ToggleConfetti>
+					<button slot="label">
+						Up
+					</button>
+
+					<Confetti x={[-0.25, 0.25]} y={[0.75, 1.5]} />
+				</ToggleConfetti>
+
+				<code>
+					&lt;Confetti <mark>x</mark>=&#123;[-0.25, 0.25]} <mark>y</mark>=&#123;[0.75, 1.5]} /&gt;
+				</code>
+			</div>
+
+			<div class="button-code-group">
+				<ToggleConfetti>
+					<button slot="label">
+						Down
+					</button>
+
+					<Confetti x={[-0.25, 0.25]} y={[-0.75, -0.25]} />
+				</ToggleConfetti>
+
+				<code>
+					&lt;Confetti <mark>x</mark>=&#123;[-0.25, 0.25]} <mark>y</mark>=&#123;[-0.75, -0.25]} /&gt;
+				</code>
+			</div>
+
+			<div class="button-code-group">
+				<ToggleConfetti>
+					<button slot="label">
+						Everywhere
+					</button>
+
+					<Confetti x={[-0.5, 0.5]} y={[-0.5, 0.5]} />
+				</ToggleConfetti>
+
+				<code>
+					&lt;Confetti <mark>x</mark>=&#123;[-0.5, 0.5]} <mark>y</mark>=&#123;[-0.5, -0.5]} /&gt;
+				</code>
+			</div>
+		</div>
+	</div>
+
+	<div class="block block--single">
+		<h3>Amount</h3>
+
+		<div class="description">
+			The amount of particles that are launched can be adjusted with the <mark>amount</mark> property. This should always be a whole number. Be careful with going too high as it may impact performance. It will depends on the device and other performance heavy elements on the page, but try and keep it below 500.
+
+			<div class="button-code-group">
+				<ToggleConfetti>
+					<button slot="label">
+						Few
+					</button>
+
+					<Confetti amount=10 />
+				</ToggleConfetti>
+
+				<code>
+					&lt;Confetti <mark>amount</mark>=10 /&gt;
+				</code>
+			</div>
+
+			<div class="button-code-group">
+				<ToggleConfetti>
+					<button slot="label">
+						Default
+					</button>
+
+					<Confetti amount=50 />
+				</ToggleConfetti>
+
+				<code>
+					&lt;Confetti <mark>amount</mark>=50 /&gt;
+				</code>
+			</div>
+
+			<div class="button-code-group">
+				<ToggleConfetti>
+					<button slot="label">
+						Lots
+					</button>
+
+					<Confetti amount=200 />
+				</ToggleConfetti>
+
+				<code>
+					&lt;Confetti <mark>amount</mark>=200 /&gt;
+				</code>
+			</div>
+
+			<div class="button-code-group">
+				<ToggleConfetti>
+					<button slot="label">
+						Too many
+					</button>
+
+					<Confetti amount=500 />
+				</ToggleConfetti>
+
+				<code>
+					&lt;Confetti <mark>amount</mark>=500 /&gt;
+				</code>
+			</div>
+		</div>
+	</div>
+
+	<div class="block block--single">
+		<h3>Shape</h3>
+
+		<div class="description">
+			As you may have noticed from the previous buttons, the confetti tends to take on a fairly square shape. This can be mitigated a little bit by using the propery <strong>cone</strong>. This will cause the confetti to launch in a more cone like shape which is especially nice when using lots of particles.
+
+			<div class="button-code-group">
+				<ToggleConfetti>
+					<button slot="label">
+						Default
+					</button>
+
+					<Confetti amount=200 />
+				</ToggleConfetti>
+
+				<code>
+					&lt;Confetti amount=200 /&gt;
+				</code>
+			</div>
+
+			<div class="button-code-group">
+				<ToggleConfetti>
+					<button slot="label">
+						Cone
+					</button>
+
+					<Confetti cone amount=200 />
+				</ToggleConfetti>
+
+				<code>
+					&lt;Confetti <mark>cone</mark> amount=200 /&gt;
+				</code>
+			</div>
+
+			A little bit later in these docs we will go over how to mitigate this effect further to get it to look real nice.
+		</div>
+	</div>
+
+	<div class="block block--single">
+		<h3>Timing</h3>
+
+		<div class="description">
+			By default all confetti comes out at just about the same time. It's a little bit of variance but it appears instant. That's what a confetti cannon does. We can change when each piece is fired by adjusted the range of the <mark>delay</mark> property. The delay is given in milliseconds.
+
+			<div class="button-code-group">
+				<ToggleConfetti>
+					<button slot="label">
+						Short delay
+					</button>
+
+					<Confetti delay={[0, 250]} />
+				</ToggleConfetti>
+
+				<code>
+					&lt;Confetti <mark>delay</mark>=&#123;[0, 250]} /&gt;
+				</code>
+			</div>
+
+			<div class="button-code-group">
+				<ToggleConfetti>
+					<button slot="label">
+						Long delay
+					</button>
+
+					<Confetti delay={[0, 1500]} />
+				</ToggleConfetti>
+
+				<code>
+					&lt;Confetti <mark>delay</mark>=&#123;[0, 1500]} /&gt;
+				</code>
+			</div>
+
+			We can also opt to have the animation play infinitely by setting the <mark>infinite</mark> property, at this point the delay mostly has a effect only when spawning in for the first time. (Click the button again to toggle it off)
+
+			<div class="button-code-group">
+				<ToggleConfetti toggleOnce>
+					<button slot="label">
+						Default
+					</button>
+
+					<Confetti infinite />
+				</ToggleConfetti>
+
+				<code>
+					&lt;Confetti <mark>infinite</mark> /&gt;
+				</code>
+			</div>
+
+			<div class="button-code-group">
+				<ToggleConfetti toggleOnce>
+					<button slot="label">
+						Long delay
+					</button>
+
+					<Confetti infinite delay={[0, 1500]} />
+				</ToggleConfetti>
+
+				<code>
+					&lt;Confetti <mark>infinite</mark> <mark>delay</mark>=&#123;[0, 1500]} /&gt;
+				</code>
+			</div>
+
+			Alternatively we can let the animation play out fully before repeating. For this we can use the <mark>iterationCount</mark> property. This is especially useful during development to tweak the confetti without having to reload the page or set up a button. This can be set to a number or to "infinite", basically anything that would be accepted by the animation-iteration-count property in CSS.
+
+			<div class="button-code-group">
+				<ToggleConfetti toggleOnce>
+					<button slot="label">
+						Infinite
+					</button>
+
+					<Confetti iterationCount=infinite />
+				</ToggleConfetti>
+
+				<code>
+					&lt;Confetti <mark>iterationCount</mark>=infinite /&gt;
+				</code>
+			</div>
+		</div>
+
+	</div>
+
 	<h2>Properties</h2>
 
 	<div class="block block--single">
@@ -230,7 +529,7 @@
 			<strong>Property</strong> <strong>Default</strong> <strong>Description</strong>
 
 			<code>size</code> <code>10</code> <div>The max size in pixels of the individual confetti pieces.</div>
-			<code>x</code> <code>[-0.75, 0.75]</code> <div>The max horizontal range of the confetti pieces. Negative is left, positive is right. [-1, 1] would mean maximum of 200px left and 200px right.</div>
+			<code>x</code> <code>[-0.5, 0.5]</code> <div>The max horizontal range of the confetti pieces. Negative is left, positive is right. [-1, 1] would mean maximum of 200px left and 200px right.</div>
 			<code>y</code> <code>[0.25, 1]</code> <div>The max vertical range of the confetti pieces. Negative is down, positive is ip. [-1, 1] would mean maximum of 200px down and 200px up.</div>
 			<code>duration</code> <code>2000</code> <div>Duration of the animation for each individual piece.</div>
 			<code>infinite</code> <code>false</code> <div>If set to true the animation will play indefinitely.</div>
@@ -292,6 +591,10 @@
 		color: var(--text-color-lightest);
 	}
 
+	h3 {
+		margin-top: 0;
+	}
+
 	code {
 		display: block;
 		margin-top: 1rem;
@@ -318,6 +621,7 @@
 		-webkit-appearance: none;
 		background: var(--primary);
 		padding: 0.5rem 0.75rem;
+		margin: 0.25rem 0;
 		border: 0;
 		border-radius: 0.25rem;
 		font-size: 1rem;
@@ -341,7 +645,23 @@
 	.buttons {
 		display: flex;
 		flex-wrap: wrap;
-		gap: 0.5rem;
+		gap: 0 0.5rem;
+	}
+
+	.button-code-group {
+		display: grid;
+		grid-template-columns: 7rem auto;
+		align-items: center;
+		gap: 1rem;
+		margin: 0.5rem 0;
+	}
+
+	.button-code-group button {
+		width: 100%;
+	}
+
+	.button-code-group code {
+		margin: 0;
 	}
 
 	.well {
@@ -407,47 +727,6 @@
 	.table code {
 		margin-top: 0;
 		line-height: 1.3rem;
-	}
-
-	.chart {
-		margin-top: .5rem;
-	}
-
-	:global(.chart--responsive svg) {
-		width: 100%;
-		height: auto;
-	}
-
-	table {
-		width: 100%;
-		border: 1px solid var(--border-color);
-		border-radius: .5rem;
-		border-collapse: collapse;
-		background: var(--bg-well);
-		font-size: clamp(0.75rem, 3vw, 1rem);
-		color: var(--text-color-light);
-		font-style: italic;
-	}
-
-	table tr:nth-child(even) td {
-		background: var(--bg-body);
-	}
-
-	table tr td,
-	table tr th {
-		border: 0;
-		padding: 0.5rem 0 0.5rem 1rem;
-		text-align: left;
-	}
-
-	table :global(svg) {
-		max-width: 100%;
-		height: auto;
-	}
-
-	table .label {
-		color: var(--text-color);
-		font-style: normal;
 	}
 
 	.reduced-motion-only {
