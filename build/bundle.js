@@ -2768,7 +2768,7 @@ var app = (function () {
     	return block;
     }
 
-    // (249:4) <ToggleConfetti>
+    // (245:4) <ToggleConfetti>
     function create_default_slot_44(ctx) {
     	let confetti;
     	let current;
@@ -2800,14 +2800,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_44.name,
     		type: "slot",
-    		source: "(249:4) <ToggleConfetti>",
+    		source: "(245:4) <ToggleConfetti>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (250:5) 
+    // (246:5) 
     function create_label_slot_44(ctx) {
     	let button;
 
@@ -2817,7 +2817,7 @@ var app = (function () {
     			button.textContent = "Default";
     			attr_dev(button, "slot", "label");
     			attr_dev(button, "class", "svelte-1lhfouh");
-    			add_location(button, file, 249, 5, 5927);
+    			add_location(button, file, 245, 5, 5823);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, button, anchor);
@@ -2831,14 +2831,14 @@ var app = (function () {
     		block,
     		id: create_label_slot_44.name,
     		type: "slot",
-    		source: "(250:5) ",
+    		source: "(246:5) ",
     		ctx
     	});
 
     	return block;
     }
 
-    // (271:4) <ToggleConfetti>
+    // (267:4) <ToggleConfetti>
     function create_default_slot_43(ctx) {
     	let confetti;
     	let current;
@@ -2875,14 +2875,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_43.name,
     		type: "slot",
-    		source: "(271:4) <ToggleConfetti>",
+    		source: "(267:4) <ToggleConfetti>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (272:5) 
+    // (268:5) 
     function create_label_slot_43(ctx) {
     	let button;
 
@@ -2892,7 +2892,7 @@ var app = (function () {
     			button.textContent = "Default";
     			attr_dev(button, "slot", "label");
     			attr_dev(button, "class", "svelte-1lhfouh");
-    			add_location(button, file, 271, 5, 6654);
+    			add_location(button, file, 267, 5, 6550);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, button, anchor);
@@ -2906,14 +2906,14 @@ var app = (function () {
     		block,
     		id: create_label_slot_43.name,
     		type: "slot",
-    		source: "(272:5) ",
+    		source: "(268:5) ",
     		ctx
     	});
 
     	return block;
     }
 
-    // (285:4) <ToggleConfetti>
+    // (281:4) <ToggleConfetti>
     function create_default_slot_42(ctx) {
     	let confetti;
     	let current;
@@ -2950,14 +2950,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_42.name,
     		type: "slot",
-    		source: "(285:4) <ToggleConfetti>",
+    		source: "(281:4) <ToggleConfetti>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (286:5) 
+    // (282:5) 
     function create_label_slot_42(ctx) {
     	let button;
 
@@ -2967,7 +2967,7 @@ var app = (function () {
     			button.textContent = "Left";
     			attr_dev(button, "slot", "label");
     			attr_dev(button, "class", "svelte-1lhfouh");
-    			add_location(button, file, 285, 5, 6986);
+    			add_location(button, file, 281, 5, 6882);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, button, anchor);
@@ -2981,14 +2981,14 @@ var app = (function () {
     		block,
     		id: create_label_slot_42.name,
     		type: "slot",
-    		source: "(286:5) ",
+    		source: "(282:5) ",
     		ctx
     	});
 
     	return block;
     }
 
-    // (299:4) <ToggleConfetti>
+    // (295:4) <ToggleConfetti>
     function create_default_slot_41(ctx) {
     	let confetti;
     	let current;
@@ -3025,14 +3025,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_41.name,
     		type: "slot",
-    		source: "(299:4) <ToggleConfetti>",
+    		source: "(295:4) <ToggleConfetti>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (300:5) 
+    // (296:5) 
     function create_label_slot_41(ctx) {
     	let button;
 
@@ -3042,7 +3042,7 @@ var app = (function () {
     			button.textContent = "Right";
     			attr_dev(button, "slot", "label");
     			attr_dev(button, "class", "svelte-1lhfouh");
-    			add_location(button, file, 299, 5, 7313);
+    			add_location(button, file, 295, 5, 7209);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, button, anchor);
@@ -3056,14 +3056,14 @@ var app = (function () {
     		block,
     		id: create_label_slot_41.name,
     		type: "slot",
-    		source: "(300:5) ",
+    		source: "(296:5) ",
     		ctx
     	});
 
     	return block;
     }
 
-    // (313:4) <ToggleConfetti>
+    // (309:4) <ToggleConfetti>
     function create_default_slot_40(ctx) {
     	let confetti;
     	let current;
@@ -3100,14 +3100,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_40.name,
     		type: "slot",
-    		source: "(313:4) <ToggleConfetti>",
+    		source: "(309:4) <ToggleConfetti>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (314:5) 
+    // (310:5) 
     function create_label_slot_40(ctx) {
     	let button;
 
@@ -3117,7 +3117,7 @@ var app = (function () {
     			button.textContent = "Up";
     			attr_dev(button, "slot", "label");
     			attr_dev(button, "class", "svelte-1lhfouh");
-    			add_location(button, file, 313, 5, 7637);
+    			add_location(button, file, 309, 5, 7533);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, button, anchor);
@@ -3131,14 +3131,14 @@ var app = (function () {
     		block,
     		id: create_label_slot_40.name,
     		type: "slot",
-    		source: "(314:5) ",
+    		source: "(310:5) ",
     		ctx
     	});
 
     	return block;
     }
 
-    // (327:4) <ToggleConfetti>
+    // (323:4) <ToggleConfetti>
     function create_default_slot_39(ctx) {
     	let confetti;
     	let current;
@@ -3175,14 +3175,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_39.name,
     		type: "slot",
-    		source: "(327:4) <ToggleConfetti>",
+    		source: "(323:4) <ToggleConfetti>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (328:5) 
+    // (324:5) 
     function create_label_slot_39(ctx) {
     	let button;
 
@@ -3192,7 +3192,7 @@ var app = (function () {
     			button.textContent = "Down";
     			attr_dev(button, "slot", "label");
     			attr_dev(button, "class", "svelte-1lhfouh");
-    			add_location(button, file, 327, 5, 7972);
+    			add_location(button, file, 323, 5, 7868);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, button, anchor);
@@ -3206,14 +3206,14 @@ var app = (function () {
     		block,
     		id: create_label_slot_39.name,
     		type: "slot",
-    		source: "(328:5) ",
+    		source: "(324:5) ",
     		ctx
     	});
 
     	return block;
     }
 
-    // (341:4) <ToggleConfetti>
+    // (337:4) <ToggleConfetti>
     function create_default_slot_38(ctx) {
     	let confetti;
     	let current;
@@ -3250,14 +3250,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_38.name,
     		type: "slot",
-    		source: "(341:4) <ToggleConfetti>",
+    		source: "(337:4) <ToggleConfetti>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (342:5) 
+    // (338:5) 
     function create_label_slot_38(ctx) {
     	let button;
 
@@ -3267,7 +3267,7 @@ var app = (function () {
     			button.textContent = "Everywhere";
     			attr_dev(button, "slot", "label");
     			attr_dev(button, "class", "svelte-1lhfouh");
-    			add_location(button, file, 341, 5, 8315);
+    			add_location(button, file, 337, 5, 8211);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, button, anchor);
@@ -3281,14 +3281,14 @@ var app = (function () {
     		block,
     		id: create_label_slot_38.name,
     		type: "slot",
-    		source: "(342:5) ",
+    		source: "(338:5) ",
     		ctx
     	});
 
     	return block;
     }
 
-    // (363:4) <ToggleConfetti>
+    // (359:4) <ToggleConfetti>
     function create_default_slot_37(ctx) {
     	let confetti;
     	let current;
@@ -3321,14 +3321,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_37.name,
     		type: "slot",
-    		source: "(363:4) <ToggleConfetti>",
+    		source: "(359:4) <ToggleConfetti>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (364:5) 
+    // (360:5) 
     function create_label_slot_37(ctx) {
     	let button;
 
@@ -3338,7 +3338,7 @@ var app = (function () {
     			button.textContent = "Few";
     			attr_dev(button, "slot", "label");
     			attr_dev(button, "class", "svelte-1lhfouh");
-    			add_location(button, file, 363, 5, 9059);
+    			add_location(button, file, 359, 5, 8955);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, button, anchor);
@@ -3352,14 +3352,14 @@ var app = (function () {
     		block,
     		id: create_label_slot_37.name,
     		type: "slot",
-    		source: "(364:5) ",
+    		source: "(360:5) ",
     		ctx
     	});
 
     	return block;
     }
 
-    // (377:4) <ToggleConfetti>
+    // (373:4) <ToggleConfetti>
     function create_default_slot_36(ctx) {
     	let confetti;
     	let current;
@@ -3392,14 +3392,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_36.name,
     		type: "slot",
-    		source: "(377:4) <ToggleConfetti>",
+    		source: "(373:4) <ToggleConfetti>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (378:5) 
+    // (374:5) 
     function create_label_slot_36(ctx) {
     	let button;
 
@@ -3409,7 +3409,7 @@ var app = (function () {
     			button.textContent = "Default";
     			attr_dev(button, "slot", "label");
     			attr_dev(button, "class", "svelte-1lhfouh");
-    			add_location(button, file, 377, 5, 9314);
+    			add_location(button, file, 373, 5, 9210);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, button, anchor);
@@ -3423,14 +3423,14 @@ var app = (function () {
     		block,
     		id: create_label_slot_36.name,
     		type: "slot",
-    		source: "(378:5) ",
+    		source: "(374:5) ",
     		ctx
     	});
 
     	return block;
     }
 
-    // (391:4) <ToggleConfetti>
+    // (387:4) <ToggleConfetti>
     function create_default_slot_35(ctx) {
     	let confetti;
     	let current;
@@ -3463,14 +3463,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_35.name,
     		type: "slot",
-    		source: "(391:4) <ToggleConfetti>",
+    		source: "(387:4) <ToggleConfetti>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (392:5) 
+    // (388:5) 
     function create_label_slot_35(ctx) {
     	let button;
 
@@ -3480,7 +3480,7 @@ var app = (function () {
     			button.textContent = "Lots";
     			attr_dev(button, "slot", "label");
     			attr_dev(button, "class", "svelte-1lhfouh");
-    			add_location(button, file, 391, 5, 9573);
+    			add_location(button, file, 387, 5, 9469);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, button, anchor);
@@ -3494,14 +3494,14 @@ var app = (function () {
     		block,
     		id: create_label_slot_35.name,
     		type: "slot",
-    		source: "(392:5) ",
+    		source: "(388:5) ",
     		ctx
     	});
 
     	return block;
     }
 
-    // (405:4) <ToggleConfetti>
+    // (401:4) <ToggleConfetti>
     function create_default_slot_34(ctx) {
     	let confetti;
     	let current;
@@ -3534,14 +3534,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_34.name,
     		type: "slot",
-    		source: "(405:4) <ToggleConfetti>",
+    		source: "(401:4) <ToggleConfetti>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (406:5) 
+    // (402:5) 
     function create_label_slot_34(ctx) {
     	let button;
 
@@ -3551,7 +3551,7 @@ var app = (function () {
     			button.textContent = "Too many";
     			attr_dev(button, "slot", "label");
     			attr_dev(button, "class", "svelte-1lhfouh");
-    			add_location(button, file, 405, 5, 9831);
+    			add_location(button, file, 401, 5, 9727);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, button, anchor);
@@ -3565,14 +3565,14 @@ var app = (function () {
     		block,
     		id: create_label_slot_34.name,
     		type: "slot",
-    		source: "(406:5) ",
+    		source: "(402:5) ",
     		ctx
     	});
 
     	return block;
     }
 
-    // (427:4) <ToggleConfetti>
+    // (423:4) <ToggleConfetti>
     function create_default_slot_33(ctx) {
     	let confetti;
     	let current;
@@ -3605,14 +3605,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_33.name,
     		type: "slot",
-    		source: "(427:4) <ToggleConfetti>",
+    		source: "(423:4) <ToggleConfetti>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (428:5) 
+    // (424:5) 
     function create_label_slot_33(ctx) {
     	let button;
 
@@ -3622,7 +3622,7 @@ var app = (function () {
     			button.textContent = "Default";
     			attr_dev(button, "slot", "label");
     			attr_dev(button, "class", "svelte-1lhfouh");
-    			add_location(button, file, 427, 5, 10488);
+    			add_location(button, file, 423, 5, 10384);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, button, anchor);
@@ -3636,14 +3636,14 @@ var app = (function () {
     		block,
     		id: create_label_slot_33.name,
     		type: "slot",
-    		source: "(428:5) ",
+    		source: "(424:5) ",
     		ctx
     	});
 
     	return block;
     }
 
-    // (441:4) <ToggleConfetti>
+    // (437:4) <ToggleConfetti>
     function create_default_slot_32(ctx) {
     	let confetti;
     	let current;
@@ -3680,14 +3680,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_32.name,
     		type: "slot",
-    		source: "(441:4) <ToggleConfetti>",
+    		source: "(437:4) <ToggleConfetti>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (442:5) 
+    // (438:5) 
     function create_label_slot_32(ctx) {
     	let button;
 
@@ -3697,7 +3697,7 @@ var app = (function () {
     			button.textContent = "Cone";
     			attr_dev(button, "slot", "label");
     			attr_dev(button, "class", "svelte-1lhfouh");
-    			add_location(button, file, 441, 5, 10736);
+    			add_location(button, file, 437, 5, 10632);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, button, anchor);
@@ -3711,14 +3711,14 @@ var app = (function () {
     		block,
     		id: create_label_slot_32.name,
     		type: "slot",
-    		source: "(442:5) ",
+    		source: "(438:5) ",
     		ctx
     	});
 
     	return block;
     }
 
-    // (457:4) <ToggleConfetti>
+    // (453:4) <ToggleConfetti>
     function create_default_slot_31(ctx) {
     	let confetti;
     	let current;
@@ -3755,14 +3755,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_31.name,
     		type: "slot",
-    		source: "(457:4) <ToggleConfetti>",
+    		source: "(453:4) <ToggleConfetti>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (458:5) 
+    // (454:5) 
     function create_label_slot_31(ctx) {
     	let button;
 
@@ -3772,7 +3772,7 @@ var app = (function () {
     			button.textContent = "Right";
     			attr_dev(button, "slot", "label");
     			attr_dev(button, "class", "svelte-1lhfouh");
-    			add_location(button, file, 457, 5, 11118);
+    			add_location(button, file, 453, 5, 11014);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, button, anchor);
@@ -3786,14 +3786,14 @@ var app = (function () {
     		block,
     		id: create_label_slot_31.name,
     		type: "slot",
-    		source: "(458:5) ",
+    		source: "(454:5) ",
     		ctx
     	});
 
     	return block;
     }
 
-    // (471:4) <ToggleConfetti>
+    // (467:4) <ToggleConfetti>
     function create_default_slot_30(ctx) {
     	let confetti;
     	let current;
@@ -3830,14 +3830,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_30.name,
     		type: "slot",
-    		source: "(471:4) <ToggleConfetti>",
+    		source: "(467:4) <ToggleConfetti>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (472:5) 
+    // (468:5) 
     function create_label_slot_30(ctx) {
     	let button;
 
@@ -3847,7 +3847,7 @@ var app = (function () {
     			button.textContent = "Right Cone";
     			attr_dev(button, "slot", "label");
     			attr_dev(button, "class", "svelte-1lhfouh");
-    			add_location(button, file, 471, 5, 11416);
+    			add_location(button, file, 467, 5, 11312);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, button, anchor);
@@ -3861,14 +3861,14 @@ var app = (function () {
     		block,
     		id: create_label_slot_30.name,
     		type: "slot",
-    		source: "(472:5) ",
+    		source: "(468:5) ",
     		ctx
     	});
 
     	return block;
     }
 
-    // (495:4) <ToggleConfetti>
+    // (491:4) <ToggleConfetti>
     function create_default_slot_29(ctx) {
     	let confetti;
     	let current;
@@ -3901,14 +3901,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_29.name,
     		type: "slot",
-    		source: "(495:4) <ToggleConfetti>",
+    		source: "(491:4) <ToggleConfetti>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (496:5) 
+    // (492:5) 
     function create_label_slot_29(ctx) {
     	let button;
 
@@ -3918,7 +3918,7 @@ var app = (function () {
     			button.textContent = "Tiny";
     			attr_dev(button, "slot", "label");
     			attr_dev(button, "class", "svelte-1lhfouh");
-    			add_location(button, file, 495, 5, 12055);
+    			add_location(button, file, 491, 5, 11951);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, button, anchor);
@@ -3932,14 +3932,14 @@ var app = (function () {
     		block,
     		id: create_label_slot_29.name,
     		type: "slot",
-    		source: "(496:5) ",
+    		source: "(492:5) ",
     		ctx
     	});
 
     	return block;
     }
 
-    // (509:4) <ToggleConfetti>
+    // (505:4) <ToggleConfetti>
     function create_default_slot_28(ctx) {
     	let confetti;
     	let current;
@@ -3972,14 +3972,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_28.name,
     		type: "slot",
-    		source: "(509:4) <ToggleConfetti>",
+    		source: "(505:4) <ToggleConfetti>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (510:5) 
+    // (506:5) 
     function create_label_slot_28(ctx) {
     	let button;
 
@@ -3989,7 +3989,7 @@ var app = (function () {
     			button.textContent = "Huge";
     			attr_dev(button, "slot", "label");
     			attr_dev(button, "class", "svelte-1lhfouh");
-    			add_location(button, file, 509, 5, 12305);
+    			add_location(button, file, 505, 5, 12201);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, button, anchor);
@@ -4003,14 +4003,14 @@ var app = (function () {
     		block,
     		id: create_label_slot_28.name,
     		type: "slot",
-    		source: "(510:5) ",
+    		source: "(506:5) ",
     		ctx
     	});
 
     	return block;
     }
 
-    // (525:4) <ToggleConfetti>
+    // (521:4) <ToggleConfetti>
     function create_default_slot_27(ctx) {
     	let confetti;
     	let current;
@@ -4047,14 +4047,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_27.name,
     		type: "slot",
-    		source: "(525:4) <ToggleConfetti>",
+    		source: "(521:4) <ToggleConfetti>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (526:5) 
+    // (522:5) 
     function create_label_slot_27(ctx) {
     	let button;
 
@@ -4064,7 +4064,7 @@ var app = (function () {
     			button.textContent = "Round";
     			attr_dev(button, "slot", "label");
     			attr_dev(button, "class", "svelte-1lhfouh");
-    			add_location(button, file, 525, 5, 12655);
+    			add_location(button, file, 521, 5, 12551);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, button, anchor);
@@ -4078,14 +4078,14 @@ var app = (function () {
     		block,
     		id: create_label_slot_27.name,
     		type: "slot",
-    		source: "(526:5) ",
+    		source: "(522:5) ",
     		ctx
     	});
 
     	return block;
     }
 
-    // (547:4) <ToggleConfetti>
+    // (543:4) <ToggleConfetti>
     function create_default_slot_26(ctx) {
     	let confetti;
     	let current;
@@ -4122,14 +4122,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_26.name,
     		type: "slot",
-    		source: "(547:4) <ToggleConfetti>",
+    		source: "(543:4) <ToggleConfetti>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (548:5) 
+    // (544:5) 
     function create_label_slot_26(ctx) {
     	let button;
 
@@ -4139,7 +4139,7 @@ var app = (function () {
     			button.textContent = "Short delay";
     			attr_dev(button, "slot", "label");
     			attr_dev(button, "class", "svelte-1lhfouh");
-    			add_location(button, file, 547, 5, 13311);
+    			add_location(button, file, 543, 5, 13207);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, button, anchor);
@@ -4153,14 +4153,14 @@ var app = (function () {
     		block,
     		id: create_label_slot_26.name,
     		type: "slot",
-    		source: "(548:5) ",
+    		source: "(544:5) ",
     		ctx
     	});
 
     	return block;
     }
 
-    // (561:4) <ToggleConfetti>
+    // (557:4) <ToggleConfetti>
     function create_default_slot_25(ctx) {
     	let confetti;
     	let current;
@@ -4197,14 +4197,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_25.name,
     		type: "slot",
-    		source: "(561:4) <ToggleConfetti>",
+    		source: "(557:4) <ToggleConfetti>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (562:5) 
+    // (558:5) 
     function create_label_slot_25(ctx) {
     	let button;
 
@@ -4214,7 +4214,7 @@ var app = (function () {
     			button.textContent = "Long delay";
     			attr_dev(button, "slot", "label");
     			attr_dev(button, "class", "svelte-1lhfouh");
-    			add_location(button, file, 561, 5, 13598);
+    			add_location(button, file, 557, 5, 13494);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, button, anchor);
@@ -4228,14 +4228,14 @@ var app = (function () {
     		block,
     		id: create_label_slot_25.name,
     		type: "slot",
-    		source: "(562:5) ",
+    		source: "(558:5) ",
     		ctx
     	});
 
     	return block;
     }
 
-    // (577:4) <ToggleConfetti toggleOnce>
+    // (573:4) <ToggleConfetti toggleOnce>
     function create_default_slot_24(ctx) {
     	let confetti;
     	let current;
@@ -4272,14 +4272,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_24.name,
     		type: "slot",
-    		source: "(577:4) <ToggleConfetti toggleOnce>",
+    		source: "(573:4) <ToggleConfetti toggleOnce>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (578:5) 
+    // (574:5) 
     function create_label_slot_24(ctx) {
     	let button;
 
@@ -4289,7 +4289,7 @@ var app = (function () {
     			button.textContent = "Default";
     			attr_dev(button, "slot", "label");
     			attr_dev(button, "class", "svelte-1lhfouh");
-    			add_location(button, file, 577, 5, 14132);
+    			add_location(button, file, 573, 5, 14028);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, button, anchor);
@@ -4303,14 +4303,14 @@ var app = (function () {
     		block,
     		id: create_label_slot_24.name,
     		type: "slot",
-    		source: "(578:5) ",
+    		source: "(574:5) ",
     		ctx
     	});
 
     	return block;
     }
 
-    // (591:4) <ToggleConfetti toggleOnce>
+    // (587:4) <ToggleConfetti toggleOnce>
     function create_default_slot_23(ctx) {
     	let confetti;
     	let current;
@@ -4347,14 +4347,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_23.name,
     		type: "slot",
-    		source: "(591:4) <ToggleConfetti toggleOnce>",
+    		source: "(587:4) <ToggleConfetti toggleOnce>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (592:5) 
+    // (588:5) 
     function create_label_slot_23(ctx) {
     	let button;
 
@@ -4364,7 +4364,7 @@ var app = (function () {
     			button.textContent = "Long delay";
     			attr_dev(button, "slot", "label");
     			attr_dev(button, "class", "svelte-1lhfouh");
-    			add_location(button, file, 591, 5, 14400);
+    			add_location(button, file, 587, 5, 14296);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, button, anchor);
@@ -4378,14 +4378,14 @@ var app = (function () {
     		block,
     		id: create_label_slot_23.name,
     		type: "slot",
-    		source: "(592:5) ",
+    		source: "(588:5) ",
     		ctx
     	});
 
     	return block;
     }
 
-    // (607:4) <ToggleConfetti toggleOnce>
+    // (603:4) <ToggleConfetti toggleOnce>
     function create_default_slot_22(ctx) {
     	let confetti;
     	let current;
@@ -4422,14 +4422,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_22.name,
     		type: "slot",
-    		source: "(607:4) <ToggleConfetti toggleOnce>",
+    		source: "(603:4) <ToggleConfetti toggleOnce>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (608:5) 
+    // (604:5) 
     function create_label_slot_22(ctx) {
     	let button;
 
@@ -4439,7 +4439,7 @@ var app = (function () {
     			button.textContent = "Infinite";
     			attr_dev(button, "slot", "label");
     			attr_dev(button, "class", "svelte-1lhfouh");
-    			add_location(button, file, 607, 5, 15129);
+    			add_location(button, file, 603, 5, 15025);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, button, anchor);
@@ -4453,14 +4453,14 @@ var app = (function () {
     		block,
     		id: create_label_slot_22.name,
     		type: "slot",
-    		source: "(608:5) ",
+    		source: "(604:5) ",
     		ctx
     	});
 
     	return block;
     }
 
-    // (629:4) <ToggleConfetti>
+    // (625:4) <ToggleConfetti>
     function create_default_slot_21(ctx) {
     	let confetti;
     	let current;
@@ -4497,14 +4497,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_21.name,
     		type: "slot",
-    		source: "(629:4) <ToggleConfetti>",
+    		source: "(625:4) <ToggleConfetti>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (630:5) 
+    // (626:5) 
     function create_label_slot_21(ctx) {
     	let button;
 
@@ -4514,7 +4514,7 @@ var app = (function () {
     			button.textContent = "Green range";
     			attr_dev(button, "slot", "label");
     			attr_dev(button, "class", "svelte-1lhfouh");
-    			add_location(button, file, 629, 5, 15968);
+    			add_location(button, file, 625, 5, 15864);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, button, anchor);
@@ -4528,14 +4528,14 @@ var app = (function () {
     		block,
     		id: create_label_slot_21.name,
     		type: "slot",
-    		source: "(630:5) ",
+    		source: "(626:5) ",
     		ctx
     	});
 
     	return block;
     }
 
-    // (643:4) <ToggleConfetti>
+    // (639:4) <ToggleConfetti>
     function create_default_slot_20(ctx) {
     	let confetti;
     	let current;
@@ -4574,14 +4574,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_20.name,
     		type: "slot",
-    		source: "(643:4) <ToggleConfetti>",
+    		source: "(639:4) <ToggleConfetti>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (644:5) 
+    // (640:5) 
     function create_label_slot_20(ctx) {
     	let button;
 
@@ -4591,7 +4591,7 @@ var app = (function () {
     			button.textContent = "Array";
     			attr_dev(button, "slot", "label");
     			attr_dev(button, "class", "svelte-1lhfouh");
-    			add_location(button, file, 643, 5, 16267);
+    			add_location(button, file, 639, 5, 16163);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, button, anchor);
@@ -4605,14 +4605,14 @@ var app = (function () {
     		block,
     		id: create_label_slot_20.name,
     		type: "slot",
-    		source: "(644:5) ",
+    		source: "(640:5) ",
     		ctx
     	});
 
     	return block;
     }
 
-    // (657:4) <ToggleConfetti>
+    // (653:4) <ToggleConfetti>
     function create_default_slot_19(ctx) {
     	let confetti;
     	let current;
@@ -4651,14 +4651,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_19.name,
     		type: "slot",
-    		source: "(657:4) <ToggleConfetti>",
+    		source: "(653:4) <ToggleConfetti>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (658:5) 
+    // (654:5) 
     function create_label_slot_19(ctx) {
     	let button;
 
@@ -4668,7 +4668,7 @@ var app = (function () {
     			button.textContent = "Different values";
     			attr_dev(button, "slot", "label");
     			attr_dev(button, "class", "svelte-1lhfouh");
-    			add_location(button, file, 657, 5, 16652);
+    			add_location(button, file, 653, 5, 16548);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, button, anchor);
@@ -4682,14 +4682,14 @@ var app = (function () {
     		block,
     		id: create_label_slot_19.name,
     		type: "slot",
-    		source: "(658:5) ",
+    		source: "(654:5) ",
     		ctx
     	});
 
     	return block;
     }
 
-    // (673:4) <ToggleConfetti>
+    // (669:4) <ToggleConfetti>
     function create_default_slot_18(ctx) {
     	let confetti;
     	let current;
@@ -4729,14 +4729,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_18.name,
     		type: "slot",
-    		source: "(673:4) <ToggleConfetti>",
+    		source: "(669:4) <ToggleConfetti>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (674:5) 
+    // (670:5) 
     function create_label_slot_18(ctx) {
     	let button;
 
@@ -4746,7 +4746,7 @@ var app = (function () {
     			button.textContent = "Gradient";
     			attr_dev(button, "slot", "label");
     			attr_dev(button, "class", "svelte-1lhfouh");
-    			add_location(button, file, 673, 5, 17172);
+    			add_location(button, file, 669, 5, 17068);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, button, anchor);
@@ -4760,14 +4760,14 @@ var app = (function () {
     		block,
     		id: create_label_slot_18.name,
     		type: "slot",
-    		source: "(674:5) ",
+    		source: "(670:5) ",
     		ctx
     	});
 
     	return block;
     }
 
-    // (687:4) <ToggleConfetti>
+    // (683:4) <ToggleConfetti>
     function create_default_slot_17(ctx) {
     	let confetti;
     	let current;
@@ -4810,14 +4810,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_17.name,
     		type: "slot",
-    		source: "(687:4) <ToggleConfetti>",
+    		source: "(683:4) <ToggleConfetti>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (688:5) 
+    // (684:5) 
     function create_label_slot_17(ctx) {
     	let button;
 
@@ -4827,7 +4827,7 @@ var app = (function () {
     			button.textContent = "Images";
     			attr_dev(button, "slot", "label");
     			attr_dev(button, "class", "svelte-1lhfouh");
-    			add_location(button, file, 687, 5, 17540);
+    			add_location(button, file, 683, 5, 17436);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, button, anchor);
@@ -4841,14 +4841,14 @@ var app = (function () {
     		block,
     		id: create_label_slot_17.name,
     		type: "slot",
-    		source: "(688:5) ",
+    		source: "(684:5) ",
     		ctx
     	});
 
     	return block;
     }
 
-    // (703:4) <ToggleConfetti>
+    // (699:4) <ToggleConfetti>
     function create_default_slot_16(ctx) {
     	let confetti;
     	let current;
@@ -4887,14 +4887,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_16.name,
     		type: "slot",
-    		source: "(703:4) <ToggleConfetti>",
+    		source: "(699:4) <ToggleConfetti>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (704:5) 
+    // (700:5) 
     function create_label_slot_16(ctx) {
     	let button;
 
@@ -4904,7 +4904,7 @@ var app = (function () {
     			button.textContent = "Random";
     			attr_dev(button, "slot", "label");
     			attr_dev(button, "class", "svelte-1lhfouh");
-    			add_location(button, file, 703, 5, 18110);
+    			add_location(button, file, 699, 5, 18006);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, button, anchor);
@@ -4918,14 +4918,14 @@ var app = (function () {
     		block,
     		id: create_label_slot_16.name,
     		type: "slot",
-    		source: "(704:5) ",
+    		source: "(700:5) ",
     		ctx
     	});
 
     	return block;
     }
 
-    // (725:4) <ToggleConfetti>
+    // (721:4) <ToggleConfetti>
     function create_default_slot_15(ctx) {
     	let confetti;
     	let current;
@@ -4962,14 +4962,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_15.name,
     		type: "slot",
-    		source: "(725:4) <ToggleConfetti>",
+    		source: "(721:4) <ToggleConfetti>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (726:5) 
+    // (722:5) 
     function create_label_slot_15(ctx) {
     	let button;
 
@@ -4979,7 +4979,7 @@ var app = (function () {
     			button.textContent = "Slow fall";
     			attr_dev(button, "slot", "label");
     			attr_dev(button, "class", "svelte-1lhfouh");
-    			add_location(button, file, 725, 5, 18817);
+    			add_location(button, file, 721, 5, 18713);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, button, anchor);
@@ -4993,14 +4993,14 @@ var app = (function () {
     		block,
     		id: create_label_slot_15.name,
     		type: "slot",
-    		source: "(726:5) ",
+    		source: "(722:5) ",
     		ctx
     	});
 
     	return block;
     }
 
-    // (739:4) <ToggleConfetti>
+    // (735:4) <ToggleConfetti>
     function create_default_slot_14(ctx) {
     	let confetti;
     	let current;
@@ -5037,14 +5037,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_14.name,
     		type: "slot",
-    		source: "(739:4) <ToggleConfetti>",
+    		source: "(735:4) <ToggleConfetti>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (740:5) 
+    // (736:5) 
     function create_label_slot_14(ctx) {
     	let button;
 
@@ -5054,7 +5054,7 @@ var app = (function () {
     			button.textContent = "Fast fall";
     			attr_dev(button, "slot", "label");
     			attr_dev(button, "class", "svelte-1lhfouh");
-    			add_location(button, file, 739, 5, 19094);
+    			add_location(button, file, 735, 5, 18990);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, button, anchor);
@@ -5068,14 +5068,14 @@ var app = (function () {
     		block,
     		id: create_label_slot_14.name,
     		type: "slot",
-    		source: "(740:5) ",
+    		source: "(736:5) ",
     		ctx
     	});
 
     	return block;
     }
 
-    // (753:4) <ToggleConfetti>
+    // (749:4) <ToggleConfetti>
     function create_default_slot_13(ctx) {
     	let confetti;
     	let current;
@@ -5112,14 +5112,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_13.name,
     		type: "slot",
-    		source: "(753:4) <ToggleConfetti>",
+    		source: "(749:4) <ToggleConfetti>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (754:5) 
+    // (750:5) 
     function create_label_slot_13(ctx) {
     	let div;
     	let button;
@@ -5144,14 +5144,14 @@ var app = (function () {
     			code1 = element("code");
     			code1.textContent = "0";
     			attr_dev(button, "class", "svelte-1lhfouh");
-    			add_location(button, file, 754, 6, 19399);
+    			add_location(button, file, 750, 6, 19295);
     			attr_dev(code0, "class", "inline svelte-1lhfouh");
-    			add_location(code0, file, 758, 36, 19480);
+    			add_location(code0, file, 754, 36, 19376);
     			attr_dev(code1, "class", "inline svelte-1lhfouh");
-    			add_location(code1, file, 758, 81, 19525);
-    			add_location(small, file, 758, 6, 19450);
+    			add_location(code1, file, 754, 81, 19421);
+    			add_location(small, file, 754, 6, 19346);
     			attr_dev(div, "slot", "label");
-    			add_location(div, file, 753, 5, 19373);
+    			add_location(div, file, 749, 5, 19269);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -5172,14 +5172,14 @@ var app = (function () {
     		block,
     		id: create_label_slot_13.name,
     		type: "slot",
-    		source: "(754:5) ",
+    		source: "(750:5) ",
     		ctx
     	});
 
     	return block;
     }
 
-    // (773:4) <ToggleConfetti>
+    // (769:4) <ToggleConfetti>
     function create_default_slot_12(ctx) {
     	let confetti;
     	let current;
@@ -5216,14 +5216,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_12.name,
     		type: "slot",
-    		source: "(773:4) <ToggleConfetti>",
+    		source: "(769:4) <ToggleConfetti>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (774:5) 
+    // (770:5) 
     function create_label_slot_12(ctx) {
     	let button;
 
@@ -5233,7 +5233,7 @@ var app = (function () {
     			button.textContent = "No gravity";
     			attr_dev(button, "slot", "label");
     			attr_dev(button, "class", "svelte-1lhfouh");
-    			add_location(button, file, 773, 5, 19947);
+    			add_location(button, file, 769, 5, 19843);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, button, anchor);
@@ -5247,14 +5247,14 @@ var app = (function () {
     		block,
     		id: create_label_slot_12.name,
     		type: "slot",
-    		source: "(774:5) ",
+    		source: "(770:5) ",
     		ctx
     	});
 
     	return block;
     }
 
-    // (787:4) <ToggleConfetti>
+    // (783:4) <ToggleConfetti>
     function create_default_slot_11(ctx) {
     	let confetti;
     	let current;
@@ -5296,14 +5296,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_11.name,
     		type: "slot",
-    		source: "(787:4) <ToggleConfetti>",
+    		source: "(783:4) <ToggleConfetti>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (788:5) 
+    // (784:5) 
     function create_label_slot_11(ctx) {
     	let button;
 
@@ -5313,7 +5313,7 @@ var app = (function () {
     			button.textContent = "No gravity explosion";
     			attr_dev(button, "slot", "label");
     			attr_dev(button, "class", "svelte-1lhfouh");
-    			add_location(button, file, 787, 5, 20235);
+    			add_location(button, file, 783, 5, 20131);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, button, anchor);
@@ -5327,14 +5327,14 @@ var app = (function () {
     		block,
     		id: create_label_slot_11.name,
     		type: "slot",
-    		source: "(788:5) ",
+    		source: "(784:5) ",
     		ctx
     	});
 
     	return block;
     }
 
-    // (810:4) <ToggleConfetti>
+    // (806:4) <ToggleConfetti>
     function create_default_slot_10(ctx) {
     	let confetti0;
     	let t0;
@@ -5413,14 +5413,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_10.name,
     		type: "slot",
-    		source: "(810:4) <ToggleConfetti>",
+    		source: "(806:4) <ToggleConfetti>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (811:5) 
+    // (807:5) 
     function create_label_slot_10(ctx) {
     	let button;
 
@@ -5430,7 +5430,7 @@ var app = (function () {
     			button.textContent = "Dutch";
     			attr_dev(button, "slot", "label");
     			attr_dev(button, "class", "svelte-1lhfouh");
-    			add_location(button, file, 810, 5, 21023);
+    			add_location(button, file, 806, 5, 20919);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, button, anchor);
@@ -5444,14 +5444,14 @@ var app = (function () {
     		block,
     		id: create_label_slot_10.name,
     		type: "slot",
-    		source: "(811:5) ",
+    		source: "(807:5) ",
     		ctx
     	});
 
     	return block;
     }
 
-    // (836:4) <ToggleConfetti>
+    // (832:4) <ToggleConfetti>
     function create_default_slot_9(ctx) {
     	let confetti0;
     	let t0;
@@ -5533,14 +5533,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_9.name,
     		type: "slot",
-    		source: "(836:4) <ToggleConfetti>",
+    		source: "(832:4) <ToggleConfetti>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (837:5) 
+    // (833:5) 
     function create_label_slot_9(ctx) {
     	let button;
 
@@ -5550,7 +5550,7 @@ var app = (function () {
     			button.textContent = "Swedish";
     			attr_dev(button, "slot", "label");
     			attr_dev(button, "class", "svelte-1lhfouh");
-    			add_location(button, file, 836, 5, 21819);
+    			add_location(button, file, 832, 5, 21715);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, button, anchor);
@@ -5564,14 +5564,14 @@ var app = (function () {
     		block,
     		id: create_label_slot_9.name,
     		type: "slot",
-    		source: "(837:5) ",
+    		source: "(833:5) ",
     		ctx
     	});
 
     	return block;
     }
 
-    // (862:4) <ToggleConfetti>
+    // (858:4) <ToggleConfetti>
     function create_default_slot_8(ctx) {
     	let confetti0;
     	let t0;
@@ -5893,14 +5893,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_8.name,
     		type: "slot",
-    		source: "(862:4) <ToggleConfetti>",
+    		source: "(858:4) <ToggleConfetti>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (863:5) 
+    // (859:5) 
     function create_label_slot_8(ctx) {
     	let div;
     	let button;
@@ -5916,10 +5916,10 @@ var app = (function () {
     			small = element("small");
     			small.textContent = "This one is heavy! This uses 1015 effects, more than recommended, but it looks neat!";
     			attr_dev(button, "class", "svelte-1lhfouh");
-    			add_location(button, file, 863, 6, 22729);
-    			add_location(small, file, 867, 6, 22776);
+    			add_location(button, file, 859, 6, 22625);
+    			add_location(small, file, 863, 6, 22672);
     			attr_dev(div, "slot", "label");
-    			add_location(div, file, 862, 5, 22703);
+    			add_location(div, file, 858, 5, 22599);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -5936,14 +5936,14 @@ var app = (function () {
     		block,
     		id: create_label_slot_8.name,
     		type: "slot",
-    		source: "(863:5) ",
+    		source: "(859:5) ",
     		ctx
     	});
 
     	return block;
     }
 
-    // (940:4) <ToggleConfetti>
+    // (936:4) <ToggleConfetti>
     function create_default_slot_7(ctx) {
     	let confetti;
     	let current;
@@ -5980,14 +5980,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_7.name,
     		type: "slot",
-    		source: "(940:4) <ToggleConfetti>",
+    		source: "(936:4) <ToggleConfetti>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (941:5) 
+    // (937:5) 
     function create_label_slot_7(ctx) {
     	let button;
 
@@ -5997,7 +5997,7 @@ var app = (function () {
     			button.textContent = "Not feathered";
     			attr_dev(button, "slot", "label");
     			attr_dev(button, "class", "svelte-1lhfouh");
-    			add_location(button, file, 940, 5, 26744);
+    			add_location(button, file, 936, 5, 26640);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, button, anchor);
@@ -6011,14 +6011,14 @@ var app = (function () {
     		block,
     		id: create_label_slot_7.name,
     		type: "slot",
-    		source: "(941:5) ",
+    		source: "(937:5) ",
     		ctx
     	});
 
     	return block;
     }
 
-    // (956:4) <ToggleConfetti>
+    // (952:4) <ToggleConfetti>
     function create_default_slot_6(ctx) {
     	let confetti0;
     	let t0;
@@ -6093,14 +6093,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_6.name,
     		type: "slot",
-    		source: "(956:4) <ToggleConfetti>",
+    		source: "(952:4) <ToggleConfetti>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (957:5) 
+    // (953:5) 
     function create_label_slot_6(ctx) {
     	let button;
 
@@ -6110,7 +6110,7 @@ var app = (function () {
     			button.textContent = "Feathered";
     			attr_dev(button, "slot", "label");
     			attr_dev(button, "class", "svelte-1lhfouh");
-    			add_location(button, file, 956, 5, 27111);
+    			add_location(button, file, 952, 5, 27007);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, button, anchor);
@@ -6124,14 +6124,14 @@ var app = (function () {
     		block,
     		id: create_label_slot_6.name,
     		type: "slot",
-    		source: "(957:5) ",
+    		source: "(953:5) ",
     		ctx
     	});
 
     	return block;
     }
 
-    // (982:4) <ToggleConfetti>
+    // (978:4) <ToggleConfetti>
     function create_default_slot_5(ctx) {
     	let confetti;
     	let current;
@@ -6168,14 +6168,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_5.name,
     		type: "slot",
-    		source: "(982:4) <ToggleConfetti>",
+    		source: "(978:4) <ToggleConfetti>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (983:5) 
+    // (979:5) 
     function create_label_slot_5(ctx) {
     	let button;
 
@@ -6185,7 +6185,7 @@ var app = (function () {
     			button.textContent = "Cone";
     			attr_dev(button, "slot", "label");
     			attr_dev(button, "class", "svelte-1lhfouh");
-    			add_location(button, file, 982, 5, 27800);
+    			add_location(button, file, 978, 5, 27696);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, button, anchor);
@@ -6199,14 +6199,14 @@ var app = (function () {
     		block,
     		id: create_label_slot_5.name,
     		type: "slot",
-    		source: "(983:5) ",
+    		source: "(979:5) ",
     		ctx
     	});
 
     	return block;
     }
 
-    // (998:4) <ToggleConfetti>
+    // (994:4) <ToggleConfetti>
     function create_default_slot_4(ctx) {
     	let confetti0;
     	let t0;
@@ -6283,14 +6283,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_4.name,
     		type: "slot",
-    		source: "(998:4) <ToggleConfetti>",
+    		source: "(994:4) <ToggleConfetti>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (999:5) 
+    // (995:5) 
     function create_label_slot_4(ctx) {
     	let button;
 
@@ -6300,7 +6300,7 @@ var app = (function () {
     			button.textContent = "Feathered cone";
     			attr_dev(button, "slot", "label");
     			attr_dev(button, "class", "svelte-1lhfouh");
-    			add_location(button, file, 998, 5, 28121);
+    			add_location(button, file, 994, 5, 28017);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, button, anchor);
@@ -6314,14 +6314,14 @@ var app = (function () {
     		block,
     		id: create_label_slot_4.name,
     		type: "slot",
-    		source: "(999:5) ",
+    		source: "(995:5) ",
     		ctx
     	});
 
     	return block;
     }
 
-    // (1024:4) <ToggleConfetti>
+    // (1020:4) <ToggleConfetti>
     function create_default_slot_3(ctx) {
     	let confetti0;
     	let t0;
@@ -6398,14 +6398,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_3.name,
     		type: "slot",
-    		source: "(1024:4) <ToggleConfetti>",
+    		source: "(1020:4) <ToggleConfetti>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (1025:5) 
+    // (1021:5) 
     function create_label_slot_3(ctx) {
     	let button;
 
@@ -6415,7 +6415,7 @@ var app = (function () {
     			button.textContent = "Feathered and delayed";
     			attr_dev(button, "slot", "label");
     			attr_dev(button, "class", "svelte-1lhfouh");
-    			add_location(button, file, 1024, 5, 28925);
+    			add_location(button, file, 1020, 5, 28821);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, button, anchor);
@@ -6429,14 +6429,14 @@ var app = (function () {
     		block,
     		id: create_label_slot_3.name,
     		type: "slot",
-    		source: "(1025:5) ",
+    		source: "(1021:5) ",
     		ctx
     	});
 
     	return block;
     }
 
-    // (1050:4) <ToggleConfetti>
+    // (1046:4) <ToggleConfetti>
     function create_default_slot_2(ctx) {
     	let confetti0;
     	let t0;
@@ -6539,14 +6539,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_2.name,
     		type: "slot",
-    		source: "(1050:4) <ToggleConfetti>",
+    		source: "(1046:4) <ToggleConfetti>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (1051:5) 
+    // (1047:5) 
     function create_label_slot_2(ctx) {
     	let button;
 
@@ -6556,7 +6556,7 @@ var app = (function () {
     			button.textContent = "Animate";
     			attr_dev(button, "slot", "label");
     			attr_dev(button, "class", "svelte-1lhfouh");
-    			add_location(button, file, 1050, 5, 29799);
+    			add_location(button, file, 1046, 5, 29695);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, button, anchor);
@@ -6570,14 +6570,14 @@ var app = (function () {
     		block,
     		id: create_label_slot_2.name,
     		type: "slot",
-    		source: "(1051:5) ",
+    		source: "(1047:5) ",
     		ctx
     	});
 
     	return block;
     }
 
-    // (1078:4) <ToggleConfetti>
+    // (1074:4) <ToggleConfetti>
     function create_default_slot_1(ctx) {
     	let confetti0;
     	let t0;
@@ -6665,14 +6665,14 @@ var app = (function () {
     		block,
     		id: create_default_slot_1.name,
     		type: "slot",
-    		source: "(1078:4) <ToggleConfetti>",
+    		source: "(1074:4) <ToggleConfetti>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (1079:5) 
+    // (1075:5) 
     function create_label_slot_1(ctx) {
     	let button;
 
@@ -6682,7 +6682,7 @@ var app = (function () {
     			button.textContent = "Animate explosion";
     			attr_dev(button, "slot", "label");
     			attr_dev(button, "class", "svelte-1lhfouh");
-    			add_location(button, file, 1078, 5, 30891);
+    			add_location(button, file, 1074, 5, 30787);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, button, anchor);
@@ -6696,14 +6696,14 @@ var app = (function () {
     		block,
     		id: create_label_slot_1.name,
     		type: "slot",
-    		source: "(1079:5) ",
+    		source: "(1075:5) ",
     		ctx
     	});
 
     	return block;
     }
 
-    // (1110:4) <ToggleConfetti toggleOnce relative={false}>
+    // (1106:4) <ToggleConfetti toggleOnce relative={false}>
     function create_default_slot(ctx) {
     	let div;
     	let confetti;
@@ -6734,7 +6734,7 @@ var app = (function () {
     			set_style(div, "display", "flex");
     			set_style(div, "justify-content", "center");
     			set_style(div, "overflow", "hidden");
-    			add_location(div, file, 1114, 5, 32411);
+    			add_location(div, file, 1110, 5, 32307);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -6761,14 +6761,14 @@ var app = (function () {
     		block,
     		id: create_default_slot.name,
     		type: "slot",
-    		source: "(1110:4) <ToggleConfetti toggleOnce relative={false}>",
+    		source: "(1106:4) <ToggleConfetti toggleOnce relative={false}>",
     		ctx
     	});
 
     	return block;
     }
 
-    // (1111:5) 
+    // (1107:5) 
     function create_label_slot(ctx) {
     	let button;
 
@@ -6778,7 +6778,7 @@ var app = (function () {
     			button.textContent = "Fullscreen";
     			attr_dev(button, "slot", "label");
     			attr_dev(button, "class", "svelte-1lhfouh");
-    			add_location(button, file, 1110, 5, 32347);
+    			add_location(button, file, 1106, 5, 32243);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, button, anchor);
@@ -6792,7 +6792,7 @@ var app = (function () {
     		block,
     		id: create_label_slot.name,
     		type: "slot",
-    		source: "(1111:5) ",
+    		source: "(1107:5) ",
     		ctx
     	});
 
@@ -6891,623 +6891,623 @@ var app = (function () {
     	let mark5;
     	let t56;
     	let t57;
-    	let div4;
-    	let t58;
-    	let a1;
-    	let t60;
     	let h22;
-    	let t62;
+    	let t59;
     	let mark6;
-    	let t64;
-    	let div7;
+    	let t61;
     	let div6;
-    	let t65;
     	let div5;
+    	let t62;
+    	let div4;
     	let toggleconfetti20;
-    	let t66;
+    	let t63;
     	let code4;
-    	let t68;
-    	let div15;
-    	let h30;
-    	let t70;
+    	let t65;
     	let div14;
-    	let t71;
-    	let mark7;
-    	let t73;
-    	let mark8;
-    	let t75;
-    	let div8;
-    	let toggleconfetti21;
-    	let t76;
-    	let code5;
-    	let t77;
-    	let mark9;
-    	let t79;
-    	let mark10;
-    	let t81;
-    	let t82;
-    	let div9;
-    	let toggleconfetti22;
-    	let t83;
-    	let code6;
-    	let t84;
-    	let mark11;
-    	let t86;
-    	let mark12;
-    	let t88;
-    	let t89;
-    	let div10;
-    	let toggleconfetti23;
-    	let t90;
-    	let code7;
-    	let t91;
-    	let mark13;
-    	let t93;
-    	let mark14;
-    	let t95;
-    	let t96;
-    	let div11;
-    	let toggleconfetti24;
-    	let t97;
-    	let code8;
-    	let t98;
-    	let mark15;
-    	let t100;
-    	let mark16;
-    	let t102;
-    	let t103;
-    	let div12;
-    	let toggleconfetti25;
-    	let t104;
-    	let code9;
-    	let t105;
-    	let mark17;
-    	let t107;
-    	let mark18;
-    	let t109;
-    	let t110;
+    	let h30;
+    	let t67;
     	let div13;
+    	let t68;
+    	let mark7;
+    	let t70;
+    	let mark8;
+    	let t72;
+    	let div7;
+    	let toggleconfetti21;
+    	let t73;
+    	let code5;
+    	let t74;
+    	let mark9;
+    	let t76;
+    	let mark10;
+    	let t78;
+    	let t79;
+    	let div8;
+    	let toggleconfetti22;
+    	let t80;
+    	let code6;
+    	let t81;
+    	let mark11;
+    	let t83;
+    	let mark12;
+    	let t85;
+    	let t86;
+    	let div9;
+    	let toggleconfetti23;
+    	let t87;
+    	let code7;
+    	let t88;
+    	let mark13;
+    	let t90;
+    	let mark14;
+    	let t92;
+    	let t93;
+    	let div10;
+    	let toggleconfetti24;
+    	let t94;
+    	let code8;
+    	let t95;
+    	let mark15;
+    	let t97;
+    	let mark16;
+    	let t99;
+    	let t100;
+    	let div11;
+    	let toggleconfetti25;
+    	let t101;
+    	let code9;
+    	let t102;
+    	let mark17;
+    	let t104;
+    	let mark18;
+    	let t106;
+    	let t107;
+    	let div12;
     	let toggleconfetti26;
-    	let t111;
+    	let t108;
     	let code10;
-    	let t112;
+    	let t109;
     	let mark19;
-    	let t114;
+    	let t111;
     	let mark20;
-    	let t116;
-    	let t117;
-    	let div21;
-    	let h31;
-    	let t119;
+    	let t113;
+    	let t114;
     	let div20;
-    	let t120;
-    	let mark21;
-    	let t122;
-    	let div16;
-    	let toggleconfetti27;
-    	let t123;
-    	let code11;
-    	let t124;
-    	let mark22;
-    	let t126;
-    	let t127;
-    	let div17;
-    	let toggleconfetti28;
-    	let t128;
-    	let code12;
-    	let t129;
-    	let mark23;
-    	let t131;
-    	let t132;
-    	let div18;
-    	let toggleconfetti29;
-    	let t133;
-    	let code13;
-    	let t134;
-    	let mark24;
-    	let t136;
-    	let t137;
+    	let h31;
+    	let t116;
     	let div19;
+    	let t117;
+    	let mark21;
+    	let t119;
+    	let div15;
+    	let toggleconfetti27;
+    	let t120;
+    	let code11;
+    	let t121;
+    	let mark22;
+    	let t123;
+    	let t124;
+    	let div16;
+    	let toggleconfetti28;
+    	let t125;
+    	let code12;
+    	let t126;
+    	let mark23;
+    	let t128;
+    	let t129;
+    	let div17;
+    	let toggleconfetti29;
+    	let t130;
+    	let code13;
+    	let t131;
+    	let mark24;
+    	let t133;
+    	let t134;
+    	let div18;
     	let toggleconfetti30;
-    	let t138;
+    	let t135;
     	let code14;
-    	let t139;
+    	let t136;
     	let mark25;
-    	let t141;
-    	let t142;
-    	let div27;
-    	let h32;
-    	let t144;
+    	let t138;
+    	let t139;
     	let div26;
-    	let t145;
+    	let h32;
+    	let t141;
+    	let div25;
+    	let t142;
     	let mark26;
+    	let t144;
+    	let div21;
+    	let toggleconfetti31;
+    	let t145;
+    	let code15;
     	let t147;
     	let div22;
-    	let toggleconfetti31;
-    	let t148;
-    	let code15;
-    	let t150;
-    	let div23;
     	let toggleconfetti32;
-    	let t151;
+    	let t148;
     	let code16;
-    	let t152;
+    	let t149;
     	let mark27;
-    	let t154;
+    	let t151;
+    	let t152;
+    	let div23;
+    	let toggleconfetti33;
+    	let t153;
+    	let code17;
     	let t155;
     	let div24;
-    	let toggleconfetti33;
-    	let t156;
-    	let code17;
-    	let t158;
-    	let div25;
     	let toggleconfetti34;
-    	let t159;
+    	let t156;
     	let code18;
-    	let t160;
+    	let t157;
     	let mark28;
-    	let t162;
-    	let t163;
-    	let t164;
-    	let div32;
-    	let h33;
-    	let t166;
+    	let t159;
+    	let t160;
+    	let t161;
     	let div31;
-    	let t167;
-    	let mark29;
-    	let t169;
-    	let div28;
-    	let toggleconfetti35;
-    	let t170;
-    	let code19;
-    	let t171;
-    	let mark30;
-    	let t173;
-    	let t174;
-    	let div29;
-    	let toggleconfetti36;
-    	let t175;
-    	let code20;
-    	let t176;
-    	let mark31;
-    	let t178;
-    	let t179;
-    	let mark32;
-    	let t181;
+    	let h33;
+    	let t163;
     	let div30;
+    	let t164;
+    	let mark29;
+    	let t166;
+    	let div27;
+    	let toggleconfetti35;
+    	let t167;
+    	let code19;
+    	let t168;
+    	let mark30;
+    	let t170;
+    	let t171;
+    	let div28;
+    	let toggleconfetti36;
+    	let t172;
+    	let code20;
+    	let t173;
+    	let mark31;
+    	let t175;
+    	let t176;
+    	let mark32;
+    	let t178;
+    	let div29;
     	let toggleconfetti37;
-    	let t182;
+    	let t179;
     	let code21;
-    	let t183;
+    	let t180;
     	let mark33;
-    	let t185;
-    	let t186;
-    	let div39;
-    	let h34;
-    	let t188;
+    	let t182;
+    	let t183;
     	let div38;
-    	let t189;
-    	let mark34;
-    	let t191;
-    	let div33;
-    	let toggleconfetti38;
-    	let t192;
-    	let code22;
-    	let t193;
-    	let mark35;
-    	let t195;
-    	let t196;
-    	let div34;
-    	let toggleconfetti39;
-    	let t197;
-    	let code23;
-    	let t198;
-    	let mark36;
-    	let t200;
-    	let t201;
-    	let mark37;
-    	let t203;
-    	let div35;
-    	let toggleconfetti40;
-    	let t204;
-    	let code24;
-    	let t205;
-    	let mark38;
-    	let t207;
-    	let t208;
-    	let div36;
-    	let toggleconfetti41;
-    	let t209;
-    	let code25;
-    	let t210;
-    	let mark39;
-    	let t212;
-    	let mark40;
-    	let t214;
-    	let t215;
-    	let mark41;
-    	let t217;
+    	let h34;
+    	let t185;
     	let div37;
+    	let t186;
+    	let mark34;
+    	let t188;
+    	let div32;
+    	let toggleconfetti38;
+    	let t189;
+    	let code22;
+    	let t190;
+    	let mark35;
+    	let t192;
+    	let t193;
+    	let div33;
+    	let toggleconfetti39;
+    	let t194;
+    	let code23;
+    	let t195;
+    	let mark36;
+    	let t197;
+    	let t198;
+    	let mark37;
+    	let t200;
+    	let div34;
+    	let toggleconfetti40;
+    	let t201;
+    	let code24;
+    	let t202;
+    	let mark38;
+    	let t204;
+    	let t205;
+    	let div35;
+    	let toggleconfetti41;
+    	let t206;
+    	let code25;
+    	let t207;
+    	let mark39;
+    	let t209;
+    	let mark40;
+    	let t211;
+    	let t212;
+    	let mark41;
+    	let t214;
+    	let div36;
     	let toggleconfetti42;
-    	let t218;
+    	let t215;
     	let code26;
-    	let t219;
+    	let t216;
     	let mark42;
-    	let t221;
-    	let t222;
-    	let div47;
-    	let h35;
-    	let t224;
+    	let t218;
+    	let t219;
     	let div46;
-    	let t225;
-    	let mark43;
-    	let t227;
-    	let mark44;
-    	let t229;
-    	let div40;
-    	let toggleconfetti43;
-    	let t230;
-    	let code27;
-    	let t231;
-    	let mark45;
-    	let t233;
-    	let t234;
-    	let div41;
-    	let toggleconfetti44;
-    	let t235;
-    	let code28;
-    	let t236;
-    	let mark46;
-    	let t238;
-    	let t239;
-    	let div42;
-    	let toggleconfetti45;
-    	let t240;
-    	let code29;
-    	let t241;
-    	let mark47;
-    	let t243;
-    	let t244;
-    	let div43;
-    	let toggleconfetti46;
-    	let t245;
-    	let code30;
-    	let t246;
-    	let mark48;
-    	let t248;
-    	let t249;
-    	let div44;
-    	let toggleconfetti47;
-    	let t250;
-    	let code31;
-    	let t251;
-    	let mark49;
-    	let t253;
-    	let t254;
+    	let h35;
+    	let t221;
     	let div45;
+    	let t222;
+    	let mark43;
+    	let t224;
+    	let mark44;
+    	let t226;
+    	let div39;
+    	let toggleconfetti43;
+    	let t227;
+    	let code27;
+    	let t228;
+    	let mark45;
+    	let t230;
+    	let t231;
+    	let div40;
+    	let toggleconfetti44;
+    	let t232;
+    	let code28;
+    	let t233;
+    	let mark46;
+    	let t235;
+    	let t236;
+    	let div41;
+    	let toggleconfetti45;
+    	let t237;
+    	let code29;
+    	let t238;
+    	let mark47;
+    	let t240;
+    	let t241;
+    	let div42;
+    	let toggleconfetti46;
+    	let t242;
+    	let code30;
+    	let t243;
+    	let mark48;
+    	let t245;
+    	let t246;
+    	let div43;
+    	let toggleconfetti47;
+    	let t247;
+    	let code31;
+    	let t248;
+    	let mark49;
+    	let t250;
+    	let t251;
+    	let div44;
     	let toggleconfetti48;
-    	let t255;
+    	let t252;
     	let code32;
-    	let t256;
+    	let t253;
     	let mark50;
-    	let t258;
-    	let t259;
-    	let div54;
-    	let h36;
-    	let t261;
+    	let t255;
+    	let t256;
     	let div53;
-    	let t262;
-    	let mark51;
-    	let t264;
-    	let div48;
-    	let toggleconfetti49;
-    	let t265;
-    	let code33;
-    	let t266;
-    	let mark52;
-    	let t268;
-    	let t269;
-    	let div49;
-    	let toggleconfetti50;
-    	let t270;
-    	let code34;
-    	let t271;
-    	let mark53;
-    	let t273;
-    	let t274;
-    	let div50;
-    	let toggleconfetti51;
-    	let t275;
-    	let code35;
-    	let t276;
-    	let mark54;
-    	let t278;
-    	let t279;
-    	let mark55;
-    	let t281;
-    	let div51;
-    	let toggleconfetti52;
-    	let t282;
-    	let code36;
-    	let t283;
-    	let mark56;
-    	let t285;
-    	let t286;
+    	let h36;
+    	let t258;
     	let div52;
+    	let t259;
+    	let mark51;
+    	let t261;
+    	let div47;
+    	let toggleconfetti49;
+    	let t262;
+    	let code33;
+    	let t263;
+    	let mark52;
+    	let t265;
+    	let t266;
+    	let div48;
+    	let toggleconfetti50;
+    	let t267;
+    	let code34;
+    	let t268;
+    	let mark53;
+    	let t270;
+    	let t271;
+    	let div49;
+    	let toggleconfetti51;
+    	let t272;
+    	let code35;
+    	let t273;
+    	let mark54;
+    	let t275;
+    	let t276;
+    	let mark55;
+    	let t278;
+    	let div50;
+    	let toggleconfetti52;
+    	let t279;
+    	let code36;
+    	let t280;
+    	let mark56;
+    	let t282;
+    	let t283;
+    	let div51;
     	let toggleconfetti53;
-    	let t287;
+    	let t284;
     	let code37;
-    	let t288;
+    	let t285;
     	let mark57;
-    	let t290;
-    	let t291;
-    	let div76;
-    	let h37;
-    	let t293;
+    	let t287;
+    	let t288;
     	let div75;
-    	let t294;
-    	let br0;
-    	let t295;
-    	let small;
-    	let t297;
-    	let div56;
-    	let toggleconfetti54;
-    	let t298;
-    	let div55;
-    	let code38;
-    	let t300;
-    	let code39;
-    	let t302;
-    	let code40;
-    	let t304;
-    	let div58;
-    	let toggleconfetti55;
-    	let t305;
-    	let div57;
-    	let code41;
-    	let t307;
-    	let code42;
-    	let t309;
-    	let code43;
-    	let t311;
-    	let div60;
-    	let toggleconfetti56;
-    	let t312;
-    	let div59;
-    	let code44;
-    	let t314;
-    	let code45;
-    	let t316;
-    	let code46;
-    	let t318;
-    	let code47;
-    	let t320;
-    	let code48;
-    	let t322;
-    	let code49;
-    	let t324;
-    	let code50;
-    	let t326;
-    	let code51;
-    	let t328;
-    	let code52;
-    	let t330;
-    	let code53;
-    	let t332;
-    	let code54;
-    	let t334;
-    	let code55;
-    	let t336;
-    	let code56;
-    	let t338;
-    	let code57;
-    	let t340;
-    	let code58;
-    	let t342;
-    	let div62;
-    	let toggleconfetti57;
-    	let t343;
-    	let div61;
-    	let code59;
-    	let t345;
-    	let div64;
-    	let toggleconfetti58;
-    	let t346;
-    	let div63;
-    	let code60;
-    	let t348;
-    	let code61;
-    	let t350;
-    	let code62;
-    	let t352;
-    	let div66;
-    	let toggleconfetti59;
-    	let t353;
-    	let div65;
-    	let code63;
-    	let t355;
-    	let div68;
-    	let toggleconfetti60;
-    	let t356;
-    	let div67;
-    	let code64;
-    	let t358;
-    	let code65;
-    	let t360;
-    	let code66;
-    	let t362;
-    	let div70;
-    	let toggleconfetti61;
-    	let t363;
-    	let div69;
-    	let code67;
-    	let t365;
-    	let code68;
-    	let t367;
-    	let code69;
-    	let t369;
-    	let div72;
-    	let toggleconfetti62;
-    	let t370;
-    	let div71;
-    	let code70;
-    	let t372;
-    	let code71;
-    	let t374;
-    	let code72;
-    	let t376;
-    	let code73;
-    	let t378;
+    	let h37;
+    	let t290;
     	let div74;
-    	let toggleconfetti63;
-    	let t379;
+    	let t291;
+    	let br0;
+    	let t292;
+    	let small;
+    	let t294;
+    	let div55;
+    	let toggleconfetti54;
+    	let t295;
+    	let div54;
+    	let code38;
+    	let t297;
+    	let code39;
+    	let t299;
+    	let code40;
+    	let t301;
+    	let div57;
+    	let toggleconfetti55;
+    	let t302;
+    	let div56;
+    	let code41;
+    	let t304;
+    	let code42;
+    	let t306;
+    	let code43;
+    	let t308;
+    	let div59;
+    	let toggleconfetti56;
+    	let t309;
+    	let div58;
+    	let code44;
+    	let t311;
+    	let code45;
+    	let t313;
+    	let code46;
+    	let t315;
+    	let code47;
+    	let t317;
+    	let code48;
+    	let t319;
+    	let code49;
+    	let t321;
+    	let code50;
+    	let t323;
+    	let code51;
+    	let t325;
+    	let code52;
+    	let t327;
+    	let code53;
+    	let t329;
+    	let code54;
+    	let t331;
+    	let code55;
+    	let t333;
+    	let code56;
+    	let t335;
+    	let code57;
+    	let t337;
+    	let code58;
+    	let t339;
+    	let div61;
+    	let toggleconfetti57;
+    	let t340;
+    	let div60;
+    	let code59;
+    	let t342;
+    	let div63;
+    	let toggleconfetti58;
+    	let t343;
+    	let div62;
+    	let code60;
+    	let t345;
+    	let code61;
+    	let t347;
+    	let code62;
+    	let t349;
+    	let div65;
+    	let toggleconfetti59;
+    	let t350;
+    	let div64;
+    	let code63;
+    	let t352;
+    	let div67;
+    	let toggleconfetti60;
+    	let t353;
+    	let div66;
+    	let code64;
+    	let t355;
+    	let code65;
+    	let t357;
+    	let code66;
+    	let t359;
+    	let div69;
+    	let toggleconfetti61;
+    	let t360;
+    	let div68;
+    	let code67;
+    	let t362;
+    	let code68;
+    	let t364;
+    	let code69;
+    	let t366;
+    	let div71;
+    	let toggleconfetti62;
+    	let t367;
+    	let div70;
+    	let code70;
+    	let t369;
+    	let code71;
+    	let t371;
+    	let code72;
+    	let t373;
+    	let code73;
+    	let t375;
     	let div73;
+    	let toggleconfetti63;
+    	let t376;
+    	let div72;
     	let code74;
-    	let t381;
+    	let t378;
     	let code75;
-    	let t383;
+    	let t380;
     	let code76;
-    	let t385;
-    	let div80;
-    	let h38;
-    	let t387;
+    	let t382;
     	let div79;
-    	let t388;
+    	let h38;
+    	let t384;
     	let div78;
-    	let toggleconfetti64;
-    	let t389;
+    	let t385;
     	let div77;
+    	let toggleconfetti64;
+    	let t386;
+    	let div76;
     	let code77;
-    	let t390;
+    	let t387;
     	let br1;
-    	let t391;
+    	let t388;
     	let br2;
-    	let t392;
+    	let t389;
     	let br3;
-    	let t393;
+    	let t390;
     	let br4;
-    	let t394;
+    	let t391;
     	let br5;
-    	let t395;
+    	let t392;
     	let br6;
-    	let t396;
+    	let t393;
     	let br7;
-    	let t397;
+    	let t394;
     	let br8;
-    	let t398;
+    	let t395;
     	let br9;
-    	let t399;
+    	let t396;
     	let br10;
-    	let t400;
-    	let t401;
+    	let t397;
+    	let t398;
     	let mark58;
-    	let t403;
+    	let t400;
     	let code78;
-    	let t405;
+    	let t402;
     	let br11;
-    	let t406;
+    	let t403;
     	let br12;
-    	let t407;
+    	let t404;
     	let code79;
-    	let t409;
+    	let t406;
     	let code80;
-    	let t411;
-    	let t412;
+    	let t408;
+    	let t409;
     	let h23;
-    	let t414;
-    	let div96;
-    	let p5;
-    	let t416;
+    	let t411;
     	let div95;
-    	let strong0;
-    	let t418;
-    	let strong1;
-    	let t420;
-    	let strong2;
-    	let t422;
-    	let code81;
-    	let t424;
-    	let code82;
-    	let t426;
-    	let div81;
-    	let t428;
-    	let code83;
-    	let t430;
-    	let code84;
-    	let t432;
-    	let div82;
-    	let t434;
-    	let code85;
-    	let t436;
-    	let code86;
-    	let t438;
-    	let div83;
-    	let t440;
-    	let code87;
-    	let t442;
-    	let code88;
-    	let t444;
-    	let div84;
-    	let t446;
-    	let code89;
-    	let t448;
-    	let code90;
-    	let t450;
-    	let div85;
-    	let t452;
-    	let code91;
-    	let t454;
-    	let code92;
-    	let t456;
-    	let div86;
-    	let t458;
-    	let code93;
-    	let t460;
-    	let code94;
-    	let t462;
-    	let div87;
-    	let t464;
-    	let code95;
-    	let t466;
-    	let code96;
-    	let t468;
-    	let div88;
-    	let t470;
-    	let code97;
-    	let t472;
-    	let code98;
-    	let t474;
-    	let div89;
-    	let t476;
-    	let code99;
-    	let t478;
-    	let code100;
-    	let t480;
-    	let div90;
-    	let t482;
-    	let code101;
-    	let t484;
-    	let code102;
-    	let t486;
-    	let div91;
-    	let t488;
-    	let code103;
-    	let t490;
-    	let code104;
-    	let t492;
-    	let div92;
-    	let t494;
-    	let code105;
-    	let t496;
-    	let code106;
-    	let t498;
-    	let div93;
-    	let t500;
-    	let code107;
-    	let t502;
-    	let code108;
-    	let t504;
+    	let p5;
+    	let t413;
     	let div94;
+    	let strong0;
+    	let t415;
+    	let strong1;
+    	let t417;
+    	let strong2;
+    	let t419;
+    	let code81;
+    	let t421;
+    	let code82;
+    	let t423;
+    	let div80;
+    	let t425;
+    	let code83;
+    	let t427;
+    	let code84;
+    	let t429;
+    	let div81;
+    	let t431;
+    	let code85;
+    	let t433;
+    	let code86;
+    	let t435;
+    	let div82;
+    	let t437;
+    	let code87;
+    	let t439;
+    	let code88;
+    	let t441;
+    	let div83;
+    	let t443;
+    	let code89;
+    	let t445;
+    	let code90;
+    	let t447;
+    	let div84;
+    	let t449;
+    	let code91;
+    	let t451;
+    	let code92;
+    	let t453;
+    	let div85;
+    	let t455;
+    	let code93;
+    	let t457;
+    	let code94;
+    	let t459;
+    	let div86;
+    	let t461;
+    	let code95;
+    	let t463;
+    	let code96;
+    	let t465;
+    	let div87;
+    	let t467;
+    	let code97;
+    	let t469;
+    	let code98;
+    	let t471;
+    	let div88;
+    	let t473;
+    	let code99;
+    	let t475;
+    	let code100;
+    	let t477;
+    	let div89;
+    	let t479;
+    	let code101;
+    	let t481;
+    	let code102;
+    	let t483;
+    	let div90;
+    	let t485;
+    	let code103;
+    	let t487;
+    	let code104;
+    	let t489;
+    	let div91;
+    	let t491;
+    	let code105;
+    	let t493;
+    	let code106;
+    	let t495;
+    	let div92;
+    	let t497;
+    	let code107;
+    	let t499;
+    	let code108;
+    	let t501;
+    	let div93;
+    	let t503;
+    	let div96;
+    	let t504;
+    	let a1;
     	let current;
 
     	confetti0 = new Confetti({
@@ -8364,780 +8364,780 @@ var app = (function () {
     			mark5.textContent = "Confetti";
     			t56 = text(" />");
     			t57 = space();
-    			div4 = element("div");
-    			t58 = text("Made by ");
-    			a1 = element("a");
-    			a1.textContent = "Mitchel Jager";
-    			t60 = space();
     			h22 = element("h2");
     			h22.textContent = "Usage";
-    			t62 = space();
+    			t59 = space();
     			mark6 = element("mark");
     			mark6.textContent = "The Confetti comes without the buttons you will see in these examples. The buttons are simply used to demonstrate the effect in these docs.";
-    			t64 = space();
-    			div7 = element("div");
+    			t61 = space();
     			div6 = element("div");
-    			t65 = text("The component in it's most basic form.\r\n\r\n\t\t\t");
     			div5 = element("div");
+    			t62 = text("The component in it's most basic form.\r\n\r\n\t\t\t");
+    			div4 = element("div");
     			create_component(toggleconfetti20.$$.fragment);
-    			t66 = space();
+    			t63 = space();
     			code4 = element("code");
     			code4.textContent = "<Confetti />";
-    			t68 = space();
-    			div15 = element("div");
+    			t65 = space();
+    			div14 = element("div");
     			h30 = element("h3");
     			h30.textContent = "Spread";
-    			t70 = space();
-    			div14 = element("div");
-    			t71 = text("The spread of confetti can be adjusted. The props ");
+    			t67 = space();
+    			div13 = element("div");
+    			t68 = text("The spread of confetti can be adjusted. The props ");
     			mark7 = element("mark");
     			mark7.textContent = "x";
-    			t73 = text(" and ");
+    			t70 = text(" and ");
     			mark8 = element("mark");
     			mark8.textContent = "y";
-    			t75 = text(" are used to determine how far the confetti spreads. For both values multipliers are used and these are to be supplied in an array of two with the lowest number first. For each confetti piece a random number between these two is picked. The higher the number the futher the spread. Negative numbers affect the direction.\r\n\r\n\t\t\t");
-    			div8 = element("div");
+    			t72 = text(" are used to determine how far the confetti spreads. For both values multipliers are used and these are to be supplied in an array of two with the lowest number first. For each confetti piece a random number between these two is picked. The higher the number the futher the spread. Negative numbers affect the direction.\r\n\r\n\t\t\t");
+    			div7 = element("div");
     			create_component(toggleconfetti21.$$.fragment);
-    			t76 = space();
+    			t73 = space();
     			code5 = element("code");
-    			t77 = text("<Confetti ");
+    			t74 = text("<Confetti ");
     			mark9 = element("mark");
     			mark9.textContent = "x";
-    			t79 = text("={[-0.5, 0.5]} ");
+    			t76 = text("={[-0.5, 0.5]} ");
     			mark10 = element("mark");
     			mark10.textContent = "y";
-    			t81 = text("={[0.25, 1]} />");
-    			t82 = space();
-    			div9 = element("div");
+    			t78 = text("={[0.25, 1]} />");
+    			t79 = space();
+    			div8 = element("div");
     			create_component(toggleconfetti22.$$.fragment);
-    			t83 = space();
+    			t80 = space();
     			code6 = element("code");
-    			t84 = text("<Confetti ");
+    			t81 = text("<Confetti ");
     			mark11 = element("mark");
     			mark11.textContent = "x";
-    			t86 = text("={[-1, -0.25]} ");
+    			t83 = text("={[-1, -0.25]} ");
     			mark12 = element("mark");
     			mark12.textContent = "y";
-    			t88 = text("={[0, 0.5]} />");
-    			t89 = space();
-    			div10 = element("div");
+    			t85 = text("={[0, 0.5]} />");
+    			t86 = space();
+    			div9 = element("div");
     			create_component(toggleconfetti23.$$.fragment);
-    			t90 = space();
+    			t87 = space();
     			code7 = element("code");
-    			t91 = text("<Confetti ");
+    			t88 = text("<Confetti ");
     			mark13 = element("mark");
     			mark13.textContent = "x";
-    			t93 = text("={[0.25, 1]} ");
+    			t90 = text("={[0.25, 1]} ");
     			mark14 = element("mark");
     			mark14.textContent = "y";
-    			t95 = text("={[0, 0.5]} />");
-    			t96 = space();
-    			div11 = element("div");
+    			t92 = text("={[0, 0.5]} />");
+    			t93 = space();
+    			div10 = element("div");
     			create_component(toggleconfetti24.$$.fragment);
-    			t97 = space();
+    			t94 = space();
     			code8 = element("code");
-    			t98 = text("<Confetti ");
+    			t95 = text("<Confetti ");
     			mark15 = element("mark");
     			mark15.textContent = "x";
-    			t100 = text("={[-0.25, 0.25]} ");
+    			t97 = text("={[-0.25, 0.25]} ");
     			mark16 = element("mark");
     			mark16.textContent = "y";
-    			t102 = text("={[0.75, 1.5]} />");
-    			t103 = space();
-    			div12 = element("div");
+    			t99 = text("={[0.75, 1.5]} />");
+    			t100 = space();
+    			div11 = element("div");
     			create_component(toggleconfetti25.$$.fragment);
-    			t104 = space();
+    			t101 = space();
     			code9 = element("code");
-    			t105 = text("<Confetti ");
+    			t102 = text("<Confetti ");
     			mark17 = element("mark");
     			mark17.textContent = "x";
-    			t107 = text("={[-0.25, 0.25]} ");
+    			t104 = text("={[-0.25, 0.25]} ");
     			mark18 = element("mark");
     			mark18.textContent = "y";
-    			t109 = text("={[-0.75, -0.25]} />");
-    			t110 = space();
-    			div13 = element("div");
+    			t106 = text("={[-0.75, -0.25]} />");
+    			t107 = space();
+    			div12 = element("div");
     			create_component(toggleconfetti26.$$.fragment);
-    			t111 = space();
+    			t108 = space();
     			code10 = element("code");
-    			t112 = text("<Confetti ");
+    			t109 = text("<Confetti ");
     			mark19 = element("mark");
     			mark19.textContent = "x";
-    			t114 = text("={[-0.5, 0.5]} ");
+    			t111 = text("={[-0.5, 0.5]} ");
     			mark20 = element("mark");
     			mark20.textContent = "y";
-    			t116 = text("={[-0.5, -0.5]} />");
-    			t117 = space();
-    			div21 = element("div");
+    			t113 = text("={[-0.5, -0.5]} />");
+    			t114 = space();
+    			div20 = element("div");
     			h31 = element("h3");
     			h31.textContent = "Amount";
-    			t119 = space();
-    			div20 = element("div");
-    			t120 = text("The amount of particles that are launched can be adjusted with the ");
+    			t116 = space();
+    			div19 = element("div");
+    			t117 = text("The amount of particles that are launched can be adjusted with the ");
     			mark21 = element("mark");
     			mark21.textContent = "amount";
-    			t122 = text(" property. This should always be a whole number. Be careful with going too high as it may impact performance. It will depends on the device and other performance heavy elements on the page, but try and keep it below 500.\r\n\r\n\t\t\t");
-    			div16 = element("div");
+    			t119 = text(" property. This should always be a whole number. Be careful with going too high as it may impact performance. It will depends on the device and other performance heavy elements on the page, but try and keep it below 500.\r\n\r\n\t\t\t");
+    			div15 = element("div");
     			create_component(toggleconfetti27.$$.fragment);
-    			t123 = space();
+    			t120 = space();
     			code11 = element("code");
-    			t124 = text("<Confetti ");
+    			t121 = text("<Confetti ");
     			mark22 = element("mark");
     			mark22.textContent = "amount";
-    			t126 = text("=10 />");
-    			t127 = space();
-    			div17 = element("div");
+    			t123 = text("=10 />");
+    			t124 = space();
+    			div16 = element("div");
     			create_component(toggleconfetti28.$$.fragment);
-    			t128 = space();
+    			t125 = space();
     			code12 = element("code");
-    			t129 = text("<Confetti ");
+    			t126 = text("<Confetti ");
     			mark23 = element("mark");
     			mark23.textContent = "amount";
-    			t131 = text("=50 />");
-    			t132 = space();
-    			div18 = element("div");
+    			t128 = text("=50 />");
+    			t129 = space();
+    			div17 = element("div");
     			create_component(toggleconfetti29.$$.fragment);
-    			t133 = space();
+    			t130 = space();
     			code13 = element("code");
-    			t134 = text("<Confetti ");
+    			t131 = text("<Confetti ");
     			mark24 = element("mark");
     			mark24.textContent = "amount";
-    			t136 = text("=200 />");
-    			t137 = space();
-    			div19 = element("div");
+    			t133 = text("=200 />");
+    			t134 = space();
+    			div18 = element("div");
     			create_component(toggleconfetti30.$$.fragment);
-    			t138 = space();
+    			t135 = space();
     			code14 = element("code");
-    			t139 = text("<Confetti ");
+    			t136 = text("<Confetti ");
     			mark25 = element("mark");
     			mark25.textContent = "amount";
-    			t141 = text("=500 />");
-    			t142 = space();
-    			div27 = element("div");
+    			t138 = text("=500 />");
+    			t139 = space();
+    			div26 = element("div");
     			h32 = element("h3");
     			h32.textContent = "Shape";
-    			t144 = space();
-    			div26 = element("div");
-    			t145 = text("As you may have noticed from the previous buttons, the confetti tends to take on a fairly square shape. This can be mitigated a little bit by using the propery ");
+    			t141 = space();
+    			div25 = element("div");
+    			t142 = text("As you may have noticed from the previous buttons, the confetti tends to take on a fairly square shape. This can be mitigated a little bit by using the propery ");
     			mark26 = element("mark");
     			mark26.textContent = "cone";
-    			t147 = text(". This will cause the confetti to launch in a more cone like shape which is especially nice when using lots of particles.\r\n\r\n\t\t\t");
-    			div22 = element("div");
+    			t144 = text(". This will cause the confetti to launch in a more cone like shape which is especially nice when using lots of particles.\r\n\r\n\t\t\t");
+    			div21 = element("div");
     			create_component(toggleconfetti31.$$.fragment);
-    			t148 = space();
+    			t145 = space();
     			code15 = element("code");
     			code15.textContent = "<Confetti amount=200 />";
-    			t150 = space();
-    			div23 = element("div");
+    			t147 = space();
+    			div22 = element("div");
     			create_component(toggleconfetti32.$$.fragment);
-    			t151 = space();
+    			t148 = space();
     			code16 = element("code");
-    			t152 = text("<Confetti ");
+    			t149 = text("<Confetti ");
     			mark27 = element("mark");
     			mark27.textContent = "cone";
-    			t154 = text(" amount=200 />");
-    			t155 = text("\r\n\r\n\t\t\tThis is especially effective when firing to the side, but we need to compensate with a larger x multiplier.\r\n\r\n\t\t\t");
-    			div24 = element("div");
+    			t151 = text(" amount=200 />");
+    			t152 = text("\r\n\r\n\t\t\tThis is especially effective when firing to the side, but we need to compensate with a larger x multiplier.\r\n\r\n\t\t\t");
+    			div23 = element("div");
     			create_component(toggleconfetti33.$$.fragment);
-    			t156 = space();
+    			t153 = space();
     			code17 = element("code");
     			code17.textContent = "<Confetti x={[0.25, 1]} y={[0, 0.5]} />";
-    			t158 = space();
-    			div25 = element("div");
+    			t155 = space();
+    			div24 = element("div");
     			create_component(toggleconfetti34.$$.fragment);
-    			t159 = space();
+    			t156 = space();
     			code18 = element("code");
-    			t160 = text("<Confetti ");
+    			t157 = text("<Confetti ");
     			mark28 = element("mark");
     			mark28.textContent = "cone";
-    			t162 = text(" x={[1, 2.5]} y={[0.25, 0.75]} />");
-    			t163 = text("\r\n\r\n\t\t\tThe cones still have a fairly distinct cone shape to them, later on in these docs we will go over how to mitigate this.");
-    			t164 = space();
-    			div32 = element("div");
+    			t159 = text(" x={[1, 2.5]} y={[0.25, 0.75]} />");
+    			t160 = text("\r\n\r\n\t\t\tThe cones still have a fairly distinct cone shape to them, later on in these docs we will go over how to mitigate this.");
+    			t161 = space();
+    			div31 = element("div");
     			h33 = element("h3");
     			h33.textContent = "Size";
-    			t166 = space();
-    			div31 = element("div");
-    			t167 = text("The size of the confetti pieces can be adjusted using the ");
+    			t163 = space();
+    			div30 = element("div");
+    			t164 = text("The size of the confetti pieces can be adjusted using the ");
     			mark29 = element("mark");
     			mark29.textContent = "size";
-    			t169 = text(" property.\r\n\r\n\t\t\t");
-    			div28 = element("div");
+    			t166 = text(" property.\r\n\r\n\t\t\t");
+    			div27 = element("div");
     			create_component(toggleconfetti35.$$.fragment);
-    			t170 = space();
+    			t167 = space();
     			code19 = element("code");
-    			t171 = text("<Confetti ");
+    			t168 = text("<Confetti ");
     			mark30 = element("mark");
     			mark30.textContent = "size";
-    			t173 = text("=2 />");
-    			t174 = space();
-    			div29 = element("div");
+    			t170 = text("=2 />");
+    			t171 = space();
+    			div28 = element("div");
     			create_component(toggleconfetti36.$$.fragment);
-    			t175 = space();
+    			t172 = space();
     			code20 = element("code");
-    			t176 = text("<Confetti ");
+    			t173 = text("<Confetti ");
     			mark31 = element("mark");
     			mark31.textContent = "size";
-    			t178 = text("=30 />");
-    			t179 = text("\r\n\r\n\t\t\tWe can also adjust the shape of the confetti pieces using the ");
+    			t175 = text("=30 />");
+    			t176 = text("\r\n\r\n\t\t\tWe can also adjust the shape of the confetti pieces using the ");
     			mark32 = element("mark");
     			mark32.textContent = "rounded";
-    			t181 = text(" property\r\n\r\n\t\t\t");
-    			div30 = element("div");
+    			t178 = text(" property\r\n\r\n\t\t\t");
+    			div29 = element("div");
     			create_component(toggleconfetti37.$$.fragment);
-    			t182 = space();
+    			t179 = space();
     			code21 = element("code");
-    			t183 = text("<Confetti ");
+    			t180 = text("<Confetti ");
     			mark33 = element("mark");
     			mark33.textContent = "rounded";
-    			t185 = text(" size=30 />");
-    			t186 = space();
-    			div39 = element("div");
+    			t182 = text(" size=30 />");
+    			t183 = space();
+    			div38 = element("div");
     			h34 = element("h3");
     			h34.textContent = "Timing";
-    			t188 = space();
-    			div38 = element("div");
-    			t189 = text("By default all confetti comes out at just about the same time. There is a little bit of variance but it appears instant. That's what a confetti cannon does. We can change when each piece is fired by adjusted the range of the ");
+    			t185 = space();
+    			div37 = element("div");
+    			t186 = text("By default all confetti comes out at just about the same time. There is a little bit of variance but it appears instant. That's what a confetti cannon does. We can change when each piece is fired by adjusted the range of the ");
     			mark34 = element("mark");
     			mark34.textContent = "delay";
-    			t191 = text(" property. The delay is given in milliseconds.\r\n\r\n\t\t\t");
-    			div33 = element("div");
+    			t188 = text(" property. The delay is given in milliseconds.\r\n\r\n\t\t\t");
+    			div32 = element("div");
     			create_component(toggleconfetti38.$$.fragment);
-    			t192 = space();
+    			t189 = space();
     			code22 = element("code");
-    			t193 = text("<Confetti ");
+    			t190 = text("<Confetti ");
     			mark35 = element("mark");
     			mark35.textContent = "delay";
-    			t195 = text("={[0, 250]} />");
-    			t196 = space();
-    			div34 = element("div");
+    			t192 = text("={[0, 250]} />");
+    			t193 = space();
+    			div33 = element("div");
     			create_component(toggleconfetti39.$$.fragment);
-    			t197 = space();
+    			t194 = space();
     			code23 = element("code");
-    			t198 = text("<Confetti ");
+    			t195 = text("<Confetti ");
     			mark36 = element("mark");
     			mark36.textContent = "delay";
-    			t200 = text("={[0, 1500]} />");
-    			t201 = text("\r\n\r\n\t\t\tWe can also opt to have the animation play infinitely by setting the ");
+    			t197 = text("={[0, 1500]} />");
+    			t198 = text("\r\n\r\n\t\t\tWe can also opt to have the animation play infinitely by setting the ");
     			mark37 = element("mark");
     			mark37.textContent = "infinite";
-    			t203 = text(" property, at this point the delay mostly has a effect only when spawning in for the first time. (Click the button again to toggle it off)\r\n\r\n\t\t\t");
-    			div35 = element("div");
+    			t200 = text(" property, at this point the delay mostly has a effect only when spawning in for the first time. (Click the button again to toggle it off)\r\n\r\n\t\t\t");
+    			div34 = element("div");
     			create_component(toggleconfetti40.$$.fragment);
-    			t204 = space();
+    			t201 = space();
     			code24 = element("code");
-    			t205 = text("<Confetti ");
+    			t202 = text("<Confetti ");
     			mark38 = element("mark");
     			mark38.textContent = "infinite";
-    			t207 = text(" />");
-    			t208 = space();
-    			div36 = element("div");
+    			t204 = text(" />");
+    			t205 = space();
+    			div35 = element("div");
     			create_component(toggleconfetti41.$$.fragment);
-    			t209 = space();
+    			t206 = space();
     			code25 = element("code");
-    			t210 = text("<Confetti ");
+    			t207 = text("<Confetti ");
     			mark39 = element("mark");
     			mark39.textContent = "infinite";
-    			t212 = space();
+    			t209 = space();
     			mark40 = element("mark");
     			mark40.textContent = "delay";
-    			t214 = text("={[0, 1500]} />");
-    			t215 = text("\r\n\r\n\t\t\tAlternatively we can let the animation play out fully before repeating. For this we can use the ");
+    			t211 = text("={[0, 1500]} />");
+    			t212 = text("\r\n\r\n\t\t\tAlternatively we can let the animation play out fully before repeating. For this we can use the ");
     			mark41 = element("mark");
     			mark41.textContent = "iterationCount";
-    			t217 = text(" property. This is especially useful during development to tweak the confetti without having to reload the page or set up a button. This can be set to a number or to \"infinite\", basically anything that would be accepted by the animation-iteration-count property in CSS.\r\n\r\n\t\t\t");
-    			div37 = element("div");
+    			t214 = text(" property. This is especially useful during development to tweak the confetti without having to reload the page or set up a button. This can be set to a number or to \"infinite\", basically anything that would be accepted by the animation-iteration-count property in CSS.\r\n\r\n\t\t\t");
+    			div36 = element("div");
     			create_component(toggleconfetti42.$$.fragment);
-    			t218 = space();
+    			t215 = space();
     			code26 = element("code");
-    			t219 = text("<Confetti ");
+    			t216 = text("<Confetti ");
     			mark42 = element("mark");
     			mark42.textContent = "iterationCount";
-    			t221 = text("=infinite />");
-    			t222 = space();
-    			div47 = element("div");
+    			t218 = text("=infinite />");
+    			t219 = space();
+    			div46 = element("div");
     			h35 = element("h3");
     			h35.textContent = "Color";
-    			t224 = space();
-    			div46 = element("div");
-    			t225 = text("You can adjust the colors of the confetti pieces in different ways. You can specify a hue using the ");
+    			t221 = space();
+    			div45 = element("div");
+    			t222 = text("You can adjust the colors of the confetti pieces in different ways. You can specify a hue using the ");
     			mark43 = element("mark");
     			mark43.textContent = "colorRange";
-    			t227 = text(" property, which will use HSL colors with 75% saturation and 50% lightness. 0-360 is all colors, 75-175 would be only greens. Alternatively you can specifiy colors in an array using ");
+    			t224 = text(" property, which will use HSL colors with 75% saturation and 50% lightness. 0-360 is all colors, 75-175 would be only greens. Alternatively you can specifiy colors in an array using ");
     			mark44 = element("mark");
     			mark44.textContent = "colorArray";
-    			t229 = text(". This can take any CSS value that would be accepted as the background property. RGB, HEX, HSL, but even gradients and images.\r\n\r\n\t\t\t");
-    			div40 = element("div");
+    			t226 = text(". This can take any CSS value that would be accepted as the background property. RGB, HEX, HSL, but even gradients and images.\r\n\r\n\t\t\t");
+    			div39 = element("div");
     			create_component(toggleconfetti43.$$.fragment);
-    			t230 = space();
+    			t227 = space();
     			code27 = element("code");
-    			t231 = text("<Confetti ");
+    			t228 = text("<Confetti ");
     			mark45 = element("mark");
     			mark45.textContent = "colorRange";
-    			t233 = text("={[75, 175]} />");
-    			t234 = space();
-    			div41 = element("div");
+    			t230 = text("={[75, 175]} />");
+    			t231 = space();
+    			div40 = element("div");
     			create_component(toggleconfetti44.$$.fragment);
-    			t235 = space();
+    			t232 = space();
     			code28 = element("code");
-    			t236 = text("<Confetti ");
+    			t233 = text("<Confetti ");
     			mark46 = element("mark");
     			mark46.textContent = "colorArray";
-    			t238 = text("={[\"#ffbe0b\", \"#fb5607\", \"#ff006e\", \"#8338ec\", \"#3a86ff\"]} />");
-    			t239 = space();
-    			div42 = element("div");
+    			t235 = text("={[\"#ffbe0b\", \"#fb5607\", \"#ff006e\", \"#8338ec\", \"#3a86ff\"]} />");
+    			t236 = space();
+    			div41 = element("div");
     			create_component(toggleconfetti45.$$.fragment);
-    			t240 = space();
+    			t237 = space();
     			code29 = element("code");
-    			t241 = text("<Confetti ");
+    			t238 = text("<Confetti ");
     			mark47 = element("mark");
     			mark47.textContent = "colorArray";
-    			t243 = text("={[\"var(--primary)\", \"rgba(0, 255, 0, 0.5)\", \"white\"]} />");
-    			t244 = text("\r\n\r\n\t\t\tIt's not just colors though, we can input any value valid to the background css property. This includes gradients and images.\r\n\r\n\t\t\t");
-    			div43 = element("div");
+    			t240 = text("={[\"var(--primary)\", \"rgba(0, 255, 0, 0.5)\", \"white\"]} />");
+    			t241 = text("\r\n\r\n\t\t\tIt's not just colors though, we can input any value valid to the background css property. This includes gradients and images.\r\n\r\n\t\t\t");
+    			div42 = element("div");
     			create_component(toggleconfetti46.$$.fragment);
-    			t245 = space();
+    			t242 = space();
     			code30 = element("code");
-    			t246 = text("<Confetti ");
+    			t243 = text("<Confetti ");
     			mark48 = element("mark");
     			mark48.textContent = "colorArray";
-    			t248 = text("={[\"linear-gradient(var(--primary), blue)\"]} />");
-    			t249 = space();
-    			div44 = element("div");
+    			t245 = text("={[\"linear-gradient(var(--primary), blue)\"]} />");
+    			t246 = space();
+    			div43 = element("div");
     			create_component(toggleconfetti47.$$.fragment);
-    			t250 = space();
+    			t247 = space();
     			code31 = element("code");
-    			t251 = text("<Confetti ");
+    			t248 = text("<Confetti ");
     			mark49 = element("mark");
     			mark49.textContent = "colorArray";
-    			t253 = text("={[\"url(https://svelte.dev/favicon.png)\", \"url(https://github.githubassets.com/favicons/favicon-dark.png)\"]} />");
-    			t254 = text("\r\n\r\n\t\t\tOr we could set up a random color each time the component is mounted.\r\n\r\n\t\t\t");
-    			div45 = element("div");
+    			t250 = text("={[\"url(https://svelte.dev/favicon.png)\", \"url(https://github.githubassets.com/favicons/favicon-dark.png)\"]} />");
+    			t251 = text("\r\n\r\n\t\t\tOr we could set up a random color each time the component is mounted.\r\n\r\n\t\t\t");
+    			div44 = element("div");
     			create_component(toggleconfetti48.$$.fragment);
-    			t255 = space();
+    			t252 = space();
     			code32 = element("code");
-    			t256 = text("<Confetti ");
+    			t253 = text("<Confetti ");
     			mark50 = element("mark");
     			mark50.textContent = "colorArray";
-    			t258 = text("={[`hsl(${Math.floor(Math.random() * 360)}, 75%, 50%)`]} />");
-    			t259 = space();
-    			div54 = element("div");
+    			t255 = text("={[`hsl(${Math.floor(Math.random() * 360)}, 75%, 50%)`]} />");
+    			t256 = space();
+    			div53 = element("div");
     			h36 = element("h3");
     			h36.textContent = "Gravity";
-    			t261 = space();
-    			div53 = element("div");
-    			t262 = text("We can change how the confetti falls using the ");
+    			t258 = space();
+    			div52 = element("div");
+    			t259 = text("We can change how the confetti falls using the ");
     			mark51 = element("mark");
     			mark51.textContent = "fallDistance";
-    			t264 = text(" property. We can make it fall faster, slow, or stop it from falling altogether. This property will accept any valid css property, except for 0.\r\n\r\n\t\t\t");
-    			div48 = element("div");
+    			t261 = text(" property. We can make it fall faster, slow, or stop it from falling altogether. This property will accept any valid css property, except for 0.\r\n\r\n\t\t\t");
+    			div47 = element("div");
     			create_component(toggleconfetti49.$$.fragment);
-    			t265 = space();
+    			t262 = space();
     			code33 = element("code");
-    			t266 = text("<Confetti ");
+    			t263 = text("<Confetti ");
     			mark52 = element("mark");
     			mark52.textContent = "fallDistance";
-    			t268 = text("=50px />");
-    			t269 = space();
-    			div49 = element("div");
+    			t265 = text("=50px />");
+    			t266 = space();
+    			div48 = element("div");
     			create_component(toggleconfetti50.$$.fragment);
-    			t270 = space();
+    			t267 = space();
     			code34 = element("code");
-    			t271 = text("<Confetti ");
+    			t268 = text("<Confetti ");
     			mark53 = element("mark");
     			mark53.textContent = "fallDistance";
-    			t273 = text("=200px />");
-    			t274 = space();
-    			div50 = element("div");
+    			t270 = text("=200px />");
+    			t271 = space();
+    			div49 = element("div");
     			create_component(toggleconfetti51.$$.fragment);
-    			t275 = space();
+    			t272 = space();
     			code35 = element("code");
-    			t276 = text("<Confetti ");
+    			t273 = text("<Confetti ");
     			mark54 = element("mark");
     			mark54.textContent = "fallDistance";
-    			t278 = text("=0px />");
-    			t279 = text("\r\n\r\n\t\t\tWe can also disable gravity and air resistance altogether and make it travel at a constant speed by setting the ");
+    			t275 = text("=0px />");
+    			t276 = text("\r\n\r\n\t\t\tWe can also disable gravity and air resistance altogether and make it travel at a constant speed by setting the ");
     			mark55 = element("mark");
     			mark55.textContent = "noGravity";
-    			t281 = text(" property.\r\n\r\n\t\t\t");
-    			div51 = element("div");
+    			t278 = text(" property.\r\n\r\n\t\t\t");
+    			div50 = element("div");
     			create_component(toggleconfetti52.$$.fragment);
-    			t282 = space();
+    			t279 = space();
     			code36 = element("code");
-    			t283 = text("<Confetti ");
+    			t280 = text("<Confetti ");
     			mark56 = element("mark");
     			mark56.textContent = "noGravity";
-    			t285 = text(" duration=500 />");
-    			t286 = space();
-    			div52 = element("div");
+    			t282 = text(" duration=500 />");
+    			t283 = space();
+    			div51 = element("div");
     			create_component(toggleconfetti53.$$.fragment);
-    			t287 = space();
+    			t284 = space();
     			code37 = element("code");
-    			t288 = text("<Confetti ");
+    			t285 = text("<Confetti ");
     			mark57 = element("mark");
     			mark57.textContent = "noGravity";
-    			t290 = text(" duration=500 x={[-0.5, 0.5]} y={[-0.5, 0.5]} />");
-    			t291 = space();
-    			div76 = element("div");
+    			t287 = text(" duration=500 x={[-0.5, 0.5]} y={[-0.5, 0.5]} />");
+    			t288 = space();
+    			div75 = element("div");
     			h37 = element("h3");
     			h37.textContent = "Multiple components";
-    			t293 = space();
-    			div75 = element("div");
-    			t294 = text("We can combine multiple Confetti components to create neat effects.");
+    			t290 = space();
+    			div74 = element("div");
+    			t291 = text("We can combine multiple Confetti components to create neat effects.");
     			br0 = element("br");
-    			t295 = text("\r\n\t\t\tFor example we could combine multiple components each with different colors and different areas to create flags! ");
+    			t292 = text("\r\n\t\t\tFor example we could combine multiple components each with different colors and different areas to create flags! ");
     			small = element("small");
     			small.textContent = "(Blues aren't the actual flag colors to make it a little easier to see on dark backgrounds)";
-    			t297 = space();
-    			div56 = element("div");
-    			create_component(toggleconfetti54.$$.fragment);
-    			t298 = space();
+    			t294 = space();
     			div55 = element("div");
+    			create_component(toggleconfetti54.$$.fragment);
+    			t295 = space();
+    			div54 = element("div");
     			code38 = element("code");
     			code38.textContent = "<Confetti y={[1.25, 1.5]} x={[-1, 1]} colorArray={[\"#c8102e\"]} />";
-    			t300 = space();
+    			t297 = space();
     			code39 = element("code");
     			code39.textContent = "<Confetti  y={[1, 1.25]} x={[-1, 1]} colorArray={[\"white\"]} />";
-    			t302 = space();
+    			t299 = space();
     			code40 = element("code");
     			code40.textContent = "<Confetti  y={[0.75, 1]} x={[-1, 1]} colorArray={[\"#3350ec\"]} />";
-    			t304 = space();
-    			div58 = element("div");
-    			create_component(toggleconfetti55.$$.fragment);
-    			t305 = space();
+    			t301 = space();
     			div57 = element("div");
+    			create_component(toggleconfetti55.$$.fragment);
+    			t302 = space();
+    			div56 = element("div");
     			code41 = element("code");
     			code41.textContent = "<Confetti y={[0.75, 1.5]} x={[-1, 1]} colorArray={[\"#004b87\"]} amount=100 />";
-    			t307 = space();
+    			t304 = space();
     			code42 = element("code");
     			code42.textContent = "<Confetti y={[1.05, 1.20]} x={[-1, 1]} colorArray={[\"#ffcd00\"]} amount=50 />";
-    			t309 = space();
+    			t306 = space();
     			code43 = element("code");
     			code43.textContent = "<Confetti y={[0.75, 1.5]} x={[-0.5, -0.25]} colorArray={[\"#ffcd00\"]} amount=20 />";
-    			t311 = space();
-    			div60 = element("div");
-    			create_component(toggleconfetti56.$$.fragment);
-    			t312 = space();
+    			t308 = space();
     			div59 = element("div");
+    			create_component(toggleconfetti56.$$.fragment);
+    			t309 = space();
+    			div58 = element("div");
     			code44 = element("code");
     			code44.textContent = "<Confetti y={[1.15, 1.5]} x={[-1, -0.25]} colorArray={[\"#3350ec\"]} amount=100 />";
-    			t314 = space();
+    			t311 = space();
     			code45 = element("code");
     			code45.textContent = "<Confetti y={[1.20, 1.45]} x={[-0.95, -0.3]} colorArray={[\"white\"]} size=5 />";
-    			t316 = space();
+    			t313 = space();
     			code46 = element("code");
     			code46.textContent = "<Confetti y={[1.45, 1.5]} x={[-0.25, 1]} colorArray={[\"#bf0d3e\"]} amount=70 />";
-    			t318 = space();
+    			t315 = space();
     			code47 = element("code");
     			code47.textContent = "<Confetti y={[1.4, 1.45]} x={[-0.25, 1]} colorArray={[\"white\"]} amount=70 />";
-    			t320 = space();
+    			t317 = space();
     			code48 = element("code");
     			code48.textContent = "<Confetti y={[1.35, 1.4]} x={[-0.25, 1]} colorArray={[\"#bf0d3e\"]} amount=70 />";
-    			t322 = space();
+    			t319 = space();
     			code49 = element("code");
     			code49.textContent = "<Confetti y={[1.3, 1.35]} x={[-0.25, 1]} colorArray={[\"white\"]} amount=70 />";
-    			t324 = space();
+    			t321 = space();
     			code50 = element("code");
     			code50.textContent = "<Confetti y={[1.25, 1.3]} x={[-0.25, 1]} colorArray={[\"#bf0d3e\"]} amount=70 />";
-    			t326 = space();
+    			t323 = space();
     			code51 = element("code");
     			code51.textContent = "<Confetti y={[1.2, 1.25]} x={[-0.25, 1]} colorArray={[\"white\"]} amount=70 />";
-    			t328 = space();
+    			t325 = space();
     			code52 = element("code");
     			code52.textContent = "<Confetti y={[1.15, 1.2]} x={[-0.25, 1]} colorArray={[\"#bf0d3e\"]} amount=70 />";
-    			t330 = space();
+    			t327 = space();
     			code53 = element("code");
     			code53.textContent = "<Confetti y={[1.1, 1.15]} x={[-1, 1]} colorArray={[\"white\"]} amount=70 />";
-    			t332 = space();
+    			t329 = space();
     			code54 = element("code");
     			code54.textContent = "<Confetti y={[1.05, 1.1]} x={[-1, 1]} colorArray={[\"#bf0d3e\"]} amount=70 />";
-    			t334 = space();
+    			t331 = space();
     			code55 = element("code");
     			code55.textContent = "<Confetti y={[1, 1.05]} x={[-1, 1]} colorArray={[\"white\"]} amount=70 />";
-    			t336 = space();
+    			t333 = space();
     			code56 = element("code");
     			code56.textContent = "<Confetti y={[0.95, 1]} x={[-1, 1]} colorArray={[\"#bf0d3e\"]} amount=70 />";
-    			t338 = space();
+    			t335 = space();
     			code57 = element("code");
     			code57.textContent = "<Confetti y={[0.9, 0.95]} x={[-1, 1]} colorArray={[\"white\"]} amount=70 />";
-    			t340 = space();
+    			t337 = space();
     			code58 = element("code");
     			code58.textContent = "<Confetti y={[0.85, 0.9]} x={[-1, 1]} colorArray={[\"#bf0d3e\"]} amount=70 />";
-    			t342 = text("\r\n\r\n\t\t\tFlags are cool, but we can do plenty of other things. In this example we will \"feather\" the initial effect to give it a less defined shape. By default the effects have a fairly distinct shape to them which ruins the effect a little bit, especially when using lots of particles.\r\n\r\n\t\t\t");
-    			div62 = element("div");
-    			create_component(toggleconfetti57.$$.fragment);
-    			t343 = space();
+    			t339 = text("\r\n\r\n\t\t\tFlags are cool, but we can do plenty of other things. In this example we will \"feather\" the initial effect to give it a less defined shape. By default the effects have a fairly distinct shape to them which ruins the effect a little bit, especially when using lots of particles.\r\n\r\n\t\t\t");
     			div61 = element("div");
+    			create_component(toggleconfetti57.$$.fragment);
+    			t340 = space();
+    			div60 = element("div");
     			code59 = element("code");
     			code59.textContent = "<Confetti y={[1.25, 1.5]} x={[-1, 1]} colorArray={[\"#c8102e\"]} />";
-    			t345 = space();
-    			div64 = element("div");
-    			create_component(toggleconfetti58.$$.fragment);
-    			t346 = space();
+    			t342 = space();
     			div63 = element("div");
+    			create_component(toggleconfetti58.$$.fragment);
+    			t343 = space();
+    			div62 = element("div");
     			code60 = element("code");
     			code60.textContent = "<Confetti x={[-0.5, 0.5]} />";
-    			t348 = space();
+    			t345 = space();
     			code61 = element("code");
     			code61.textContent = "<Confetti amount=10 x={[-0.75, -0.3]} y={[0.15, 0.75]} />";
-    			t350 = space();
+    			t347 = space();
     			code62 = element("code");
     			code62.textContent = "<Confetti amount=10 x={[0.3, 0.75]} y={[0.15, 0.75]} />";
-    			t352 = text("\r\n\r\n\t\t\tAnd with the cone property\r\n\r\n\t\t\t");
-    			div66 = element("div");
-    			create_component(toggleconfetti59.$$.fragment);
-    			t353 = space();
+    			t349 = text("\r\n\r\n\t\t\tAnd with the cone property\r\n\r\n\t\t\t");
     			div65 = element("div");
+    			create_component(toggleconfetti59.$$.fragment);
+    			t350 = space();
+    			div64 = element("div");
     			code63 = element("code");
     			code63.textContent = "<Confetti cone amount=70 x={[-0.5, 0.5]} />";
-    			t355 = space();
-    			div68 = element("div");
-    			create_component(toggleconfetti60.$$.fragment);
-    			t356 = space();
+    			t352 = space();
     			div67 = element("div");
+    			create_component(toggleconfetti60.$$.fragment);
+    			t353 = space();
+    			div66 = element("div");
     			code64 = element("code");
     			code64.textContent = "<Confetti cone x={[-0.5, 0.5]} />";
-    			t358 = space();
+    			t355 = space();
     			code65 = element("code");
     			code65.textContent = "<Confetti cone amount=10 x={[-0.75, -0.4]} y={[0.15, 0.75]} />";
-    			t360 = space();
+    			t357 = space();
     			code66 = element("code");
     			code66.textContent = "<Confetti cone amount=10 x={[0.4, 0.75]} y={[0.15, 0.75]} />";
-    			t362 = text("\r\n\r\n\t\t\tWe can also combine this with a large delay to mitigate the effect further, but it makes it less cannon-y.\r\n\r\n\t\t\t");
-    			div70 = element("div");
-    			create_component(toggleconfetti61.$$.fragment);
-    			t363 = space();
+    			t359 = text("\r\n\r\n\t\t\tWe can also combine this with a large delay to mitigate the effect further, but it makes it less cannon-y.\r\n\r\n\t\t\t");
     			div69 = element("div");
+    			create_component(toggleconfetti61.$$.fragment);
+    			t360 = space();
+    			div68 = element("div");
     			code67 = element("code");
     			code67.textContent = "<Confetti x={[-0.5, 0.5]} delay={[0, 250]} />";
-    			t365 = space();
+    			t362 = space();
     			code68 = element("code");
     			code68.textContent = "<Confetti amount=10 x={[-0.75, -0.3]} y={[0.15, 0.75]} delay={[0, 1000]} />";
-    			t367 = space();
+    			t364 = space();
     			code69 = element("code");
     			code69.textContent = "<Confetti amount=10 x={[0.3, 0.75]} y={[0.15, 0.75]} delay={[0, 1000]} />";
-    			t369 = text("\r\n\r\n\t\t\tWe could also combine multiple components to create animations.\r\n\r\n\t\t\t");
-    			div72 = element("div");
-    			create_component(toggleconfetti62.$$.fragment);
-    			t370 = space();
+    			t366 = text("\r\n\r\n\t\t\tWe could also combine multiple components to create animations.\r\n\r\n\t\t\t");
     			div71 = element("div");
+    			create_component(toggleconfetti62.$$.fragment);
+    			t367 = space();
+    			div70 = element("div");
     			code70 = element("code");
     			code70.textContent = "<Confetti cone x={[-1, -0.25]} colorRange={[100, 200]} />";
-    			t372 = space();
+    			t369 = space();
     			code71 = element("code");
     			code71.textContent = "<Confetti cone x={[-0.35, 0.35]} delay={[500, 550]} colorRange={[200, 300]} />";
-    			t374 = space();
+    			t371 = space();
     			code72 = element("code");
     			code72.textContent = "<Confetti cone x={[0.25, 1]} delay={[250, 300]} colorRange={[100, 200]} />";
-    			t376 = space();
+    			t373 = space();
     			code73 = element("code");
     			code73.textContent = "<Confetti cone amount=20 x={[-1, 1]} y={[0, 1]} delay={[0, 550]} colorRange={[200, 300]} />";
-    			t378 = space();
-    			div74 = element("div");
-    			create_component(toggleconfetti63.$$.fragment);
-    			t379 = space();
+    			t375 = space();
     			div73 = element("div");
+    			create_component(toggleconfetti63.$$.fragment);
+    			t376 = space();
+    			div72 = element("div");
     			code74 = element("code");
     			code74.textContent = "<Confetti noGravity x={[-1, 1]} y={[-1, 1]} delay={[0, 50]} duration=1000 colorRange={[0, 120]} />";
-    			t381 = space();
+    			t378 = space();
     			code75 = element("code");
     			code75.textContent = "<Confetti noGravity x={[-1, 1]} y={[-1, 1]} delay={[550, 550]} duration=1000 colorRange={[120, 240]} />";
-    			t383 = space();
+    			t380 = space();
     			code76 = element("code");
     			code76.textContent = "<Confetti noGravity x={[-1, 1]} y={[-1, 1]} delay={[1000, 1050]} duration=1000 colorRange={[240, 360]} />";
-    			t385 = space();
-    			div80 = element("div");
+    			t382 = space();
+    			div79 = element("div");
     			h38 = element("h3");
     			h38.textContent = "Styling it further";
-    			t387 = space();
-    			div79 = element("div");
-    			t388 = text("We've now looked at all the different properties, but since this is just HTML and CSS you can style it further however you like. Let's look at some fullscreen examples. Having the effect fullscreen is not a simple toggle, but it is a simple bit of CSS.\r\n\r\n\t\t\t");
+    			t384 = space();
     			div78 = element("div");
-    			create_component(toggleconfetti64.$$.fragment);
-    			t389 = space();
+    			t385 = text("We've now looked at all the different properties, but since this is just HTML and CSS you can style it further however you like. Let's look at some fullscreen examples. Having the effect fullscreen is not a simple toggle, but it is a simple bit of CSS.\r\n\r\n\t\t\t");
     			div77 = element("div");
+    			create_component(toggleconfetti64.$$.fragment);
+    			t386 = space();
+    			div76 = element("div");
     			code77 = element("code");
-    			t390 = text("<div style=\"");
+    			t387 = text("<div style=\"");
     			br1 = element("br");
-    			t391 = text("\r\n\t\t\t\t\t\t\tposition: fixed;");
+    			t388 = text("\r\n\t\t\t\t\t\t\tposition: fixed;");
     			br2 = element("br");
-    			t392 = text("\r\n\t\t\t\t\t\t\ttop: -50px;");
+    			t389 = text("\r\n\t\t\t\t\t\t\ttop: -50px;");
     			br3 = element("br");
-    			t393 = text("\r\n\t\t\t\t\t\t\tleft: 0;");
+    			t390 = text("\r\n\t\t\t\t\t\t\tleft: 0;");
     			br4 = element("br");
-    			t394 = text("\r\n\t\t\t\t\t\t\theight: 100vh;");
+    			t391 = text("\r\n\t\t\t\t\t\t\theight: 100vh;");
     			br5 = element("br");
-    			t395 = text("\r\n\t\t\t\t\t\t\twidth: 100vw;");
+    			t392 = text("\r\n\t\t\t\t\t\t\twidth: 100vw;");
     			br6 = element("br");
-    			t396 = text("\r\n\t\t\t\t\t\t\tdisplay: flex;");
+    			t393 = text("\r\n\t\t\t\t\t\t\tdisplay: flex;");
     			br7 = element("br");
-    			t397 = text("\r\n\t\t\t\t\t\t\tjustify-content: center;");
+    			t394 = text("\r\n\t\t\t\t\t\t\tjustify-content: center;");
     			br8 = element("br");
-    			t398 = text("\r\n\t\t\t\t\t\t\toverflow: hidden;\">");
+    			t395 = text("\r\n\t\t\t\t\t\t\toverflow: hidden;\">");
     			br9 = element("br");
-    			t399 = text("\r\n\t\t\t\t\t\t\t<Confetti x={[-5, 5]} y={[0, 0.1]} delay={[500, 2000]} infinite duration=5000 amount=200 fallDistance=\"100vh\" />\r\n\t\t\t\t\t\t\t");
+    			t396 = text("\r\n\t\t\t\t\t\t\t<Confetti x={[-5, 5]} y={[0, 0.1]} delay={[500, 2000]} infinite duration=5000 amount=200 fallDistance=\"100vh\" />\r\n\t\t\t\t\t\t\t");
     			br10 = element("br");
-    			t400 = text("\r\n\t\t\t\t\t\t</div>");
-    			t401 = text("\r\n\r\n\t\t\tThe element is fixed and placed just off screen so we can't see the confetti spawn in. The ");
+    			t397 = text("\r\n\t\t\t\t\t\t</div>");
+    			t398 = text("\r\n\r\n\t\t\tThe element is fixed and placed just off screen so we can't see the confetti spawn in. The ");
     			mark58 = element("mark");
     			mark58.textContent = "fallDistance";
-    			t403 = text(" property is set to ");
+    			t400 = text(" property is set to ");
     			code78 = element("code");
     			code78.textContent = "100vh";
-    			t405 = text(" so they cover the entire screen.\r\n\t\t\t");
+    			t402 = text(" so they cover the entire screen.\r\n\t\t\t");
     			br11 = element("br");
-    			t406 = space();
+    			t403 = space();
     			br12 = element("br");
-    			t407 = text("\r\n\t\t\tYou could also further style the confetti itself. Don't like the animation? Do it yourself! Target the confetti with ");
+    			t404 = text("\r\n\t\t\tYou could also further style the confetti itself. Don't like the animation? Do it yourself! Target the confetti with ");
     			code79 = element("code");
     			code79.textContent = ":global(.confetti)";
-    			t409 = text(" and change the animation using ");
+    			t406 = text(" and change the animation using ");
     			code80 = element("code");
     			code80.textContent = "animation-name";
-    			t411 = text(", all values are set as css variables so you can easily use them yourself.");
-    			t412 = space();
+    			t408 = text(", all values are set as css variables so you can easily use them yourself.");
+    			t409 = space();
     			h23 = element("h2");
     			h23.textContent = "Properties";
-    			t414 = space();
-    			div96 = element("div");
+    			t411 = space();
+    			div95 = element("div");
     			p5 = element("p");
     			p5.textContent = "This is a list of all configurable properties.";
-    			t416 = space();
-    			div95 = element("div");
+    			t413 = space();
+    			div94 = element("div");
     			strong0 = element("strong");
     			strong0.textContent = "Property";
-    			t418 = space();
+    			t415 = space();
     			strong1 = element("strong");
     			strong1.textContent = "Default";
-    			t420 = space();
+    			t417 = space();
     			strong2 = element("strong");
     			strong2.textContent = "Description";
-    			t422 = space();
+    			t419 = space();
     			code81 = element("code");
     			code81.textContent = "size";
-    			t424 = space();
+    			t421 = space();
     			code82 = element("code");
     			code82.textContent = "10";
-    			t426 = space();
-    			div81 = element("div");
-    			div81.textContent = "The max size in pixels of the individual confetti pieces.";
-    			t428 = space();
+    			t423 = space();
+    			div80 = element("div");
+    			div80.textContent = "The max size in pixels of the individual confetti pieces.";
+    			t425 = space();
     			code83 = element("code");
     			code83.textContent = "x";
-    			t430 = space();
+    			t427 = space();
     			code84 = element("code");
     			code84.textContent = "[-0.5, 0.5]";
-    			t432 = space();
-    			div82 = element("div");
-    			div82.textContent = "The max horizontal range of the confetti pieces. Negative is left, positive is right. [-1, 1] would mean maximum of 200px left and 200px right.";
-    			t434 = space();
+    			t429 = space();
+    			div81 = element("div");
+    			div81.textContent = "The max horizontal range of the confetti pieces. Negative is left, positive is right. [-1, 1] would mean maximum of 200px left and 200px right.";
+    			t431 = space();
     			code85 = element("code");
     			code85.textContent = "y";
-    			t436 = space();
+    			t433 = space();
     			code86 = element("code");
     			code86.textContent = "[0.25, 1]";
-    			t438 = space();
-    			div83 = element("div");
-    			div83.textContent = "The max vertical range of the confetti pieces. Negative is down, positive is ip. [-1, 1] would mean maximum of 200px down and 200px up.";
-    			t440 = space();
+    			t435 = space();
+    			div82 = element("div");
+    			div82.textContent = "The max vertical range of the confetti pieces. Negative is down, positive is ip. [-1, 1] would mean maximum of 200px down and 200px up.";
+    			t437 = space();
     			code87 = element("code");
     			code87.textContent = "duration";
-    			t442 = space();
+    			t439 = space();
     			code88 = element("code");
     			code88.textContent = "2000";
-    			t444 = space();
-    			div84 = element("div");
-    			div84.textContent = "Duration of the animation for each individual piece.";
-    			t446 = space();
+    			t441 = space();
+    			div83 = element("div");
+    			div83.textContent = "Duration of the animation for each individual piece.";
+    			t443 = space();
     			code89 = element("code");
     			code89.textContent = "infinite";
-    			t448 = space();
+    			t445 = space();
     			code90 = element("code");
     			code90.textContent = "false";
-    			t450 = space();
-    			div85 = element("div");
-    			div85.textContent = "If set to true the animation will play indefinitely.";
-    			t452 = space();
+    			t447 = space();
+    			div84 = element("div");
+    			div84.textContent = "If set to true the animation will play indefinitely.";
+    			t449 = space();
     			code91 = element("code");
     			code91.textContent = "delay";
-    			t454 = space();
+    			t451 = space();
     			code92 = element("code");
     			code92.textContent = "[0, 50]";
-    			t456 = space();
-    			div86 = element("div");
-    			div86.textContent = "Used to set a random delay for each piece. A large difference between each number will mean a longer spray time.";
-    			t458 = space();
+    			t453 = space();
+    			div85 = element("div");
+    			div85.textContent = "Used to set a random delay for each piece. A large difference between each number will mean a longer spray time.";
+    			t455 = space();
     			code93 = element("code");
     			code93.textContent = "colorRange";
-    			t460 = space();
+    			t457 = space();
     			code94 = element("code");
     			code94.textContent = "[0, 360]";
-    			t462 = space();
-    			div87 = element("div");
-    			div87.textContent = "Color range on the HSL color wheel. 0 to 360 is full RGB. 75 To 150 would be only green colors.";
-    			t464 = space();
+    			t459 = space();
+    			div86 = element("div");
+    			div86.textContent = "Color range on the HSL color wheel. 0 to 360 is full RGB. 75 To 150 would be only green colors.";
+    			t461 = space();
     			code95 = element("code");
     			code95.textContent = "colorArray";
-    			t466 = space();
+    			t463 = space();
     			code96 = element("code");
     			code96.textContent = "[]";
-    			t468 = space();
-    			div88 = element("div");
-    			div88.textContent = "Can be used to pick a random color from this array. Set just one array elements to have a single color. Accepts any viable css background property, including gradients and images.";
-    			t470 = space();
+    			t465 = space();
+    			div87 = element("div");
+    			div87.textContent = "Can be used to pick a random color from this array. Set just one array elements to have a single color. Accepts any viable css background property, including gradients and images.";
+    			t467 = space();
     			code97 = element("code");
     			code97.textContent = "amount";
-    			t472 = space();
+    			t469 = space();
     			code98 = element("code");
     			code98.textContent = "50";
-    			t474 = space();
-    			div89 = element("div");
-    			div89.textContent = "Amount of particles spawned. The larger your spray the more pieces you might want. Be careful with too many as it might impact performance.";
-    			t476 = space();
+    			t471 = space();
+    			div88 = element("div");
+    			div88.textContent = "Amount of particles spawned. The larger your spray the more pieces you might want. Be careful with too many as it might impact performance.";
+    			t473 = space();
     			code99 = element("code");
     			code99.textContent = "iterationCount";
-    			t478 = space();
+    			t475 = space();
     			code100 = element("code");
     			code100.textContent = "1";
-    			t480 = space();
-    			div90 = element("div");
-    			div90.textContent = "How many times the animation will play before stopping. Is overwritten by the \"infinite\" property.";
-    			t482 = space();
+    			t477 = space();
+    			div89 = element("div");
+    			div89.textContent = "How many times the animation will play before stopping. Is overwritten by the \"infinite\" property.";
+    			t479 = space();
     			code101 = element("code");
     			code101.textContent = "fallDistance";
-    			t484 = space();
+    			t481 = space();
     			code102 = element("code");
     			code102.textContent = "\"100px\"";
-    			t486 = space();
-    			div91 = element("div");
-    			div91.textContent = "How far each piece falls. Accepts any css property, px, rem, vh, etc, but not 0.";
-    			t488 = space();
+    			t483 = space();
+    			div90 = element("div");
+    			div90.textContent = "How far each piece falls. Accepts any css property, px, rem, vh, etc, but not 0.";
+    			t485 = space();
     			code103 = element("code");
     			code103.textContent = "rounded";
-    			t490 = space();
+    			t487 = space();
     			code104 = element("code");
     			code104.textContent = "false";
-    			t492 = space();
-    			div92 = element("div");
-    			div92.textContent = "Set to true to make each confetti piece rounded.";
-    			t494 = space();
+    			t489 = space();
+    			div91 = element("div");
+    			div91.textContent = "Set to true to make each confetti piece rounded.";
+    			t491 = space();
     			code105 = element("code");
     			code105.textContent = "cone";
-    			t496 = space();
+    			t493 = space();
     			code106 = element("code");
     			code106.textContent = "false";
-    			t498 = space();
-    			div93 = element("div");
-    			div93.textContent = "Set to true to make the explosion appear in a cone like shape which might feel more realistic when dealing with a larger amount.";
-    			t500 = space();
+    			t495 = space();
+    			div92 = element("div");
+    			div92.textContent = "Set to true to make the explosion appear in a cone like shape which might feel more realistic when dealing with a larger amount.";
+    			t497 = space();
     			code107 = element("code");
     			code107.textContent = "noGravity";
-    			t502 = space();
+    			t499 = space();
     			code108 = element("code");
     			code108.textContent = "false";
-    			t504 = space();
-    			div94 = element("div");
-    			div94.textContent = "Set to true to make the particles accelerate at a constant speed without \"falling\" down. Give it a more explosion like effect.";
+    			t501 = space();
+    			div93 = element("div");
+    			div93.textContent = "Set to true to make the particles accelerate at a constant speed without \"falling\" down. Give it a more explosion like effect.";
+    			t503 = space();
+    			div96 = element("div");
+    			t504 = text("Made by ");
+    			a1 = element("a");
+    			a1.textContent = "Mitchel Jager";
     			attr_dev(mark0, "class", "svelte-1lhfouh");
     			add_location(mark0, file, 18, 3, 340);
     			attr_dev(h1, "class", "svelte-1lhfouh");
@@ -9186,530 +9186,530 @@ var app = (function () {
     			add_location(code3, file, 230, 2, 5409);
     			attr_dev(div3, "class", "block svelte-1lhfouh");
     			add_location(div3, file, 30, 1, 541);
+    			attr_dev(h22, "class", "svelte-1lhfouh");
+    			add_location(h22, file, 235, 1, 5489);
+    			attr_dev(mark6, "class", "svelte-1lhfouh");
+    			add_location(mark6, file, 237, 1, 5508);
+    			attr_dev(code4, "class", "svelte-1lhfouh");
+    			add_location(code4, file, 252, 4, 5927);
+    			attr_dev(div4, "class", "button-code-group svelte-1lhfouh");
+    			add_location(div4, file, 243, 3, 5763);
+    			attr_dev(div5, "class", "description svelte-1lhfouh");
+    			add_location(div5, file, 240, 2, 5688);
+    			attr_dev(div6, "class", "block svelte-1lhfouh");
+    			add_location(div6, file, 239, 1, 5665);
+    			attr_dev(h30, "class", "svelte-1lhfouh");
+    			add_location(h30, file, 260, 2, 6029);
+    			attr_dev(mark7, "class", "svelte-1lhfouh");
+    			add_location(mark7, file, 263, 53, 6130);
+    			attr_dev(mark8, "class", "svelte-1lhfouh");
+    			add_location(mark8, file, 263, 72, 6149);
+    			attr_dev(mark9, "class", "svelte-1lhfouh");
+    			add_location(mark9, file, 275, 18, 6710);
+    			attr_dev(mark10, "class", "svelte-1lhfouh");
+    			add_location(mark10, file, 275, 57, 6749);
+    			attr_dev(code5, "class", "svelte-1lhfouh");
+    			add_location(code5, file, 274, 4, 6684);
+    			attr_dev(div7, "class", "button-code-group svelte-1lhfouh");
+    			add_location(div7, file, 265, 3, 6490);
+    			attr_dev(mark11, "class", "svelte-1lhfouh");
+    			add_location(mark11, file, 289, 18, 7038);
+    			attr_dev(mark12, "class", "svelte-1lhfouh");
+    			add_location(mark12, file, 289, 57, 7077);
+    			attr_dev(code6, "class", "svelte-1lhfouh");
+    			add_location(code6, file, 288, 4, 7012);
+    			attr_dev(div8, "class", "button-code-group svelte-1lhfouh");
+    			add_location(div8, file, 279, 3, 6822);
+    			attr_dev(mark13, "class", "svelte-1lhfouh");
+    			add_location(mark13, file, 303, 18, 7364);
+    			attr_dev(mark14, "class", "svelte-1lhfouh");
+    			add_location(mark14, file, 303, 55, 7401);
+    			attr_dev(code7, "class", "svelte-1lhfouh");
+    			add_location(code7, file, 302, 4, 7338);
+    			attr_dev(div9, "class", "button-code-group svelte-1lhfouh");
+    			add_location(div9, file, 293, 3, 7149);
+    			attr_dev(mark15, "class", "svelte-1lhfouh");
+    			add_location(mark15, file, 317, 18, 7692);
+    			attr_dev(mark16, "class", "svelte-1lhfouh");
+    			add_location(mark16, file, 317, 59, 7733);
+    			attr_dev(code8, "class", "svelte-1lhfouh");
+    			add_location(code8, file, 316, 4, 7666);
+    			attr_dev(div10, "class", "button-code-group svelte-1lhfouh");
+    			add_location(div10, file, 307, 3, 7473);
+    			attr_dev(mark17, "class", "svelte-1lhfouh");
+    			add_location(mark17, file, 331, 18, 8032);
+    			attr_dev(mark18, "class", "svelte-1lhfouh");
+    			add_location(mark18, file, 331, 59, 8073);
+    			attr_dev(code9, "class", "svelte-1lhfouh");
+    			add_location(code9, file, 330, 4, 8006);
+    			attr_dev(div11, "class", "button-code-group svelte-1lhfouh");
+    			add_location(div11, file, 321, 3, 7808);
+    			attr_dev(mark19, "class", "svelte-1lhfouh");
+    			add_location(mark19, file, 345, 18, 8376);
+    			attr_dev(mark20, "class", "svelte-1lhfouh");
+    			add_location(mark20, file, 345, 57, 8415);
+    			attr_dev(code10, "class", "svelte-1lhfouh");
+    			add_location(code10, file, 344, 4, 8350);
+    			attr_dev(div12, "class", "button-code-group svelte-1lhfouh");
+    			add_location(div12, file, 335, 3, 8151);
+    			attr_dev(div13, "class", "description svelte-1lhfouh");
+    			add_location(div13, file, 262, 2, 6050);
+    			attr_dev(div14, "class", "block svelte-1lhfouh");
+    			add_location(div14, file, 259, 1, 6006);
+    			attr_dev(h31, "class", "svelte-1lhfouh");
+    			add_location(h31, file, 352, 2, 8531);
+    			attr_dev(mark21, "class", "svelte-1lhfouh");
+    			add_location(mark21, file, 355, 70, 8649);
+    			attr_dev(mark22, "class", "svelte-1lhfouh");
+    			add_location(mark22, file, 367, 18, 9091);
+    			attr_dev(code11, "class", "svelte-1lhfouh");
+    			add_location(code11, file, 366, 4, 9065);
+    			attr_dev(div15, "class", "button-code-group svelte-1lhfouh");
+    			add_location(div15, file, 357, 3, 8895);
+    			attr_dev(mark23, "class", "svelte-1lhfouh");
+    			add_location(mark23, file, 381, 18, 9350);
+    			attr_dev(code12, "class", "svelte-1lhfouh");
+    			add_location(code12, file, 380, 4, 9324);
+    			attr_dev(div16, "class", "button-code-group svelte-1lhfouh");
+    			add_location(div16, file, 371, 3, 9150);
+    			attr_dev(mark24, "class", "svelte-1lhfouh");
+    			add_location(mark24, file, 395, 18, 9607);
+    			attr_dev(code13, "class", "svelte-1lhfouh");
+    			add_location(code13, file, 394, 4, 9581);
+    			attr_dev(div17, "class", "button-code-group svelte-1lhfouh");
+    			add_location(div17, file, 385, 3, 9409);
+    			attr_dev(mark25, "class", "svelte-1lhfouh");
+    			add_location(mark25, file, 409, 18, 9869);
+    			attr_dev(code14, "class", "svelte-1lhfouh");
+    			add_location(code14, file, 408, 4, 9843);
+    			attr_dev(div18, "class", "button-code-group svelte-1lhfouh");
+    			add_location(div18, file, 399, 3, 9667);
+    			attr_dev(div19, "class", "description svelte-1lhfouh");
+    			add_location(div19, file, 354, 2, 8552);
+    			attr_dev(div20, "class", "block svelte-1lhfouh");
+    			add_location(div20, file, 351, 1, 8508);
+    			attr_dev(h32, "class", "svelte-1lhfouh");
+    			add_location(h32, file, 416, 2, 9969);
+    			attr_dev(mark26, "class", "svelte-1lhfouh");
+    			add_location(mark26, file, 419, 163, 10179);
+    			attr_dev(code15, "class", "svelte-1lhfouh");
+    			add_location(code15, file, 430, 4, 10499);
+    			attr_dev(div21, "class", "button-code-group svelte-1lhfouh");
+    			add_location(div21, file, 421, 3, 10324);
+    			attr_dev(mark27, "class", "svelte-1lhfouh");
+    			add_location(mark27, file, 445, 18, 10775);
+    			attr_dev(code16, "class", "svelte-1lhfouh");
+    			add_location(code16, file, 444, 4, 10749);
+    			attr_dev(div22, "class", "button-code-group svelte-1lhfouh");
+    			add_location(div22, file, 435, 3, 10572);
+    			attr_dev(code17, "class", "svelte-1lhfouh");
+    			add_location(code17, file, 460, 4, 11143);
+    			attr_dev(div23, "class", "button-code-group svelte-1lhfouh");
+    			add_location(div23, file, 451, 3, 10954);
+    			attr_dev(mark28, "class", "svelte-1lhfouh");
+    			add_location(mark28, file, 475, 18, 11480);
+    			attr_dev(code18, "class", "svelte-1lhfouh");
+    			add_location(code18, file, 474, 4, 11454);
+    			attr_dev(div24, "class", "button-code-group svelte-1lhfouh");
+    			add_location(div24, file, 465, 3, 11252);
+    			attr_dev(div25, "class", "description svelte-1lhfouh");
+    			add_location(div25, file, 418, 2, 9989);
+    			attr_dev(div26, "class", "block svelte-1lhfouh");
+    			add_location(div26, file, 415, 1, 9946);
+    			attr_dev(h33, "class", "svelte-1lhfouh");
+    			add_location(h33, file, 484, 2, 11750);
+    			attr_dev(mark29, "class", "svelte-1lhfouh");
+    			add_location(mark29, file, 487, 61, 11857);
+    			attr_dev(mark30, "class", "svelte-1lhfouh");
+    			add_location(mark30, file, 499, 18, 12085);
+    			attr_dev(code19, "class", "svelte-1lhfouh");
+    			add_location(code19, file, 498, 4, 12059);
+    			attr_dev(div27, "class", "button-code-group svelte-1lhfouh");
+    			add_location(div27, file, 489, 3, 11891);
+    			attr_dev(mark31, "class", "svelte-1lhfouh");
+    			add_location(mark31, file, 513, 18, 12336);
+    			attr_dev(code20, "class", "svelte-1lhfouh");
+    			add_location(code20, file, 512, 4, 12310);
+    			attr_dev(div28, "class", "button-code-group svelte-1lhfouh");
+    			add_location(div28, file, 503, 3, 12141);
+    			attr_dev(mark32, "class", "svelte-1lhfouh");
+    			add_location(mark32, file, 517, 65, 12455);
+    			attr_dev(mark33, "class", "svelte-1lhfouh");
+    			add_location(mark33, file, 529, 18, 12695);
+    			attr_dev(code21, "class", "svelte-1lhfouh");
+    			add_location(code21, file, 528, 4, 12669);
+    			attr_dev(div29, "class", "button-code-group svelte-1lhfouh");
+    			add_location(div29, file, 519, 3, 12491);
+    			attr_dev(div30, "class", "description svelte-1lhfouh");
+    			add_location(div30, file, 486, 2, 11769);
+    			attr_dev(div31, "class", "block svelte-1lhfouh");
+    			add_location(div31, file, 483, 1, 11727);
+    			attr_dev(h34, "class", "svelte-1lhfouh");
+    			add_location(h34, file, 536, 2, 12800);
+    			attr_dev(mark34, "class", "svelte-1lhfouh");
+    			add_location(mark34, file, 539, 228, 13076);
+    			attr_dev(mark35, "class", "svelte-1lhfouh");
+    			add_location(mark35, file, 551, 18, 13358);
+    			attr_dev(code22, "class", "svelte-1lhfouh");
+    			add_location(code22, file, 550, 4, 13332);
+    			attr_dev(div32, "class", "button-code-group svelte-1lhfouh");
+    			add_location(div32, file, 541, 3, 13147);
+    			attr_dev(mark36, "class", "svelte-1lhfouh");
+    			add_location(mark36, file, 565, 18, 13645);
+    			attr_dev(code23, "class", "svelte-1lhfouh");
+    			add_location(code23, file, 564, 4, 13619);
+    			attr_dev(div33, "class", "button-code-group svelte-1lhfouh");
+    			add_location(div33, file, 555, 3, 13434);
+    			attr_dev(mark37, "class", "svelte-1lhfouh");
+    			add_location(mark37, file, 569, 72, 13791);
+    			attr_dev(mark38, "class", "svelte-1lhfouh");
+    			add_location(mark38, file, 581, 18, 14167);
+    			attr_dev(code24, "class", "svelte-1lhfouh");
+    			add_location(code24, file, 580, 4, 14141);
+    			attr_dev(div34, "class", "button-code-group svelte-1lhfouh");
+    			add_location(div34, file, 571, 3, 13957);
+    			attr_dev(mark39, "class", "svelte-1lhfouh");
+    			add_location(mark39, file, 595, 18, 14456);
+    			attr_dev(mark40, "class", "svelte-1lhfouh");
+    			add_location(mark40, file, 595, 40, 14478);
+    			attr_dev(code25, "class", "svelte-1lhfouh");
+    			add_location(code25, file, 594, 4, 14430);
+    			attr_dev(div35, "class", "button-code-group svelte-1lhfouh");
+    			add_location(div35, file, 585, 3, 14225);
+    			attr_dev(mark41, "class", "svelte-1lhfouh");
+    			add_location(mark41, file, 599, 99, 14651);
+    			attr_dev(mark42, "class", "svelte-1lhfouh");
+    			add_location(mark42, file, 611, 18, 15180);
+    			attr_dev(code26, "class", "svelte-1lhfouh");
+    			add_location(code26, file, 610, 4, 15154);
+    			attr_dev(div36, "class", "button-code-group svelte-1lhfouh");
+    			add_location(div36, file, 601, 3, 14954);
+    			attr_dev(div37, "class", "description svelte-1lhfouh");
+    			add_location(div37, file, 538, 2, 12821);
+    			attr_dev(div38, "class", "block svelte-1lhfouh");
+    			add_location(div38, file, 535, 1, 12777);
+    			attr_dev(h35, "class", "svelte-1lhfouh");
+    			add_location(h35, file, 618, 2, 15293);
+    			attr_dev(mark43, "class", "svelte-1lhfouh");
+    			add_location(mark43, file, 621, 103, 15443);
+    			attr_dev(mark44, "class", "svelte-1lhfouh");
+    			add_location(mark44, file, 621, 308, 15648);
+    			attr_dev(mark45, "class", "svelte-1lhfouh");
+    			add_location(mark45, file, 633, 18, 16021);
+    			attr_dev(code27, "class", "svelte-1lhfouh");
+    			add_location(code27, file, 632, 4, 15995);
+    			attr_dev(div39, "class", "button-code-group svelte-1lhfouh");
+    			add_location(div39, file, 623, 3, 15804);
+    			attr_dev(mark46, "class", "svelte-1lhfouh");
+    			add_location(mark46, file, 647, 18, 16360);
+    			attr_dev(code28, "class", "svelte-1lhfouh");
+    			add_location(code28, file, 646, 4, 16334);
+    			attr_dev(div40, "class", "button-code-group svelte-1lhfouh");
+    			add_location(div40, file, 637, 3, 16103);
+    			attr_dev(mark47, "class", "svelte-1lhfouh");
+    			add_location(mark47, file, 661, 18, 16752);
+    			attr_dev(code29, "class", "svelte-1lhfouh");
+    			add_location(code29, file, 660, 4, 16726);
+    			attr_dev(div41, "class", "button-code-group svelte-1lhfouh");
+    			add_location(div41, file, 651, 3, 16488);
+    			attr_dev(mark48, "class", "svelte-1lhfouh");
+    			add_location(mark48, file, 677, 18, 17262);
+    			attr_dev(code30, "class", "svelte-1lhfouh");
+    			add_location(code30, file, 676, 4, 17236);
+    			attr_dev(div42, "class", "button-code-group svelte-1lhfouh");
+    			add_location(div42, file, 667, 3, 17008);
+    			attr_dev(mark49, "class", "svelte-1lhfouh");
+    			add_location(mark49, file, 691, 18, 17692);
+    			attr_dev(code31, "class", "svelte-1lhfouh");
+    			add_location(code31, file, 690, 4, 17666);
+    			attr_dev(div43, "class", "button-code-group svelte-1lhfouh");
+    			add_location(div43, file, 681, 3, 17376);
+    			attr_dev(mark50, "class", "svelte-1lhfouh");
+    			add_location(mark50, file, 707, 18, 18202);
+    			attr_dev(code32, "class", "svelte-1lhfouh");
+    			add_location(code32, file, 706, 4, 18176);
+    			attr_dev(div44, "class", "button-code-group svelte-1lhfouh");
+    			add_location(div44, file, 697, 3, 17946);
+    			attr_dev(div45, "class", "description svelte-1lhfouh");
+    			add_location(div45, file, 620, 2, 15313);
+    			attr_dev(div46, "class", "block svelte-1lhfouh");
+    			add_location(div46, file, 617, 1, 15270);
+    			attr_dev(h36, "class", "svelte-1lhfouh");
+    			add_location(h36, file, 714, 2, 18378);
+    			attr_dev(mark51, "class", "svelte-1lhfouh");
+    			add_location(mark51, file, 717, 50, 18477);
+    			attr_dev(mark52, "class", "svelte-1lhfouh");
+    			add_location(mark52, file, 729, 18, 18863);
+    			attr_dev(code33, "class", "svelte-1lhfouh");
+    			add_location(code33, file, 728, 4, 18837);
+    			attr_dev(div47, "class", "button-code-group svelte-1lhfouh");
+    			add_location(div47, file, 719, 3, 18653);
+    			attr_dev(mark53, "class", "svelte-1lhfouh");
+    			add_location(mark53, file, 743, 18, 19141);
+    			attr_dev(code34, "class", "svelte-1lhfouh");
+    			add_location(code34, file, 742, 4, 19115);
+    			attr_dev(div48, "class", "button-code-group svelte-1lhfouh");
+    			add_location(div48, file, 733, 3, 18930);
+    			attr_dev(mark54, "class", "svelte-1lhfouh");
+    			add_location(mark54, file, 761, 18, 19566);
+    			attr_dev(code35, "class", "svelte-1lhfouh");
+    			add_location(code35, file, 760, 4, 19540);
+    			attr_dev(div49, "class", "button-code-group svelte-1lhfouh");
+    			add_location(div49, file, 747, 3, 19209);
+    			attr_dev(mark55, "class", "svelte-1lhfouh");
+    			add_location(mark55, file, 765, 115, 19744);
+    			attr_dev(mark56, "class", "svelte-1lhfouh");
+    			add_location(mark56, file, 777, 18, 19999);
+    			attr_dev(code36, "class", "svelte-1lhfouh");
+    			add_location(code36, file, 776, 4, 19973);
+    			attr_dev(div50, "class", "button-code-group svelte-1lhfouh");
+    			add_location(div50, file, 767, 3, 19783);
+    			attr_dev(mark57, "class", "svelte-1lhfouh");
+    			add_location(mark57, file, 791, 18, 20329);
+    			attr_dev(code37, "class", "svelte-1lhfouh");
+    			add_location(code37, file, 790, 4, 20303);
+    			attr_dev(div51, "class", "button-code-group svelte-1lhfouh");
+    			add_location(div51, file, 781, 3, 20071);
+    			attr_dev(div52, "class", "description svelte-1lhfouh");
+    			add_location(div52, file, 716, 2, 18400);
+    			attr_dev(div53, "class", "block svelte-1lhfouh");
+    			add_location(div53, file, 713, 1, 18355);
+    			attr_dev(h37, "class", "svelte-1lhfouh");
+    			add_location(h37, file, 798, 2, 20493);
+    			add_location(br0, file, 801, 70, 20624);
+    			add_location(small, file, 802, 116, 20746);
+    			attr_dev(code38, "class", "svelte-1lhfouh");
+    			add_location(code38, file, 816, 5, 21224);
+    			attr_dev(code39, "class", "svelte-1lhfouh");
+    			add_location(code39, file, 820, 5, 21362);
+    			attr_dev(code40, "class", "svelte-1lhfouh");
+    			add_location(code40, file, 824, 5, 21497);
+    			add_location(div54, file, 815, 4, 21212);
+    			attr_dev(div55, "class", "button-code-group svelte-1lhfouh");
+    			add_location(div55, file, 804, 3, 20859);
+    			attr_dev(code41, "class", "svelte-1lhfouh");
+    			add_location(code41, file, 842, 5, 22066);
+    			attr_dev(code42, "class", "svelte-1lhfouh");
+    			add_location(code42, file, 846, 5, 22215);
+    			attr_dev(code43, "class", "svelte-1lhfouh");
+    			add_location(code43, file, 850, 5, 22364);
+    			add_location(div56, file, 841, 4, 22054);
+    			attr_dev(div57, "class", "button-code-group svelte-1lhfouh");
+    			add_location(div57, file, 830, 3, 21655);
+    			attr_dev(code44, "class", "svelte-1lhfouh");
+    			add_location(code44, file, 884, 5, 24071);
+    			attr_dev(code45, "class", "svelte-1lhfouh");
+    			add_location(code45, file, 887, 5, 24222);
+    			attr_dev(code46, "class", "svelte-1lhfouh");
+    			add_location(code46, file, 890, 5, 24370);
+    			attr_dev(code47, "class", "svelte-1lhfouh");
+    			add_location(code47, file, 893, 5, 24519);
+    			attr_dev(code48, "class", "svelte-1lhfouh");
+    			add_location(code48, file, 896, 5, 24666);
+    			attr_dev(code49, "class", "svelte-1lhfouh");
+    			add_location(code49, file, 899, 5, 24815);
+    			attr_dev(code50, "class", "svelte-1lhfouh");
+    			add_location(code50, file, 902, 5, 24962);
+    			attr_dev(code51, "class", "svelte-1lhfouh");
+    			add_location(code51, file, 905, 5, 25111);
+    			attr_dev(code52, "class", "svelte-1lhfouh");
+    			add_location(code52, file, 908, 5, 25258);
+    			attr_dev(code53, "class", "svelte-1lhfouh");
+    			add_location(code53, file, 911, 5, 25407);
+    			attr_dev(code54, "class", "svelte-1lhfouh");
+    			add_location(code54, file, 914, 5, 25551);
+    			attr_dev(code55, "class", "svelte-1lhfouh");
+    			add_location(code55, file, 917, 5, 25697);
+    			attr_dev(code56, "class", "svelte-1lhfouh");
+    			add_location(code56, file, 920, 5, 25839);
+    			attr_dev(code57, "class", "svelte-1lhfouh");
+    			add_location(code57, file, 923, 5, 25983);
+    			attr_dev(code58, "class", "svelte-1lhfouh");
+    			add_location(code58, file, 926, 5, 26127);
+    			add_location(div58, file, 883, 4, 24059);
+    			attr_dev(div59, "class", "button-code-group svelte-1lhfouh");
+    			add_location(div59, file, 856, 3, 22539);
+    			attr_dev(code59, "class", "svelte-1lhfouh");
+    			add_location(code59, file, 944, 5, 26788);
+    			add_location(div60, file, 943, 4, 26776);
+    			attr_dev(div61, "class", "button-code-group svelte-1lhfouh");
+    			add_location(div61, file, 934, 3, 26580);
+    			attr_dev(code60, "class", "svelte-1lhfouh");
+    			add_location(code60, file, 962, 5, 27267);
+    			attr_dev(code61, "class", "svelte-1lhfouh");
+    			add_location(code61, file, 965, 5, 27346);
+    			attr_dev(code62, "class", "svelte-1lhfouh");
+    			add_location(code62, file, 968, 5, 27464);
+    			add_location(div62, file, 961, 4, 27255);
+    			attr_dev(div63, "class", "button-code-group svelte-1lhfouh");
+    			add_location(div63, file, 950, 3, 26947);
+    			attr_dev(code63, "class", "svelte-1lhfouh");
+    			add_location(code63, file, 986, 5, 27840);
+    			add_location(div64, file, 985, 4, 27828);
+    			attr_dev(div65, "class", "button-code-group svelte-1lhfouh");
+    			add_location(div65, file, 976, 3, 27636);
+    			attr_dev(code64, "class", "svelte-1lhfouh");
+    			add_location(code64, file, 1004, 5, 28297);
+    			attr_dev(code65, "class", "svelte-1lhfouh");
+    			add_location(code65, file, 1007, 5, 28381);
+    			attr_dev(code66, "class", "svelte-1lhfouh");
+    			add_location(code66, file, 1010, 5, 28504);
+    			add_location(div66, file, 1003, 4, 28285);
+    			attr_dev(div67, "class", "button-code-group svelte-1lhfouh");
+    			add_location(div67, file, 992, 3, 27957);
+    			attr_dev(code67, "class", "svelte-1lhfouh");
+    			add_location(code67, file, 1030, 5, 29146);
+    			attr_dev(code68, "class", "svelte-1lhfouh");
+    			add_location(code68, file, 1033, 5, 29252);
+    			attr_dev(code69, "class", "svelte-1lhfouh");
+    			add_location(code69, file, 1036, 5, 29398);
+    			add_location(div68, file, 1029, 4, 29134);
+    			attr_dev(div69, "class", "button-code-group svelte-1lhfouh");
+    			add_location(div69, file, 1018, 3, 28761);
+    			attr_dev(code70, "class", "svelte-1lhfouh");
+    			add_location(code70, file, 1057, 5, 30120);
+    			attr_dev(code71, "class", "svelte-1lhfouh");
+    			add_location(code71, file, 1060, 5, 30238);
+    			attr_dev(code72, "class", "svelte-1lhfouh");
+    			add_location(code72, file, 1063, 5, 30387);
+    			attr_dev(code73, "class", "svelte-1lhfouh");
+    			add_location(code73, file, 1066, 5, 30532);
+    			add_location(div70, file, 1056, 4, 30108);
+    			attr_dev(div71, "class", "button-code-group svelte-1lhfouh");
+    			add_location(div71, file, 1044, 3, 29635);
+    			attr_dev(code74, "class", "svelte-1lhfouh");
+    			add_location(code74, file, 1084, 5, 31221);
+    			attr_dev(code75, "class", "svelte-1lhfouh");
+    			add_location(code75, file, 1087, 5, 31400);
+    			attr_dev(code76, "class", "svelte-1lhfouh");
+    			add_location(code76, file, 1090, 5, 31584);
+    			add_location(div72, file, 1083, 4, 31209);
+    			attr_dev(div73, "class", "button-code-group svelte-1lhfouh");
+    			add_location(div73, file, 1072, 3, 30727);
+    			attr_dev(div74, "class", "description svelte-1lhfouh");
+    			add_location(div74, file, 800, 2, 20527);
+    			attr_dev(div75, "class", "block svelte-1lhfouh");
+    			add_location(div75, file, 797, 1, 20470);
+    			attr_dev(h38, "class", "svelte-1lhfouh");
+    			add_location(h38, file, 1099, 2, 31833);
+    			add_location(br1, file, 1117, 21, 32651);
+    			add_location(br2, file, 1118, 23, 32680);
+    			add_location(br3, file, 1119, 18, 32704);
+    			add_location(br4, file, 1120, 15, 32725);
+    			add_location(br5, file, 1121, 21, 32752);
+    			add_location(br6, file, 1122, 20, 32778);
+    			add_location(br7, file, 1123, 21, 32805);
+    			add_location(br8, file, 1124, 31, 32842);
+    			add_location(br9, file, 1125, 29, 32877);
+    			add_location(br10, file, 1127, 7, 33047);
+    			attr_dev(code77, "class", "svelte-1lhfouh");
+    			add_location(code77, file, 1116, 5, 32622);
+    			add_location(div76, file, 1115, 4, 32610);
+    			attr_dev(div77, "class", "button-code-group svelte-1lhfouh");
+    			add_location(div77, file, 1104, 3, 32155);
+    			attr_dev(mark58, "class", "svelte-1lhfouh");
+    			add_location(mark58, file, 1133, 94, 33206);
+    			attr_dev(code78, "class", "inline svelte-1lhfouh");
+    			add_location(code78, file, 1133, 139, 33251);
+    			add_location(br11, file, 1134, 3, 33322);
+    			add_location(br12, file, 1135, 3, 33331);
+    			attr_dev(code79, "class", "inline svelte-1lhfouh");
+    			add_location(code79, file, 1136, 120, 33457);
+    			attr_dev(code80, "class", "inline svelte-1lhfouh");
+    			add_location(code80, file, 1136, 198, 33535);
+    			attr_dev(div78, "class", "description svelte-1lhfouh");
+    			add_location(div78, file, 1101, 2, 31866);
+    			attr_dev(div79, "class", "block svelte-1lhfouh");
+    			add_location(div79, file, 1098, 1, 31810);
+    			attr_dev(h23, "class", "svelte-1lhfouh");
+    			add_location(h23, file, 1140, 1, 33675);
+    			attr_dev(p5, "class", "svelte-1lhfouh");
+    			add_location(p5, file, 1143, 2, 33722);
+    			attr_dev(strong0, "class", "svelte-1lhfouh");
+    			add_location(strong0, file, 1146, 3, 33805);
+    			attr_dev(strong1, "class", "svelte-1lhfouh");
+    			add_location(strong1, file, 1146, 29, 33831);
+    			attr_dev(strong2, "class", "svelte-1lhfouh");
+    			add_location(strong2, file, 1146, 54, 33856);
+    			attr_dev(code81, "class", "svelte-1lhfouh");
+    			add_location(code81, file, 1148, 3, 33891);
+    			attr_dev(code82, "class", "svelte-1lhfouh");
+    			add_location(code82, file, 1148, 21, 33909);
+    			add_location(div80, file, 1148, 37, 33925);
+    			attr_dev(code83, "class", "svelte-1lhfouh");
+    			add_location(code83, file, 1149, 3, 33998);
+    			attr_dev(code84, "class", "svelte-1lhfouh");
+    			add_location(code84, file, 1149, 18, 34013);
+    			add_location(div81, file, 1149, 43, 34038);
+    			attr_dev(code85, "class", "svelte-1lhfouh");
+    			add_location(code85, file, 1150, 3, 34197);
+    			attr_dev(code86, "class", "svelte-1lhfouh");
+    			add_location(code86, file, 1150, 18, 34212);
+    			add_location(div82, file, 1150, 41, 34235);
+    			attr_dev(code87, "class", "svelte-1lhfouh");
+    			add_location(code87, file, 1151, 3, 34386);
+    			attr_dev(code88, "class", "svelte-1lhfouh");
+    			add_location(code88, file, 1151, 25, 34408);
+    			add_location(div83, file, 1151, 43, 34426);
+    			attr_dev(code89, "class", "svelte-1lhfouh");
+    			add_location(code89, file, 1152, 3, 34494);
+    			attr_dev(code90, "class", "svelte-1lhfouh");
+    			add_location(code90, file, 1152, 25, 34516);
+    			add_location(div84, file, 1152, 44, 34535);
+    			attr_dev(code91, "class", "svelte-1lhfouh");
+    			add_location(code91, file, 1153, 3, 34603);
+    			attr_dev(code92, "class", "svelte-1lhfouh");
+    			add_location(code92, file, 1153, 22, 34622);
+    			add_location(div85, file, 1153, 43, 34643);
+    			attr_dev(code93, "class", "svelte-1lhfouh");
+    			add_location(code93, file, 1154, 3, 34771);
+    			attr_dev(code94, "class", "svelte-1lhfouh");
+    			add_location(code94, file, 1154, 27, 34795);
+    			add_location(div86, file, 1154, 49, 34817);
+    			attr_dev(code95, "class", "svelte-1lhfouh");
+    			add_location(code95, file, 1155, 3, 34928);
+    			attr_dev(code96, "class", "svelte-1lhfouh");
+    			add_location(code96, file, 1155, 27, 34952);
+    			add_location(div87, file, 1155, 43, 34968);
+    			attr_dev(code97, "class", "svelte-1lhfouh");
+    			add_location(code97, file, 1156, 3, 35163);
+    			attr_dev(code98, "class", "svelte-1lhfouh");
+    			add_location(code98, file, 1156, 23, 35183);
+    			add_location(div88, file, 1156, 39, 35199);
+    			attr_dev(code99, "class", "svelte-1lhfouh");
+    			add_location(code99, file, 1157, 3, 35354);
+    			attr_dev(code100, "class", "svelte-1lhfouh");
+    			add_location(code100, file, 1157, 31, 35382);
+    			add_location(div89, file, 1157, 46, 35397);
+    			attr_dev(code101, "class", "svelte-1lhfouh");
+    			add_location(code101, file, 1158, 3, 35511);
+    			attr_dev(code102, "class", "svelte-1lhfouh");
+    			add_location(code102, file, 1158, 29, 35537);
+    			add_location(div90, file, 1158, 50, 35558);
+    			attr_dev(code103, "class", "svelte-1lhfouh");
+    			add_location(code103, file, 1159, 3, 35654);
+    			attr_dev(code104, "class", "svelte-1lhfouh");
+    			add_location(code104, file, 1159, 24, 35675);
+    			add_location(div91, file, 1159, 43, 35694);
+    			attr_dev(code105, "class", "svelte-1lhfouh");
+    			add_location(code105, file, 1160, 3, 35758);
+    			attr_dev(code106, "class", "svelte-1lhfouh");
+    			add_location(code106, file, 1160, 21, 35776);
+    			add_location(div92, file, 1160, 40, 35795);
+    			attr_dev(code107, "class", "svelte-1lhfouh");
+    			add_location(code107, file, 1161, 3, 35939);
+    			attr_dev(code108, "class", "svelte-1lhfouh");
+    			add_location(code108, file, 1161, 26, 35962);
+    			add_location(div93, file, 1161, 45, 35981);
+    			attr_dev(div94, "class", "table svelte-1lhfouh");
+    			add_location(div94, file, 1145, 2, 33781);
+    			attr_dev(div95, "class", "block svelte-1lhfouh");
+    			add_location(div95, file, 1142, 1, 33699);
     			attr_dev(a1, "href", "https://github.com/Mitcheljager");
     			attr_dev(a1, "class", "svelte-1lhfouh");
-    			add_location(a1, file, 236, 10, 5520);
-    			attr_dev(div4, "class", "block svelte-1lhfouh");
-    			add_location(div4, file, 235, 1, 5489);
-    			attr_dev(h22, "class", "svelte-1lhfouh");
-    			add_location(h22, file, 239, 1, 5593);
-    			attr_dev(mark6, "class", "svelte-1lhfouh");
-    			add_location(mark6, file, 241, 1, 5612);
-    			attr_dev(code4, "class", "svelte-1lhfouh");
-    			add_location(code4, file, 256, 4, 6031);
-    			attr_dev(div5, "class", "button-code-group svelte-1lhfouh");
-    			add_location(div5, file, 247, 3, 5867);
-    			attr_dev(div6, "class", "description svelte-1lhfouh");
-    			add_location(div6, file, 244, 2, 5792);
-    			attr_dev(div7, "class", "block svelte-1lhfouh");
-    			add_location(div7, file, 243, 1, 5769);
-    			attr_dev(h30, "class", "svelte-1lhfouh");
-    			add_location(h30, file, 264, 2, 6133);
-    			attr_dev(mark7, "class", "svelte-1lhfouh");
-    			add_location(mark7, file, 267, 53, 6234);
-    			attr_dev(mark8, "class", "svelte-1lhfouh");
-    			add_location(mark8, file, 267, 72, 6253);
-    			attr_dev(mark9, "class", "svelte-1lhfouh");
-    			add_location(mark9, file, 279, 18, 6814);
-    			attr_dev(mark10, "class", "svelte-1lhfouh");
-    			add_location(mark10, file, 279, 57, 6853);
-    			attr_dev(code5, "class", "svelte-1lhfouh");
-    			add_location(code5, file, 278, 4, 6788);
-    			attr_dev(div8, "class", "button-code-group svelte-1lhfouh");
-    			add_location(div8, file, 269, 3, 6594);
-    			attr_dev(mark11, "class", "svelte-1lhfouh");
-    			add_location(mark11, file, 293, 18, 7142);
-    			attr_dev(mark12, "class", "svelte-1lhfouh");
-    			add_location(mark12, file, 293, 57, 7181);
-    			attr_dev(code6, "class", "svelte-1lhfouh");
-    			add_location(code6, file, 292, 4, 7116);
-    			attr_dev(div9, "class", "button-code-group svelte-1lhfouh");
-    			add_location(div9, file, 283, 3, 6926);
-    			attr_dev(mark13, "class", "svelte-1lhfouh");
-    			add_location(mark13, file, 307, 18, 7468);
-    			attr_dev(mark14, "class", "svelte-1lhfouh");
-    			add_location(mark14, file, 307, 55, 7505);
-    			attr_dev(code7, "class", "svelte-1lhfouh");
-    			add_location(code7, file, 306, 4, 7442);
-    			attr_dev(div10, "class", "button-code-group svelte-1lhfouh");
-    			add_location(div10, file, 297, 3, 7253);
-    			attr_dev(mark15, "class", "svelte-1lhfouh");
-    			add_location(mark15, file, 321, 18, 7796);
-    			attr_dev(mark16, "class", "svelte-1lhfouh");
-    			add_location(mark16, file, 321, 59, 7837);
-    			attr_dev(code8, "class", "svelte-1lhfouh");
-    			add_location(code8, file, 320, 4, 7770);
-    			attr_dev(div11, "class", "button-code-group svelte-1lhfouh");
-    			add_location(div11, file, 311, 3, 7577);
-    			attr_dev(mark17, "class", "svelte-1lhfouh");
-    			add_location(mark17, file, 335, 18, 8136);
-    			attr_dev(mark18, "class", "svelte-1lhfouh");
-    			add_location(mark18, file, 335, 59, 8177);
-    			attr_dev(code9, "class", "svelte-1lhfouh");
-    			add_location(code9, file, 334, 4, 8110);
-    			attr_dev(div12, "class", "button-code-group svelte-1lhfouh");
-    			add_location(div12, file, 325, 3, 7912);
-    			attr_dev(mark19, "class", "svelte-1lhfouh");
-    			add_location(mark19, file, 349, 18, 8480);
-    			attr_dev(mark20, "class", "svelte-1lhfouh");
-    			add_location(mark20, file, 349, 57, 8519);
-    			attr_dev(code10, "class", "svelte-1lhfouh");
-    			add_location(code10, file, 348, 4, 8454);
-    			attr_dev(div13, "class", "button-code-group svelte-1lhfouh");
-    			add_location(div13, file, 339, 3, 8255);
-    			attr_dev(div14, "class", "description svelte-1lhfouh");
-    			add_location(div14, file, 266, 2, 6154);
-    			attr_dev(div15, "class", "block svelte-1lhfouh");
-    			add_location(div15, file, 263, 1, 6110);
-    			attr_dev(h31, "class", "svelte-1lhfouh");
-    			add_location(h31, file, 356, 2, 8635);
-    			attr_dev(mark21, "class", "svelte-1lhfouh");
-    			add_location(mark21, file, 359, 70, 8753);
-    			attr_dev(mark22, "class", "svelte-1lhfouh");
-    			add_location(mark22, file, 371, 18, 9195);
-    			attr_dev(code11, "class", "svelte-1lhfouh");
-    			add_location(code11, file, 370, 4, 9169);
-    			attr_dev(div16, "class", "button-code-group svelte-1lhfouh");
-    			add_location(div16, file, 361, 3, 8999);
-    			attr_dev(mark23, "class", "svelte-1lhfouh");
-    			add_location(mark23, file, 385, 18, 9454);
-    			attr_dev(code12, "class", "svelte-1lhfouh");
-    			add_location(code12, file, 384, 4, 9428);
-    			attr_dev(div17, "class", "button-code-group svelte-1lhfouh");
-    			add_location(div17, file, 375, 3, 9254);
-    			attr_dev(mark24, "class", "svelte-1lhfouh");
-    			add_location(mark24, file, 399, 18, 9711);
-    			attr_dev(code13, "class", "svelte-1lhfouh");
-    			add_location(code13, file, 398, 4, 9685);
-    			attr_dev(div18, "class", "button-code-group svelte-1lhfouh");
-    			add_location(div18, file, 389, 3, 9513);
-    			attr_dev(mark25, "class", "svelte-1lhfouh");
-    			add_location(mark25, file, 413, 18, 9973);
-    			attr_dev(code14, "class", "svelte-1lhfouh");
-    			add_location(code14, file, 412, 4, 9947);
-    			attr_dev(div19, "class", "button-code-group svelte-1lhfouh");
-    			add_location(div19, file, 403, 3, 9771);
-    			attr_dev(div20, "class", "description svelte-1lhfouh");
-    			add_location(div20, file, 358, 2, 8656);
-    			attr_dev(div21, "class", "block svelte-1lhfouh");
-    			add_location(div21, file, 355, 1, 8612);
-    			attr_dev(h32, "class", "svelte-1lhfouh");
-    			add_location(h32, file, 420, 2, 10073);
-    			attr_dev(mark26, "class", "svelte-1lhfouh");
-    			add_location(mark26, file, 423, 163, 10283);
-    			attr_dev(code15, "class", "svelte-1lhfouh");
-    			add_location(code15, file, 434, 4, 10603);
-    			attr_dev(div22, "class", "button-code-group svelte-1lhfouh");
-    			add_location(div22, file, 425, 3, 10428);
-    			attr_dev(mark27, "class", "svelte-1lhfouh");
-    			add_location(mark27, file, 449, 18, 10879);
-    			attr_dev(code16, "class", "svelte-1lhfouh");
-    			add_location(code16, file, 448, 4, 10853);
-    			attr_dev(div23, "class", "button-code-group svelte-1lhfouh");
-    			add_location(div23, file, 439, 3, 10676);
-    			attr_dev(code17, "class", "svelte-1lhfouh");
-    			add_location(code17, file, 464, 4, 11247);
-    			attr_dev(div24, "class", "button-code-group svelte-1lhfouh");
-    			add_location(div24, file, 455, 3, 11058);
-    			attr_dev(mark28, "class", "svelte-1lhfouh");
-    			add_location(mark28, file, 479, 18, 11584);
-    			attr_dev(code18, "class", "svelte-1lhfouh");
-    			add_location(code18, file, 478, 4, 11558);
-    			attr_dev(div25, "class", "button-code-group svelte-1lhfouh");
-    			add_location(div25, file, 469, 3, 11356);
-    			attr_dev(div26, "class", "description svelte-1lhfouh");
-    			add_location(div26, file, 422, 2, 10093);
-    			attr_dev(div27, "class", "block svelte-1lhfouh");
-    			add_location(div27, file, 419, 1, 10050);
-    			attr_dev(h33, "class", "svelte-1lhfouh");
-    			add_location(h33, file, 488, 2, 11854);
-    			attr_dev(mark29, "class", "svelte-1lhfouh");
-    			add_location(mark29, file, 491, 61, 11961);
-    			attr_dev(mark30, "class", "svelte-1lhfouh");
-    			add_location(mark30, file, 503, 18, 12189);
-    			attr_dev(code19, "class", "svelte-1lhfouh");
-    			add_location(code19, file, 502, 4, 12163);
-    			attr_dev(div28, "class", "button-code-group svelte-1lhfouh");
-    			add_location(div28, file, 493, 3, 11995);
-    			attr_dev(mark31, "class", "svelte-1lhfouh");
-    			add_location(mark31, file, 517, 18, 12440);
-    			attr_dev(code20, "class", "svelte-1lhfouh");
-    			add_location(code20, file, 516, 4, 12414);
-    			attr_dev(div29, "class", "button-code-group svelte-1lhfouh");
-    			add_location(div29, file, 507, 3, 12245);
-    			attr_dev(mark32, "class", "svelte-1lhfouh");
-    			add_location(mark32, file, 521, 65, 12559);
-    			attr_dev(mark33, "class", "svelte-1lhfouh");
-    			add_location(mark33, file, 533, 18, 12799);
-    			attr_dev(code21, "class", "svelte-1lhfouh");
-    			add_location(code21, file, 532, 4, 12773);
-    			attr_dev(div30, "class", "button-code-group svelte-1lhfouh");
-    			add_location(div30, file, 523, 3, 12595);
-    			attr_dev(div31, "class", "description svelte-1lhfouh");
-    			add_location(div31, file, 490, 2, 11873);
-    			attr_dev(div32, "class", "block svelte-1lhfouh");
-    			add_location(div32, file, 487, 1, 11831);
-    			attr_dev(h34, "class", "svelte-1lhfouh");
-    			add_location(h34, file, 540, 2, 12904);
-    			attr_dev(mark34, "class", "svelte-1lhfouh");
-    			add_location(mark34, file, 543, 228, 13180);
-    			attr_dev(mark35, "class", "svelte-1lhfouh");
-    			add_location(mark35, file, 555, 18, 13462);
-    			attr_dev(code22, "class", "svelte-1lhfouh");
-    			add_location(code22, file, 554, 4, 13436);
-    			attr_dev(div33, "class", "button-code-group svelte-1lhfouh");
-    			add_location(div33, file, 545, 3, 13251);
-    			attr_dev(mark36, "class", "svelte-1lhfouh");
-    			add_location(mark36, file, 569, 18, 13749);
-    			attr_dev(code23, "class", "svelte-1lhfouh");
-    			add_location(code23, file, 568, 4, 13723);
-    			attr_dev(div34, "class", "button-code-group svelte-1lhfouh");
-    			add_location(div34, file, 559, 3, 13538);
-    			attr_dev(mark37, "class", "svelte-1lhfouh");
-    			add_location(mark37, file, 573, 72, 13895);
-    			attr_dev(mark38, "class", "svelte-1lhfouh");
-    			add_location(mark38, file, 585, 18, 14271);
-    			attr_dev(code24, "class", "svelte-1lhfouh");
-    			add_location(code24, file, 584, 4, 14245);
-    			attr_dev(div35, "class", "button-code-group svelte-1lhfouh");
-    			add_location(div35, file, 575, 3, 14061);
-    			attr_dev(mark39, "class", "svelte-1lhfouh");
-    			add_location(mark39, file, 599, 18, 14560);
-    			attr_dev(mark40, "class", "svelte-1lhfouh");
-    			add_location(mark40, file, 599, 40, 14582);
-    			attr_dev(code25, "class", "svelte-1lhfouh");
-    			add_location(code25, file, 598, 4, 14534);
-    			attr_dev(div36, "class", "button-code-group svelte-1lhfouh");
-    			add_location(div36, file, 589, 3, 14329);
-    			attr_dev(mark41, "class", "svelte-1lhfouh");
-    			add_location(mark41, file, 603, 99, 14755);
-    			attr_dev(mark42, "class", "svelte-1lhfouh");
-    			add_location(mark42, file, 615, 18, 15284);
-    			attr_dev(code26, "class", "svelte-1lhfouh");
-    			add_location(code26, file, 614, 4, 15258);
-    			attr_dev(div37, "class", "button-code-group svelte-1lhfouh");
-    			add_location(div37, file, 605, 3, 15058);
-    			attr_dev(div38, "class", "description svelte-1lhfouh");
-    			add_location(div38, file, 542, 2, 12925);
-    			attr_dev(div39, "class", "block svelte-1lhfouh");
-    			add_location(div39, file, 539, 1, 12881);
-    			attr_dev(h35, "class", "svelte-1lhfouh");
-    			add_location(h35, file, 622, 2, 15397);
-    			attr_dev(mark43, "class", "svelte-1lhfouh");
-    			add_location(mark43, file, 625, 103, 15547);
-    			attr_dev(mark44, "class", "svelte-1lhfouh");
-    			add_location(mark44, file, 625, 308, 15752);
-    			attr_dev(mark45, "class", "svelte-1lhfouh");
-    			add_location(mark45, file, 637, 18, 16125);
-    			attr_dev(code27, "class", "svelte-1lhfouh");
-    			add_location(code27, file, 636, 4, 16099);
-    			attr_dev(div40, "class", "button-code-group svelte-1lhfouh");
-    			add_location(div40, file, 627, 3, 15908);
-    			attr_dev(mark46, "class", "svelte-1lhfouh");
-    			add_location(mark46, file, 651, 18, 16464);
-    			attr_dev(code28, "class", "svelte-1lhfouh");
-    			add_location(code28, file, 650, 4, 16438);
-    			attr_dev(div41, "class", "button-code-group svelte-1lhfouh");
-    			add_location(div41, file, 641, 3, 16207);
-    			attr_dev(mark47, "class", "svelte-1lhfouh");
-    			add_location(mark47, file, 665, 18, 16856);
-    			attr_dev(code29, "class", "svelte-1lhfouh");
-    			add_location(code29, file, 664, 4, 16830);
-    			attr_dev(div42, "class", "button-code-group svelte-1lhfouh");
-    			add_location(div42, file, 655, 3, 16592);
-    			attr_dev(mark48, "class", "svelte-1lhfouh");
-    			add_location(mark48, file, 681, 18, 17366);
-    			attr_dev(code30, "class", "svelte-1lhfouh");
-    			add_location(code30, file, 680, 4, 17340);
-    			attr_dev(div43, "class", "button-code-group svelte-1lhfouh");
-    			add_location(div43, file, 671, 3, 17112);
-    			attr_dev(mark49, "class", "svelte-1lhfouh");
-    			add_location(mark49, file, 695, 18, 17796);
-    			attr_dev(code31, "class", "svelte-1lhfouh");
-    			add_location(code31, file, 694, 4, 17770);
-    			attr_dev(div44, "class", "button-code-group svelte-1lhfouh");
-    			add_location(div44, file, 685, 3, 17480);
-    			attr_dev(mark50, "class", "svelte-1lhfouh");
-    			add_location(mark50, file, 711, 18, 18306);
-    			attr_dev(code32, "class", "svelte-1lhfouh");
-    			add_location(code32, file, 710, 4, 18280);
-    			attr_dev(div45, "class", "button-code-group svelte-1lhfouh");
-    			add_location(div45, file, 701, 3, 18050);
-    			attr_dev(div46, "class", "description svelte-1lhfouh");
-    			add_location(div46, file, 624, 2, 15417);
-    			attr_dev(div47, "class", "block svelte-1lhfouh");
-    			add_location(div47, file, 621, 1, 15374);
-    			attr_dev(h36, "class", "svelte-1lhfouh");
-    			add_location(h36, file, 718, 2, 18482);
-    			attr_dev(mark51, "class", "svelte-1lhfouh");
-    			add_location(mark51, file, 721, 50, 18581);
-    			attr_dev(mark52, "class", "svelte-1lhfouh");
-    			add_location(mark52, file, 733, 18, 18967);
-    			attr_dev(code33, "class", "svelte-1lhfouh");
-    			add_location(code33, file, 732, 4, 18941);
-    			attr_dev(div48, "class", "button-code-group svelte-1lhfouh");
-    			add_location(div48, file, 723, 3, 18757);
-    			attr_dev(mark53, "class", "svelte-1lhfouh");
-    			add_location(mark53, file, 747, 18, 19245);
-    			attr_dev(code34, "class", "svelte-1lhfouh");
-    			add_location(code34, file, 746, 4, 19219);
-    			attr_dev(div49, "class", "button-code-group svelte-1lhfouh");
-    			add_location(div49, file, 737, 3, 19034);
-    			attr_dev(mark54, "class", "svelte-1lhfouh");
-    			add_location(mark54, file, 765, 18, 19670);
-    			attr_dev(code35, "class", "svelte-1lhfouh");
-    			add_location(code35, file, 764, 4, 19644);
-    			attr_dev(div50, "class", "button-code-group svelte-1lhfouh");
-    			add_location(div50, file, 751, 3, 19313);
-    			attr_dev(mark55, "class", "svelte-1lhfouh");
-    			add_location(mark55, file, 769, 115, 19848);
-    			attr_dev(mark56, "class", "svelte-1lhfouh");
-    			add_location(mark56, file, 781, 18, 20103);
-    			attr_dev(code36, "class", "svelte-1lhfouh");
-    			add_location(code36, file, 780, 4, 20077);
-    			attr_dev(div51, "class", "button-code-group svelte-1lhfouh");
-    			add_location(div51, file, 771, 3, 19887);
-    			attr_dev(mark57, "class", "svelte-1lhfouh");
-    			add_location(mark57, file, 795, 18, 20433);
-    			attr_dev(code37, "class", "svelte-1lhfouh");
-    			add_location(code37, file, 794, 4, 20407);
-    			attr_dev(div52, "class", "button-code-group svelte-1lhfouh");
-    			add_location(div52, file, 785, 3, 20175);
-    			attr_dev(div53, "class", "description svelte-1lhfouh");
-    			add_location(div53, file, 720, 2, 18504);
-    			attr_dev(div54, "class", "block svelte-1lhfouh");
-    			add_location(div54, file, 717, 1, 18459);
-    			attr_dev(h37, "class", "svelte-1lhfouh");
-    			add_location(h37, file, 802, 2, 20597);
-    			add_location(br0, file, 805, 70, 20728);
-    			add_location(small, file, 806, 116, 20850);
-    			attr_dev(code38, "class", "svelte-1lhfouh");
-    			add_location(code38, file, 820, 5, 21328);
-    			attr_dev(code39, "class", "svelte-1lhfouh");
-    			add_location(code39, file, 824, 5, 21466);
-    			attr_dev(code40, "class", "svelte-1lhfouh");
-    			add_location(code40, file, 828, 5, 21601);
-    			add_location(div55, file, 819, 4, 21316);
-    			attr_dev(div56, "class", "button-code-group svelte-1lhfouh");
-    			add_location(div56, file, 808, 3, 20963);
-    			attr_dev(code41, "class", "svelte-1lhfouh");
-    			add_location(code41, file, 846, 5, 22170);
-    			attr_dev(code42, "class", "svelte-1lhfouh");
-    			add_location(code42, file, 850, 5, 22319);
-    			attr_dev(code43, "class", "svelte-1lhfouh");
-    			add_location(code43, file, 854, 5, 22468);
-    			add_location(div57, file, 845, 4, 22158);
-    			attr_dev(div58, "class", "button-code-group svelte-1lhfouh");
-    			add_location(div58, file, 834, 3, 21759);
-    			attr_dev(code44, "class", "svelte-1lhfouh");
-    			add_location(code44, file, 888, 5, 24175);
-    			attr_dev(code45, "class", "svelte-1lhfouh");
-    			add_location(code45, file, 891, 5, 24326);
-    			attr_dev(code46, "class", "svelte-1lhfouh");
-    			add_location(code46, file, 894, 5, 24474);
-    			attr_dev(code47, "class", "svelte-1lhfouh");
-    			add_location(code47, file, 897, 5, 24623);
-    			attr_dev(code48, "class", "svelte-1lhfouh");
-    			add_location(code48, file, 900, 5, 24770);
-    			attr_dev(code49, "class", "svelte-1lhfouh");
-    			add_location(code49, file, 903, 5, 24919);
-    			attr_dev(code50, "class", "svelte-1lhfouh");
-    			add_location(code50, file, 906, 5, 25066);
-    			attr_dev(code51, "class", "svelte-1lhfouh");
-    			add_location(code51, file, 909, 5, 25215);
-    			attr_dev(code52, "class", "svelte-1lhfouh");
-    			add_location(code52, file, 912, 5, 25362);
-    			attr_dev(code53, "class", "svelte-1lhfouh");
-    			add_location(code53, file, 915, 5, 25511);
-    			attr_dev(code54, "class", "svelte-1lhfouh");
-    			add_location(code54, file, 918, 5, 25655);
-    			attr_dev(code55, "class", "svelte-1lhfouh");
-    			add_location(code55, file, 921, 5, 25801);
-    			attr_dev(code56, "class", "svelte-1lhfouh");
-    			add_location(code56, file, 924, 5, 25943);
-    			attr_dev(code57, "class", "svelte-1lhfouh");
-    			add_location(code57, file, 927, 5, 26087);
-    			attr_dev(code58, "class", "svelte-1lhfouh");
-    			add_location(code58, file, 930, 5, 26231);
-    			add_location(div59, file, 887, 4, 24163);
-    			attr_dev(div60, "class", "button-code-group svelte-1lhfouh");
-    			add_location(div60, file, 860, 3, 22643);
-    			attr_dev(code59, "class", "svelte-1lhfouh");
-    			add_location(code59, file, 948, 5, 26892);
-    			add_location(div61, file, 947, 4, 26880);
-    			attr_dev(div62, "class", "button-code-group svelte-1lhfouh");
-    			add_location(div62, file, 938, 3, 26684);
-    			attr_dev(code60, "class", "svelte-1lhfouh");
-    			add_location(code60, file, 966, 5, 27371);
-    			attr_dev(code61, "class", "svelte-1lhfouh");
-    			add_location(code61, file, 969, 5, 27450);
-    			attr_dev(code62, "class", "svelte-1lhfouh");
-    			add_location(code62, file, 972, 5, 27568);
-    			add_location(div63, file, 965, 4, 27359);
-    			attr_dev(div64, "class", "button-code-group svelte-1lhfouh");
-    			add_location(div64, file, 954, 3, 27051);
-    			attr_dev(code63, "class", "svelte-1lhfouh");
-    			add_location(code63, file, 990, 5, 27944);
-    			add_location(div65, file, 989, 4, 27932);
-    			attr_dev(div66, "class", "button-code-group svelte-1lhfouh");
-    			add_location(div66, file, 980, 3, 27740);
-    			attr_dev(code64, "class", "svelte-1lhfouh");
-    			add_location(code64, file, 1008, 5, 28401);
-    			attr_dev(code65, "class", "svelte-1lhfouh");
-    			add_location(code65, file, 1011, 5, 28485);
-    			attr_dev(code66, "class", "svelte-1lhfouh");
-    			add_location(code66, file, 1014, 5, 28608);
-    			add_location(div67, file, 1007, 4, 28389);
-    			attr_dev(div68, "class", "button-code-group svelte-1lhfouh");
-    			add_location(div68, file, 996, 3, 28061);
-    			attr_dev(code67, "class", "svelte-1lhfouh");
-    			add_location(code67, file, 1034, 5, 29250);
-    			attr_dev(code68, "class", "svelte-1lhfouh");
-    			add_location(code68, file, 1037, 5, 29356);
-    			attr_dev(code69, "class", "svelte-1lhfouh");
-    			add_location(code69, file, 1040, 5, 29502);
-    			add_location(div69, file, 1033, 4, 29238);
-    			attr_dev(div70, "class", "button-code-group svelte-1lhfouh");
-    			add_location(div70, file, 1022, 3, 28865);
-    			attr_dev(code70, "class", "svelte-1lhfouh");
-    			add_location(code70, file, 1061, 5, 30224);
-    			attr_dev(code71, "class", "svelte-1lhfouh");
-    			add_location(code71, file, 1064, 5, 30342);
-    			attr_dev(code72, "class", "svelte-1lhfouh");
-    			add_location(code72, file, 1067, 5, 30491);
-    			attr_dev(code73, "class", "svelte-1lhfouh");
-    			add_location(code73, file, 1070, 5, 30636);
-    			add_location(div71, file, 1060, 4, 30212);
-    			attr_dev(div72, "class", "button-code-group svelte-1lhfouh");
-    			add_location(div72, file, 1048, 3, 29739);
-    			attr_dev(code74, "class", "svelte-1lhfouh");
-    			add_location(code74, file, 1088, 5, 31325);
-    			attr_dev(code75, "class", "svelte-1lhfouh");
-    			add_location(code75, file, 1091, 5, 31504);
-    			attr_dev(code76, "class", "svelte-1lhfouh");
-    			add_location(code76, file, 1094, 5, 31688);
-    			add_location(div73, file, 1087, 4, 31313);
-    			attr_dev(div74, "class", "button-code-group svelte-1lhfouh");
-    			add_location(div74, file, 1076, 3, 30831);
-    			attr_dev(div75, "class", "description svelte-1lhfouh");
-    			add_location(div75, file, 804, 2, 20631);
-    			attr_dev(div76, "class", "block svelte-1lhfouh");
-    			add_location(div76, file, 801, 1, 20574);
-    			attr_dev(h38, "class", "svelte-1lhfouh");
-    			add_location(h38, file, 1103, 2, 31937);
-    			add_location(br1, file, 1121, 21, 32755);
-    			add_location(br2, file, 1122, 23, 32784);
-    			add_location(br3, file, 1123, 18, 32808);
-    			add_location(br4, file, 1124, 15, 32829);
-    			add_location(br5, file, 1125, 21, 32856);
-    			add_location(br6, file, 1126, 20, 32882);
-    			add_location(br7, file, 1127, 21, 32909);
-    			add_location(br8, file, 1128, 31, 32946);
-    			add_location(br9, file, 1129, 29, 32981);
-    			add_location(br10, file, 1131, 7, 33151);
-    			attr_dev(code77, "class", "svelte-1lhfouh");
-    			add_location(code77, file, 1120, 5, 32726);
-    			add_location(div77, file, 1119, 4, 32714);
-    			attr_dev(div78, "class", "button-code-group svelte-1lhfouh");
-    			add_location(div78, file, 1108, 3, 32259);
-    			attr_dev(mark58, "class", "svelte-1lhfouh");
-    			add_location(mark58, file, 1137, 94, 33310);
-    			attr_dev(code78, "class", "inline svelte-1lhfouh");
-    			add_location(code78, file, 1137, 139, 33355);
-    			add_location(br11, file, 1138, 3, 33426);
-    			add_location(br12, file, 1139, 3, 33435);
-    			attr_dev(code79, "class", "inline svelte-1lhfouh");
-    			add_location(code79, file, 1140, 120, 33561);
-    			attr_dev(code80, "class", "inline svelte-1lhfouh");
-    			add_location(code80, file, 1140, 198, 33639);
-    			attr_dev(div79, "class", "description svelte-1lhfouh");
-    			add_location(div79, file, 1105, 2, 31970);
-    			attr_dev(div80, "class", "block svelte-1lhfouh");
-    			add_location(div80, file, 1102, 1, 31914);
-    			attr_dev(h23, "class", "svelte-1lhfouh");
-    			add_location(h23, file, 1144, 1, 33779);
-    			attr_dev(p5, "class", "svelte-1lhfouh");
-    			add_location(p5, file, 1147, 2, 33826);
-    			attr_dev(strong0, "class", "svelte-1lhfouh");
-    			add_location(strong0, file, 1150, 3, 33909);
-    			attr_dev(strong1, "class", "svelte-1lhfouh");
-    			add_location(strong1, file, 1150, 29, 33935);
-    			attr_dev(strong2, "class", "svelte-1lhfouh");
-    			add_location(strong2, file, 1150, 54, 33960);
-    			attr_dev(code81, "class", "svelte-1lhfouh");
-    			add_location(code81, file, 1152, 3, 33995);
-    			attr_dev(code82, "class", "svelte-1lhfouh");
-    			add_location(code82, file, 1152, 21, 34013);
-    			add_location(div81, file, 1152, 37, 34029);
-    			attr_dev(code83, "class", "svelte-1lhfouh");
-    			add_location(code83, file, 1153, 3, 34102);
-    			attr_dev(code84, "class", "svelte-1lhfouh");
-    			add_location(code84, file, 1153, 18, 34117);
-    			add_location(div82, file, 1153, 43, 34142);
-    			attr_dev(code85, "class", "svelte-1lhfouh");
-    			add_location(code85, file, 1154, 3, 34301);
-    			attr_dev(code86, "class", "svelte-1lhfouh");
-    			add_location(code86, file, 1154, 18, 34316);
-    			add_location(div83, file, 1154, 41, 34339);
-    			attr_dev(code87, "class", "svelte-1lhfouh");
-    			add_location(code87, file, 1155, 3, 34490);
-    			attr_dev(code88, "class", "svelte-1lhfouh");
-    			add_location(code88, file, 1155, 25, 34512);
-    			add_location(div84, file, 1155, 43, 34530);
-    			attr_dev(code89, "class", "svelte-1lhfouh");
-    			add_location(code89, file, 1156, 3, 34598);
-    			attr_dev(code90, "class", "svelte-1lhfouh");
-    			add_location(code90, file, 1156, 25, 34620);
-    			add_location(div85, file, 1156, 44, 34639);
-    			attr_dev(code91, "class", "svelte-1lhfouh");
-    			add_location(code91, file, 1157, 3, 34707);
-    			attr_dev(code92, "class", "svelte-1lhfouh");
-    			add_location(code92, file, 1157, 22, 34726);
-    			add_location(div86, file, 1157, 43, 34747);
-    			attr_dev(code93, "class", "svelte-1lhfouh");
-    			add_location(code93, file, 1158, 3, 34875);
-    			attr_dev(code94, "class", "svelte-1lhfouh");
-    			add_location(code94, file, 1158, 27, 34899);
-    			add_location(div87, file, 1158, 49, 34921);
-    			attr_dev(code95, "class", "svelte-1lhfouh");
-    			add_location(code95, file, 1159, 3, 35032);
-    			attr_dev(code96, "class", "svelte-1lhfouh");
-    			add_location(code96, file, 1159, 27, 35056);
-    			add_location(div88, file, 1159, 43, 35072);
-    			attr_dev(code97, "class", "svelte-1lhfouh");
-    			add_location(code97, file, 1160, 3, 35267);
-    			attr_dev(code98, "class", "svelte-1lhfouh");
-    			add_location(code98, file, 1160, 23, 35287);
-    			add_location(div89, file, 1160, 39, 35303);
-    			attr_dev(code99, "class", "svelte-1lhfouh");
-    			add_location(code99, file, 1161, 3, 35458);
-    			attr_dev(code100, "class", "svelte-1lhfouh");
-    			add_location(code100, file, 1161, 31, 35486);
-    			add_location(div90, file, 1161, 46, 35501);
-    			attr_dev(code101, "class", "svelte-1lhfouh");
-    			add_location(code101, file, 1162, 3, 35615);
-    			attr_dev(code102, "class", "svelte-1lhfouh");
-    			add_location(code102, file, 1162, 29, 35641);
-    			add_location(div91, file, 1162, 50, 35662);
-    			attr_dev(code103, "class", "svelte-1lhfouh");
-    			add_location(code103, file, 1163, 3, 35758);
-    			attr_dev(code104, "class", "svelte-1lhfouh");
-    			add_location(code104, file, 1163, 24, 35779);
-    			add_location(div92, file, 1163, 43, 35798);
-    			attr_dev(code105, "class", "svelte-1lhfouh");
-    			add_location(code105, file, 1164, 3, 35862);
-    			attr_dev(code106, "class", "svelte-1lhfouh");
-    			add_location(code106, file, 1164, 21, 35880);
-    			add_location(div93, file, 1164, 40, 35899);
-    			attr_dev(code107, "class", "svelte-1lhfouh");
-    			add_location(code107, file, 1165, 3, 36043);
-    			attr_dev(code108, "class", "svelte-1lhfouh");
-    			add_location(code108, file, 1165, 26, 36066);
-    			add_location(div94, file, 1165, 45, 36085);
-    			attr_dev(div95, "class", "table svelte-1lhfouh");
-    			add_location(div95, file, 1149, 2, 33885);
+    			add_location(a1, file, 1166, 10, 36173);
     			attr_dev(div96, "class", "block svelte-1lhfouh");
-    			add_location(div96, file, 1146, 1, 33803);
+    			add_location(div96, file, 1165, 1, 36142);
     			attr_dev(div97, "class", "wrapper svelte-1lhfouh");
     			add_location(div97, file, 7, 0, 127);
     		},
@@ -9808,623 +9808,623 @@ var app = (function () {
     			append_dev(code3, mark5);
     			append_dev(code3, t56);
     			append_dev(div97, t57);
-    			append_dev(div97, div4);
-    			append_dev(div4, t58);
-    			append_dev(div4, a1);
-    			append_dev(div97, t60);
     			append_dev(div97, h22);
-    			append_dev(div97, t62);
+    			append_dev(div97, t59);
     			append_dev(div97, mark6);
-    			append_dev(div97, t64);
-    			append_dev(div97, div7);
-    			append_dev(div7, div6);
-    			append_dev(div6, t65);
+    			append_dev(div97, t61);
+    			append_dev(div97, div6);
     			append_dev(div6, div5);
-    			mount_component(toggleconfetti20, div5, null);
-    			append_dev(div5, t66);
-    			append_dev(div5, code4);
-    			append_dev(div97, t68);
-    			append_dev(div97, div15);
-    			append_dev(div15, h30);
-    			append_dev(div15, t70);
-    			append_dev(div15, div14);
-    			append_dev(div14, t71);
-    			append_dev(div14, mark7);
-    			append_dev(div14, t73);
-    			append_dev(div14, mark8);
-    			append_dev(div14, t75);
-    			append_dev(div14, div8);
-    			mount_component(toggleconfetti21, div8, null);
-    			append_dev(div8, t76);
-    			append_dev(div8, code5);
-    			append_dev(code5, t77);
-    			append_dev(code5, mark9);
-    			append_dev(code5, t79);
-    			append_dev(code5, mark10);
-    			append_dev(code5, t81);
-    			append_dev(div14, t82);
-    			append_dev(div14, div9);
-    			mount_component(toggleconfetti22, div9, null);
-    			append_dev(div9, t83);
-    			append_dev(div9, code6);
-    			append_dev(code6, t84);
-    			append_dev(code6, mark11);
-    			append_dev(code6, t86);
-    			append_dev(code6, mark12);
-    			append_dev(code6, t88);
-    			append_dev(div14, t89);
-    			append_dev(div14, div10);
-    			mount_component(toggleconfetti23, div10, null);
-    			append_dev(div10, t90);
-    			append_dev(div10, code7);
-    			append_dev(code7, t91);
-    			append_dev(code7, mark13);
-    			append_dev(code7, t93);
-    			append_dev(code7, mark14);
-    			append_dev(code7, t95);
-    			append_dev(div14, t96);
-    			append_dev(div14, div11);
-    			mount_component(toggleconfetti24, div11, null);
-    			append_dev(div11, t97);
-    			append_dev(div11, code8);
-    			append_dev(code8, t98);
-    			append_dev(code8, mark15);
-    			append_dev(code8, t100);
-    			append_dev(code8, mark16);
-    			append_dev(code8, t102);
-    			append_dev(div14, t103);
-    			append_dev(div14, div12);
-    			mount_component(toggleconfetti25, div12, null);
-    			append_dev(div12, t104);
-    			append_dev(div12, code9);
-    			append_dev(code9, t105);
-    			append_dev(code9, mark17);
-    			append_dev(code9, t107);
-    			append_dev(code9, mark18);
-    			append_dev(code9, t109);
-    			append_dev(div14, t110);
+    			append_dev(div5, t62);
+    			append_dev(div5, div4);
+    			mount_component(toggleconfetti20, div4, null);
+    			append_dev(div4, t63);
+    			append_dev(div4, code4);
+    			append_dev(div97, t65);
+    			append_dev(div97, div14);
+    			append_dev(div14, h30);
+    			append_dev(div14, t67);
     			append_dev(div14, div13);
-    			mount_component(toggleconfetti26, div13, null);
-    			append_dev(div13, t111);
-    			append_dev(div13, code10);
-    			append_dev(code10, t112);
+    			append_dev(div13, t68);
+    			append_dev(div13, mark7);
+    			append_dev(div13, t70);
+    			append_dev(div13, mark8);
+    			append_dev(div13, t72);
+    			append_dev(div13, div7);
+    			mount_component(toggleconfetti21, div7, null);
+    			append_dev(div7, t73);
+    			append_dev(div7, code5);
+    			append_dev(code5, t74);
+    			append_dev(code5, mark9);
+    			append_dev(code5, t76);
+    			append_dev(code5, mark10);
+    			append_dev(code5, t78);
+    			append_dev(div13, t79);
+    			append_dev(div13, div8);
+    			mount_component(toggleconfetti22, div8, null);
+    			append_dev(div8, t80);
+    			append_dev(div8, code6);
+    			append_dev(code6, t81);
+    			append_dev(code6, mark11);
+    			append_dev(code6, t83);
+    			append_dev(code6, mark12);
+    			append_dev(code6, t85);
+    			append_dev(div13, t86);
+    			append_dev(div13, div9);
+    			mount_component(toggleconfetti23, div9, null);
+    			append_dev(div9, t87);
+    			append_dev(div9, code7);
+    			append_dev(code7, t88);
+    			append_dev(code7, mark13);
+    			append_dev(code7, t90);
+    			append_dev(code7, mark14);
+    			append_dev(code7, t92);
+    			append_dev(div13, t93);
+    			append_dev(div13, div10);
+    			mount_component(toggleconfetti24, div10, null);
+    			append_dev(div10, t94);
+    			append_dev(div10, code8);
+    			append_dev(code8, t95);
+    			append_dev(code8, mark15);
+    			append_dev(code8, t97);
+    			append_dev(code8, mark16);
+    			append_dev(code8, t99);
+    			append_dev(div13, t100);
+    			append_dev(div13, div11);
+    			mount_component(toggleconfetti25, div11, null);
+    			append_dev(div11, t101);
+    			append_dev(div11, code9);
+    			append_dev(code9, t102);
+    			append_dev(code9, mark17);
+    			append_dev(code9, t104);
+    			append_dev(code9, mark18);
+    			append_dev(code9, t106);
+    			append_dev(div13, t107);
+    			append_dev(div13, div12);
+    			mount_component(toggleconfetti26, div12, null);
+    			append_dev(div12, t108);
+    			append_dev(div12, code10);
+    			append_dev(code10, t109);
     			append_dev(code10, mark19);
-    			append_dev(code10, t114);
+    			append_dev(code10, t111);
     			append_dev(code10, mark20);
-    			append_dev(code10, t116);
-    			append_dev(div97, t117);
-    			append_dev(div97, div21);
-    			append_dev(div21, h31);
-    			append_dev(div21, t119);
-    			append_dev(div21, div20);
-    			append_dev(div20, t120);
-    			append_dev(div20, mark21);
-    			append_dev(div20, t122);
-    			append_dev(div20, div16);
-    			mount_component(toggleconfetti27, div16, null);
-    			append_dev(div16, t123);
-    			append_dev(div16, code11);
-    			append_dev(code11, t124);
-    			append_dev(code11, mark22);
-    			append_dev(code11, t126);
-    			append_dev(div20, t127);
-    			append_dev(div20, div17);
-    			mount_component(toggleconfetti28, div17, null);
-    			append_dev(div17, t128);
-    			append_dev(div17, code12);
-    			append_dev(code12, t129);
-    			append_dev(code12, mark23);
-    			append_dev(code12, t131);
-    			append_dev(div20, t132);
-    			append_dev(div20, div18);
-    			mount_component(toggleconfetti29, div18, null);
-    			append_dev(div18, t133);
-    			append_dev(div18, code13);
-    			append_dev(code13, t134);
-    			append_dev(code13, mark24);
-    			append_dev(code13, t136);
-    			append_dev(div20, t137);
+    			append_dev(code10, t113);
+    			append_dev(div97, t114);
+    			append_dev(div97, div20);
+    			append_dev(div20, h31);
+    			append_dev(div20, t116);
     			append_dev(div20, div19);
-    			mount_component(toggleconfetti30, div19, null);
-    			append_dev(div19, t138);
-    			append_dev(div19, code14);
-    			append_dev(code14, t139);
+    			append_dev(div19, t117);
+    			append_dev(div19, mark21);
+    			append_dev(div19, t119);
+    			append_dev(div19, div15);
+    			mount_component(toggleconfetti27, div15, null);
+    			append_dev(div15, t120);
+    			append_dev(div15, code11);
+    			append_dev(code11, t121);
+    			append_dev(code11, mark22);
+    			append_dev(code11, t123);
+    			append_dev(div19, t124);
+    			append_dev(div19, div16);
+    			mount_component(toggleconfetti28, div16, null);
+    			append_dev(div16, t125);
+    			append_dev(div16, code12);
+    			append_dev(code12, t126);
+    			append_dev(code12, mark23);
+    			append_dev(code12, t128);
+    			append_dev(div19, t129);
+    			append_dev(div19, div17);
+    			mount_component(toggleconfetti29, div17, null);
+    			append_dev(div17, t130);
+    			append_dev(div17, code13);
+    			append_dev(code13, t131);
+    			append_dev(code13, mark24);
+    			append_dev(code13, t133);
+    			append_dev(div19, t134);
+    			append_dev(div19, div18);
+    			mount_component(toggleconfetti30, div18, null);
+    			append_dev(div18, t135);
+    			append_dev(div18, code14);
+    			append_dev(code14, t136);
     			append_dev(code14, mark25);
-    			append_dev(code14, t141);
-    			append_dev(div97, t142);
-    			append_dev(div97, div27);
-    			append_dev(div27, h32);
-    			append_dev(div27, t144);
-    			append_dev(div27, div26);
-    			append_dev(div26, t145);
-    			append_dev(div26, mark26);
-    			append_dev(div26, t147);
-    			append_dev(div26, div22);
-    			mount_component(toggleconfetti31, div22, null);
-    			append_dev(div22, t148);
-    			append_dev(div22, code15);
-    			append_dev(div26, t150);
-    			append_dev(div26, div23);
-    			mount_component(toggleconfetti32, div23, null);
-    			append_dev(div23, t151);
-    			append_dev(div23, code16);
-    			append_dev(code16, t152);
-    			append_dev(code16, mark27);
-    			append_dev(code16, t154);
-    			append_dev(div26, t155);
-    			append_dev(div26, div24);
-    			mount_component(toggleconfetti33, div24, null);
-    			append_dev(div24, t156);
-    			append_dev(div24, code17);
-    			append_dev(div26, t158);
+    			append_dev(code14, t138);
+    			append_dev(div97, t139);
+    			append_dev(div97, div26);
+    			append_dev(div26, h32);
+    			append_dev(div26, t141);
     			append_dev(div26, div25);
-    			mount_component(toggleconfetti34, div25, null);
-    			append_dev(div25, t159);
-    			append_dev(div25, code18);
-    			append_dev(code18, t160);
+    			append_dev(div25, t142);
+    			append_dev(div25, mark26);
+    			append_dev(div25, t144);
+    			append_dev(div25, div21);
+    			mount_component(toggleconfetti31, div21, null);
+    			append_dev(div21, t145);
+    			append_dev(div21, code15);
+    			append_dev(div25, t147);
+    			append_dev(div25, div22);
+    			mount_component(toggleconfetti32, div22, null);
+    			append_dev(div22, t148);
+    			append_dev(div22, code16);
+    			append_dev(code16, t149);
+    			append_dev(code16, mark27);
+    			append_dev(code16, t151);
+    			append_dev(div25, t152);
+    			append_dev(div25, div23);
+    			mount_component(toggleconfetti33, div23, null);
+    			append_dev(div23, t153);
+    			append_dev(div23, code17);
+    			append_dev(div25, t155);
+    			append_dev(div25, div24);
+    			mount_component(toggleconfetti34, div24, null);
+    			append_dev(div24, t156);
+    			append_dev(div24, code18);
+    			append_dev(code18, t157);
     			append_dev(code18, mark28);
-    			append_dev(code18, t162);
-    			append_dev(div26, t163);
-    			append_dev(div97, t164);
-    			append_dev(div97, div32);
-    			append_dev(div32, h33);
-    			append_dev(div32, t166);
-    			append_dev(div32, div31);
-    			append_dev(div31, t167);
-    			append_dev(div31, mark29);
-    			append_dev(div31, t169);
-    			append_dev(div31, div28);
-    			mount_component(toggleconfetti35, div28, null);
-    			append_dev(div28, t170);
-    			append_dev(div28, code19);
-    			append_dev(code19, t171);
-    			append_dev(code19, mark30);
-    			append_dev(code19, t173);
-    			append_dev(div31, t174);
-    			append_dev(div31, div29);
-    			mount_component(toggleconfetti36, div29, null);
-    			append_dev(div29, t175);
-    			append_dev(div29, code20);
-    			append_dev(code20, t176);
-    			append_dev(code20, mark31);
-    			append_dev(code20, t178);
-    			append_dev(div31, t179);
-    			append_dev(div31, mark32);
-    			append_dev(div31, t181);
+    			append_dev(code18, t159);
+    			append_dev(div25, t160);
+    			append_dev(div97, t161);
+    			append_dev(div97, div31);
+    			append_dev(div31, h33);
+    			append_dev(div31, t163);
     			append_dev(div31, div30);
-    			mount_component(toggleconfetti37, div30, null);
-    			append_dev(div30, t182);
-    			append_dev(div30, code21);
-    			append_dev(code21, t183);
+    			append_dev(div30, t164);
+    			append_dev(div30, mark29);
+    			append_dev(div30, t166);
+    			append_dev(div30, div27);
+    			mount_component(toggleconfetti35, div27, null);
+    			append_dev(div27, t167);
+    			append_dev(div27, code19);
+    			append_dev(code19, t168);
+    			append_dev(code19, mark30);
+    			append_dev(code19, t170);
+    			append_dev(div30, t171);
+    			append_dev(div30, div28);
+    			mount_component(toggleconfetti36, div28, null);
+    			append_dev(div28, t172);
+    			append_dev(div28, code20);
+    			append_dev(code20, t173);
+    			append_dev(code20, mark31);
+    			append_dev(code20, t175);
+    			append_dev(div30, t176);
+    			append_dev(div30, mark32);
+    			append_dev(div30, t178);
+    			append_dev(div30, div29);
+    			mount_component(toggleconfetti37, div29, null);
+    			append_dev(div29, t179);
+    			append_dev(div29, code21);
+    			append_dev(code21, t180);
     			append_dev(code21, mark33);
-    			append_dev(code21, t185);
-    			append_dev(div97, t186);
-    			append_dev(div97, div39);
-    			append_dev(div39, h34);
-    			append_dev(div39, t188);
-    			append_dev(div39, div38);
-    			append_dev(div38, t189);
-    			append_dev(div38, mark34);
-    			append_dev(div38, t191);
-    			append_dev(div38, div33);
-    			mount_component(toggleconfetti38, div33, null);
-    			append_dev(div33, t192);
-    			append_dev(div33, code22);
-    			append_dev(code22, t193);
-    			append_dev(code22, mark35);
-    			append_dev(code22, t195);
-    			append_dev(div38, t196);
-    			append_dev(div38, div34);
-    			mount_component(toggleconfetti39, div34, null);
-    			append_dev(div34, t197);
-    			append_dev(div34, code23);
-    			append_dev(code23, t198);
-    			append_dev(code23, mark36);
-    			append_dev(code23, t200);
-    			append_dev(div38, t201);
-    			append_dev(div38, mark37);
-    			append_dev(div38, t203);
-    			append_dev(div38, div35);
-    			mount_component(toggleconfetti40, div35, null);
-    			append_dev(div35, t204);
-    			append_dev(div35, code24);
-    			append_dev(code24, t205);
-    			append_dev(code24, mark38);
-    			append_dev(code24, t207);
-    			append_dev(div38, t208);
-    			append_dev(div38, div36);
-    			mount_component(toggleconfetti41, div36, null);
-    			append_dev(div36, t209);
-    			append_dev(div36, code25);
-    			append_dev(code25, t210);
-    			append_dev(code25, mark39);
-    			append_dev(code25, t212);
-    			append_dev(code25, mark40);
-    			append_dev(code25, t214);
-    			append_dev(div38, t215);
-    			append_dev(div38, mark41);
-    			append_dev(div38, t217);
+    			append_dev(code21, t182);
+    			append_dev(div97, t183);
+    			append_dev(div97, div38);
+    			append_dev(div38, h34);
+    			append_dev(div38, t185);
     			append_dev(div38, div37);
-    			mount_component(toggleconfetti42, div37, null);
-    			append_dev(div37, t218);
-    			append_dev(div37, code26);
-    			append_dev(code26, t219);
+    			append_dev(div37, t186);
+    			append_dev(div37, mark34);
+    			append_dev(div37, t188);
+    			append_dev(div37, div32);
+    			mount_component(toggleconfetti38, div32, null);
+    			append_dev(div32, t189);
+    			append_dev(div32, code22);
+    			append_dev(code22, t190);
+    			append_dev(code22, mark35);
+    			append_dev(code22, t192);
+    			append_dev(div37, t193);
+    			append_dev(div37, div33);
+    			mount_component(toggleconfetti39, div33, null);
+    			append_dev(div33, t194);
+    			append_dev(div33, code23);
+    			append_dev(code23, t195);
+    			append_dev(code23, mark36);
+    			append_dev(code23, t197);
+    			append_dev(div37, t198);
+    			append_dev(div37, mark37);
+    			append_dev(div37, t200);
+    			append_dev(div37, div34);
+    			mount_component(toggleconfetti40, div34, null);
+    			append_dev(div34, t201);
+    			append_dev(div34, code24);
+    			append_dev(code24, t202);
+    			append_dev(code24, mark38);
+    			append_dev(code24, t204);
+    			append_dev(div37, t205);
+    			append_dev(div37, div35);
+    			mount_component(toggleconfetti41, div35, null);
+    			append_dev(div35, t206);
+    			append_dev(div35, code25);
+    			append_dev(code25, t207);
+    			append_dev(code25, mark39);
+    			append_dev(code25, t209);
+    			append_dev(code25, mark40);
+    			append_dev(code25, t211);
+    			append_dev(div37, t212);
+    			append_dev(div37, mark41);
+    			append_dev(div37, t214);
+    			append_dev(div37, div36);
+    			mount_component(toggleconfetti42, div36, null);
+    			append_dev(div36, t215);
+    			append_dev(div36, code26);
+    			append_dev(code26, t216);
     			append_dev(code26, mark42);
-    			append_dev(code26, t221);
-    			append_dev(div97, t222);
-    			append_dev(div97, div47);
-    			append_dev(div47, h35);
-    			append_dev(div47, t224);
-    			append_dev(div47, div46);
-    			append_dev(div46, t225);
-    			append_dev(div46, mark43);
-    			append_dev(div46, t227);
-    			append_dev(div46, mark44);
-    			append_dev(div46, t229);
-    			append_dev(div46, div40);
-    			mount_component(toggleconfetti43, div40, null);
-    			append_dev(div40, t230);
-    			append_dev(div40, code27);
-    			append_dev(code27, t231);
-    			append_dev(code27, mark45);
-    			append_dev(code27, t233);
-    			append_dev(div46, t234);
-    			append_dev(div46, div41);
-    			mount_component(toggleconfetti44, div41, null);
-    			append_dev(div41, t235);
-    			append_dev(div41, code28);
-    			append_dev(code28, t236);
-    			append_dev(code28, mark46);
-    			append_dev(code28, t238);
-    			append_dev(div46, t239);
-    			append_dev(div46, div42);
-    			mount_component(toggleconfetti45, div42, null);
-    			append_dev(div42, t240);
-    			append_dev(div42, code29);
-    			append_dev(code29, t241);
-    			append_dev(code29, mark47);
-    			append_dev(code29, t243);
-    			append_dev(div46, t244);
-    			append_dev(div46, div43);
-    			mount_component(toggleconfetti46, div43, null);
-    			append_dev(div43, t245);
-    			append_dev(div43, code30);
-    			append_dev(code30, t246);
-    			append_dev(code30, mark48);
-    			append_dev(code30, t248);
-    			append_dev(div46, t249);
-    			append_dev(div46, div44);
-    			mount_component(toggleconfetti47, div44, null);
-    			append_dev(div44, t250);
-    			append_dev(div44, code31);
-    			append_dev(code31, t251);
-    			append_dev(code31, mark49);
-    			append_dev(code31, t253);
-    			append_dev(div46, t254);
+    			append_dev(code26, t218);
+    			append_dev(div97, t219);
+    			append_dev(div97, div46);
+    			append_dev(div46, h35);
+    			append_dev(div46, t221);
     			append_dev(div46, div45);
-    			mount_component(toggleconfetti48, div45, null);
-    			append_dev(div45, t255);
-    			append_dev(div45, code32);
-    			append_dev(code32, t256);
+    			append_dev(div45, t222);
+    			append_dev(div45, mark43);
+    			append_dev(div45, t224);
+    			append_dev(div45, mark44);
+    			append_dev(div45, t226);
+    			append_dev(div45, div39);
+    			mount_component(toggleconfetti43, div39, null);
+    			append_dev(div39, t227);
+    			append_dev(div39, code27);
+    			append_dev(code27, t228);
+    			append_dev(code27, mark45);
+    			append_dev(code27, t230);
+    			append_dev(div45, t231);
+    			append_dev(div45, div40);
+    			mount_component(toggleconfetti44, div40, null);
+    			append_dev(div40, t232);
+    			append_dev(div40, code28);
+    			append_dev(code28, t233);
+    			append_dev(code28, mark46);
+    			append_dev(code28, t235);
+    			append_dev(div45, t236);
+    			append_dev(div45, div41);
+    			mount_component(toggleconfetti45, div41, null);
+    			append_dev(div41, t237);
+    			append_dev(div41, code29);
+    			append_dev(code29, t238);
+    			append_dev(code29, mark47);
+    			append_dev(code29, t240);
+    			append_dev(div45, t241);
+    			append_dev(div45, div42);
+    			mount_component(toggleconfetti46, div42, null);
+    			append_dev(div42, t242);
+    			append_dev(div42, code30);
+    			append_dev(code30, t243);
+    			append_dev(code30, mark48);
+    			append_dev(code30, t245);
+    			append_dev(div45, t246);
+    			append_dev(div45, div43);
+    			mount_component(toggleconfetti47, div43, null);
+    			append_dev(div43, t247);
+    			append_dev(div43, code31);
+    			append_dev(code31, t248);
+    			append_dev(code31, mark49);
+    			append_dev(code31, t250);
+    			append_dev(div45, t251);
+    			append_dev(div45, div44);
+    			mount_component(toggleconfetti48, div44, null);
+    			append_dev(div44, t252);
+    			append_dev(div44, code32);
+    			append_dev(code32, t253);
     			append_dev(code32, mark50);
-    			append_dev(code32, t258);
-    			append_dev(div97, t259);
-    			append_dev(div97, div54);
-    			append_dev(div54, h36);
-    			append_dev(div54, t261);
-    			append_dev(div54, div53);
-    			append_dev(div53, t262);
-    			append_dev(div53, mark51);
-    			append_dev(div53, t264);
-    			append_dev(div53, div48);
-    			mount_component(toggleconfetti49, div48, null);
-    			append_dev(div48, t265);
-    			append_dev(div48, code33);
-    			append_dev(code33, t266);
-    			append_dev(code33, mark52);
-    			append_dev(code33, t268);
-    			append_dev(div53, t269);
-    			append_dev(div53, div49);
-    			mount_component(toggleconfetti50, div49, null);
-    			append_dev(div49, t270);
-    			append_dev(div49, code34);
-    			append_dev(code34, t271);
-    			append_dev(code34, mark53);
-    			append_dev(code34, t273);
-    			append_dev(div53, t274);
-    			append_dev(div53, div50);
-    			mount_component(toggleconfetti51, div50, null);
-    			append_dev(div50, t275);
-    			append_dev(div50, code35);
-    			append_dev(code35, t276);
-    			append_dev(code35, mark54);
-    			append_dev(code35, t278);
-    			append_dev(div53, t279);
-    			append_dev(div53, mark55);
-    			append_dev(div53, t281);
-    			append_dev(div53, div51);
-    			mount_component(toggleconfetti52, div51, null);
-    			append_dev(div51, t282);
-    			append_dev(div51, code36);
-    			append_dev(code36, t283);
-    			append_dev(code36, mark56);
-    			append_dev(code36, t285);
-    			append_dev(div53, t286);
+    			append_dev(code32, t255);
+    			append_dev(div97, t256);
+    			append_dev(div97, div53);
+    			append_dev(div53, h36);
+    			append_dev(div53, t258);
     			append_dev(div53, div52);
-    			mount_component(toggleconfetti53, div52, null);
-    			append_dev(div52, t287);
-    			append_dev(div52, code37);
-    			append_dev(code37, t288);
+    			append_dev(div52, t259);
+    			append_dev(div52, mark51);
+    			append_dev(div52, t261);
+    			append_dev(div52, div47);
+    			mount_component(toggleconfetti49, div47, null);
+    			append_dev(div47, t262);
+    			append_dev(div47, code33);
+    			append_dev(code33, t263);
+    			append_dev(code33, mark52);
+    			append_dev(code33, t265);
+    			append_dev(div52, t266);
+    			append_dev(div52, div48);
+    			mount_component(toggleconfetti50, div48, null);
+    			append_dev(div48, t267);
+    			append_dev(div48, code34);
+    			append_dev(code34, t268);
+    			append_dev(code34, mark53);
+    			append_dev(code34, t270);
+    			append_dev(div52, t271);
+    			append_dev(div52, div49);
+    			mount_component(toggleconfetti51, div49, null);
+    			append_dev(div49, t272);
+    			append_dev(div49, code35);
+    			append_dev(code35, t273);
+    			append_dev(code35, mark54);
+    			append_dev(code35, t275);
+    			append_dev(div52, t276);
+    			append_dev(div52, mark55);
+    			append_dev(div52, t278);
+    			append_dev(div52, div50);
+    			mount_component(toggleconfetti52, div50, null);
+    			append_dev(div50, t279);
+    			append_dev(div50, code36);
+    			append_dev(code36, t280);
+    			append_dev(code36, mark56);
+    			append_dev(code36, t282);
+    			append_dev(div52, t283);
+    			append_dev(div52, div51);
+    			mount_component(toggleconfetti53, div51, null);
+    			append_dev(div51, t284);
+    			append_dev(div51, code37);
+    			append_dev(code37, t285);
     			append_dev(code37, mark57);
-    			append_dev(code37, t290);
-    			append_dev(div97, t291);
-    			append_dev(div97, div76);
-    			append_dev(div76, h37);
-    			append_dev(div76, t293);
-    			append_dev(div76, div75);
-    			append_dev(div75, t294);
-    			append_dev(div75, br0);
-    			append_dev(div75, t295);
-    			append_dev(div75, small);
-    			append_dev(div75, t297);
-    			append_dev(div75, div56);
-    			mount_component(toggleconfetti54, div56, null);
-    			append_dev(div56, t298);
-    			append_dev(div56, div55);
-    			append_dev(div55, code38);
-    			append_dev(div55, t300);
-    			append_dev(div55, code39);
-    			append_dev(div55, t302);
-    			append_dev(div55, code40);
-    			append_dev(div75, t304);
-    			append_dev(div75, div58);
-    			mount_component(toggleconfetti55, div58, null);
-    			append_dev(div58, t305);
-    			append_dev(div58, div57);
-    			append_dev(div57, code41);
-    			append_dev(div57, t307);
-    			append_dev(div57, code42);
-    			append_dev(div57, t309);
-    			append_dev(div57, code43);
-    			append_dev(div75, t311);
-    			append_dev(div75, div60);
-    			mount_component(toggleconfetti56, div60, null);
-    			append_dev(div60, t312);
-    			append_dev(div60, div59);
-    			append_dev(div59, code44);
-    			append_dev(div59, t314);
-    			append_dev(div59, code45);
-    			append_dev(div59, t316);
-    			append_dev(div59, code46);
-    			append_dev(div59, t318);
-    			append_dev(div59, code47);
-    			append_dev(div59, t320);
-    			append_dev(div59, code48);
-    			append_dev(div59, t322);
-    			append_dev(div59, code49);
-    			append_dev(div59, t324);
-    			append_dev(div59, code50);
-    			append_dev(div59, t326);
-    			append_dev(div59, code51);
-    			append_dev(div59, t328);
-    			append_dev(div59, code52);
-    			append_dev(div59, t330);
-    			append_dev(div59, code53);
-    			append_dev(div59, t332);
-    			append_dev(div59, code54);
-    			append_dev(div59, t334);
-    			append_dev(div59, code55);
-    			append_dev(div59, t336);
-    			append_dev(div59, code56);
-    			append_dev(div59, t338);
-    			append_dev(div59, code57);
-    			append_dev(div59, t340);
-    			append_dev(div59, code58);
-    			append_dev(div75, t342);
-    			append_dev(div75, div62);
-    			mount_component(toggleconfetti57, div62, null);
-    			append_dev(div62, t343);
-    			append_dev(div62, div61);
-    			append_dev(div61, code59);
-    			append_dev(div75, t345);
-    			append_dev(div75, div64);
-    			mount_component(toggleconfetti58, div64, null);
-    			append_dev(div64, t346);
-    			append_dev(div64, div63);
-    			append_dev(div63, code60);
-    			append_dev(div63, t348);
-    			append_dev(div63, code61);
-    			append_dev(div63, t350);
-    			append_dev(div63, code62);
-    			append_dev(div75, t352);
-    			append_dev(div75, div66);
-    			mount_component(toggleconfetti59, div66, null);
-    			append_dev(div66, t353);
-    			append_dev(div66, div65);
-    			append_dev(div65, code63);
-    			append_dev(div75, t355);
-    			append_dev(div75, div68);
-    			mount_component(toggleconfetti60, div68, null);
-    			append_dev(div68, t356);
-    			append_dev(div68, div67);
-    			append_dev(div67, code64);
-    			append_dev(div67, t358);
-    			append_dev(div67, code65);
-    			append_dev(div67, t360);
-    			append_dev(div67, code66);
-    			append_dev(div75, t362);
-    			append_dev(div75, div70);
-    			mount_component(toggleconfetti61, div70, null);
-    			append_dev(div70, t363);
-    			append_dev(div70, div69);
-    			append_dev(div69, code67);
-    			append_dev(div69, t365);
-    			append_dev(div69, code68);
-    			append_dev(div69, t367);
-    			append_dev(div69, code69);
-    			append_dev(div75, t369);
-    			append_dev(div75, div72);
-    			mount_component(toggleconfetti62, div72, null);
-    			append_dev(div72, t370);
-    			append_dev(div72, div71);
-    			append_dev(div71, code70);
-    			append_dev(div71, t372);
-    			append_dev(div71, code71);
-    			append_dev(div71, t374);
-    			append_dev(div71, code72);
-    			append_dev(div71, t376);
-    			append_dev(div71, code73);
-    			append_dev(div75, t378);
+    			append_dev(code37, t287);
+    			append_dev(div97, t288);
+    			append_dev(div97, div75);
+    			append_dev(div75, h37);
+    			append_dev(div75, t290);
     			append_dev(div75, div74);
-    			mount_component(toggleconfetti63, div74, null);
-    			append_dev(div74, t379);
+    			append_dev(div74, t291);
+    			append_dev(div74, br0);
+    			append_dev(div74, t292);
+    			append_dev(div74, small);
+    			append_dev(div74, t294);
+    			append_dev(div74, div55);
+    			mount_component(toggleconfetti54, div55, null);
+    			append_dev(div55, t295);
+    			append_dev(div55, div54);
+    			append_dev(div54, code38);
+    			append_dev(div54, t297);
+    			append_dev(div54, code39);
+    			append_dev(div54, t299);
+    			append_dev(div54, code40);
+    			append_dev(div74, t301);
+    			append_dev(div74, div57);
+    			mount_component(toggleconfetti55, div57, null);
+    			append_dev(div57, t302);
+    			append_dev(div57, div56);
+    			append_dev(div56, code41);
+    			append_dev(div56, t304);
+    			append_dev(div56, code42);
+    			append_dev(div56, t306);
+    			append_dev(div56, code43);
+    			append_dev(div74, t308);
+    			append_dev(div74, div59);
+    			mount_component(toggleconfetti56, div59, null);
+    			append_dev(div59, t309);
+    			append_dev(div59, div58);
+    			append_dev(div58, code44);
+    			append_dev(div58, t311);
+    			append_dev(div58, code45);
+    			append_dev(div58, t313);
+    			append_dev(div58, code46);
+    			append_dev(div58, t315);
+    			append_dev(div58, code47);
+    			append_dev(div58, t317);
+    			append_dev(div58, code48);
+    			append_dev(div58, t319);
+    			append_dev(div58, code49);
+    			append_dev(div58, t321);
+    			append_dev(div58, code50);
+    			append_dev(div58, t323);
+    			append_dev(div58, code51);
+    			append_dev(div58, t325);
+    			append_dev(div58, code52);
+    			append_dev(div58, t327);
+    			append_dev(div58, code53);
+    			append_dev(div58, t329);
+    			append_dev(div58, code54);
+    			append_dev(div58, t331);
+    			append_dev(div58, code55);
+    			append_dev(div58, t333);
+    			append_dev(div58, code56);
+    			append_dev(div58, t335);
+    			append_dev(div58, code57);
+    			append_dev(div58, t337);
+    			append_dev(div58, code58);
+    			append_dev(div74, t339);
+    			append_dev(div74, div61);
+    			mount_component(toggleconfetti57, div61, null);
+    			append_dev(div61, t340);
+    			append_dev(div61, div60);
+    			append_dev(div60, code59);
+    			append_dev(div74, t342);
+    			append_dev(div74, div63);
+    			mount_component(toggleconfetti58, div63, null);
+    			append_dev(div63, t343);
+    			append_dev(div63, div62);
+    			append_dev(div62, code60);
+    			append_dev(div62, t345);
+    			append_dev(div62, code61);
+    			append_dev(div62, t347);
+    			append_dev(div62, code62);
+    			append_dev(div74, t349);
+    			append_dev(div74, div65);
+    			mount_component(toggleconfetti59, div65, null);
+    			append_dev(div65, t350);
+    			append_dev(div65, div64);
+    			append_dev(div64, code63);
+    			append_dev(div74, t352);
+    			append_dev(div74, div67);
+    			mount_component(toggleconfetti60, div67, null);
+    			append_dev(div67, t353);
+    			append_dev(div67, div66);
+    			append_dev(div66, code64);
+    			append_dev(div66, t355);
+    			append_dev(div66, code65);
+    			append_dev(div66, t357);
+    			append_dev(div66, code66);
+    			append_dev(div74, t359);
+    			append_dev(div74, div69);
+    			mount_component(toggleconfetti61, div69, null);
+    			append_dev(div69, t360);
+    			append_dev(div69, div68);
+    			append_dev(div68, code67);
+    			append_dev(div68, t362);
+    			append_dev(div68, code68);
+    			append_dev(div68, t364);
+    			append_dev(div68, code69);
+    			append_dev(div74, t366);
+    			append_dev(div74, div71);
+    			mount_component(toggleconfetti62, div71, null);
+    			append_dev(div71, t367);
+    			append_dev(div71, div70);
+    			append_dev(div70, code70);
+    			append_dev(div70, t369);
+    			append_dev(div70, code71);
+    			append_dev(div70, t371);
+    			append_dev(div70, code72);
+    			append_dev(div70, t373);
+    			append_dev(div70, code73);
+    			append_dev(div74, t375);
     			append_dev(div74, div73);
-    			append_dev(div73, code74);
-    			append_dev(div73, t381);
-    			append_dev(div73, code75);
-    			append_dev(div73, t383);
-    			append_dev(div73, code76);
-    			append_dev(div97, t385);
-    			append_dev(div97, div80);
-    			append_dev(div80, h38);
-    			append_dev(div80, t387);
-    			append_dev(div80, div79);
-    			append_dev(div79, t388);
+    			mount_component(toggleconfetti63, div73, null);
+    			append_dev(div73, t376);
+    			append_dev(div73, div72);
+    			append_dev(div72, code74);
+    			append_dev(div72, t378);
+    			append_dev(div72, code75);
+    			append_dev(div72, t380);
+    			append_dev(div72, code76);
+    			append_dev(div97, t382);
+    			append_dev(div97, div79);
+    			append_dev(div79, h38);
+    			append_dev(div79, t384);
     			append_dev(div79, div78);
-    			mount_component(toggleconfetti64, div78, null);
-    			append_dev(div78, t389);
+    			append_dev(div78, t385);
     			append_dev(div78, div77);
-    			append_dev(div77, code77);
-    			append_dev(code77, t390);
+    			mount_component(toggleconfetti64, div77, null);
+    			append_dev(div77, t386);
+    			append_dev(div77, div76);
+    			append_dev(div76, code77);
+    			append_dev(code77, t387);
     			append_dev(code77, br1);
-    			append_dev(code77, t391);
+    			append_dev(code77, t388);
     			append_dev(code77, br2);
-    			append_dev(code77, t392);
+    			append_dev(code77, t389);
     			append_dev(code77, br3);
-    			append_dev(code77, t393);
+    			append_dev(code77, t390);
     			append_dev(code77, br4);
-    			append_dev(code77, t394);
+    			append_dev(code77, t391);
     			append_dev(code77, br5);
-    			append_dev(code77, t395);
+    			append_dev(code77, t392);
     			append_dev(code77, br6);
-    			append_dev(code77, t396);
+    			append_dev(code77, t393);
     			append_dev(code77, br7);
-    			append_dev(code77, t397);
+    			append_dev(code77, t394);
     			append_dev(code77, br8);
-    			append_dev(code77, t398);
+    			append_dev(code77, t395);
     			append_dev(code77, br9);
-    			append_dev(code77, t399);
+    			append_dev(code77, t396);
     			append_dev(code77, br10);
-    			append_dev(code77, t400);
-    			append_dev(div79, t401);
-    			append_dev(div79, mark58);
-    			append_dev(div79, t403);
-    			append_dev(div79, code78);
-    			append_dev(div79, t405);
-    			append_dev(div79, br11);
-    			append_dev(div79, t406);
-    			append_dev(div79, br12);
-    			append_dev(div79, t407);
-    			append_dev(div79, code79);
-    			append_dev(div79, t409);
-    			append_dev(div79, code80);
-    			append_dev(div79, t411);
-    			append_dev(div97, t412);
+    			append_dev(code77, t397);
+    			append_dev(div78, t398);
+    			append_dev(div78, mark58);
+    			append_dev(div78, t400);
+    			append_dev(div78, code78);
+    			append_dev(div78, t402);
+    			append_dev(div78, br11);
+    			append_dev(div78, t403);
+    			append_dev(div78, br12);
+    			append_dev(div78, t404);
+    			append_dev(div78, code79);
+    			append_dev(div78, t406);
+    			append_dev(div78, code80);
+    			append_dev(div78, t408);
+    			append_dev(div97, t409);
     			append_dev(div97, h23);
-    			append_dev(div97, t414);
-    			append_dev(div97, div96);
-    			append_dev(div96, p5);
-    			append_dev(div96, t416);
-    			append_dev(div96, div95);
-    			append_dev(div95, strong0);
-    			append_dev(div95, t418);
-    			append_dev(div95, strong1);
-    			append_dev(div95, t420);
-    			append_dev(div95, strong2);
-    			append_dev(div95, t422);
-    			append_dev(div95, code81);
-    			append_dev(div95, t424);
-    			append_dev(div95, code82);
-    			append_dev(div95, t426);
-    			append_dev(div95, div81);
-    			append_dev(div95, t428);
-    			append_dev(div95, code83);
-    			append_dev(div95, t430);
-    			append_dev(div95, code84);
-    			append_dev(div95, t432);
-    			append_dev(div95, div82);
-    			append_dev(div95, t434);
-    			append_dev(div95, code85);
-    			append_dev(div95, t436);
-    			append_dev(div95, code86);
-    			append_dev(div95, t438);
-    			append_dev(div95, div83);
-    			append_dev(div95, t440);
-    			append_dev(div95, code87);
-    			append_dev(div95, t442);
-    			append_dev(div95, code88);
-    			append_dev(div95, t444);
-    			append_dev(div95, div84);
-    			append_dev(div95, t446);
-    			append_dev(div95, code89);
-    			append_dev(div95, t448);
-    			append_dev(div95, code90);
-    			append_dev(div95, t450);
-    			append_dev(div95, div85);
-    			append_dev(div95, t452);
-    			append_dev(div95, code91);
-    			append_dev(div95, t454);
-    			append_dev(div95, code92);
-    			append_dev(div95, t456);
-    			append_dev(div95, div86);
-    			append_dev(div95, t458);
-    			append_dev(div95, code93);
-    			append_dev(div95, t460);
-    			append_dev(div95, code94);
-    			append_dev(div95, t462);
-    			append_dev(div95, div87);
-    			append_dev(div95, t464);
-    			append_dev(div95, code95);
-    			append_dev(div95, t466);
-    			append_dev(div95, code96);
-    			append_dev(div95, t468);
-    			append_dev(div95, div88);
-    			append_dev(div95, t470);
-    			append_dev(div95, code97);
-    			append_dev(div95, t472);
-    			append_dev(div95, code98);
-    			append_dev(div95, t474);
-    			append_dev(div95, div89);
-    			append_dev(div95, t476);
-    			append_dev(div95, code99);
-    			append_dev(div95, t478);
-    			append_dev(div95, code100);
-    			append_dev(div95, t480);
-    			append_dev(div95, div90);
-    			append_dev(div95, t482);
-    			append_dev(div95, code101);
-    			append_dev(div95, t484);
-    			append_dev(div95, code102);
-    			append_dev(div95, t486);
-    			append_dev(div95, div91);
-    			append_dev(div95, t488);
-    			append_dev(div95, code103);
-    			append_dev(div95, t490);
-    			append_dev(div95, code104);
-    			append_dev(div95, t492);
-    			append_dev(div95, div92);
-    			append_dev(div95, t494);
-    			append_dev(div95, code105);
-    			append_dev(div95, t496);
-    			append_dev(div95, code106);
-    			append_dev(div95, t498);
-    			append_dev(div95, div93);
-    			append_dev(div95, t500);
-    			append_dev(div95, code107);
-    			append_dev(div95, t502);
-    			append_dev(div95, code108);
-    			append_dev(div95, t504);
+    			append_dev(div97, t411);
+    			append_dev(div97, div95);
+    			append_dev(div95, p5);
+    			append_dev(div95, t413);
     			append_dev(div95, div94);
+    			append_dev(div94, strong0);
+    			append_dev(div94, t415);
+    			append_dev(div94, strong1);
+    			append_dev(div94, t417);
+    			append_dev(div94, strong2);
+    			append_dev(div94, t419);
+    			append_dev(div94, code81);
+    			append_dev(div94, t421);
+    			append_dev(div94, code82);
+    			append_dev(div94, t423);
+    			append_dev(div94, div80);
+    			append_dev(div94, t425);
+    			append_dev(div94, code83);
+    			append_dev(div94, t427);
+    			append_dev(div94, code84);
+    			append_dev(div94, t429);
+    			append_dev(div94, div81);
+    			append_dev(div94, t431);
+    			append_dev(div94, code85);
+    			append_dev(div94, t433);
+    			append_dev(div94, code86);
+    			append_dev(div94, t435);
+    			append_dev(div94, div82);
+    			append_dev(div94, t437);
+    			append_dev(div94, code87);
+    			append_dev(div94, t439);
+    			append_dev(div94, code88);
+    			append_dev(div94, t441);
+    			append_dev(div94, div83);
+    			append_dev(div94, t443);
+    			append_dev(div94, code89);
+    			append_dev(div94, t445);
+    			append_dev(div94, code90);
+    			append_dev(div94, t447);
+    			append_dev(div94, div84);
+    			append_dev(div94, t449);
+    			append_dev(div94, code91);
+    			append_dev(div94, t451);
+    			append_dev(div94, code92);
+    			append_dev(div94, t453);
+    			append_dev(div94, div85);
+    			append_dev(div94, t455);
+    			append_dev(div94, code93);
+    			append_dev(div94, t457);
+    			append_dev(div94, code94);
+    			append_dev(div94, t459);
+    			append_dev(div94, div86);
+    			append_dev(div94, t461);
+    			append_dev(div94, code95);
+    			append_dev(div94, t463);
+    			append_dev(div94, code96);
+    			append_dev(div94, t465);
+    			append_dev(div94, div87);
+    			append_dev(div94, t467);
+    			append_dev(div94, code97);
+    			append_dev(div94, t469);
+    			append_dev(div94, code98);
+    			append_dev(div94, t471);
+    			append_dev(div94, div88);
+    			append_dev(div94, t473);
+    			append_dev(div94, code99);
+    			append_dev(div94, t475);
+    			append_dev(div94, code100);
+    			append_dev(div94, t477);
+    			append_dev(div94, div89);
+    			append_dev(div94, t479);
+    			append_dev(div94, code101);
+    			append_dev(div94, t481);
+    			append_dev(div94, code102);
+    			append_dev(div94, t483);
+    			append_dev(div94, div90);
+    			append_dev(div94, t485);
+    			append_dev(div94, code103);
+    			append_dev(div94, t487);
+    			append_dev(div94, code104);
+    			append_dev(div94, t489);
+    			append_dev(div94, div91);
+    			append_dev(div94, t491);
+    			append_dev(div94, code105);
+    			append_dev(div94, t493);
+    			append_dev(div94, code106);
+    			append_dev(div94, t495);
+    			append_dev(div94, div92);
+    			append_dev(div94, t497);
+    			append_dev(div94, code107);
+    			append_dev(div94, t499);
+    			append_dev(div94, code108);
+    			append_dev(div94, t501);
+    			append_dev(div94, div93);
+    			append_dev(div97, t503);
+    			append_dev(div97, div96);
+    			append_dev(div96, t504);
+    			append_dev(div96, a1);
     			current = true;
     		},
     		p: function update(ctx, [dirty]) {
