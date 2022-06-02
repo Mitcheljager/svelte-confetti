@@ -1,6 +1,5 @@
 <script>
-import { onMount } from "svelte";
-
+  import { onMount } from "svelte"
 
   export let size = 10
   export let x = [-0.5, 0.5]
