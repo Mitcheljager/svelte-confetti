@@ -12,6 +12,7 @@
   export let fallDistance = "200px"
   export let rounded = false
   export let cone = false
+  export let noGravity = false
 
   function randomBetween(min, max) {
     return Math.random() * (max - min) + min
@@ -25,7 +26,7 @@
 
 
 
-<div class="confetti-holder" class:rounded class:cone>
+<div class="confetti-holder" class:rounded class:cone class:no-gravity={noGravity}>
   {#each { length: amount } as _}
     <div
       class="confetti"
@@ -88,6 +89,17 @@
     }
   }
 
+  @keyframes no-gravity-translate {
+    0% {
+      opacity: 1;
+    }
+
+    100% {
+      transform: translateY(var(--translate-y)) translateX(var(--translate-x));
+      opacity: 0;
+    }
+  }
+
   .confetti {
     --translate-y: calc(-200px * var(--translate-y-multiplier));
     --translate-x: calc(200px * var(--translate-x-multiplier));
@@ -116,6 +128,11 @@
 
   .cone .confetti {
     --translate-x: calc(200px * var(--translate-y-multiplier) * var(--translate-x-multiplier));
+  }
+
+  .no-gravity .confetti {
+    animation-name: no-gravity-translate;
+    animation-timing-function: ease-out;
   }
 
   @media (prefers-reduced-motion) {
