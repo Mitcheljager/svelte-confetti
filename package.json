@@ -1,6 +1,6 @@
 {
   "name": "svelte-confetti",
-  "version": "1.0",
+  "version": "1.0.0",
   "private": false,
   "scripts": {
     "build": "rollup -c",
