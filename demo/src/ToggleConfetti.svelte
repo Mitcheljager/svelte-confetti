@@ -40,9 +40,8 @@
 
   .relative .confetti {
     position: absolute;
-    top: 0;
+    top: 50%;
     left: 50%;
-    transform: translateX(50%);
   }
 
   .confetti {

@@ -28,7 +28,7 @@
 		</h1>
 	</div>
 
-	<div class="block block--single">
+	<div class="block">
 		<p>Add a little bit of flair to your app with some confetti 🎊! There are no dependencies and it's tiny in size. Even better; it works without JavaScript with the help of SSR in SvelteKit <em>(this page doesn't use SSR though)</em>!</p>
 
 		<div class="reduced-motion-only">
@@ -150,10 +150,26 @@
 
 			<ToggleConfetti>
 				<button slot="label">
-					Explosion
+					All around
 				</button>
 
 				<Confetti y={[-0.5, 0.5]} x={[-0.5, 0.5]} />
+			</ToggleConfetti>
+
+			<ToggleConfetti>
+				<button slot="label">
+					Explosion
+				</button>
+
+				<Confetti y={[-1, 1]} x={[-1, 1]} noGravity duration=750 />
+			</ToggleConfetti>
+
+			<ToggleConfetti>
+				<button slot="label">
+					Sparkles
+				</button>
+
+				<Confetti y={[-0.5, 0.5]} x={[-0.5, 0.5]} colorRange={[30, 50]} amount=20 fallDistance=0px duration=3000 size=4 />
 			</ToggleConfetti>
 
 			<ToggleConfetti>
@@ -217,33 +233,35 @@
 		</code>
 	</div>
 
-	<div class="block block--single">
+	<div class="block">
 		Made by <a href="https://github.com/Mitcheljager">Mitchel Jager</a>
 	</div>
 
 	<h2>Usage</h2>
 
-	<mark>The Confetti comes without the buttons you will see in these examples. The buttons are simply used to trigger the event in these docs.</mark>
+	<mark>The Confetti comes without the buttons you will see in these examples. The buttons are simply used to demonstrate the effect in these docs.</mark>
 
 	<div class="block">
 		<div class="description">
 			The component in it's most basic form.
 
-			<code>
-				&lt;Confetti /&gt;
-			</code>
+			<div class="button-code-group">
+				<ToggleConfetti>
+					<button slot="label">
+						Default
+					</button>
+
+					<Confetti />
+				</ToggleConfetti>
+
+				<code>
+					&lt;Confetti /&gt;
+				</code>
+			</div>
 		</div>
-
-		<ToggleConfetti>
-			<button slot="label">
-				Show
-			</button>
-
-			<Confetti />
-		</ToggleConfetti>
 	</div>
 
-	<div class="block block--single">
+	<div class="block">
 		<h3>Spread</h3>
 
 		<div class="description">
@@ -259,7 +277,7 @@
 				</ToggleConfetti>
 
 				<code>
-					&lt;Confetti <mark>x</mark>=&#123;[-0.5, 0.5]} <mark>y</mark>=&#123;[0.25, 1]} /&gt;
+					&lt;Confetti <mark>x</mark>=&#123;[-0.5, 0.5]&#125; <mark>y</mark>=&#123;[0.25, 1]&#125; /&gt;
 				</code>
 			</div>
 
@@ -273,7 +291,7 @@
 				</ToggleConfetti>
 
 				<code>
-					&lt;Confetti <mark>x</mark>=&#123;[-1, -0.25]} <mark>y</mark>=&#123;[0, 0.5]} /&gt;
+					&lt;Confetti <mark>x</mark>=&#123;[-1, -0.25]&#125; <mark>y</mark>=&#123;[0, 0.5]&#125; /&gt;
 				</code>
 			</div>
 
@@ -287,7 +305,7 @@
 				</ToggleConfetti>
 
 				<code>
-					&lt;Confetti <mark>x</mark>=&#123;[0.25, 1]} <mark>y</mark>=&#123;[0, 0.5]} /&gt;
+					&lt;Confetti <mark>x</mark>=&#123;[0.25, 1]&#125; <mark>y</mark>=&#123;[0, 0.5]&#125; /&gt;
 				</code>
 			</div>
 
@@ -301,7 +319,7 @@
 				</ToggleConfetti>
 
 				<code>
-					&lt;Confetti <mark>x</mark>=&#123;[-0.25, 0.25]} <mark>y</mark>=&#123;[0.75, 1.5]} /&gt;
+					&lt;Confetti <mark>x</mark>=&#123;[-0.25, 0.25]&#125; <mark>y</mark>=&#123;[0.75, 1.5]&#125; /&gt;
 				</code>
 			</div>
 
@@ -315,7 +333,7 @@
 				</ToggleConfetti>
 
 				<code>
-					&lt;Confetti <mark>x</mark>=&#123;[-0.25, 0.25]} <mark>y</mark>=&#123;[-0.75, -0.25]} /&gt;
+					&lt;Confetti <mark>x</mark>=&#123;[-0.25, 0.25]&#125; <mark>y</mark>=&#123;[-0.75, -0.25]&#125; /&gt;
 				</code>
 			</div>
 
@@ -329,13 +347,13 @@
 				</ToggleConfetti>
 
 				<code>
-					&lt;Confetti <mark>x</mark>=&#123;[-0.5, 0.5]} <mark>y</mark>=&#123;[-0.5, -0.5]} /&gt;
+					&lt;Confetti <mark>x</mark>=&#123;[-0.5, 0.5]&#125; <mark>y</mark>=&#123;[-0.5, -0.5]&#125; /&gt;
 				</code>
 			</div>
 		</div>
 	</div>
 
-	<div class="block block--single">
+	<div class="block">
 		<h3>Amount</h3>
 
 		<div class="description">
@@ -399,11 +417,11 @@
 		</div>
 	</div>
 
-	<div class="block block--single">
+	<div class="block">
 		<h3>Shape</h3>
 
 		<div class="description">
-			As you may have noticed from the previous buttons, the confetti tends to take on a fairly square shape. This can be mitigated a little bit by using the propery <strong>cone</strong>. This will cause the confetti to launch in a more cone like shape which is especially nice when using lots of particles.
+			As you may have noticed from the previous buttons, the confetti tends to take on a fairly square shape. This can be mitigated a little bit by using the propery <mark>cone</mark>. This will cause the confetti to launch in a more cone like shape which is especially nice when using lots of particles.
 
 			<div class="button-code-group">
 				<ToggleConfetti>
@@ -433,15 +451,97 @@
 				</code>
 			</div>
 
-			A little bit later in these docs we will go over how to mitigate this effect further to get it to look real nice.
+			This is especially effective when firing to the side, but we need to compensate with a larger x multiplier.
+
+			<div class="button-code-group">
+				<ToggleConfetti>
+					<button slot="label">
+						Right
+					</button>
+
+					<Confetti x={[0.25, 1]} y={[0, 0.5]} />
+				</ToggleConfetti>
+
+				<code>
+					&lt;Confetti x=&#123;[0.25, 1]&#125; y=&#123;[0, 0.5]&#125; /&gt;
+				</code>
+			</div>
+
+			<div class="button-code-group">
+				<ToggleConfetti>
+					<button slot="label">
+						Right Cone
+					</button>
+
+					<Confetti cone x={[1, 2.5]} y={[0.25, 0.75]} />
+				</ToggleConfetti>
+
+				<code>
+					&lt;Confetti <mark>cone</mark> x=&#123;[1, 2.5]&#125; y=&#123;[0.25, 0.75]&#125; /&gt;
+				</code>
+			</div>
+
+			The cones still have a fairly distinct cone shape to them, later on in these docs we will go over how to mitigate this.
 		</div>
 	</div>
 
-	<div class="block block--single">
+	<div class="block">
+		<h3>Size</h3>
+
+		<div class="description">
+			The size of the confetti pieces can be adjusted using the <mark>size</mark> property.
+
+			<div class="button-code-group">
+				<ToggleConfetti>
+					<button slot="label">
+						Tiny
+					</button>
+
+					<Confetti size=2 />
+				</ToggleConfetti>
+
+				<code>
+					&lt;Confetti <mark>size</mark>=2 /&gt;
+				</code>
+			</div>
+
+			<div class="button-code-group">
+				<ToggleConfetti>
+					<button slot="label">
+						Huge
+					</button>
+
+					<Confetti size=30 />
+				</ToggleConfetti>
+
+				<code>
+					&lt;Confetti <mark>size</mark>=30 /&gt;
+				</code>
+			</div>
+
+			We can also adjust the shape of the confetti pieces using the <mark>rounded</mark> property
+
+			<div class="button-code-group">
+				<ToggleConfetti>
+					<button slot="label">
+						Round
+					</button>
+
+					<Confetti rounded size=30 />
+				</ToggleConfetti>
+
+				<code>
+					&lt;Confetti <mark>rounded</mark> size=30 /&gt;
+				</code>
+			</div>
+		</div>
+	</div>
+
+	<div class="block">
 		<h3>Timing</h3>
 
 		<div class="description">
-			By default all confetti comes out at just about the same time. It's a little bit of variance but it appears instant. That's what a confetti cannon does. We can change when each piece is fired by adjusted the range of the <mark>delay</mark> property. The delay is given in milliseconds.
+			By default all confetti comes out at just about the same time. There is a little bit of variance but it appears instant. That's what a confetti cannon does. We can change when each piece is fired by adjusted the range of the <mark>delay</mark> property. The delay is given in milliseconds.
 
 			<div class="button-code-group">
 				<ToggleConfetti>
@@ -453,7 +553,7 @@
 				</ToggleConfetti>
 
 				<code>
-					&lt;Confetti <mark>delay</mark>=&#123;[0, 250]} /&gt;
+					&lt;Confetti <mark>delay</mark>=&#123;[0, 250]&#125; /&gt;
 				</code>
 			</div>
 
@@ -467,7 +567,7 @@
 				</ToggleConfetti>
 
 				<code>
-					&lt;Confetti <mark>delay</mark>=&#123;[0, 1500]} /&gt;
+					&lt;Confetti <mark>delay</mark>=&#123;[0, 1500]&#125; /&gt;
 				</code>
 			</div>
 
@@ -497,7 +597,7 @@
 				</ToggleConfetti>
 
 				<code>
-					&lt;Confetti <mark>infinite</mark> <mark>delay</mark>=&#123;[0, 1500]} /&gt;
+					&lt;Confetti <mark>infinite</mark> <mark>delay</mark>=&#123;[0, 1500]&#125; /&gt;
 				</code>
 			</div>
 
@@ -517,12 +617,534 @@
 				</code>
 			</div>
 		</div>
+	</div>
 
+	<div class="block">
+		<h3>Color</h3>
+
+		<div class="description">
+			You can adjust the colors of the confetti pieces in different ways. You can specify a hue using the <mark>colorRange</mark> property, which will use HSL colors with 75% saturation and 50% lightness. 0-360 is all colors, 75-175 would be only greens. Alternatively you can specifiy colors in an array using <mark>colorArray</mark>. This can take any CSS value that would be accepted as the background property. RGB, HEX, HSL, but even gradients and images.
+
+			<div class="button-code-group">
+				<ToggleConfetti>
+					<button slot="label">
+						Green range
+					</button>
+
+					<Confetti colorRange={[75, 175]} />
+				</ToggleConfetti>
+
+				<code>
+					&lt;Confetti <mark>colorRange</mark>=&#123;[75, 175]&#125; /&gt;
+				</code>
+			</div>
+
+			<div class="button-code-group">
+				<ToggleConfetti>
+					<button slot="label">
+						Array
+					</button>
+
+					<Confetti colorArray={["#ffbe0b", "#fb5607", "#ff006e", "#8338ec", "#3a86ff"]} />
+				</ToggleConfetti>
+
+				<code>
+					&lt;Confetti <mark>colorArray</mark>=&#123;["#ffbe0b", "#fb5607", "#ff006e", "#8338ec", "#3a86ff"]&#125; /&gt;
+				</code>
+			</div>
+
+			<div class="button-code-group">
+				<ToggleConfetti>
+					<button slot="label">
+						Different values
+					</button>
+
+					<Confetti colorArray={["var(--primary)", "rgba(0, 255, 0, 0.5)", "white"]} />
+				</ToggleConfetti>
+
+				<code>
+					&lt;Confetti <mark>colorArray</mark>=&#123;["var(--primary)", "rgba(0, 255, 0, 0.5)", "white"]&#125; /&gt;
+				</code>
+			</div>
+
+			It's not just colors though, we can input any value valid to the background css property. This includes gradients and images.
+
+			<div class="button-code-group">
+				<ToggleConfetti>
+					<button slot="label">
+						Gradient
+					</button>
+
+					<Confetti size=20 colorArray={["linear-gradient(var(--primary), blue)"]} />
+				</ToggleConfetti>
+
+				<code>
+					&lt;Confetti <mark>colorArray</mark>=&#123;["linear-gradient(var(--primary), blue)"]&#125; /&gt;
+				</code>
+			</div>
+
+			<div class="button-code-group">
+				<ToggleConfetti>
+					<button slot="label">
+						Images
+					</button>
+
+					<Confetti size=20 colorArray={["url(https://svelte.dev/favicon.png)", "url(https://github.githubassets.com/favicons/favicon-dark.png)"]} />
+				</ToggleConfetti>
+
+				<code>
+					&lt;Confetti <mark>colorArray</mark>=&#123;["url(https://svelte.dev/favicon.png)", "url(https://github.githubassets.com/favicons/favicon-dark.png)"]&#125; /&gt;
+				</code>
+			</div>
+
+			Or we could set up a random color each time the component is mounted.
+
+			<div class="button-code-group">
+				<ToggleConfetti>
+					<button slot="label">
+						Random
+					</button>
+
+					<Confetti colorArray={[`hsl(${Math.floor(Math.random() * 360)}, 75%, 50%)`]} />
+				</ToggleConfetti>
+
+				<code>
+					&lt;Confetti <mark>colorArray</mark>=&#123;[`hsl($&#123;Math.floor(Math.random() * 360)&#125;, 75%, 50%)`]&#125; /&gt;
+				</code>
+			</div>
+		</div>
+	</div>
+
+	<div class="block">
+		<h3>Gravity</h3>
+
+		<div class="description">
+			We can change how the confetti falls using the <mark>fallDistance</mark> property. We can make it fall faster, slow, or stop it from falling altogether. This property will accept any valid css property, except for 0.
+
+			<div class="button-code-group">
+				<ToggleConfetti>
+					<button slot="label">
+						Slow fall
+					</button>
+
+					<Confetti fallDistance=50px />
+				</ToggleConfetti>
+
+				<code>
+					&lt;Confetti <mark>fallDistance</mark>=50px /&gt;
+				</code>
+			</div>
+
+			<div class="button-code-group">
+				<ToggleConfetti>
+					<button slot="label">
+						Fast fall
+					</button>
+
+					<Confetti fallDistance=200px />
+				</ToggleConfetti>
+
+				<code>
+					&lt;Confetti <mark>fallDistance</mark>=200px /&gt;
+				</code>
+			</div>
+
+			<div class="button-code-group">
+				<ToggleConfetti>
+					<div slot="label">
+						<button>
+							No fall
+						</button>
+
+						<small>Notice how it's set to <code class="inline">0px</code> and not just <code class="inline">0</code></small>
+					</div>
+
+					<Confetti fallDistance=0px />
+				</ToggleConfetti>
+
+				<code>
+					&lt;Confetti <mark>fallDistance</mark>=0px /&gt;
+				</code>
+			</div>
+
+			We can also disable gravity and air resistance altogether and make it travel at a constant speed by setting the <mark>noGravity</mark> property.
+
+			<div class="button-code-group">
+				<ToggleConfetti>
+					<button slot="label">
+						No gravity
+					</button>
+
+					<Confetti noGravity duration=500 />
+				</ToggleConfetti>
+
+				<code>
+					&lt;Confetti <mark>noGravity</mark> duration=500 /&gt;
+				</code>
+			</div>
+
+			<div class="button-code-group">
+				<ToggleConfetti>
+					<button slot="label">
+						No gravity explosion
+					</button>
+
+					<Confetti noGravity duration=500 x={[-0.5, 0.5]} y={[-0.5, 0.5]} />
+				</ToggleConfetti>
+
+				<code>
+					&lt;Confetti <mark>noGravity</mark> duration=500 x=&#123;[-0.5, 0.5]&#125; y=&#123;[-0.5, 0.5]&#125; /&gt;
+				</code>
+			</div>
+		</div>
+	</div>
+
+	<div class="block">
+		<h3>Multiple components</h3>
+
+		<div class="description">
+			We can combine multiple Confetti components to create neat effects.<br>
+			For example we could combine multiple components each with different colors and different areas to create flags! <small>(Blues aren't the actual flag colors to make it a little easier to see on dark backgrounds)</small>
+
+			<div class="button-code-group">
+				<ToggleConfetti>
+					<button slot="label">
+						Dutch
+					</button>
+
+					<Confetti y={[1.25, 1.5]} x={[-1, 1]} colorArray={["#c8102e"]} />
+					<Confetti y={[1, 1.25]} x={[-1, 1]} colorArray={["white"]} />
+					<Confetti y={[0.75, 1]} x={[-1, 1]} colorArray={["#3350ec"]} />
+				</ToggleConfetti>
+
+				<div>
+					<code>
+						&lt;Confetti y=&#123;[1.25, 1.5]&#125; x=&#123;[-1, 1]&#125; colorArray=&#123;["#c8102e"]&#125; /&gt;
+					</code>
+
+					<code>
+						&lt;Confetti  y=&#123;[1, 1.25]&#125; x=&#123;[-1, 1]&#125; colorArray=&#123;["white"]&#125; /&gt;
+					</code>
+
+					<code>
+						&lt;Confetti  y=&#123;[0.75, 1]&#125; x=&#123;[-1, 1]&#125; colorArray=&#123;["#3350ec"]&#125; /&gt;
+					</code>
+				</div>
+			</div>
+
+			<div class="button-code-group">
+				<ToggleConfetti>
+					<button slot="label">
+						Swedish
+					</button>
+
+					<Confetti y={[0.75, 1.5]} x={[-1, 1]} colorArray={["#3350ec"]} amount=100 />
+					<Confetti y={[1.05, 1.20]} x={[-1, 1]} colorArray={["#ffcd00"]} amount=50 />
+					<Confetti y={[0.75, 1.5]} x={[-0.5, -0.25]} colorArray={["#ffcd00"]} amount=20 />
+				</ToggleConfetti>
+
+				<div>
+					<code>
+						&lt;Confetti y=&#123;[0.75, 1.5]&#125; x=&#123;[-1, 1]&#125; colorArray=&#123;["#004b87"]&#125; amount=100 /&gt;
+					</code>
+
+					<code>
+						&lt;Confetti y=&#123;[1.05, 1.20]&#125; x=&#123;[-1, 1]&#125; colorArray=&#123;["#ffcd00"]&#125; amount=50 /&gt;
+					</code>
+
+					<code>
+						&lt;Confetti y=&#123;[0.75, 1.5]&#125; x=&#123;[-0.5, -0.25]&#125; colorArray=&#123;["#ffcd00"]&#125; amount=20 /&gt;
+					</code>
+				</div>
+			</div>
+
+			<div class="button-code-group">
+				<ToggleConfetti>
+					<div slot="label">
+						<button>
+							USA
+						</button>
+
+						<small>This one is heavy! This uses 1015 effects, more than recommended, but it looks neat!</small>
+					</div>
+
+					<Confetti y={[1.15, 1.5]} x={[-1, -0.25]} colorArray={["#3350ec"]} amount=100 />
+					<Confetti y={[1.20, 1.45]} x={[-0.95, -0.3]} colorArray={["white"]} size=5 />
+					<Confetti y={[1.45, 1.5]} x={[-0.25, 1]} colorArray={["#bf0d3e"]} amount=70 />
+					<Confetti y={[1.4, 1.45]} x={[-0.25, 1]} colorArray={["white"]} amount=70 />
+					<Confetti y={[1.35, 1.4]} x={[-0.25, 1]} colorArray={["#bf0d3e"]} amount=70 />
+					<Confetti y={[1.3, 1.35]} x={[-0.25, 1]} colorArray={["white"]} amount=70 />
+					<Confetti y={[1.25, 1.3]} x={[-0.25, 1]} colorArray={["#bf0d3e"]} amount=70 />
+					<Confetti y={[1.2, 1.25]} x={[-0.25, 1]} colorArray={["white"]} amount=70 />
+					<Confetti y={[1.15, 1.2]} x={[-0.25, 1]} colorArray={["#bf0d3e"]} amount=70 />
+					<Confetti y={[1.1, 1.15]} x={[-1, 1]} colorArray={["white"]} amount=70 />
+					<Confetti y={[1.05, 1.1]} x={[-1, 1]} colorArray={["#bf0d3e"]} amount=70 />
+					<Confetti y={[1, 1.05]} x={[-1, 1]} colorArray={["white"]} amount=70 />
+					<Confetti y={[0.95, 1]} x={[-1, 1]} colorArray={["#bf0d3e"]} amount=70 />
+					<Confetti y={[0.9, 0.95]} x={[-1, 1]} colorArray={["white"]} amount=70 />
+					<Confetti y={[0.85, 0.9]} x={[-1, 1]} colorArray={["#bf0d3e"]} amount=70 />
+				</ToggleConfetti>
+
+				<div>
+					<code>
+						&lt;Confetti y=&#123;[1.15, 1.5]&#125; x=&#123;[-1, -0.25]&#125; colorArray=&#123;["#3350ec"]&#125; amount=100 /&gt;
+					</code>
+					<code>
+						&lt;Confetti y=&#123;[1.20, 1.45]&#125; x=&#123;[-0.95, -0.3]&#125; colorArray=&#123;["white"]&#125; size=5 /&gt;
+					</code>
+					<code>
+						&lt;Confetti y=&#123;[1.45, 1.5]&#125; x=&#123;[-0.25, 1]&#125; colorArray=&#123;["#bf0d3e"]&#125; amount=70 /&gt;
+					</code>
+					<code>
+						&lt;Confetti y=&#123;[1.4, 1.45]&#125; x=&#123;[-0.25, 1]&#125; colorArray=&#123;["white"]&#125; amount=70 /&gt;
+					</code>
+					<code>
+						&lt;Confetti y=&#123;[1.35, 1.4]&#125; x=&#123;[-0.25, 1]&#125; colorArray=&#123;["#bf0d3e"]&#125; amount=70 /&gt;
+					</code>
+					<code>
+						&lt;Confetti y=&#123;[1.3, 1.35]&#125; x=&#123;[-0.25, 1]&#125; colorArray=&#123;["white"]&#125; amount=70 /&gt;
+					</code>
+					<code>
+						&lt;Confetti y=&#123;[1.25, 1.3]&#125; x=&#123;[-0.25, 1]&#125; colorArray=&#123;["#bf0d3e"]&#125; amount=70 /&gt;
+					</code>
+					<code>
+						&lt;Confetti y=&#123;[1.2, 1.25]&#125; x=&#123;[-0.25, 1]&#125; colorArray=&#123;["white"]&#125; amount=70 /&gt;
+					</code>
+					<code>
+						&lt;Confetti y=&#123;[1.15, 1.2]&#125; x=&#123;[-0.25, 1]&#125; colorArray=&#123;["#bf0d3e"]&#125; amount=70 /&gt;
+					</code>
+					<code>
+						&lt;Confetti y=&#123;[1.1, 1.15]&#125; x=&#123;[-1, 1]&#125; colorArray=&#123;["white"]&#125; amount=70 /&gt;
+					</code>
+					<code>
+						&lt;Confetti y=&#123;[1.05, 1.1]&#125; x=&#123;[-1, 1]&#125; colorArray=&#123;["#bf0d3e"]&#125; amount=70 /&gt;
+					</code>
+					<code>
+						&lt;Confetti y=&#123;[1, 1.05]&#125; x=&#123;[-1, 1]&#125; colorArray=&#123;["white"]&#125; amount=70 /&gt;
+					</code>
+					<code>
+						&lt;Confetti y=&#123;[0.95, 1]&#125; x=&#123;[-1, 1]&#125; colorArray=&#123;["#bf0d3e"]&#125; amount=70 /&gt;
+					</code>
+					<code>
+						&lt;Confetti y=&#123;[0.9, 0.95]&#125; x=&#123;[-1, 1]&#125; colorArray=&#123;["white"]&#125; amount=70 /&gt;
+					</code>
+					<code>
+						&lt;Confetti y=&#123;[0.85, 0.9]&#125; x=&#123;[-1, 1]&#125; colorArray=&#123;["#bf0d3e"]&#125; amount=70 /&gt;
+					</code>
+				</div>
+			</div>
+
+			Flags are cool, but we can do plenty of other things. In this example we will "feather" the initial effect to give it a less defined shape. By default the effects have a fairly distinct shape to them which ruins the effect a little bit, especially when using lots of particles.
+
+			<div class="button-code-group">
+				<ToggleConfetti>
+					<button slot="label">
+						Not feathered
+					</button>
+
+					<Confetti amount=70 x={[-0.5, 0.5]} />
+				</ToggleConfetti>
+
+				<div>
+					<code>
+						&lt;Confetti y=&#123;[1.25, 1.5]&#125; x=&#123;[-1, 1]&#125; colorArray=&#123;["#c8102e"]&#125; /&gt;
+					</code>
+				</div>
+			</div>
+
+			<div class="button-code-group">
+				<ToggleConfetti>
+					<button slot="label">
+						Feathered
+					</button>
+
+					<Confetti x={[-0.5, 0.5]} />
+					<Confetti amount=10 x={[-0.75, -0.3]} y={[0.15, 0.75]} />
+					<Confetti amount=10 x={[0.3, 0.75]} y={[0.15, 0.75]} />
+				</ToggleConfetti>
+
+				<div>
+					<code>
+						&lt;Confetti x=&#123;[-0.5, 0.5]&#125; /&gt;
+					</code>
+					<code>
+						&lt;Confetti amount=10 x=&#123;[-0.75, -0.3]&#125; y=&#123;[0.15, 0.75]&#125; /&gt;
+					</code>
+					<code>
+						&lt;Confetti amount=10 x=&#123;[0.3, 0.75]&#125; y=&#123;[0.15, 0.75]&#125; /&gt;
+					</code>
+				</div>
+			</div>
+
+			And with the cone property
+
+			<div class="button-code-group">
+				<ToggleConfetti>
+					<button slot="label">
+						Cone
+					</button>
+
+					<Confetti cone amount=70 x={[-0.5, 0.5]} />
+				</ToggleConfetti>
+
+				<div>
+					<code>
+						&lt;Confetti cone amount=70 x=&#123;[-0.5, 0.5]&#125; /&gt;
+					</code>
+				</div>
+			</div>
+
+			<div class="button-code-group">
+				<ToggleConfetti>
+					<button slot="label">
+						Feathered cone
+					</button>
+
+					<Confetti cone x={[-0.5, 0.5]} />
+					<Confetti cone amount=10 x={[-0.75, -0.4]} y={[0.15, 0.75]} />
+					<Confetti cone amount=10 x={[0.4, 0.75]} y={[0.15, 0.75]} />
+				</ToggleConfetti>
+
+				<div>
+					<code>
+						&lt;Confetti cone x=&#123;[-0.5, 0.5]&#125; /&gt;
+					</code>
+					<code>
+						&lt;Confetti cone amount=10 x=&#123;[-0.75, -0.4]&#125; y=&#123;[0.15, 0.75]&#125; /&gt;
+					</code>
+					<code>
+						&lt;Confetti cone amount=10 x=&#123;[0.4, 0.75]&#125; y=&#123;[0.15, 0.75]&#125; /&gt;
+					</code>
+				</div>
+			</div>
+
+			We can also combine this with a large delay to mitigate the effect further, but it makes it less cannon-y.
+
+			<div class="button-code-group">
+				<ToggleConfetti>
+					<button slot="label">
+						Feathered and delayed
+					</button>
+
+					<Confetti x={[-0.5, 0.5]} delay={[0, 250]} />
+					<Confetti amount=10 x={[-0.75, -0.3]} y={[0.15, 0.75]} delay={[0, 1000]} />
+					<Confetti amount=10 x={[0.3, 0.75]} y={[0.15, 0.75]} delay={[0, 1000]} />
+				</ToggleConfetti>
+
+				<div>
+					<code>
+						&lt;Confetti x=&#123;[-0.5, 0.5]&#125; delay=&#123;[0, 250]&#125; /&gt;
+					</code>
+					<code>
+						&lt;Confetti amount=10 x=&#123;[-0.75, -0.3]&#125; y=&#123;[0.15, 0.75]&#125; delay=&#123;[0, 1000]&#125; /&gt;
+					</code>
+					<code>
+						&lt;Confetti amount=10 x=&#123;[0.3, 0.75]&#125; y=&#123;[0.15, 0.75]&#125; delay=&#123;[0, 1000]&#125; /&gt;
+					</code>
+				</div>
+			</div>
+
+			We could also combine multiple components to create animations.
+
+			<div class="button-code-group">
+				<ToggleConfetti>
+					<button slot="label">
+						Animate
+					</button>
+
+					<Confetti cone x={[-1, -0.25]} colorRange={[100, 200]} />
+					<Confetti cone x={[-0.35, 0.35]} delay={[500, 550]} colorRange={[200, 300]} />
+					<Confetti cone x={[0.25, 1]} delay={[250, 300]} colorRange={[100, 200]} />
+					<Confetti cone amount=20 x={[-1, 1]} y={[0, 1]} delay={[0, 550]} colorRange={[200, 300]} />
+				</ToggleConfetti>
+
+				<div>
+					<code>
+						&lt;Confetti cone x=&#123;[-1, -0.25]&#125; colorRange=&#123;[100, 200]&#125; /&gt;
+					</code>
+					<code>
+						&lt;Confetti cone x=&#123;[-0.35, 0.35]&#125; delay=&#123;[500, 550]&#125; colorRange=&#123;[200, 300]&#125; /&gt;
+					</code>
+					<code>
+						&lt;Confetti cone x=&#123;[0.25, 1]&#125; delay=&#123;[250, 300]&#125; colorRange=&#123;[100, 200]&#125; /&gt;
+					</code>
+					<code>
+						&lt;Confetti cone amount=20 x=&#123;[-1, 1]&#125; y=&#123;[0, 1]&#125; delay=&#123;[0, 550]&#125; colorRange=&#123;[200, 300]&#125; /&gt;
+					</code>
+				</div>
+			</div>
+
+			<div class="button-code-group">
+				<ToggleConfetti>
+					<button slot="label">
+						Animate explosion
+					</button>
+
+					<Confetti noGravity x={[-1, 1]} y={[-1, 1]} delay={[0, 50]} duration=1000 colorRange={[0, 120]} />
+					<Confetti noGravity x={[-1, 1]} y={[-1, 1]} delay={[550, 550]} duration=1000 colorRange={[120, 240]} />
+					<Confetti noGravity x={[-1, 1]} y={[-1, 1]} delay={[1000, 1050]} duration=1000 colorRange={[240, 360]} />
+				</ToggleConfetti>
+
+				<div>
+					<code>
+						&lt;Confetti noGravity x=&#123;[-1, 1]&#125; y=&#123;[-1, 1]&#125; delay=&#123;[0, 50]&#125; duration=1000 colorRange=&#123;[0, 120]&#125; /&gt;
+					</code>
+					<code>
+						&lt;Confetti noGravity x=&#123;[-1, 1]&#125; y=&#123;[-1, 1]&#125; delay=&#123;[550, 550]&#125; duration=1000 colorRange=&#123;[120, 240]&#125; /&gt;
+					</code>
+					<code>
+						&lt;Confetti noGravity x=&#123;[-1, 1]&#125; y=&#123;[-1, 1]&#125; delay=&#123;[1000, 1050]&#125; duration=1000 colorRange=&#123;[240, 360]&#125; /&gt;
+					</code>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="block">
+		<h3>Styling it further</h3>
+
+		<div class="description">
+			We've now looked at all the different properties, but since this is just HTML and CSS you can style it further however you like. Let's look at some fullscreen examples. Having the effect fullscreen is not a simple toggle, but it is a simple bit of CSS.
+
+			<div class="button-code-group">
+				<ToggleConfetti toggleOnce relative={false}>
+					<button slot="label">
+						Fullscreen
+					</button>
+
+					<div style="position: fixed; top: -50px; left: 0; height: 100vh; width: 100vw; display: flex; justify-content: center; overflow: hidden;">
+						<Confetti x={[-5, 5]} y={[0, 0.1]} delay={[500, 2000]}  infinite duration=5000 amount=200 fallDistance="100vh" />
+					</div>
+				</ToggleConfetti>
+
+				<div>
+					<code>
+						&lt;div style="<br>
+							position: fixed;<br>
+							top: -50px;<br>
+							left: 0;<br>
+							height: 100vh;<br>
+							width: 100vw;<br>
+							display: flex;<br>
+							justify-content: center;<br>
+							overflow: hidden;"&gt;<br>
+							&lt;Confetti x=&#123;[-5, 5]&#125; y=&#123;[0, 0.1]&#125; delay=&#123;[500, 2000]&#125; infinite duration=5000 amount=200 fallDistance="100vh" /&gt;
+							<br>
+						&lt;/div&gt;
+					</code>
+				</div>
+			</div>
+
+			The element is fixed and placed just off screen so we can't see the confetti spawn in. The <mark>fallDistance</mark> property is set to <code class="inline">100vh</code> so they cover the entire screen.
+			<br>
+			<br>
+			You could also further style the confetti itself. Don't like the animation? Do it yourself! Target the confetti with <code class="inline">:global(.confetti)</code> and change the animation using <code class="inline">animation-name</code>, all values are set as css variables so you can easily use them yourself.
+		</div>
 	</div>
 
 	<h2>Properties</h2>
 
-	<div class="block block--single">
+	<div class="block">
 		<p>This is a list of all configurable properties.</p>
 
 		<div class="table">
@@ -538,9 +1160,10 @@
 			<code>colorArray</code> <code>[]</code> <div>Can be used to pick a random color from this array. Set just one array elements to have a single color. Accepts any viable css background property, including gradients and images.</div>
 			<code>amount</code> <code>50</code> <div>Amount of particles spawned. The larger your spray the more pieces you might want. Be careful with too many as it might impact performance.</div>
 			<code>iterationCount</code> <code>1</code> <div>How many times the animation will play before stopping. Is overwritten by the "infinite" property.</div>
-			<code>fallDistance</code> <code>"200px"</code> <div>How far each piece falls. Accepts any css property, px, rem, vh, etc.</div>
+			<code>fallDistance</code> <code>"100px"</code> <div>How far each piece falls. Accepts any css property, px, rem, vh, etc, but not 0.</div>
 			<code>rounded</code> <code>false</code> <div>Set to true to make each confetti piece rounded.</div>
 			<code>cone</code> <code>false</code> <div>Set to true to make the explosion appear in a cone like shape which might feel more realistic when dealing with a larger amount.</div>
+			<code>noGravity</code> <code>false</code> <div>Set to true to make the particles accelerate at a constant speed without "falling" down. Give it a more explosion like effect.</div>
 		</div>
 	</div>
 </div>
@@ -601,6 +1224,10 @@
 		color: var(--text-color-light);
 		font-size: .75rem;
 		line-height: 1.5em;
+	}
+
+	code.inline {
+		display: inline;
 	}
 
 	mark {
@@ -689,19 +1316,6 @@
 	.block {
 		padding: 3rem 0;
 		border-bottom: 1px solid var(--border-color);
-	}
-
-	@media (min-width: 600px) {
-		.block {
-			display: grid;
-			grid-template-columns: 1fr auto;
-			grid-gap: 1.5rem;
-			justify-content: space-between;
-		}
-	}
-
-	.block--single {
-		display: block;
 	}
 
 	.description {
