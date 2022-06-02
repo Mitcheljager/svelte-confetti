@@ -233,10 +233,6 @@
 		</code>
 	</div>
 
-	<div class="block">
-		Made by <a href="https://github.com/Mitcheljager">Mitchel Jager</a>
-	</div>
-
 	<h2>Usage</h2>
 
 	<mark>The Confetti comes without the buttons you will see in these examples. The buttons are simply used to demonstrate the effect in these docs.</mark>
@@ -1165,6 +1161,10 @@
 			<code>cone</code> <code>false</code> <div>Set to true to make the explosion appear in a cone like shape which might feel more realistic when dealing with a larger amount.</div>
 			<code>noGravity</code> <code>false</code> <div>Set to true to make the particles accelerate at a constant speed without "falling" down. Give it a more explosion like effect.</div>
 		</div>
+	</div>
+
+	<div class="block">
+		Made by <a href="https://github.com/Mitcheljager">Mitchel Jager</a>
 	</div>
 </div>
 
