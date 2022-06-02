@@ -1,6 +1,6 @@
 <script>
   export let size = 10
-  export let x = [-0.75, 0.75]
+  export let x = [-0.5, 0.5]
   export let y = [0.25, 1]
   export let duration = 2000
   export let infinite = false
@@ -58,8 +58,7 @@
     }
 
     100% {
-      transform: skew(var(--skew))
-        rotate3d(var(--rotation-xyz), calc(var(--rotation-deg) + 360deg));
+      transform: skew(var(--skew)) rotate3d(var(--rotation-xyz), calc(var(--rotation-deg) + 360deg));
     }
   }
 
@@ -69,26 +68,22 @@
     }
 
     8% {
-      transform: translateY(calc(var(--translate-y) * 0.95))
-        translateX(calc(var(--translate-x) * 0.8));
+      transform: translateY(calc(var(--translate-y) * 0.95)) translateX(calc(var(--translate-x) * 0.8));
       opacity: 1;
     }
 
     12% {
-      transform: translateY(var(--translate-y))
-        translateX(calc(var(--translate-x) * 0.85));
+      transform: translateY(var(--translate-y)) translateX(calc(var(--translate-x) * 0.85));
       opacity: 1;
     }
 
     16% {
-      transform: translateY(var(--translate-y))
-        translateX(calc(var(--translate-x) * 0.87));
+      transform: translateY(var(--translate-y)) translateX(calc(var(--translate-x) * 0.87));
       opacity: 1;
     }
 
     100% {
-      transform: translateY(calc(var(--translate-y) + var(--fall-distance)))
-        translateX(var(--translate-x));
+      transform: translateY(calc(var(--translate-y) + var(--fall-distance))) translateX(var(--translate-x));
       opacity: 0;
     }
   }
