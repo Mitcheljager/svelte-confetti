@@ -457,7 +457,7 @@ var app = (function () {
     	return child_ctx;
     }
 
-    // (41:0) {#if !complete}
+    // (40:0) {#if !complete}
     function create_if_block$1(ctx) {
     	let div;
     	let each_value = { length: /*amount*/ ctx[6] };
@@ -480,7 +480,7 @@ var app = (function () {
     			toggle_class(div, "rounded", /*rounded*/ ctx[9]);
     			toggle_class(div, "cone", /*cone*/ ctx[10]);
     			toggle_class(div, "no-gravity", /*noGravity*/ ctx[11]);
-    			add_location(div, file$2, 41, 2, 1076);
+    			add_location(div, file$2, 40, 2, 1075);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -536,14 +536,14 @@ var app = (function () {
     		block,
     		id: create_if_block$1.name,
     		type: "if",
-    		source: "(41:0) {#if !complete}",
+    		source: "(40:0) {#if !complete}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (43:4) {#each { length: amount } as _}
+    // (42:4) {#each { length: amount } as _}
     function create_each_block(ctx) {
     	let div;
 
@@ -571,7 +571,7 @@ var app = (function () {
     			? 'infinite'
     			: /*iterationCount*/ ctx[7]);
 
-    			add_location(div, file$2, 43, 6, 1204);
+    			add_location(div, file$2, 42, 6, 1203);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div, anchor);
@@ -618,7 +618,7 @@ var app = (function () {
     		block,
     		id: create_each_block.name,
     		type: "each",
-    		source: "(43:4) {#each { length: amount } as _}",
+    		source: "(42:4) {#each { length: amount } as _}",
     		ctx
     	});
 
