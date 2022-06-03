@@ -802,7 +802,9 @@
 			We can combine multiple Confetti components to create neat effects.<br>
 			For example we could combine multiple components each with different colors and different areas to create flags! <small>(Blues aren't the actual flag colors to make it a little easier to see on dark backgrounds)</small>
 
-			<div class="button-code-group">
+			<br><br>
+
+			<div>
 				<ToggleConfetti>
 					<button slot="label">
 						Dutch
@@ -813,22 +815,16 @@
 					<Confetti y={[0.75, 1]} x={[-1, 1]} colorArray={["#3350ec"]} />
 				</ToggleConfetti>
 
-				<div>
-					<code>
-						&lt;Confetti y=&#123;[1.25, 1.5]&#125; x=&#123;[-1, 1]&#125; colorArray=&#123;["#c8102e"]&#125; /&gt;
-					</code>
-
-					<code>
-						&lt;Confetti  y=&#123;[1, 1.25]&#125; x=&#123;[-1, 1]&#125; colorArray=&#123;["white"]&#125; /&gt;
-					</code>
-
-					<code>
-						&lt;Confetti  y=&#123;[0.75, 1]&#125; x=&#123;[-1, 1]&#125; colorArray=&#123;["#3350ec"]&#125; /&gt;
-					</code>
-				</div>
+				<code class="well">
+					&lt;Confetti y=&#123;[1.25, 1.5]&#125; x=&#123;[-1, 1]&#125; colorArray=&#123;["#c8102e"]&#125; /&gt; <br>
+					&lt;Confetti  y=&#123;[1, 1.25]&#125; x=&#123;[-1, 1]&#125; colorArray=&#123;["white"]&#125; /&gt; <br>
+					&lt;Confetti  y=&#123;[0.75, 1]&#125; x=&#123;[-1, 1]&#125; colorArray=&#123;["#3350ec"]&#125; /&gt; <br>
+				</code>
 			</div>
 
-			<div class="button-code-group">
+			<br>
+
+			<div>
 				<ToggleConfetti>
 					<button slot="label">
 						Swedish
@@ -839,29 +835,22 @@
 					<Confetti y={[0.75, 1.5]} x={[-0.5, -0.25]} colorArray={["#ffcd00"]} amount=20 />
 				</ToggleConfetti>
 
-				<div>
-					<code>
-						&lt;Confetti y=&#123;[0.75, 1.5]&#125; x=&#123;[-1, 1]&#125; colorArray=&#123;["#004b87"]&#125; amount=100 /&gt;
-					</code>
-
-					<code>
-						&lt;Confetti y=&#123;[1.05, 1.20]&#125; x=&#123;[-1, 1]&#125; colorArray=&#123;["#ffcd00"]&#125; amount=50 /&gt;
-					</code>
-
-					<code>
-						&lt;Confetti y=&#123;[0.75, 1.5]&#125; x=&#123;[-0.5, -0.25]&#125; colorArray=&#123;["#ffcd00"]&#125; amount=20 /&gt;
-					</code>
-				</div>
+				<code class="well">
+					&lt;Confetti y=&#123;[0.75, 1.5]&#125; x=&#123;[-1, 1]&#125; colorArray=&#123;["#004b87"]&#125; amount=100 /&gt; <br>
+					&lt;Confetti y=&#123;[1.05, 1.20]&#125; x=&#123;[-1, 1]&#125; colorArray=&#123;["#ffcd00"]&#125; amount=50 /&gt; <br>
+					&lt;Confetti y=&#123;[0.75, 1.5]&#125; x=&#123;[-0.5, -0.25]&#125; colorArray=&#123;["#ffcd00"]&#125; amount=20 /&gt; <br>
+				</code>
 			</div>
 
-			<div class="button-code-group">
+			<br>
+
+			<div>
 				<ToggleConfetti>
 					<div slot="label">
 						<button>
 							USA
 						</button>
 
-						<small>This one is heavy! This uses 1015 effects, more than recommended, but it looks neat!</small>
 					</div>
 
 					<Confetti y={[1.15, 1.5]} x={[-1, -0.25]} colorArray={["#3350ec"]} amount=100 />
@@ -881,54 +870,27 @@
 					<Confetti y={[0.85, 0.9]} x={[-1, 1]} colorArray={["#bf0d3e"]} amount=70 />
 				</ToggleConfetti>
 
-				<div>
-					<code>
-						&lt;Confetti y=&#123;[1.15, 1.5]&#125; x=&#123;[-1, -0.25]&#125; colorArray=&#123;["#3350ec"]&#125; amount=100 /&gt;
-					</code>
-					<code>
-						&lt;Confetti y=&#123;[1.20, 1.45]&#125; x=&#123;[-0.95, -0.3]&#125; colorArray=&#123;["white"]&#125; size=5 /&gt;
-					</code>
-					<code>
-						&lt;Confetti y=&#123;[1.45, 1.5]&#125; x=&#123;[-0.25, 1]&#125; colorArray=&#123;["#bf0d3e"]&#125; amount=70 /&gt;
-					</code>
-					<code>
-						&lt;Confetti y=&#123;[1.4, 1.45]&#125; x=&#123;[-0.25, 1]&#125; colorArray=&#123;["white"]&#125; amount=70 /&gt;
-					</code>
-					<code>
-						&lt;Confetti y=&#123;[1.35, 1.4]&#125; x=&#123;[-0.25, 1]&#125; colorArray=&#123;["#bf0d3e"]&#125; amount=70 /&gt;
-					</code>
-					<code>
-						&lt;Confetti y=&#123;[1.3, 1.35]&#125; x=&#123;[-0.25, 1]&#125; colorArray=&#123;["white"]&#125; amount=70 /&gt;
-					</code>
-					<code>
-						&lt;Confetti y=&#123;[1.25, 1.3]&#125; x=&#123;[-0.25, 1]&#125; colorArray=&#123;["#bf0d3e"]&#125; amount=70 /&gt;
-					</code>
-					<code>
-						&lt;Confetti y=&#123;[1.2, 1.25]&#125; x=&#123;[-0.25, 1]&#125; colorArray=&#123;["white"]&#125; amount=70 /&gt;
-					</code>
-					<code>
-						&lt;Confetti y=&#123;[1.15, 1.2]&#125; x=&#123;[-0.25, 1]&#125; colorArray=&#123;["#bf0d3e"]&#125; amount=70 /&gt;
-					</code>
-					<code>
-						&lt;Confetti y=&#123;[1.1, 1.15]&#125; x=&#123;[-1, 1]&#125; colorArray=&#123;["white"]&#125; amount=70 /&gt;
-					</code>
-					<code>
-						&lt;Confetti y=&#123;[1.05, 1.1]&#125; x=&#123;[-1, 1]&#125; colorArray=&#123;["#bf0d3e"]&#125; amount=70 /&gt;
-					</code>
-					<code>
-						&lt;Confetti y=&#123;[1, 1.05]&#125; x=&#123;[-1, 1]&#125; colorArray=&#123;["white"]&#125; amount=70 /&gt;
-					</code>
-					<code>
-						&lt;Confetti y=&#123;[0.95, 1]&#125; x=&#123;[-1, 1]&#125; colorArray=&#123;["#bf0d3e"]&#125; amount=70 /&gt;
-					</code>
-					<code>
-						&lt;Confetti y=&#123;[0.9, 0.95]&#125; x=&#123;[-1, 1]&#125; colorArray=&#123;["white"]&#125; amount=70 /&gt;
-					</code>
-					<code>
-						&lt;Confetti y=&#123;[0.85, 0.9]&#125; x=&#123;[-1, 1]&#125; colorArray=&#123;["#bf0d3e"]&#125; amount=70 /&gt;
-					</code>
-				</div>
+				<small>This one is heavy! This uses 1015 effects, more than recommended, but it looks neat!</small>
+
+				<code class="well">
+					&lt;Confetti y=&#123;[1.20, 1.45]&#125; x=&#123;[-0.95, -0.3]&#125; colorArray=&#123;["white"]&#125; size=5 /&gt; <br>
+					&lt;Confetti y=&#123;[1.45, 1.5]&#125; x=&#123;[-0.25, 1]&#125; colorArray=&#123;["#bf0d3e"]&#125; amount=70 /&gt; <br>
+					&lt;Confetti y=&#123;[1.4, 1.45]&#125; x=&#123;[-0.25, 1]&#125; colorArray=&#123;["white"]&#125; amount=70 /&gt; <br>
+					&lt;Confetti y=&#123;[1.35, 1.4]&#125; x=&#123;[-0.25, 1]&#125; colorArray=&#123;["#bf0d3e"]&#125; amount=70 /&gt; <br>
+					&lt;Confetti y=&#123;[1.3, 1.35]&#125; x=&#123;[-0.25, 1]&#125; colorArray=&#123;["white"]&#125; amount=70 /&gt; <br>
+					&lt;Confetti y=&#123;[1.25, 1.3]&#125; x=&#123;[-0.25, 1]&#125; colorArray=&#123;["#bf0d3e"]&#125; amount=70 /&gt; <br>
+					&lt;Confetti y=&#123;[1.2, 1.25]&#125; x=&#123;[-0.25, 1]&#125; colorArray=&#123;["white"]&#125; amount=70 /&gt; <br>
+					&lt;Confetti y=&#123;[1.15, 1.2]&#125; x=&#123;[-0.25, 1]&#125; colorArray=&#123;["#bf0d3e"]&#125; amount=70 /&gt; <br>
+					&lt;Confetti y=&#123;[1.1, 1.15]&#125; x=&#123;[-1, 1]&#125; colorArray=&#123;["white"]&#125; amount=70 /&gt; <br>
+					&lt;Confetti y=&#123;[1.05, 1.1]&#125; x=&#123;[-1, 1]&#125; colorArray=&#123;["#bf0d3e"]&#125; amount=70 /&gt; <br>
+					&lt;Confetti y=&#123;[1, 1.05]&#125; x=&#123;[-1, 1]&#125; colorArray=&#123;["white"]&#125; amount=70 /&gt; <br>
+					&lt;Confetti y=&#123;[0.95, 1]&#125; x=&#123;[-1, 1]&#125; colorArray=&#123;["#bf0d3e"]&#125; amount=70 /&gt; <br>
+					&lt;Confetti y=&#123;[0.9, 0.95]&#125; x=&#123;[-1, 1]&#125; colorArray=&#123;["white"]&#125; amount=70 /&gt; <br>
+					&lt;Confetti y=&#123;[0.85, 0.9]&#125; x=&#123;[-1, 1]&#125; colorArray=&#123;["#bf0d3e"]&#125; amount=70 /&gt; <br>
+				</code>
 			</div>
+
+			<br>
 
 			Flags are cool, but we can do plenty of other things. In this example we will "feather" the initial effect to give it a less defined shape. By default the effects have a fairly distinct shape to them which ruins the effect a little bit, especially when using lots of particles.
 
@@ -1102,7 +1064,9 @@
 		<div class="description">
 			We've now looked at all the different properties, but since this is just HTML and CSS you can style it further however you like. Let's look at some fullscreen examples. Having the effect fullscreen is not a simple toggle, but it is a simple bit of CSS.
 
-			<div class="button-code-group">
+			<br><br>
+
+			<div>
 				<ToggleConfetti toggleOnce relative={false}>
 					<button slot="label">
 						Fullscreen
@@ -1113,23 +1077,23 @@
 					</div>
 				</ToggleConfetti>
 
-				<div>
-					<code>
-						&lt;div style="<br>
-							position: fixed;<br>
-							top: -50px;<br>
-							left: 0;<br>
-							height: 100vh;<br>
-							width: 100vw;<br>
-							display: flex;<br>
-							justify-content: center;<br>
-							overflow: hidden;"&gt;<br>
-							&lt;Confetti x=&#123;[-5, 5]&#125; y=&#123;[0, 0.1]&#125; delay=&#123;[500, 2000]&#125; infinite duration=5000 amount=200 fallDistance="100vh" /&gt;
-							<br>
-						&lt;/div&gt;
-					</code>
-				</div>
+				<code class="well">
+					&lt;div style="<br>
+						position: fixed;<br>
+						top: -50px;<br>
+						left: 0;<br>
+						height: 100vh;<br>
+						width: 100vw;<br>
+						display: flex;<br>
+						justify-content: center;<br>
+						overflow: hidden;"&gt;<br>
+						&lt;Confetti x=&#123;[-5, 5]&#125; y=&#123;[0, 0.1]&#125; delay=&#123;[500, 2000]&#125; infinite duration=5000 amount=200 fallDistance="100vh" /&gt;
+						<br>
+					&lt;/div&gt;
+				</code>
 			</div>
+
+			<br>
 
 			The element is fixed and placed just off screen so we can't see the confetti spawn in. The <mark>fallDistance</mark> property is set to <code class="inline">100vh</code> so they cover the entire screen.
 			<br>
