@@ -1,6 +1,7 @@
 <script>
 	import { Confetti } from "svelte-confetti"
 	import ToggleConfetti from "./ToggleConfetti.svelte"
+	import ConfettiOnClick from "./ConfettiOnClick.svelte"
 </script>
 
 
@@ -160,15 +161,18 @@
 				<Confetti infinite amount=20 delay={[0, 500]} />
 			</ToggleConfetti>
 
-
 			<ToggleConfetti toggleOnce relative={false}>
 				<button slot="label">Fullscreen</button>
 
-				<div style="position: fixed; top: -50px; left: 0; height: 100vh; width: 100vw; display: flex; justify-content: center; overflow: hidden;">
+				<div style="position: fixed; top: -50px; left: 0; height: 100vh; width: 100vw; display: flex; justify-content: center; overflow: hidden; pointer-events: none;">
 					<Confetti x={[-5, 5]} y={[0, 0.1]} delay={[500, 2000]}  infinite duration=5000 amount=200 fallDistance="100vh" />
 				</div>
 			</ToggleConfetti>
 		</div>
+
+		<br>
+
+		<ConfettiOnClick />
 
 		<h2>Installation</h2>
 
@@ -946,7 +950,7 @@
 				<ToggleConfetti toggleOnce relative={false}>
 					<button slot="label">Fullscreen</button>
 
-					<div style="position: fixed; top: -50px; left: 0; height: 100vh; width: 100vw; display: flex; justify-content: center; overflow: hidden;">
+					<div style="position: fixed; top: -50px; left: 0; height: 100vh; width: 100vw; display: flex; justify-content: center; overflow: hidden; pointer-events: none;">
 						<Confetti x={[-5, 5]} y={[0, 0.1]} delay={[500, 2000]}  infinite duration=5000 amount=200 fallDistance="100vh" />
 					</div>
 				</ToggleConfetti>
@@ -960,7 +964,8 @@
 						width: 100vw;<br>
 						display: flex;<br>
 						justify-content: center;<br>
-						overflow: hidden;"&gt;<br>
+						overflow: hidden;<br>
+						pointer-events: none;"&gt;<br>
 						&lt;Confetti x=&#123;[-5, 5]&#125; y=&#123;[0, 0.1]&#125; delay=&#123;[500, 2000]&#125; infinite duration=5000 amount=200 fallDistance="100vh" /&gt;
 						<br>
 					&lt;/div&gt;
@@ -970,8 +975,22 @@
 			<br>
 
 			The element is fixed and placed just off screen so we can't see the confetti spawn in. The <mark>fallDistance</mark> property is set to <code class="inline">100vh</code> so they cover the entire screen.
+
 			<br>
 			<br>
+
+			One thing you may have noticed is that if you click a button the previous confetti disappears immediately and new ones spawn in. We could change this by creating a new component for each click. Check out the code for this example in the <a target="_blank" href="https://svelte.dev/repl/21a63990161c481d97483c1f1d4de597">REPL</a>.
+
+			<br>
+			<br>
+
+			<ConfettiOnClick />
+
+			<br>
+			<br>
+			<br>
+			<br>
+
 			You could also further style the confetti itself. Don't like the animation? Do it yourself! Target the confetti with <code class="inline">:global(.confetti)</code> and change the animation using <code class="inline">animation-name</code>, all values are set as css variables so you can easily use them yourself.
 		</div>
 	</div>
