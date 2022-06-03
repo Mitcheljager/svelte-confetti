@@ -1,7 +1,7 @@
 <script>
   import { tick } from 'svelte'
 
-  export let toggleOnce
+  export let toggleOnce = false
   export let relative = true
 
   let active = false
@@ -42,9 +42,5 @@
     position: absolute;
     top: 50%;
     left: 50%;
-  }
-
-  .confetti {
-    pointer-events: none;
   }
 </style>

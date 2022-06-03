@@ -35,7 +35,7 @@
 			It looks like you have enabled reduced motion. That's cool, but just be aware that the demos on this page will not work.
 		</div>
 
-		<p><a href="https://github.com/Mitcheljager/svelte-confetti">GitHub</a></p>
+		<p><a target="_blank" href="https://github.com/Mitcheljager/svelte-confetti">GitHub</a> | <a target="_blank" href="https://svelte.dev/repl/21a63990161c481d97483c1f1d4de597">REPL</a></p>
 
 		<h2>Demo</h2>
 
@@ -43,81 +43,61 @@
 
 		<div class="buttons">
 			<ToggleConfetti>
-				<button slot="label">
-					Default
-				</button>
+				<button slot="label">Default</button>
 
 				<Confetti />
 			</ToggleConfetti>
 
 			<ToggleConfetti>
-				<button slot="label">
-					Lots
-				</button>
+				<button slot="label">Lots</button>
 
 				<Confetti amount=200 />
 			</ToggleConfetti>
 
 			<ToggleConfetti>
-				<button slot="label">
-					Few
-				</button>
+				<button slot="label">Few</button>
 
 				<Confetti amount=10 />
 			</ToggleConfetti>
 
 			<ToggleConfetti>
-				<button slot="label">
-					Large
-				</button>
+				<button slot="label">Large</button>
 
 				<Confetti size=20 />
 			</ToggleConfetti>
 
 			<ToggleConfetti>
-				<button slot="label">
-					Rounded
-				</button>
+				<button slot="label">Rounded</button>
 
 				<Confetti rounded size=15 />
 			</ToggleConfetti>
 
 			<ToggleConfetti>
-				<button slot="label">
-					Colored
-				</button>
+				<button slot="label">Colored</button>
 
 				<Confetti colorArray={["var(--primary)"]} />
 			</ToggleConfetti>
 
 			<ToggleConfetti>
-				<button slot="label">
-					Multi Colored
-				</button>
+				<button slot="label">Multi Colored</button>
 
 				<Confetti colorArray={["var(--primary)", "white", "green"]} />
 			</ToggleConfetti>
 
 			<ToggleConfetti>
-				<button slot="label">
-					Images
-				</button>
+				<button slot="label">Images</button>
 
 				<Confetti size=20 colorArray={["url(https://svelte.dev/favicon.png)", "url(https://github.githubassets.com/favicons/favicon-dark.png)"]} />
 			</ToggleConfetti>
 
 			<ToggleConfetti>
-				<button slot="label">
-					Gradient
-				</button>
+				<button slot="label">Gradient</button>
 
 				<Confetti size=20 colorArray={["linear-gradient(#c8102e, white, #003da5)"]} />
 			</ToggleConfetti>
 
 			<ToggleConfetti>
-				<button slot="label">
-					Flag
-				</button>
+				<button slot="label">Flag</button>
 
 				<Confetti y={[1.25, 1.5]} x={[-1, 1]} colorArray={["#c8102e"]} />
 				<Confetti y={[1, 1.25]} x={[-1, 1]} colorArray={["white"]} />
@@ -125,65 +105,49 @@
 			</ToggleConfetti>
 
 			<ToggleConfetti>
-				<button slot="label">
-					Vertical
-				</button>
+				<button slot="label">Vertical</button>
 
 				<Confetti y={[1, 2]} x={[-0.25, 0.25]} />
 			</ToggleConfetti>
 
 			<ToggleConfetti>
-				<button slot="label">
-					Horizontal
-				</button>
+				<button slot="label">Horizontal</button>
 
 				<Confetti y={[0.25, 0.5]} x={[-4, 4]} />
 			</ToggleConfetti>
 
 			<ToggleConfetti>
-				<button slot="label">
-					Cone
-				</button>
+				<button slot="label">Cone</button>
 
 				<Confetti cone />
 			</ToggleConfetti>
 
 			<ToggleConfetti>
-				<button slot="label">
-					All around
-				</button>
+				<button slot="label">All around</button>
 
 				<Confetti y={[-0.5, 0.5]} x={[-0.5, 0.5]} />
 			</ToggleConfetti>
 
 			<ToggleConfetti>
-				<button slot="label">
-					Explosion
-				</button>
+				<button slot="label">Explosion</button>
 
 				<Confetti y={[-1, 1]} x={[-1, 1]} noGravity duration=750 />
 			</ToggleConfetti>
 
 			<ToggleConfetti>
-				<button slot="label">
-					Sparkles
-				</button>
+				<button slot="label">Sparkles</button>
 
 				<Confetti y={[-0.5, 0.5]} x={[-0.5, 0.5]} colorRange={[30, 50]} amount=20 fallDistance=0px duration=3000 size=4 />
 			</ToggleConfetti>
 
 			<ToggleConfetti>
-				<button slot="label">
-					Spray
-				</button>
+				<button slot="label">Spray</button>
 
 				<Confetti delay={[0, 750]} />
 			</ToggleConfetti>
 
 			<ToggleConfetti>
-				<button slot="label">
-					Feathered
-				</button>
+				<button slot="label">Feathered</button>
 
 				<Confetti cone x={[-0.5, 0.5]} />
 				<Confetti cone amount=10 x={[-1, -0.4]} y={[0.25, 0.75]} />
@@ -191,18 +155,14 @@
 			</ToggleConfetti>
 
 			<ToggleConfetti toggleOnce>
-				<button slot="label">
-					Constant
-				</button>
+				<button slot="label">Constant</button>
 
 				<Confetti infinite amount=20 delay={[0, 500]} />
 			</ToggleConfetti>
 
 
 			<ToggleConfetti toggleOnce relative={false}>
-				<button slot="label">
-					Fullscreen
-				</button>
+				<button slot="label">Fullscreen</button>
 
 				<div style="position: fixed; top: -50px; left: 0; height: 100vh; width: 100vw; display: flex; justify-content: center; overflow: hidden;">
 					<Confetti x={[-5, 5]} y={[0, 0.1]} delay={[500, 2000]}  infinite duration=5000 amount=200 fallDistance="100vh" />
@@ -243,9 +203,7 @@
 
 			<div class="button-code-group">
 				<ToggleConfetti>
-					<button slot="label">
-						Default
-					</button>
+					<button slot="label">Default</button>
 
 					<Confetti />
 				</ToggleConfetti>
@@ -265,9 +223,7 @@
 
 			<div class="button-code-group">
 				<ToggleConfetti>
-					<button slot="label">
-						Default
-					</button>
+					<button slot="label">Default</button>
 
 					<Confetti x={[-0.5, 0.5]} y={[0.25, 1]} />
 				</ToggleConfetti>
@@ -279,9 +235,7 @@
 
 			<div class="button-code-group">
 				<ToggleConfetti>
-					<button slot="label">
-						Left
-					</button>
+					<button slot="label">Left</button>
 
 					<Confetti x={[-1, -0.25]} y={[0, 0.5]} />
 				</ToggleConfetti>
@@ -293,9 +247,7 @@
 
 			<div class="button-code-group">
 				<ToggleConfetti>
-					<button slot="label">
-						Right
-					</button>
+					<button slot="label">Right</button>
 
 					<Confetti x={[0.25, 1]} y={[0, 0.5]} />
 				</ToggleConfetti>
@@ -307,9 +259,7 @@
 
 			<div class="button-code-group">
 				<ToggleConfetti>
-					<button slot="label">
-						Up
-					</button>
+					<button slot="label">Up</button>
 
 					<Confetti x={[-0.25, 0.25]} y={[0.75, 1.5]} />
 				</ToggleConfetti>
@@ -321,9 +271,7 @@
 
 			<div class="button-code-group">
 				<ToggleConfetti>
-					<button slot="label">
-						Down
-					</button>
+					<button slot="label">Down</button>
 
 					<Confetti x={[-0.25, 0.25]} y={[-0.75, -0.25]} />
 				</ToggleConfetti>
@@ -335,9 +283,7 @@
 
 			<div class="button-code-group">
 				<ToggleConfetti>
-					<button slot="label">
-						Everywhere
-					</button>
+					<button slot="label">Everywhere</button>
 
 					<Confetti x={[-0.5, 0.5]} y={[-0.5, 0.5]} />
 				</ToggleConfetti>
@@ -357,9 +303,7 @@
 
 			<div class="button-code-group">
 				<ToggleConfetti>
-					<button slot="label">
-						Few
-					</button>
+					<button slot="label">Few</button>
 
 					<Confetti amount=10 />
 				</ToggleConfetti>
@@ -371,9 +315,7 @@
 
 			<div class="button-code-group">
 				<ToggleConfetti>
-					<button slot="label">
-						Default
-					</button>
+					<button slot="label">Default</button>
 
 					<Confetti amount=50 />
 				</ToggleConfetti>
@@ -385,9 +327,7 @@
 
 			<div class="button-code-group">
 				<ToggleConfetti>
-					<button slot="label">
-						Lots
-					</button>
+					<button slot="label">Lots</button>
 
 					<Confetti amount=200 />
 				</ToggleConfetti>
@@ -399,9 +339,7 @@
 
 			<div class="button-code-group">
 				<ToggleConfetti>
-					<button slot="label">
-						Too many
-					</button>
+					<button slot="label">Too many</button>
 
 					<Confetti amount=500 />
 				</ToggleConfetti>
@@ -421,9 +359,7 @@
 
 			<div class="button-code-group">
 				<ToggleConfetti>
-					<button slot="label">
-						Default
-					</button>
+					<button slot="label">Default</button>
 
 					<Confetti amount=200 />
 				</ToggleConfetti>
@@ -435,9 +371,7 @@
 
 			<div class="button-code-group">
 				<ToggleConfetti>
-					<button slot="label">
-						Cone
-					</button>
+					<button slot="label">Cone</button>
 
 					<Confetti cone amount=200 />
 				</ToggleConfetti>
@@ -451,9 +385,7 @@
 
 			<div class="button-code-group">
 				<ToggleConfetti>
-					<button slot="label">
-						Right
-					</button>
+					<button slot="label">Right</button>
 
 					<Confetti x={[0.25, 1]} y={[0, 0.5]} />
 				</ToggleConfetti>
@@ -465,9 +397,7 @@
 
 			<div class="button-code-group">
 				<ToggleConfetti>
-					<button slot="label">
-						Right Cone
-					</button>
+					<button slot="label">Right Cone</button>
 
 					<Confetti cone x={[1, 2.5]} y={[0.25, 0.75]} />
 				</ToggleConfetti>
@@ -489,9 +419,7 @@
 
 			<div class="button-code-group">
 				<ToggleConfetti>
-					<button slot="label">
-						Tiny
-					</button>
+					<button slot="label">Tiny</button>
 
 					<Confetti size=2 />
 				</ToggleConfetti>
@@ -503,9 +431,7 @@
 
 			<div class="button-code-group">
 				<ToggleConfetti>
-					<button slot="label">
-						Huge
-					</button>
+					<button slot="label">Huge</button>
 
 					<Confetti size=30 />
 				</ToggleConfetti>
@@ -519,9 +445,7 @@
 
 			<div class="button-code-group">
 				<ToggleConfetti>
-					<button slot="label">
-						Round
-					</button>
+					<button slot="label">Round</button>
 
 					<Confetti rounded size=30 />
 				</ToggleConfetti>
@@ -541,9 +465,7 @@
 
 			<div class="button-code-group">
 				<ToggleConfetti>
-					<button slot="label">
-						Short delay
-					</button>
+					<button slot="label">Short delay</button>
 
 					<Confetti delay={[0, 250]} />
 				</ToggleConfetti>
@@ -555,9 +477,7 @@
 
 			<div class="button-code-group">
 				<ToggleConfetti>
-					<button slot="label">
-						Long delay
-					</button>
+					<button slot="label">Long delay</button>
 
 					<Confetti delay={[0, 1500]} />
 				</ToggleConfetti>
@@ -571,9 +491,7 @@
 
 			<div class="button-code-group">
 				<ToggleConfetti toggleOnce>
-					<button slot="label">
-						Default
-					</button>
+					<button slot="label">Default</button>
 
 					<Confetti infinite />
 				</ToggleConfetti>
@@ -585,9 +503,7 @@
 
 			<div class="button-code-group">
 				<ToggleConfetti toggleOnce>
-					<button slot="label">
-						Long delay
-					</button>
+					<button slot="label">Long delay</button>
 
 					<Confetti infinite delay={[0, 1500]} />
 				</ToggleConfetti>
@@ -601,9 +517,7 @@
 
 			<div class="button-code-group">
 				<ToggleConfetti toggleOnce>
-					<button slot="label">
-						Infinite
-					</button>
+					<button slot="label">Infinite</button>
 
 					<Confetti iterationCount=infinite />
 				</ToggleConfetti>
@@ -623,9 +537,7 @@
 
 			<div class="button-code-group">
 				<ToggleConfetti>
-					<button slot="label">
-						Green range
-					</button>
+					<button slot="label">Green range</button>
 
 					<Confetti colorRange={[75, 175]} />
 				</ToggleConfetti>
@@ -637,9 +549,7 @@
 
 			<div class="button-code-group">
 				<ToggleConfetti>
-					<button slot="label">
-						Array
-					</button>
+					<button slot="label">Array</button>
 
 					<Confetti colorArray={["#ffbe0b", "#fb5607", "#ff006e", "#8338ec", "#3a86ff"]} />
 				</ToggleConfetti>
@@ -651,9 +561,7 @@
 
 			<div class="button-code-group">
 				<ToggleConfetti>
-					<button slot="label">
-						Different values
-					</button>
+					<button slot="label">Different values</button>
 
 					<Confetti colorArray={["var(--primary)", "rgba(0, 255, 0, 0.5)", "white"]} />
 				</ToggleConfetti>
@@ -667,9 +575,7 @@
 
 			<div class="button-code-group">
 				<ToggleConfetti>
-					<button slot="label">
-						Gradient
-					</button>
+					<button slot="label">Gradient</button>
 
 					<Confetti size=20 colorArray={["linear-gradient(var(--primary), blue)"]} />
 				</ToggleConfetti>
@@ -681,9 +587,7 @@
 
 			<div class="button-code-group">
 				<ToggleConfetti>
-					<button slot="label">
-						Images
-					</button>
+					<button slot="label">Images</button>
 
 					<Confetti size=20 colorArray={["url(https://svelte.dev/favicon.png)", "url(https://github.githubassets.com/favicons/favicon-dark.png)"]} />
 				</ToggleConfetti>
@@ -697,9 +601,7 @@
 
 			<div class="button-code-group">
 				<ToggleConfetti>
-					<button slot="label">
-						Random
-					</button>
+					<button slot="label">Random</button>
 
 					<Confetti colorArray={[`hsl(${Math.floor(Math.random() * 360)}, 75%, 50%)`]} />
 				</ToggleConfetti>
@@ -719,9 +621,7 @@
 
 			<div class="button-code-group">
 				<ToggleConfetti>
-					<button slot="label">
-						Slow fall
-					</button>
+					<button slot="label">Slow fall</button>
 
 					<Confetti fallDistance=50px />
 				</ToggleConfetti>
@@ -733,9 +633,7 @@
 
 			<div class="button-code-group">
 				<ToggleConfetti>
-					<button slot="label">
-						Fast fall
-					</button>
+					<button slot="label">Fast fall</button>
 
 					<Confetti fallDistance=200px />
 				</ToggleConfetti>
@@ -750,7 +648,7 @@
 					<div slot="label">
 						<button>
 							No fall
-						</button>
+					</button>
 
 						<small>Notice how it's set to <code class="inline">0px</code> and not just <code class="inline">0</code></small>
 					</div>
@@ -767,9 +665,7 @@
 
 			<div class="button-code-group">
 				<ToggleConfetti>
-					<button slot="label">
-						No gravity
-					</button>
+					<button slot="label">No gravity</button>
 
 					<Confetti noGravity duration=500 />
 				</ToggleConfetti>
@@ -781,9 +677,7 @@
 
 			<div class="button-code-group">
 				<ToggleConfetti>
-					<button slot="label">
-						No gravity explosion
-					</button>
+					<button slot="label">No gravity explosion</button>
 
 					<Confetti noGravity duration=500 x={[-0.5, 0.5]} y={[-0.5, 0.5]} />
 				</ToggleConfetti>
@@ -806,9 +700,7 @@
 
 			<div>
 				<ToggleConfetti>
-					<button slot="label">
-						Dutch
-					</button>
+					<button slot="label">Dutch</button>
 
 					<Confetti y={[1.25, 1.5]} x={[-1, 1]} colorArray={["#c8102e"]} />
 					<Confetti y={[1, 1.25]} x={[-1, 1]} colorArray={["white"]} />
@@ -826,9 +718,7 @@
 
 			<div>
 				<ToggleConfetti>
-					<button slot="label">
-						Swedish
-					</button>
+					<button slot="label">Swedish</button>
 
 					<Confetti y={[0.75, 1.5]} x={[-1, 1]} colorArray={["#3350ec"]} amount=100 />
 					<Confetti y={[1.05, 1.20]} x={[-1, 1]} colorArray={["#ffcd00"]} amount=50 />
@@ -849,7 +739,7 @@
 					<div slot="label">
 						<button>
 							USA
-						</button>
+					</button>
 
 					</div>
 
@@ -896,9 +786,7 @@
 
 			<div class="button-code-group">
 				<ToggleConfetti>
-					<button slot="label">
-						Not feathered
-					</button>
+					<button slot="label">Not feathered</button>
 
 					<Confetti amount=70 x={[-0.5, 0.5]} />
 				</ToggleConfetti>
@@ -912,9 +800,7 @@
 
 			<div class="button-code-group">
 				<ToggleConfetti>
-					<button slot="label">
-						Feathered
-					</button>
+					<button slot="label">Feathered</button>
 
 					<Confetti x={[-0.5, 0.5]} />
 					<Confetti amount=10 x={[-0.75, -0.3]} y={[0.15, 0.75]} />
@@ -938,9 +824,7 @@
 
 			<div class="button-code-group">
 				<ToggleConfetti>
-					<button slot="label">
-						Cone
-					</button>
+					<button slot="label">Cone</button>
 
 					<Confetti cone amount=70 x={[-0.5, 0.5]} />
 				</ToggleConfetti>
@@ -954,9 +838,7 @@
 
 			<div class="button-code-group">
 				<ToggleConfetti>
-					<button slot="label">
-						Feathered cone
-					</button>
+					<button slot="label">Feathered cone</button>
 
 					<Confetti cone x={[-0.5, 0.5]} />
 					<Confetti cone amount=10 x={[-0.75, -0.4]} y={[0.15, 0.75]} />
@@ -980,9 +862,7 @@
 
 			<div class="button-code-group">
 				<ToggleConfetti>
-					<button slot="label">
-						Feathered and delayed
-					</button>
+					<button slot="label">Feathered and delayed</button>
 
 					<Confetti x={[-0.5, 0.5]} delay={[0, 250]} />
 					<Confetti amount=10 x={[-0.75, -0.3]} y={[0.15, 0.75]} delay={[0, 1000]} />
@@ -1006,9 +886,7 @@
 
 			<div class="button-code-group">
 				<ToggleConfetti>
-					<button slot="label">
-						Animate
-					</button>
+					<button slot="label">Animate</button>
 
 					<Confetti cone x={[-1, -0.25]} colorRange={[100, 200]} />
 					<Confetti cone x={[-0.35, 0.35]} delay={[500, 550]} colorRange={[200, 300]} />
@@ -1034,9 +912,7 @@
 
 			<div class="button-code-group">
 				<ToggleConfetti>
-					<button slot="label">
-						Animate explosion
-					</button>
+					<button slot="label">Animate explosion</button>
 
 					<Confetti noGravity x={[-1, 1]} y={[-1, 1]} delay={[0, 50]} duration=1000 colorRange={[0, 120]} />
 					<Confetti noGravity x={[-1, 1]} y={[-1, 1]} delay={[550, 550]} duration=1000 colorRange={[120, 240]} />
@@ -1068,9 +944,7 @@
 
 			<div>
 				<ToggleConfetti toggleOnce relative={false}>
-					<button slot="label">
-						Fullscreen
-					</button>
+					<button slot="label">Fullscreen</button>
 
 					<div style="position: fixed; top: -50px; left: 0; height: 100vh; width: 100vw; display: flex; justify-content: center; overflow: hidden;">
 						<Confetti x={[-5, 5]} y={[0, 0.1]} delay={[500, 2000]}  infinite duration=5000 amount=200 fallDistance="100vh" />
