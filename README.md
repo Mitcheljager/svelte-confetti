@@ -37,7 +37,7 @@ For detailed documentation on every property check out: [https://mitcheljager.gi
 --- | --- | ---
 size | 10 | The max size in pixels of the individual confetti pieces.
 x | [-0.5, 0.5] | The max horizontal range of the confetti pieces. Negative is left, positive is right. [-1, 1] would mean maximum of 200px left and 200px right.
-y | [0.25, 1] | The max vertical range of the confetti pieces. Negative is down, positive is ip. [-1, 1] would mean maximum of 200px down and 200px up.
+y | [0.25, 1] | The max vertical range of the confetti pieces. Negative is down, positive is up. [-1, 1] would mean maximum of 200px down and 200px up.
 duration | 2000 | Duration of the animation for each individual piece.
 infinite | false | If set to true the animation will play indefinitely.
 delay | [0, 50] | Used to set a random delay for each piece. A large difference between each number will mean a longer spray time.

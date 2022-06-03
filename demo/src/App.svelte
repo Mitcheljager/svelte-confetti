@@ -986,7 +986,7 @@
 
 			<code>size</code> <code>10</code> <div>The max size in pixels of the individual confetti pieces.</div>
 			<code>x</code> <code>[-0.5, 0.5]</code> <div>The max horizontal range of the confetti pieces. Negative is left, positive is right. [-1, 1] would mean maximum of 200px left and 200px right.</div>
-			<code>y</code> <code>[0.25, 1]</code> <div>The max vertical range of the confetti pieces. Negative is down, positive is ip. [-1, 1] would mean maximum of 200px down and 200px up.</div>
+			<code>y</code> <code>[0.25, 1]</code> <div>The max vertical range of the confetti pieces. Negative is down, positive is up. [-1, 1] would mean maximum of 200px down and 200px up.</div>
 			<code>duration</code> <code>2000</code> <div>Duration of the animation for each individual piece.</div>
 			<code>infinite</code> <code>false</code> <div>If set to true the animation will play indefinitely.</div>
 			<code>delay</code> <code>[0, 50]</code> <div>Used to set a random delay for each piece. A large difference between each number will mean a longer spray time.</div>
