@@ -121,6 +121,7 @@
     width: calc(var(--size) * var(--scale));
     animation: translate var(--transition-duration) var(--transition-delay) var(--transition-iteration-count) linear;
     opacity: 0;
+    pointer-events: none;
   }
 
   .confetti::before {
