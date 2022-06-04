@@ -15,6 +15,7 @@
   export let rounded = false
   export let cone = false
   export let noGravity = false
+  export let xSpread = 0.15
   export let destroyOnComplete = true
 
   let complete = false
@@ -54,7 +55,8 @@
         --scale: {0.1 * randomBetween(2, 10)};
         --transition-duration: {infinite ? `calc(${duration}ms * var(--scale))` : `${duration}ms`};
         --transition-delay: {randomBetween(delay[0], delay[1])}ms;
-        --transition-iteration-count: {infinite ? 'infinite' : iterationCount};" />
+        --transition-iteration-count: {infinite ? 'infinite' : iterationCount};
+        --x-spread: {(1 - xSpread)}" />
     {/each}
   </div>
 {/if}
@@ -82,17 +84,17 @@
     }
 
     8% {
-      transform: translateY(calc(var(--translate-y) * 0.95)) translateX(calc(var(--translate-x) * 0.8));
+      transform: translateY(calc(var(--translate-y) * 0.95)) translateX(calc(var(--translate-x) * (var(--x-spread) * 0.9)));
       opacity: 1;
     }
 
     12% {
-      transform: translateY(var(--translate-y)) translateX(calc(var(--translate-x) * 0.85));
+      transform: translateY(var(--translate-y)) translateX(calc(var(--translate-x) * (var(--x-spread) * 0.95)));
       opacity: 1;
     }
 
     16% {
-      transform: translateY(var(--translate-y)) translateX(calc(var(--translate-x) * 0.87));
+      transform: translateY(var(--translate-y)) translateX(calc(var(--translate-x) * var(--x-spread)));
       opacity: 1;
     }
 
