@@ -690,6 +690,32 @@
 					&lt;Confetti <mark>noGravity</mark> duration=500 x=&#123;[-0.5, 0.5]&#125; y=&#123;[-0.5, 0.5]&#125; /&gt;
 				</code>
 			</div>
+
+			We can set how far the particles spread horizontally before and after the peak using the <mark>xSpread</mark> property. This expects a number between 0 and 1 but you can set it higher or lower for some odd results.
+
+			<div class="button-code-group">
+				<ToggleConfetti>
+					<button slot="label">Small spread</button>
+
+					<Confetti xSpread=0.1 />
+				</ToggleConfetti>
+
+				<code>
+					&lt;Confetti <mark>xSpread</mark>=0.1 /&gt;
+				</code>
+			</div>
+
+			<div class="button-code-group">
+				<ToggleConfetti>
+					<button slot="label">Large spread</button>
+
+					<Confetti xSpread=0.4 />
+				</ToggleConfetti>
+
+				<code>
+					&lt;Confetti <mark>xSpread</mark>=0.4 /&gt;
+				</code>
+			</div>
 		</div>
 	</div>
 
@@ -1017,6 +1043,7 @@
 			<code>rounded</code> <code>false</code> <div>Set to true to make each confetti piece rounded.</div>
 			<code>cone</code> <code>false</code> <div>Set to true to make the explosion appear in a cone like shape which might feel more realistic when dealing with a larger amount.</div>
 			<code>noGravity</code> <code>false</code> <div>Set to true to make the particles accelerate at a constant speed without "falling" down. Give it a more explosion like effect.</div>
+			<code>xSpread</code> <code>0.15</code> <div>A number from 0 to 1 that determines how far the particles spread horizontally. A low number will mean the x near the peak and the x near the end are similar.</div>
 			<code>destroyOnComplete</code> <code>true</code> <div>By default the elements are removed when the animation is complete. Set to false to prevent this behaviour.</div>
 		</div>
 	</div>
