@@ -5,7 +5,7 @@
 [![npm downloads](https://badgen.net/npm/dt/svelte-confetti)](https://www.npmjs.com/package/svelte-confetti)
 [![bundle size](https://badgen.net/bundlephobia/minzip/svelte-confetti)](https://bundlephobia.com/package/svelte-confetti)
 
-Add a little bit of flair to your app with some confetti 🎊! There are no dependencies and it's tiny in size. Even better; it works without JavaScript with the help of SSR in SvelteKit (this page doesn't use SSR though)!
+Add a little bit of flair to your app with some confetti 🎊! There are no dependencies and it's tiny in size. Even better; it works without JavaScript with the help of SSR in SvelteKit.
 
 **Demo and Docs**: https://mitcheljager.github.io/svelte-confetti/
 
