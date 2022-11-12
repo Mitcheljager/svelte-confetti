@@ -36,6 +36,7 @@
     "src/"
   ],
   "license": "MIT",
+  "type": "module",
   "main": "src/index.js",
   "module": "src/index.mjs",
   "svelte": "src/index.js",
