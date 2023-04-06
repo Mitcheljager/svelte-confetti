@@ -4,21 +4,23 @@ import resolve from "@rollup/plugin-node-resolve"
 import pkg from "./package.json"
 
 export default [
-  {
+  	{
 		input: "src/Confetti.svelte",
 		output: [
 			{
 				file: pkg.module,
-				"format": "en"
+				format: "es"
 			},
 			{
 				file: pkg.main,
-				"format": "umd",
+				format: "umd",
 				name: "Confetti"
 			}
 		],
 		plugins: [
-			svelte(),
+			svelte({
+				emitCss: false
+			}),
 			resolve({
 				dedupe: ["svelte"]
 			}),

@@ -22,6 +22,5 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# =========================
-# Operating System Files
-# =========================
+# yarn error files
+yarn-error.log
