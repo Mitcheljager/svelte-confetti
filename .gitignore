@@ -22,5 +22,7 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# yarn error files
+# yarn files
 yarn-error.log
+.yarn/*
+!.yarn/releases/*

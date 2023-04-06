@@ -1,5 +1,5 @@
 <script>
-  import { Confetti } from "svelte-confetti"
+  import { Confetti } from "$lib"
 
   const duration = 2000
 

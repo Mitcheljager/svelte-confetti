@@ -1,6 +1,6 @@
 import "jsdom-global/register"
 import { render } from "@testing-library/svelte"
-import Confetti from '../src/Confetti.svelte'
+import Confetti from '../src/lib/Confetti.svelte'
 
 test("Default Confetti should render with 50 confetti elements", () => {
   render(Confetti)

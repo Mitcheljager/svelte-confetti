@@ -17,7 +17,9 @@
     "url": "https://github.com/Mitcheljager/svelte-confetti"
   },
   "homepage": "https://mitcheljager.github.io/svelte-confetti/",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "main": "./dist/svelte-confetti.umd.cjs",
   "module": "./dist/svelte-confetti.js",
   "exports": {
@@ -37,12 +39,19 @@
   },
   "devDependencies": {
     "@sveltejs/vite-plugin-svelte": "^2.0.3",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/svelte": "^3.2.2",
     "@tsconfig/svelte": "^3.0.0",
+    "babel-jest": "^29.5.0",
+    "jest": "^29.5.0",
+    "jsdom-global": "^3.0.2",
     "svelte": "^3.57.0",
     "svelte-check": "^2.10.3",
+    "svelte-jest": "^0.3.1",
+    "svelte-jester": "^2.3.2",
     "tslib": "^2.5.0",
     "typescript": "^5.0.2",
-    "vite": "^4.2.1",
-    "svelte-confetti": "file:../"
-  }
+    "vite": "^4.2.1"
+  },
+  "packageManager": "yarn@3.5.0"
 }

@@ -1,5 +1,5 @@
 <script>
-	import { Confetti } from "svelte-confetti"
+	import { Confetti } from "$lib"
 	import ToggleConfetti from "./ToggleConfetti.svelte"
 	import ConfettiOnClick from "./ConfettiOnClick.svelte"
 </script>
