@@ -12,5 +12,8 @@ jobs:
     - name: Install modules
       run: yarn
       
+    - name: Test library build
+      run: yarn build
+
     - name: Run tests
       run: yarn test
