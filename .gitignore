@@ -23,6 +23,6 @@ $RECYCLE.BIN/
 *.lnk
 
 # yarn files
-yarn-error.log
+.pnp.*
 .yarn/*
-!.yarn/releases/*
+yarn-error.log
