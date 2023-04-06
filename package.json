@@ -1,36 +1,13 @@
 {
   "name": "svelte-confetti",
   "version": "1.2.2",
-  "private": false,
-  "scripts": {
-    "start": "sirv public --no-clear",
-    "test": "jest",
-    "test:watch": "npm run test -- --watch"
-  },
-  "devDependencies": {
-    "@babel/preset-env": "^7.15.0",
-    "@testing-library/jest-dom": "^5.14.1",
-    "@testing-library/svelte": "^3.0.3",
-    "babel-jest": "^27.0.6",
-    "jest": "^27.0.6",
-    "jsdom-global": "^3.0.2",
-    "svelte": "^3.0.0",
-    "svelte-jest": "^0.3.1",
-    "svelte-jester": "^2.0.1"
-  },
+  "type": "module",
   "description": "Confetti in Svelte! Celebrate things with some extra flair. Animates using just HTML and CSS meaning it can work with SSR in SvelteKit!",
   "keywords": [
     "svelte",
     "confetti"
   ],
-  "files": [
-    "src/"
-  ],
   "license": "MIT",
-  "type": "module",
-  "main": "src/index.js",
-  "module": "src/index.mjs",
-  "svelte": "src/index.js",
   "author": {
     "email": "mitchel_jager@hotmail.com",
     "name": "mitcheljager"
@@ -39,5 +16,30 @@
     "type": "git",
     "url": "https://github.com/Mitcheljager/svelte-confetti"
   },
-  "homepage": "https://mitcheljager.github.io/svelte-confetti/"
+  "homepage": "https://mitcheljager.github.io/svelte-confetti/",
+  "files": ["dist"],
+  "main": "./dist/svelte-confetti.umd.cjs",
+  "module": "./dist/svelte-confetti.js",
+  "exports": {
+    ".": {
+      "import": "./dist/svelte-confetti.js",
+      "require": "./dist/svelte-confetti.umd.cjs"
+    }
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "check": "svelte-check --tsconfig ./tsconfig.json"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^2.0.3",
+    "@tsconfig/svelte": "^3.0.0",
+    "svelte": "^3.57.0",
+    "svelte-check": "^2.10.3",
+    "tslib": "^2.5.0",
+    "typescript": "^5.0.2",
+    "vite": "^4.2.1",
+    "svelte-confetti": "file:../"
+  }
 }
