@@ -1,6 +1,6 @@
 {
   "name": "svelte-confetti",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "private": false,
   "scripts": {
     "build": "rollup -c",
@@ -40,11 +40,6 @@
   "main": "src/index.js",
   "module": "src/index.mjs",
   "svelte": "src/index.js",
-  "exports": {
-    ".": {
-      "svelte": "./src/index.js"
-    }
-  },
   "author": {
     "email": "mitchel_jager@hotmail.com",
     "name": "mitcheljager"
