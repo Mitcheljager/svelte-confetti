@@ -40,6 +40,11 @@
   "main": "src/index.js",
   "module": "src/index.mjs",
   "svelte": "src/index.js",
+  "exports": {
+    ".": {
+      "svelte": "./src/index.js"
+    }
+  },
   "author": {
     "email": "mitchel_jager@hotmail.com",
     "name": "mitcheljager"
