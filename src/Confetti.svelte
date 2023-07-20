@@ -56,7 +56,9 @@
         --transition-duration: {infinite ? `calc(${duration}ms * var(--scale))` : `${duration}ms`};
         --transition-delay: {randomBetween(delay[0], delay[1])}ms;
         --transition-iteration-count: {infinite ? 'infinite' : iterationCount};
-        --x-spread: {(1 - xSpread)}" />
+        --x-spread: {(1 - xSpread)};
+        --destroy-opacity: {destroyOnComplete ? 0:1};
+        --fill-mode: {destroyOnComplete ? 'linear':'forwards'};" />
     {/each}
   </div>
 {/if}
@@ -100,7 +102,7 @@
 
     100% {
       transform: translateY(calc(var(--translate-y) + var(--fall-distance))) translateX(var(--translate-x));
-      opacity: 0;
+      opacity: var(--destroy-opacity);
     }
   }
 
@@ -111,7 +113,7 @@
 
     100% {
       transform: translateY(var(--translate-y)) translateX(var(--translate-x));
-      opacity: 0;
+      opacity: var(--destroy-opacity);
     }
   }
 
@@ -121,7 +123,7 @@
     position: absolute;
     height: calc(var(--size) * var(--scale));
     width: calc(var(--size) * var(--scale));
-    animation: translate var(--transition-duration) var(--transition-delay) var(--transition-iteration-count) linear;
+    animation: translate var(--transition-duration) var(--transition-delay) var(--transition-iteration-count) var(--fill-mode);
     opacity: 0;
     pointer-events: none;
   }
