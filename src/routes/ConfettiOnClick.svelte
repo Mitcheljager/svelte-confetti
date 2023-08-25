@@ -1,5 +1,5 @@
 <script>
-  import { Confetti } from "svelte-confetti"
+  import Confetti from "$lib/Confetti.svelte"
 
   const duration = 2000
 
@@ -23,8 +23,8 @@
   }
 </script>
 
-
-
+<!-- svelte-ignore a11y-click-events-have-key-events -->
+<!-- svelte-ignore a11y-no-static-element-interactions -->
 <div class="box" on:click={moveConfetti}>
   <span>Click in me</span>
 
@@ -34,8 +34,6 @@
     </div>
   {/each}
 </div>
-
-
 
 <style>
   .box {

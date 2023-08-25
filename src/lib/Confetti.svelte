@@ -36,8 +36,6 @@
   }
 </script>
 
-
-
 {#if !complete}
   <div class="confetti-holder" class:rounded class:cone class:no-gravity={noGravity}>
     {#each { length: amount } as _}
@@ -60,8 +58,6 @@
     {/each}
   </div>
 {/if}
-
-
 
 <style>
   .confetti-holder {

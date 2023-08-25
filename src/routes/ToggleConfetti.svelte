@@ -18,8 +18,8 @@
   }
 </script>
 
-
-
+<!-- svelte-ignore a11y-click-events-have-key-events -->
+<!-- svelte-ignore a11y-no-static-element-interactions -->
 <span on:click={click} class:relative>
   <slot name="label" />
 
@@ -29,9 +29,6 @@
     </div>
   {/if}
 </span>
-
-
-
 
 <style>
   .relative {

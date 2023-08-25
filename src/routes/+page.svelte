@@ -1,10 +1,8 @@
 <script>
-	import { Confetti } from "svelte-confetti"
+	import Confetti from "$lib/Confetti.svelte"
 	import ToggleConfetti from "./ToggleConfetti.svelte"
 	import ConfettiOnClick from "./ConfettiOnClick.svelte"
 </script>
-
-
 
 <div class="wrapper">
 	<div class="header">
@@ -189,7 +187,7 @@
 		<p>Include the component in your app.</p>
 
 		<code class="well">
-			import &#123; <mark>Confetti</mark> &#125; from "<mark>svelte-confetti</mark>"
+			import <mark>Confetti</mark> from "<mark>svelte-confetti</mark>"
 		</code>
 
 		<code class="well">
