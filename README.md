@@ -16,7 +16,7 @@ Install using Yarn or NPM.
 yarn add svelte-confetti
 ```
 ```js
-npm install --save svelte-confetti
+npm install --save-dev svelte-confetti
 ```
 
 Include the component in your app.
