@@ -3,7 +3,7 @@
 [![tests passing](https://github.com/MitchelJager/svelte-confetti/actions/workflows/node.js.yml/badge.svg)](https://github.com/Mitcheljager/svelte-confetti/actions/workflows/node.js.yml)
 [![npm version](https://badgen.net/npm/v/svelte-confetti)](https://www.npmjs.com/package/svelte-confetti)
 [![npm downloads](https://badgen.net/npm/dt/svelte-confetti)](https://www.npmjs.com/package/svelte-confetti)
-[![bundle size](https://badgen.net/bundlephobia/minzip/svelte-confetti)](https://bundlephobia.com/package/svelte-confetti)
+[![bundle size](https://img.shields.io/bundlephobia/minzip/svelte-confetti)](https://bundlephobia.com/package/svelte-confetti)
 
 Add a little bit of flair to your app with some confetti 🎊! There are no dependencies and it's tiny in size. Even better; it works without JavaScript with the help of SSR in SvelteKit.
 
