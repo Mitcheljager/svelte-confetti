@@ -177,11 +177,11 @@
 		<p>Install using Yarn or NPM.</p>
 
 		<code class="well">
-			yarn add <mark>svelte-confetti</mark>
+			yarn add <mark>svelte-confetti</mark> --dev
 		</code>
 
 		<code class="well">
-			npm install --save <mark>svelte-confetti</mark>
+			npm install <mark>svelte-confetti</mark> --save-dev
 		</code>
 
 		<p>Include the component in your app.</p>
@@ -981,16 +981,16 @@
 
 				<code class="well">
 					&lt;div style="<br>
-						position: fixed;<br>
-						top: -50px;<br>
-						left: 0;<br>
-						height: 100vh;<br>
-						width: 100vw;<br>
-						display: flex;<br>
-						justify-content: center;<br>
-						overflow: hidden;<br>
-						pointer-events: none;"&gt;<br>
-						&lt;Confetti x=&#123;[-5, 5]&#125; y=&#123;[0, 0.1]&#125; delay=&#123;[500, 2000]&#125; infinite duration=5000 amount=200 fallDistance="100vh" /&gt;
+					&nbsp;position: fixed;<br>
+					&nbsp;top: -50px;<br>
+					&nbsp;left: 0;<br>
+					&nbsp;height: 100vh;<br>
+					&nbsp;width: 100vw;<br>
+					&nbsp;display: flex;<br>
+					&nbsp;justify-content: center;<br>
+					&nbsp;overflow: hidden;<br>
+					&nbsp;pointer-events: none;"&gt;<br>
+					&nbsp;&lt;Confetti x=&#123;[-5, 5]&#125; y=&#123;[0, 0.1]&#125; delay=&#123;[500, 2000]&#125; infinite duration=5000 amount=200 fallDistance="100vh" /&gt;
 						<br>
 					&lt;/div&gt;
 				</code>
