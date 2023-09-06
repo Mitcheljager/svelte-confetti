@@ -21,7 +21,7 @@ npm install svelte-confetti --save-dev
 
 Include the component in your app.
 ```js
-import Confetti from "svelte-confetti"
+import { Confetti } from "svelte-confetti"
 ```
 ```svelte
 <Confetti />

@@ -187,7 +187,7 @@
 		<p>Include the component in your app.</p>
 
 		<code class="well">
-			import <mark>Confetti</mark> from "<mark>svelte-confetti</mark>"
+			import &#123; <mark>Confetti</mark> &#125; from "<mark>svelte-confetti</mark>"
 		</code>
 
 		<code class="well">
