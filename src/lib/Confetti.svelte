@@ -32,7 +32,7 @@
 
   function getColor() {
     if (colorArray.length) return colorArray[Math.round(Math.random() * (colorArray.length - 1))]
-    else return `hsl(${Math.round(randomBetween(colorRange[0], colorRange[1]))}, 75%, 50%`
+    else return `hsl(${Math.round(randomBetween(colorRange[0], colorRange[1]))}, 75%, 50%)`
   }
 </script>
 
