@@ -51,3 +51,4 @@ cone | false | Set to true to make the explosion appear in a cone like shape whi
 noGravity | false | Set to true to make the particles accelerate at a constant speed without "falling" down. Give it a more explosion like effect.
 xSpread | 0.15 | A number from 0 to 1 that determines how far the particles spread horizontally. A low number will mean the x near the peak and the x near the end are similar.
 destroyOnComplete | true | By default the elements are removed when the animation is complete. Set to false to prevent this behaviour.
+disableForReducedMotion | false | Disable animations for those with reduced motion preferences.

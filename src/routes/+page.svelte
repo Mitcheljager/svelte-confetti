@@ -1039,6 +1039,7 @@
 			<code>noGravity</code> <code>false</code> <div>Set to true to make the particles accelerate at a constant speed without "falling" down. Give it a more explosion like effect.</div>
 			<code>xSpread</code> <code>0.15</code> <div>A number from 0 to 1 that determines how far the particles spread horizontally. A low number will mean the x near the peak and the x near the end are similar.</div>
 			<code>destroyOnComplete</code> <code>true</code> <div>By default the elements are removed when the animation is complete. Set to false to prevent this behaviour.</div>
+			<code>disableForReducedMotion</code> <code>false</code> <div>Disable animations for those with reduced motion preferences.</div>
 		</div>
 	</div>
 
