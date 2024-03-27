@@ -30,10 +30,6 @@
 	<div class="block">
 		<p>Add a little bit of flair to your app with some confetti 🎊! There are no dependencies and it's tiny in size. Even better; it works without JavaScript with the help of SSR in SvelteKit <em>(this page doesn't use SSR though)</em>!</p>
 
-		<div class="reduced-motion-only">
-			It looks like you have enabled reduced motion. That's cool, but just be aware that the demos on this page will not work.
-		</div>
-
 		<p><a target="_blank" href="https://github.com/Mitcheljager/svelte-confetti">GitHub</a> | <a target="_blank" href="https://svelte.dev/repl/21a63990161c481d97483c1f1d4de597">REPL</a></p>
 
 		<h2>Demo</h2>
@@ -1224,20 +1220,5 @@
 	.table code {
 		margin-top: 0;
 		line-height: 1.3rem;
-	}
-
-	.reduced-motion-only {
-		display: none;
-		padding: 1rem;
-		border: 2px solid var(--primary);
-		border-radius: 0.5rem;
-		color: var(--text-color-lightest);
-
-	}
-
-	@media (prefers-reduced-motion) {
-		.reduced-motion-only {
-			display: block;
-		}
 	}
 </style>

@@ -17,6 +17,7 @@
   export let noGravity = false
   export let xSpread = 0.15
   export let destroyOnComplete = true
+  export let disableForReducedMotion = false
 
   let complete = false
 
@@ -37,7 +38,7 @@
 </script>
 
 {#if !complete}
-  <div class="confetti-holder" class:rounded class:cone class:no-gravity={noGravity}>
+  <div class="confetti-holder" class:rounded class:cone class:no-gravity={noGravity} class:reduced-motion={disableForReducedMotion}>
     {#each { length: amount } as _}
       <div
         class="confetti"
@@ -148,8 +149,8 @@
   }
 
   @media (prefers-reduced-motion) {
-    .confetti,
-    .confetti::before {
+    .reduced-motion .confetti,
+    .reduced-motion .confetti::before {
       animation: none;
     }
   }
