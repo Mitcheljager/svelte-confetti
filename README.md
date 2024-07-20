@@ -13,10 +13,12 @@ Add a little bit of flair to your app with some confetti 🎊! There are no depe
 
 Install using Yarn or NPM.
 ```js
-yarn add svelte-confetti --dev
+yarn add svelte-confetti@^1.0.0 --dev // Svelte 4
+yarn add svelte-confetti@^2.0.0 --dev // Svelte 5
 ```
 ```js
-npm install svelte-confetti --save-dev
+npm install svelte-confetti@^1.0.0 --save-dev // Svelte 4
+npm install svelte-confetti@^2.0.0 --save-dev // Svelte 5
 ```
 
 Include the component in your app.
