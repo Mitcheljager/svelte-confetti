@@ -170,14 +170,16 @@
 
 		<h2>Installation</h2>
 
-		<p>Install using Yarn or NPM.</p>
+		<p>Install using NPM.</p>
 
+		<p>Svelte 4</p>
 		<code class="well">
-			yarn add <mark>svelte-confetti</mark> --dev
+			npm install <mark>svelte-confetti@^1.0.0</mark> --save-dev
 		</code>
 
+		<p>Svelte 5</p>
 		<code class="well">
-			npm install <mark>svelte-confetti</mark> --save-dev
+			npm install <mark>svelte-confetti@^2.0.0</mark> --save-dev
 		</code>
 
 		<p>Include the component in your app.</p>
