@@ -1,25 +1,28 @@
 <script>
   import { onMount } from "svelte"
 
-  export let size = 10
-  export let x = [-0.5, 0.5]
-  export let y = [0.25, 1]
-  export let duration = 2000
-  export let infinite = false
-  export let delay = [0, 50]
-  export let colorRange = [0, 360]
-  export let colorArray = []
-  export let amount = 50
-  export let iterationCount = 1
-  export let fallDistance = "100px"
-  export let rounded = false
-  export let cone = false
-  export let noGravity = false
-  export let xSpread = 0.15
-  export let destroyOnComplete = true
-  export let disableForReducedMotion = false
+  /** @type {{size?: number, x?: any, y?: any, duration?: number, infinite?: boolean, delay?: any, colorRange?: any, colorArray?: any, amount?: number, iterationCount?: number, fallDistance?: string, rounded?: boolean, cone?: boolean, noGravity?: boolean, xSpread?: number, destroyOnComplete?: boolean, disableForReducedMotion?: boolean}} */
+  let {
+    size = 10,
+    x = [-0.5, 0.5],
+    y = [0.25, 1],
+    duration = 2000,
+    infinite = false,
+    delay = [0, 50],
+    colorRange = [0, 360],
+    colorArray = [],
+    amount = 50,
+    iterationCount = 1,
+    fallDistance = "100px",
+    rounded = false,
+    cone = false,
+    noGravity = false,
+    xSpread = 0.15,
+    destroyOnComplete = true,
+    disableForReducedMotion = false
+  } = $props();
 
-  let complete = false
+  let complete = $state(false)
 
   onMount(() => {
     if (!destroyOnComplete || infinite || iterationCount == "infinite") return
@@ -55,7 +58,7 @@
         --transition-duration: {infinite ? `calc(${duration}ms * var(--scale))` : `${duration}ms`};
         --transition-delay: {randomBetween(delay[0], delay[1])}ms;
         --transition-iteration-count: {infinite ? 'infinite' : iterationCount};
-        --x-spread: {(1 - xSpread)}" />
+        --x-spread: {(1 - xSpread)}"></div>
     {/each}
   </div>
 {/if}
