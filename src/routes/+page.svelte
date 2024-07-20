@@ -2,6 +2,7 @@
 	import Confetti from "$lib/Confetti.svelte"
 	import ToggleConfetti from "./ToggleConfetti.svelte"
 	import ConfettiOnClick from "./ConfettiOnClick.svelte"
+	import CodeBlock from "./CodeBlock.svelte"
 </script>
 
 <div class="wrapper">
@@ -170,17 +171,27 @@
 
 		<h2>Installation</h2>
 
-		<p>Install using NPM.</p>
+		<p>Install using Yarn or NPM.</p>
 
-		<p>Svelte 4</p>
-		<code class="well">
-			npm install <mark>svelte-confetti@^1.0.0</mark> --save-dev
-		</code>
+		<CodeBlock>
+			{#snippet svelte4()}
+				yarn add <mark>svelte-confetti@^1.0.0</mark> --dev
+			{/snippet}
 
-		<p>Svelte 5</p>
-		<code class="well">
-			npm install <mark>svelte-confetti@^2.0.0</mark> --save-dev
-		</code>
+			{#snippet svelte5()}
+				yarn add <mark>svelte-confetti@^2.0.0</mark> --dev
+			{/snippet}
+		</CodeBlock>
+
+		<CodeBlock>
+			{#snippet svelte4()}
+				npm install <mark>svelte-confetti@^1.0.0</mark> --save-dev
+			{/snippet}
+
+			{#snippet svelte5()}
+				npm install <mark>svelte-confetti@^2.0.0</mark> --save-dev
+			{/snippet}
+		</CodeBlock>
 
 		<p>Include the component in your app.</p>
 
