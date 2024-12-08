@@ -300,7 +300,7 @@
 				</ToggleConfetti>
 
 				<code>
-					&lt;Confetti <mark>x</mark>=&#123;[-0.5, 0.5]&#125; <mark>y</mark>=&#123;[-0.5, -0.5]&#125; /&gt;
+					&lt;Confetti <mark>x</mark>=&#123;[-0.5, 0.5]&#125; <mark>y</mark>=&#123;[-0.5, 0.5]&#125; /&gt;
 				</code>
 			</div>
 		</div>
