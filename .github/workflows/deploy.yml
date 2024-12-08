@@ -2,7 +2,7 @@ name: Build and Deploy to Pages
 
 on:
   push:
-    branches: ["chore/svelte-5"]
+    branches: ["master"]
 
   workflow_dispatch:
 
