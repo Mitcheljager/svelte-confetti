@@ -9,7 +9,7 @@
     "Svelte 5"
   ]
 
-  let currentTab = $state("Svelte 4")
+  let currentTab = $state("Svelte 5")
 </script>
 
 {#if svelte4 && svelte5}
