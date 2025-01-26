@@ -28,7 +28,7 @@ describe("Confetti.svelte", () => {
   it("Should render pieces up to given size", () => {
     const { container } = render(Confetti, { size: 5 })
 
-    const element = /** @type {HTMLElement} */ (container.querySelector(".confetti"))
+    const element = /** @type {HTMLElement} */ (container.querySelector(".confetti-holder"))
 
     expect(getCSSVariable(element, "--size")).toBe("5px")
   })
@@ -99,14 +99,14 @@ describe("Confetti.svelte", () => {
   it("Should apply the given iteration count", () => {
     const { container } = render(Confetti, { iterationCount: 3 })
 
-    const element = /** @type {HTMLElement} */ (container.querySelector(".confetti"))
+    const element = /** @type {HTMLElement} */ (container.querySelector(".confetti-holder"))
     expect(getCSSVariable(element, "--transition-iteration-count")).toBe("3")
   })
 
   it("Should apply the given fall distance", () => {
     const { container } = render(Confetti, { fallDistance: "50px" })
 
-    const element = /** @type {HTMLElement} */ (container.querySelector(".confetti"))
+    const element = /** @type {HTMLElement} */ (container.querySelector(".confetti-holder"))
     expect(getCSSVariable(element, "--fall-distance")).toBe("50px")
   })
 
@@ -162,7 +162,7 @@ describe("Confetti.svelte", () => {
   it("Should render pieces with given xSpread", () => {
     const { container } = render(Confetti, { xSpread: 0.25 })
 
-    const element = /** @type {HTMLElement} */ (container.querySelector(".confetti"))
+    const element = /** @type {HTMLElement} */ (container.querySelector(".confetti-holder"))
     expect(getCSSVariable(element, "--x-spread")).toBe("0.75")
   })
 

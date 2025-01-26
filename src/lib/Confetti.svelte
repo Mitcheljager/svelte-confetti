@@ -68,13 +68,21 @@
 </script>
 
 {#if !complete}
-  <div class="confetti-holder" class:rounded class:cone class:no-gravity={noGravity} class:reduced-motion={disableForReducedMotion}>
+  <div
+    class="confetti-holder"
+    class:rounded
+    class:cone
+    class:no-gravity={noGravity}
+    class:reduced-motion={disableForReducedMotion}
+    style="
+    --fall-distance: {fallDistance};
+    --size: {size}px;
+    --x-spread: {(1 - xSpread)};
+    --transition-iteration-count: {infinite ? "infinite" : iterationCount};">
     {#each { length: amount } as _}
       <div
         class="confetti"
         style="
-        --fall-distance: {fallDistance};
-        --size: {size}px;
         --color: {getColor()};
         --skew: {randomBetween(-45, 45)}deg,{randomBetween(-45, 45)}deg;
         --rotation-xyz: {randomBetween(-10, 10)}, {randomBetween(-10, 10)}, {randomBetween(-10, 10)};
@@ -82,10 +90,8 @@
         --translate-y-multiplier: {randomBetween(y[0], y[1])};
         --translate-x-multiplier: {randomBetween(x[0], x[1])};
         --scale: {0.1 * randomBetween(2, 10)};
-        --transition-duration: {infinite ? `calc(${duration}ms * var(--scale))` : `${duration}ms`};
         --transition-delay: {randomBetween(delay[0], delay[1])}ms;
-        --transition-iteration-count: {infinite ? "infinite" : iterationCount};
-        --x-spread: {(1 - xSpread)}"></div>
+        --transition-duration: {infinite ? `calc(${duration}ms * var(--scale))` : `${duration}ms`};"></div>
     {/each}
   </div>
 {/if}
