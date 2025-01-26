@@ -1,5 +1,5 @@
 <script>
-  import { tick } from 'svelte'
+  import { tick } from "svelte"
 
   export let toggleOnce = false
   export let relative = true
@@ -13,7 +13,7 @@
     }
 
     active = false
-    await tick();
+    await tick()
     active = true
   }
 </script>

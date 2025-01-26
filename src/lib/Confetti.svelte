@@ -84,7 +84,7 @@
         --scale: {0.1 * randomBetween(2, 10)};
         --transition-duration: {infinite ? `calc(${duration}ms * var(--scale))` : `${duration}ms`};
         --transition-delay: {randomBetween(delay[0], delay[1])}ms;
-        --transition-iteration-count: {infinite ? 'infinite' : iterationCount};
+        --transition-iteration-count: {infinite ? "infinite" : iterationCount};
         --x-spread: {(1 - xSpread)}"></div>
     {/each}
   </div>

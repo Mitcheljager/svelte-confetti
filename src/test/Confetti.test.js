@@ -1,5 +1,5 @@
-import { render } from '@testing-library/svelte'
-import { describe, expect, it } from 'vitest'
+import { render } from "@testing-library/svelte"
+import { describe, expect, it } from "vitest"
 
 import Confetti from "$lib/Confetti.svelte"
 
