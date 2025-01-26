@@ -17,7 +17,7 @@
    * @property {boolean} [rounded] Whether the confetti pieces should have rounded edges
    * @property {boolean} [cone] If the effect should be shaped like a cone
    * @property {boolean} [noGravity] Whether gravity should be disabled for the effect
-   * @property {number} [xSpread] The horizontal spread of the effect
+   * @property {number} [xSpread] The horizontal spread of the effect as it falls down, from 0 to 1
    * @property {boolean} [destroyOnComplete] Whether to destroy the elements after the animation is complete
    * @property {boolean} [disableForReducedMotion] Disable the effect if reduced motion is enabled
    */
