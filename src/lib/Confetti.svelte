@@ -3,15 +3,15 @@
 
   /**
    * @typedef {Object} Props
-   * @property {number} [size] The size of each confetti piece
-   * @property {[number, number]} [x] The X multiplier the pieces will fly
-   * @property {[number, number]} [y] The X multiplier the pieces will fly
+   * @property {number} [size] The maximum size of each confetti piece, each piece will randomly be given a size up to this number
+   * @property {[number, number]} [x] The X multipliers of the distance between which the pieces will fly horizontally
+   * @property {[number, number]} [y] The X multipliers of the distance between which the pieces will fly vertically
    * @property {number} [duration] The total duration of the animation in milliseconds
    * @property {boolean} [infinite] Whether the effect should loop infinitely
    * @property {[number, number]} [delay] Range of random delay between two values, in milliseconds, which will be randomly given to each piece
    * @property {[number, number]} [colorRange] Hue color range between which the confetti will be colored
    * @property {string[]} [colorArray] An array of colors in any valid CSS value, colors will be asigned to each piece randomly from this array
-   * @property {number} [amount] The amount of confetti pieces in total
+   * @property {number} [amount] The amount of confetti pieces in total, high numbers might lead to performance issues
    * @property {number | "infinite" | "initial" | "inherit"} [iterationCount] The number of times the animation will fire, allows any value valid for the css prop `animation-iteration-count`
    * @property {string} [fallDistance] The distance elements fall, represented as a css value such as "10px" or "5rem"
    * @property {boolean} [rounded] Whether the confetti pieces should have rounded edges
