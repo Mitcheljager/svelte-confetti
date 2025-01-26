@@ -10,7 +10,7 @@
 		<h1>
 			<Confetti
 				infinite
-				amount="10"
+				amount={10}
 				x={[-0.5, -0.25]}
 				y={[0.25, 0.5]}
 				delay={[500, 2000]}
@@ -20,7 +20,7 @@
 
 			<Confetti
 				infinite
-				amount="10"
+				amount={10}
 				x={[0.25, 0.5]}
 				y={[0.25, 0.5]}
 				delay={[500, 2000]}
@@ -47,25 +47,25 @@
 			<ToggleConfetti>
 				<button slot="label">Lots</button>
 
-				<Confetti amount=200 />
+				<Confetti amount={200} />
 			</ToggleConfetti>
 
 			<ToggleConfetti>
 				<button slot="label">Few</button>
 
-				<Confetti amount=10 />
+				<Confetti amount={10} />
 			</ToggleConfetti>
 
 			<ToggleConfetti>
 				<button slot="label">Large</button>
 
-				<Confetti size=20 />
+				<Confetti size={20} />
 			</ToggleConfetti>
 
 			<ToggleConfetti>
 				<button slot="label">Rounded</button>
 
-				<Confetti rounded size=15 />
+				<Confetti rounded size={15} />
 			</ToggleConfetti>
 
 			<ToggleConfetti>
@@ -83,13 +83,13 @@
 			<ToggleConfetti>
 				<button slot="label">Images</button>
 
-				<Confetti size=20 colorArray={["url(https://svelte.dev/favicon.png)", "url(https://github.githubassets.com/favicons/favicon-dark.png)"]} />
+				<Confetti size={20} colorArray={["url(https://svelte.dev/favicon.png)", "url(https://github.githubassets.com/favicons/favicon-dark.png)"]} />
 			</ToggleConfetti>
 
 			<ToggleConfetti>
 				<button slot="label">Gradient</button>
 
-				<Confetti size=20 colorArray={["linear-gradient(#c8102e, white, #003da5)"]} />
+				<Confetti size={20} colorArray={["linear-gradient(#c8102e, white, #003da5)"]} />
 			</ToggleConfetti>
 
 			<ToggleConfetti>
@@ -127,13 +127,13 @@
 			<ToggleConfetti>
 				<button slot="label">Explosion</button>
 
-				<Confetti y={[-1, 1]} x={[-1, 1]} noGravity duration=750 />
+				<Confetti y={[-1, 1]} x={[-1, 1]} noGravity duration={750} />
 			</ToggleConfetti>
 
 			<ToggleConfetti>
 				<button slot="label">Sparkles</button>
 
-				<Confetti y={[-0.5, 0.5]} x={[-0.5, 0.5]} colorRange={[30, 50]} amount=20 fallDistance=0px duration=3000 size=4 />
+				<Confetti y={[-0.5, 0.5]} x={[-0.5, 0.5]} colorRange={[30, 50]} amount={20} fallDistance=0px duration={3000} size={4} />
 			</ToggleConfetti>
 
 			<ToggleConfetti>
@@ -146,21 +146,21 @@
 				<button slot="label">Feathered</button>
 
 				<Confetti cone x={[-0.5, 0.5]} />
-				<Confetti cone amount=10 x={[-1, -0.4]} y={[0.25, 0.75]} />
-				<Confetti cone amount=10 x={[0.4, 1]} y={[0.25, 0.75]} />
+				<Confetti cone amount={10} x={[-1, -0.4]} y={[0.25, 0.75]} />
+				<Confetti cone amount={10} x={[0.4, 1]} y={[0.25, 0.75]} />
 			</ToggleConfetti>
 
 			<ToggleConfetti toggleOnce>
 				<button slot="label">Constant</button>
 
-				<Confetti infinite amount=20 delay={[0, 500]} />
+				<Confetti infinite amount={20} delay={[0, 500]} />
 			</ToggleConfetti>
 
 			<ToggleConfetti toggleOnce relative={false}>
 				<button slot="label">Fullscreen</button>
 
 				<div style="position: fixed; top: -50px; left: 0; height: 100vh; width: 100vw; display: flex; justify-content: center; overflow: hidden; pointer-events: none;">
-					<Confetti x={[-5, 5]} y={[0, 0.1]} delay={[500, 2000]}  infinite duration=5000 amount=200 fallDistance="100vh" />
+					<Confetti x={[-5, 5]} y={[0, 0.1]} delay={[500, 2000]}  infinite duration={5000} amount={200} fallDistance="100vh" />
 				</div>
 			</ToggleConfetti>
 		</div>
@@ -316,7 +316,7 @@
 				<ToggleConfetti>
 					<button slot="label">Few</button>
 
-					<Confetti amount=10 />
+					<Confetti amount={10} />
 				</ToggleConfetti>
 
 				<code>
@@ -328,7 +328,7 @@
 				<ToggleConfetti>
 					<button slot="label">Default</button>
 
-					<Confetti amount=50 />
+					<Confetti amount={50} />
 				</ToggleConfetti>
 
 				<code>
@@ -340,7 +340,7 @@
 				<ToggleConfetti>
 					<button slot="label">Lots</button>
 
-					<Confetti amount=200 />
+					<Confetti amount={200} />
 				</ToggleConfetti>
 
 				<code>
@@ -352,7 +352,7 @@
 				<ToggleConfetti>
 					<button slot="label">Too many</button>
 
-					<Confetti amount=500 />
+					<Confetti amount={500} />
 				</ToggleConfetti>
 
 				<code>
@@ -372,11 +372,11 @@
 				<ToggleConfetti>
 					<button slot="label">Default</button>
 
-					<Confetti amount=200 />
+					<Confetti amount={200} />
 				</ToggleConfetti>
 
 				<code>
-					&lt;Confetti amount=200 /&gt;
+					&lt;Confetti amount={200} /&gt;
 				</code>
 			</div>
 
@@ -384,11 +384,11 @@
 				<ToggleConfetti>
 					<button slot="label">Cone</button>
 
-					<Confetti cone amount=200 />
+					<Confetti cone amount={200} />
 				</ToggleConfetti>
 
 				<code>
-					&lt;Confetti <mark>cone</mark> amount=200 /&gt;
+					&lt;Confetti <mark>cone</mark> amount={200} /&gt;
 				</code>
 			</div>
 
@@ -432,7 +432,7 @@
 				<ToggleConfetti>
 					<button slot="label">Tiny</button>
 
-					<Confetti size=2 />
+					<Confetti size={2} />
 				</ToggleConfetti>
 
 				<code>
@@ -444,7 +444,7 @@
 				<ToggleConfetti>
 					<button slot="label">Huge</button>
 
-					<Confetti size=30 />
+					<Confetti size={30} />
 				</ToggleConfetti>
 
 				<code>
@@ -458,11 +458,11 @@
 				<ToggleConfetti>
 					<button slot="label">Round</button>
 
-					<Confetti rounded size=30 />
+					<Confetti rounded size={30} />
 				</ToggleConfetti>
 
 				<code>
-					&lt;Confetti <mark>rounded</mark> size=30 /&gt;
+					&lt;Confetti <mark>rounded</mark> size={30} /&gt;
 				</code>
 			</div>
 		</div>
@@ -588,7 +588,7 @@
 				<ToggleConfetti>
 					<button slot="label">Gradient</button>
 
-					<Confetti size=20 colorArray={["linear-gradient(var(--primary), blue)"]} />
+					<Confetti size={20} colorArray={["linear-gradient(var(--primary), blue)"]} />
 				</ToggleConfetti>
 
 				<code>
@@ -600,7 +600,7 @@
 				<ToggleConfetti>
 					<button slot="label">Images</button>
 
-					<Confetti size=20 colorArray={["url(https://svelte.dev/favicon.png)", "url(https://github.githubassets.com/favicons/favicon-dark.png)"]} />
+					<Confetti size={20} colorArray={["url(https://svelte.dev/favicon.png)", "url(https://github.githubassets.com/favicons/favicon-dark.png)"]} />
 				</ToggleConfetti>
 
 				<code>
@@ -678,11 +678,11 @@
 				<ToggleConfetti>
 					<button slot="label">No gravity</button>
 
-					<Confetti noGravity duration=500 />
+					<Confetti noGravity duration={500} />
 				</ToggleConfetti>
 
 				<code>
-					&lt;Confetti <mark>noGravity</mark> duration=500 /&gt;
+					&lt;Confetti <mark>noGravity</mark> duration={500} /&gt;
 				</code>
 			</div>
 
@@ -690,11 +690,11 @@
 				<ToggleConfetti>
 					<button slot="label">No gravity explosion</button>
 
-					<Confetti noGravity duration=500 x={[-0.5, 0.5]} y={[-0.5, 0.5]} />
+					<Confetti noGravity duration={500} x={[-0.5, 0.5]} y={[-0.5, 0.5]} />
 				</ToggleConfetti>
 
 				<code>
-					&lt;Confetti <mark>noGravity</mark> duration=500 x=&#123;[-0.5, 0.5]&#125; y=&#123;[-0.5, 0.5]&#125; /&gt;
+					&lt;Confetti <mark>noGravity</mark> duration={500} x=&#123;[-0.5, 0.5]&#125; y=&#123;[-0.5, 0.5]&#125; /&gt;
 				</code>
 			</div>
 
@@ -704,7 +704,7 @@
 				<ToggleConfetti>
 					<button slot="label">Small spread</button>
 
-					<Confetti xSpread=0.1 />
+					<Confetti xSpread={0.1} />
 				</ToggleConfetti>
 
 				<code>
@@ -716,7 +716,7 @@
 				<ToggleConfetti>
 					<button slot="label">Large spread</button>
 
-					<Confetti xSpread=0.4 />
+					<Confetti xSpread={0.4} />
 				</ToggleConfetti>
 
 				<code>
@@ -757,15 +757,15 @@
 				<ToggleConfetti>
 					<button slot="label">Swedish</button>
 
-					<Confetti y={[0.75, 1.5]} x={[-1, 1]} colorArray={["#3350ec"]} amount=100 />
-					<Confetti y={[1.05, 1.20]} x={[-1, 1]} colorArray={["#ffcd00"]} amount=50 />
-					<Confetti y={[0.75, 1.5]} x={[-0.5, -0.25]} colorArray={["#ffcd00"]} amount=20 />
+					<Confetti y={[0.75, 1.5]} x={[-1, 1]} colorArray={["#3350ec"]} amount={100} />
+					<Confetti y={[1.05, 1.20]} x={[-1, 1]} colorArray={["#ffcd00"]} amount={50} />
+					<Confetti y={[0.75, 1.5]} x={[-0.5, -0.25]} colorArray={["#ffcd00"]} amount={20} />
 				</ToggleConfetti>
 
 				<code class="well">
-					&lt;Confetti y=&#123;[0.75, 1.5]&#125; x=&#123;[-1, 1]&#125; colorArray=&#123;["#004b87"]&#125; amount=100 /&gt; <br>
-					&lt;Confetti y=&#123;[1.05, 1.20]&#125; x=&#123;[-1, 1]&#125; colorArray=&#123;["#ffcd00"]&#125; amount=50 /&gt; <br>
-					&lt;Confetti y=&#123;[0.75, 1.5]&#125; x=&#123;[-0.5, -0.25]&#125; colorArray=&#123;["#ffcd00"]&#125; amount=20 /&gt; <br>
+					&lt;Confetti y=&#123;[0.75, 1.5]&#125; x=&#123;[-1, 1]&#125; colorArray=&#123;["#004b87"]&#125; amount={100} /&gt; <br>
+					&lt;Confetti y=&#123;[1.05, 1.20]&#125; x=&#123;[-1, 1]&#125; colorArray=&#123;["#ffcd00"]&#125; amount={50} /&gt; <br>
+					&lt;Confetti y=&#123;[0.75, 1.5]&#125; x=&#123;[-0.5, -0.25]&#125; colorArray=&#123;["#ffcd00"]&#125; amount={20} /&gt; <br>
 				</code>
 			</div>
 
@@ -780,40 +780,40 @@
 
 					</div>
 
-					<Confetti y={[1.15, 1.5]} x={[-1, -0.25]} colorArray={["#3350ec"]} amount=100 />
-					<Confetti y={[1.20, 1.45]} x={[-0.95, -0.3]} colorArray={["white"]} size=5 />
-					<Confetti y={[1.45, 1.5]} x={[-0.25, 1]} colorArray={["#bf0d3e"]} amount=70 />
-					<Confetti y={[1.4, 1.45]} x={[-0.25, 1]} colorArray={["white"]} amount=70 />
-					<Confetti y={[1.35, 1.4]} x={[-0.25, 1]} colorArray={["#bf0d3e"]} amount=70 />
-					<Confetti y={[1.3, 1.35]} x={[-0.25, 1]} colorArray={["white"]} amount=70 />
-					<Confetti y={[1.25, 1.3]} x={[-0.25, 1]} colorArray={["#bf0d3e"]} amount=70 />
-					<Confetti y={[1.2, 1.25]} x={[-0.25, 1]} colorArray={["white"]} amount=70 />
-					<Confetti y={[1.15, 1.2]} x={[-0.25, 1]} colorArray={["#bf0d3e"]} amount=70 />
-					<Confetti y={[1.1, 1.15]} x={[-1, 1]} colorArray={["white"]} amount=70 />
-					<Confetti y={[1.05, 1.1]} x={[-1, 1]} colorArray={["#bf0d3e"]} amount=70 />
-					<Confetti y={[1, 1.05]} x={[-1, 1]} colorArray={["white"]} amount=70 />
-					<Confetti y={[0.95, 1]} x={[-1, 1]} colorArray={["#bf0d3e"]} amount=70 />
-					<Confetti y={[0.9, 0.95]} x={[-1, 1]} colorArray={["white"]} amount=70 />
-					<Confetti y={[0.85, 0.9]} x={[-1, 1]} colorArray={["#bf0d3e"]} amount=70 />
+					<Confetti y={[1.15, 1.5]} x={[-1, -0.25]} colorArray={["#3350ec"]} amount={100} />
+					<Confetti y={[1.20, 1.45]} x={[-0.95, -0.3]} colorArray={["white"]} size={5} />
+					<Confetti y={[1.45, 1.5]} x={[-0.25, 1]} colorArray={["#bf0d3e"]} amount={70} />
+					<Confetti y={[1.4, 1.45]} x={[-0.25, 1]} colorArray={["white"]} amount={70} />
+					<Confetti y={[1.35, 1.4]} x={[-0.25, 1]} colorArray={["#bf0d3e"]} amount={70} />
+					<Confetti y={[1.3, 1.35]} x={[-0.25, 1]} colorArray={["white"]} amount={70} />
+					<Confetti y={[1.25, 1.3]} x={[-0.25, 1]} colorArray={["#bf0d3e"]} amount={70} />
+					<Confetti y={[1.2, 1.25]} x={[-0.25, 1]} colorArray={["white"]} amount={70} />
+					<Confetti y={[1.15, 1.2]} x={[-0.25, 1]} colorArray={["#bf0d3e"]} amount={70} />
+					<Confetti y={[1.1, 1.15]} x={[-1, 1]} colorArray={["white"]} amount={70} />
+					<Confetti y={[1.05, 1.1]} x={[-1, 1]} colorArray={["#bf0d3e"]} amount={70} />
+					<Confetti y={[1, 1.05]} x={[-1, 1]} colorArray={["white"]} amount={70} />
+					<Confetti y={[0.95, 1]} x={[-1, 1]} colorArray={["#bf0d3e"]} amount={70} />
+					<Confetti y={[0.9, 0.95]} x={[-1, 1]} colorArray={["white"]} amount={70} />
+					<Confetti y={[0.85, 0.9]} x={[-1, 1]} colorArray={["#bf0d3e"]} amount={70} />
 				</ToggleConfetti>
 
 				<small>This one is heavy! This uses 1015 effects, more than recommended, but it looks neat!</small>
 
 				<code class="well">
-					&lt;Confetti y=&#123;[1.20, 1.45]&#125; x=&#123;[-0.95, -0.3]&#125; colorArray=&#123;["white"]&#125; size=5 /&gt; <br>
-					&lt;Confetti y=&#123;[1.45, 1.5]&#125; x=&#123;[-0.25, 1]&#125; colorArray=&#123;["#bf0d3e"]&#125; amount=70 /&gt; <br>
-					&lt;Confetti y=&#123;[1.4, 1.45]&#125; x=&#123;[-0.25, 1]&#125; colorArray=&#123;["white"]&#125; amount=70 /&gt; <br>
-					&lt;Confetti y=&#123;[1.35, 1.4]&#125; x=&#123;[-0.25, 1]&#125; colorArray=&#123;["#bf0d3e"]&#125; amount=70 /&gt; <br>
-					&lt;Confetti y=&#123;[1.3, 1.35]&#125; x=&#123;[-0.25, 1]&#125; colorArray=&#123;["white"]&#125; amount=70 /&gt; <br>
-					&lt;Confetti y=&#123;[1.25, 1.3]&#125; x=&#123;[-0.25, 1]&#125; colorArray=&#123;["#bf0d3e"]&#125; amount=70 /&gt; <br>
-					&lt;Confetti y=&#123;[1.2, 1.25]&#125; x=&#123;[-0.25, 1]&#125; colorArray=&#123;["white"]&#125; amount=70 /&gt; <br>
-					&lt;Confetti y=&#123;[1.15, 1.2]&#125; x=&#123;[-0.25, 1]&#125; colorArray=&#123;["#bf0d3e"]&#125; amount=70 /&gt; <br>
-					&lt;Confetti y=&#123;[1.1, 1.15]&#125; x=&#123;[-1, 1]&#125; colorArray=&#123;["white"]&#125; amount=70 /&gt; <br>
-					&lt;Confetti y=&#123;[1.05, 1.1]&#125; x=&#123;[-1, 1]&#125; colorArray=&#123;["#bf0d3e"]&#125; amount=70 /&gt; <br>
-					&lt;Confetti y=&#123;[1, 1.05]&#125; x=&#123;[-1, 1]&#125; colorArray=&#123;["white"]&#125; amount=70 /&gt; <br>
-					&lt;Confetti y=&#123;[0.95, 1]&#125; x=&#123;[-1, 1]&#125; colorArray=&#123;["#bf0d3e"]&#125; amount=70 /&gt; <br>
-					&lt;Confetti y=&#123;[0.9, 0.95]&#125; x=&#123;[-1, 1]&#125; colorArray=&#123;["white"]&#125; amount=70 /&gt; <br>
-					&lt;Confetti y=&#123;[0.85, 0.9]&#125; x=&#123;[-1, 1]&#125; colorArray=&#123;["#bf0d3e"]&#125; amount=70 /&gt; <br>
+					&lt;Confetti y=&#123;[1.20, 1.45]&#125; x=&#123;[-0.95, -0.3]&#125; colorArray=&#123;["white"]&#125; size={5} /&gt; <br>
+					&lt;Confetti y=&#123;[1.45, 1.5]&#125; x=&#123;[-0.25, 1]&#125; colorArray=&#123;["#bf0d3e"]&#125; amount={70} /&gt; <br>
+					&lt;Confetti y=&#123;[1.4, 1.45]&#125; x=&#123;[-0.25, 1]&#125; colorArray=&#123;["white"]&#125; amount={70} /&gt; <br>
+					&lt;Confetti y=&#123;[1.35, 1.4]&#125; x=&#123;[-0.25, 1]&#125; colorArray=&#123;["#bf0d3e"]&#125; amount={70} /&gt; <br>
+					&lt;Confetti y=&#123;[1.3, 1.35]&#125; x=&#123;[-0.25, 1]&#125; colorArray=&#123;["white"]&#125; amount={70} /&gt; <br>
+					&lt;Confetti y=&#123;[1.25, 1.3]&#125; x=&#123;[-0.25, 1]&#125; colorArray=&#123;["#bf0d3e"]&#125; amount={70} /&gt; <br>
+					&lt;Confetti y=&#123;[1.2, 1.25]&#125; x=&#123;[-0.25, 1]&#125; colorArray=&#123;["white"]&#125; amount={70} /&gt; <br>
+					&lt;Confetti y=&#123;[1.15, 1.2]&#125; x=&#123;[-0.25, 1]&#125; colorArray=&#123;["#bf0d3e"]&#125; amount={70} /&gt; <br>
+					&lt;Confetti y=&#123;[1.1, 1.15]&#125; x=&#123;[-1, 1]&#125; colorArray=&#123;["white"]&#125; amount={70} /&gt; <br>
+					&lt;Confetti y=&#123;[1.05, 1.1]&#125; x=&#123;[-1, 1]&#125; colorArray=&#123;["#bf0d3e"]&#125; amount={70} /&gt; <br>
+					&lt;Confetti y=&#123;[1, 1.05]&#125; x=&#123;[-1, 1]&#125; colorArray=&#123;["white"]&#125; amount={70} /&gt; <br>
+					&lt;Confetti y=&#123;[0.95, 1]&#125; x=&#123;[-1, 1]&#125; colorArray=&#123;["#bf0d3e"]&#125; amount={70} /&gt; <br>
+					&lt;Confetti y=&#123;[0.9, 0.95]&#125; x=&#123;[-1, 1]&#125; colorArray=&#123;["white"]&#125; amount={70} /&gt; <br>
+					&lt;Confetti y=&#123;[0.85, 0.9]&#125; x=&#123;[-1, 1]&#125; colorArray=&#123;["#bf0d3e"]&#125; amount={70} /&gt; <br>
 				</code>
 			</div>
 
@@ -825,7 +825,7 @@
 				<ToggleConfetti>
 					<button slot="label">Not feathered</button>
 
-					<Confetti amount=70 x={[-0.5, 0.5]} />
+					<Confetti amount={70} x={[-0.5, 0.5]} />
 				</ToggleConfetti>
 
 				<div>
@@ -840,8 +840,8 @@
 					<button slot="label">Feathered</button>
 
 					<Confetti x={[-0.5, 0.5]} />
-					<Confetti amount=10 x={[-0.75, -0.3]} y={[0.15, 0.75]} />
-					<Confetti amount=10 x={[0.3, 0.75]} y={[0.15, 0.75]} />
+					<Confetti amount={10} x={[-0.75, -0.3]} y={[0.15, 0.75]} />
+					<Confetti amount={10} x={[0.3, 0.75]} y={[0.15, 0.75]} />
 				</ToggleConfetti>
 
 				<div>
@@ -849,10 +849,10 @@
 						&lt;Confetti x=&#123;[-0.5, 0.5]&#125; /&gt;
 					</code>
 					<code>
-						&lt;Confetti amount=10 x=&#123;[-0.75, -0.3]&#125; y=&#123;[0.15, 0.75]&#125; /&gt;
+						&lt;Confetti amount={10} x=&#123;[-0.75, -0.3]&#125; y=&#123;[0.15, 0.75]&#125; /&gt;
 					</code>
 					<code>
-						&lt;Confetti amount=10 x=&#123;[0.3, 0.75]&#125; y=&#123;[0.15, 0.75]&#125; /&gt;
+						&lt;Confetti amount={10} x=&#123;[0.3, 0.75]&#125; y=&#123;[0.15, 0.75]&#125; /&gt;
 					</code>
 				</div>
 			</div>
@@ -863,12 +863,12 @@
 				<ToggleConfetti>
 					<button slot="label">Cone</button>
 
-					<Confetti cone amount=70 x={[-0.5, 0.5]} />
+					<Confetti cone amount={70} x={[-0.5, 0.5]} />
 				</ToggleConfetti>
 
 				<div>
 					<code>
-						&lt;Confetti cone amount=70 x=&#123;[-0.5, 0.5]&#125; /&gt;
+						&lt;Confetti cone amount={70} x=&#123;[-0.5, 0.5]&#125; /&gt;
 					</code>
 				</div>
 			</div>
@@ -878,8 +878,8 @@
 					<button slot="label">Feathered cone</button>
 
 					<Confetti cone x={[-0.5, 0.5]} />
-					<Confetti cone amount=10 x={[-0.75, -0.4]} y={[0.15, 0.75]} />
-					<Confetti cone amount=10 x={[0.4, 0.75]} y={[0.15, 0.75]} />
+					<Confetti cone amount={10} x={[-0.75, -0.4]} y={[0.15, 0.75]} />
+					<Confetti cone amount={10} x={[0.4, 0.75]} y={[0.15, 0.75]} />
 				</ToggleConfetti>
 
 				<div>
@@ -887,10 +887,10 @@
 						&lt;Confetti cone x=&#123;[-0.5, 0.5]&#125; /&gt;
 					</code>
 					<code>
-						&lt;Confetti cone amount=10 x=&#123;[-0.75, -0.4]&#125; y=&#123;[0.15, 0.75]&#125; /&gt;
+						&lt;Confetti cone amount={10} x=&#123;[-0.75, -0.4]&#125; y=&#123;[0.15, 0.75]&#125; /&gt;
 					</code>
 					<code>
-						&lt;Confetti cone amount=10 x=&#123;[0.4, 0.75]&#125; y=&#123;[0.15, 0.75]&#125; /&gt;
+						&lt;Confetti cone amount={10} x=&#123;[0.4, 0.75]&#125; y=&#123;[0.15, 0.75]&#125; /&gt;
 					</code>
 				</div>
 			</div>
@@ -902,8 +902,8 @@
 					<button slot="label">Feathered and delayed</button>
 
 					<Confetti x={[-0.5, 0.5]} delay={[0, 250]} />
-					<Confetti amount=10 x={[-0.75, -0.3]} y={[0.15, 0.75]} delay={[0, 1000]} />
-					<Confetti amount=10 x={[0.3, 0.75]} y={[0.15, 0.75]} delay={[0, 1000]} />
+					<Confetti amount={10} x={[-0.75, -0.3]} y={[0.15, 0.75]} delay={[0, 1000]} />
+					<Confetti amount={10} x={[0.3, 0.75]} y={[0.15, 0.75]} delay={[0, 1000]} />
 				</ToggleConfetti>
 
 				<div>
@@ -911,10 +911,10 @@
 						&lt;Confetti x=&#123;[-0.5, 0.5]&#125; delay=&#123;[0, 250]&#125; /&gt;
 					</code>
 					<code>
-						&lt;Confetti amount=10 x=&#123;[-0.75, -0.3]&#125; y=&#123;[0.15, 0.75]&#125; delay=&#123;[0, 1000]&#125; /&gt;
+						&lt;Confetti amount={10} x=&#123;[-0.75, -0.3]&#125; y=&#123;[0.15, 0.75]&#125; delay=&#123;[0, 1000]&#125; /&gt;
 					</code>
 					<code>
-						&lt;Confetti amount=10 x=&#123;[0.3, 0.75]&#125; y=&#123;[0.15, 0.75]&#125; delay=&#123;[0, 1000]&#125; /&gt;
+						&lt;Confetti amount={10} x=&#123;[0.3, 0.75]&#125; y=&#123;[0.15, 0.75]&#125; delay=&#123;[0, 1000]&#125; /&gt;
 					</code>
 				</div>
 			</div>
@@ -928,7 +928,7 @@
 					<Confetti cone x={[-1, -0.25]} colorRange={[100, 200]} />
 					<Confetti cone x={[-0.35, 0.35]} delay={[500, 550]} colorRange={[200, 300]} />
 					<Confetti cone x={[0.25, 1]} delay={[250, 300]} colorRange={[100, 200]} />
-					<Confetti cone amount=20 x={[-1, 1]} y={[0, 1]} delay={[0, 550]} colorRange={[200, 300]} />
+					<Confetti cone amount={20} x={[-1, 1]} y={[0, 1]} delay={[0, 550]} colorRange={[200, 300]} />
 				</ToggleConfetti>
 
 				<div>
@@ -942,7 +942,7 @@
 						&lt;Confetti cone x=&#123;[0.25, 1]&#125; delay=&#123;[250, 300]&#125; colorRange=&#123;[100, 200]&#125; /&gt;
 					</code>
 					<code>
-						&lt;Confetti cone amount=20 x=&#123;[-1, 1]&#125; y=&#123;[0, 1]&#125; delay=&#123;[0, 550]&#125; colorRange=&#123;[200, 300]&#125; /&gt;
+						&lt;Confetti cone amount={20} x=&#123;[-1, 1]&#125; y=&#123;[0, 1]&#125; delay=&#123;[0, 550]&#125; colorRange=&#123;[200, 300]&#125; /&gt;
 					</code>
 				</div>
 			</div>
@@ -951,20 +951,20 @@
 				<ToggleConfetti>
 					<button slot="label">Animate explosion</button>
 
-					<Confetti noGravity x={[-1, 1]} y={[-1, 1]} delay={[0, 50]} duration=1000 colorRange={[0, 120]} />
-					<Confetti noGravity x={[-1, 1]} y={[-1, 1]} delay={[550, 550]} duration=1000 colorRange={[120, 240]} />
-					<Confetti noGravity x={[-1, 1]} y={[-1, 1]} delay={[1000, 1050]} duration=1000 colorRange={[240, 360]} />
+					<Confetti noGravity x={[-1, 1]} y={[-1, 1]} delay={[0, 50]} duration={1000} colorRange={[0, 120]} />
+					<Confetti noGravity x={[-1, 1]} y={[-1, 1]} delay={[550, 550]} duration={1000} colorRange={[120, 240]} />
+					<Confetti noGravity x={[-1, 1]} y={[-1, 1]} delay={[1000, 1050]} duration={1000} colorRange={[240, 360]} />
 				</ToggleConfetti>
 
 				<div>
 					<code>
-						&lt;Confetti noGravity x=&#123;[-1, 1]&#125; y=&#123;[-1, 1]&#125; delay=&#123;[0, 50]&#125; duration=1000 colorRange=&#123;[0, 120]&#125; /&gt;
+						&lt;Confetti noGravity x=&#123;[-1, 1]&#125; y=&#123;[-1, 1]&#125; delay=&#123;[0, 50]&#125; duration={1000} colorRange=&#123;[0, 120]&#125; /&gt;
 					</code>
 					<code>
-						&lt;Confetti noGravity x=&#123;[-1, 1]&#125; y=&#123;[-1, 1]&#125; delay=&#123;[550, 550]&#125; duration=1000 colorRange=&#123;[120, 240]&#125; /&gt;
+						&lt;Confetti noGravity x=&#123;[-1, 1]&#125; y=&#123;[-1, 1]&#125; delay=&#123;[550, 550]&#125; duration={1000} colorRange=&#123;[120, 240]&#125; /&gt;
 					</code>
 					<code>
-						&lt;Confetti noGravity x=&#123;[-1, 1]&#125; y=&#123;[-1, 1]&#125; delay=&#123;[1000, 1050]&#125; duration=1000 colorRange=&#123;[240, 360]&#125; /&gt;
+						&lt;Confetti noGravity x=&#123;[-1, 1]&#125; y=&#123;[-1, 1]&#125; delay=&#123;[1000, 1050]&#125; duration={1000} colorRange=&#123;[240, 360]&#125; /&gt;
 					</code>
 				</div>
 			</div>
@@ -984,7 +984,7 @@
 					<button slot="label">Fullscreen</button>
 
 					<div style="position: fixed; top: -50px; left: 0; height: 100vh; width: 100vw; display: flex; justify-content: center; overflow: hidden; pointer-events: none;">
-						<Confetti x={[-5, 5]} y={[0, 0.1]} delay={[500, 2000]}  infinite duration=5000 amount=200 fallDistance="100vh" />
+						<Confetti x={[-5, 5]} y={[0, 0.1]} delay={[500, 2000]}  infinite duration={5000} amount={200} fallDistance="100vh" />
 					</div>
 				</ToggleConfetti>
 
@@ -999,7 +999,7 @@
 					&nbsp;justify-content: center;<br>
 					&nbsp;overflow: hidden;<br>
 					&nbsp;pointer-events: none;"&gt;<br>
-					&nbsp;&lt;Confetti x=&#123;[-5, 5]&#125; y=&#123;[0, 0.1]&#125; delay=&#123;[500, 2000]&#125; infinite duration=5000 amount=200 fallDistance="100vh" /&gt;
+					&nbsp;&lt;Confetti x=&#123;[-5, 5]&#125; y=&#123;[0, 0.1]&#125; delay=&#123;[500, 2000]&#125; infinite duration={5000} amount={200} fallDistance="100vh" /&gt;
 						<br>
 					&lt;/div&gt;
 				</code>
