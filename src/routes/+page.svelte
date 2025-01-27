@@ -1081,7 +1081,7 @@
 			--text-color-light: #8e99af;
 			--text-color-lightest: white;
 			--border-color: #363d49;
-			--bg-well: #21242c;
+			--bg-well: #1d2027;
 			--bg-body: #16181d;
 		}
 	}

@@ -40,15 +40,14 @@
   .tab {
 		appearance: none;
 		-webkit-appearance: none;
-		background: var(--bg-well);
+		background: var(--bg-body);
 		padding: 0.5rem 0.75rem;
 		margin: 0.25rem 0;
     border-radius: 0.25rem 0.25rem 0 0;
-		border: 1px solid var(--bg-well);
+		border: 1px solid var(--border-color);
     border-bottom: 0;
-    filter: brightness(0.8);
 		font-size: 1rem;
-    color: white;
+    color: var(--text-color-light);
 		text-decoration: none;
 		text-align: center;
 		cursor: pointer;
@@ -61,7 +60,7 @@
 
   .tab.active {
     border-color: var(--border-color);
-    filter: brightness(1);
+    background: var(--bg-well);
     box-shadow: 0 5px 0 0 var(--bg-well);
 	}
 
