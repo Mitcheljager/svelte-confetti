@@ -55,7 +55,7 @@
 	}
 
   .tab:hover {
-    filter: brightness(1);
+    color: var(--text-color-lightest);
   }
 
   .tab.active {
