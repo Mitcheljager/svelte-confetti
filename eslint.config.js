@@ -13,8 +13,7 @@ export default [
 		languageOptions: {
 			globals: {
 				...globals.browser,
-				...globals.node,
-        PlayPilotLinkInjections: "writable"
+				...globals.node
 			}
 		}
 	},
