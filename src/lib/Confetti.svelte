@@ -4,8 +4,8 @@
   /**
    * @typedef {Object} Props
    * @property {number} [size] The maximum size of each confetti piece, each piece will randomly be given a size up to this number
-   * @property {[number, number]} [x] The X multipliers of the distance between which the pieces will fly horizontally
-   * @property {[number, number]} [y] The X multipliers of the distance between which the pieces will fly vertically
+   * @property {[number, number]} [x] The X multiplier of the distance between which the pieces will fly horizontally
+   * @property {[number, number]} [y] The Y multiplier of the distance between which the pieces will fly vertically
    * @property {number} [duration] The total duration of the animation in milliseconds
    * @property {boolean} [infinite] Whether the effect should loop infinitely
    * @property {[number, number]} [delay] Range of random delay between two values, in milliseconds, which will be randomly given to each piece
@@ -15,7 +15,7 @@
    * @property {number | "infinite" | "initial" | "inherit"} [iterationCount] The number of times the animation will fire, allows any value valid for the css prop `animation-iteration-count`
    * @property {string} [fallDistance] The distance elements fall, represented as a css value such as "10px" or "5rem"
    * @property {boolean} [rounded] Whether the confetti pieces should have rounded edges
-   * @property {boolean} [cone] If the effect should be shaped like a cone
+   * @property {boolean} [cone] Whether the effect should be shaped like a cone, rather than more box-shaped
    * @property {boolean} [noGravity] Whether gravity should be disabled for the effect
    * @property {number} [xSpread] The horizontal spread of the effect as it falls down, from 0 to 1
    * @property {boolean} [destroyOnComplete] Whether to destroy the elements after the animation is complete
