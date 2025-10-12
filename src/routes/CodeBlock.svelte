@@ -2,14 +2,14 @@
   let {
     svelte4,
     svelte5
-  } = $props()
+  } = $props();
 
   const tabs = [
     "Svelte 4",
     "Svelte 5"
-  ]
+  ];
 
-  let currentTab = $state("Svelte 5")
+  let currentTab = $state("Svelte 5");
 </script>
 
 {#if svelte4 && svelte5}

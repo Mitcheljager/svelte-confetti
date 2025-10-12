@@ -1,25 +1,25 @@
 <script>
-  import Confetti from "$lib/Confetti.svelte"
+  import Confetti from "$lib/Confetti.svelte";
 
-  const duration = 2000
+  const duration = 2000;
 
-  let things = []
-  let timeout
+  let things = [];
+  let timeout;
 
   async function moveConfetti(event) {
-    const { target, clientX, clientY } = event
+    const { target, clientX, clientY } = event;
 
-    const elementY = target.getBoundingClientRect().top
-    const elementX = target.getBoundingClientRect().left
+    const elementY = target.getBoundingClientRect().top;
+    const elementX = target.getBoundingClientRect().left;
 
-    const x = clientX - elementX
-    const y = clientY - elementY
+    const x = clientX - elementX;
+    const y = clientY - elementY;
 
-    things = [...things, { x, y }]
+    things = [...things, { x, y }];
 
-    clearTimeout(timeout)
+    clearTimeout(timeout);
 
-    timeout = setTimeout(() => things = [], duration)
+    timeout = setTimeout(() => things = [], duration);
   }
 </script>
 

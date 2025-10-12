@@ -1,7 +1,7 @@
-import prettier from "eslint-config-prettier"
-import js from "@eslint/js"
-import svelte from "eslint-plugin-svelte"
-import globals from "globals"
+import prettier from "eslint-config-prettier";
+import js from "@eslint/js";
+import svelte from "eslint-plugin-svelte";
+import globals from "globals";
 
 /** @type {import('eslint').Linter.Config[]} */
 export default [
@@ -22,7 +22,7 @@ export default [
 	},
 	{
 		rules: {
-			semi: ["error", "never"],
+			semi: ["error", "always"],
       quotes: ["error", "double"],
 			"comma-dangle": ["error", "never"],
 			"no-trailing-spaces": ["error"],
@@ -36,4 +36,4 @@ export default [
 			}]
 		}
 	}
-]
+];

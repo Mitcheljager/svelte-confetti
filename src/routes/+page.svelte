@@ -1,8 +1,8 @@
 <script>
-	import Confetti from "$lib/Confetti.svelte"
-	import ToggleConfetti from "./ToggleConfetti.svelte"
-	import ConfettiOnClick from "./ConfettiOnClick.svelte"
-	import CodeBlock from "./CodeBlock.svelte"
+	import Confetti from "$lib/Confetti.svelte";
+	import ToggleConfetti from "./ToggleConfetti.svelte";
+	import ConfettiOnClick from "./ConfettiOnClick.svelte";
+	import CodeBlock from "./CodeBlock.svelte";
 </script>
 
 <div class="wrapper">

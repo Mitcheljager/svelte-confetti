@@ -1,4 +1,4 @@
-import Confetti from "./Confetti.svelte"
+import Confetti from "./Confetti.svelte";
 
-export { Confetti }
-export default Confetti
+export { Confetti };
+export default Confetti;
